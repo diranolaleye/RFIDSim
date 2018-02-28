@@ -1,0 +1,3149 @@
+version 2
+run Experiment20_9staticReaders_441TagsGrid-0-20150406-10:53:37-10260
+attr configname Experiment20_9staticReaders_441TagsGrid
+attr datetime 20150406-10:53:37
+attr experiment Experiment20_9staticReaders_441TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 10260
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 2250  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 2251  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 2252  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 2253  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 2254  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 2255  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 2256  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 2257  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 2258  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 2259  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 2260  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 2261  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 2262  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 2263  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 2264  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 2265  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 2266  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 2267  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+vector 547  _01_RfidSim.tag[15].nic  TagReceivedQuery  ETV
+vector 551  _01_RfidSim.tag[16].nic  TagReceivedQuery  ETV
+vector 555  _01_RfidSim.tag[17].nic  TagReceivedQuery  ETV
+vector 559  _01_RfidSim.tag[18].nic  TagReceivedQuery  ETV
+vector 563  _01_RfidSim.tag[19].nic  TagReceivedQuery  ETV
+vector 631  _01_RfidSim.tag[36].nic  TagReceivedQuery  ETV
+vector 635  _01_RfidSim.tag[37].nic  TagReceivedQuery  ETV
+vector 639  _01_RfidSim.tag[38].nic  TagReceivedQuery  ETV
+vector 643  _01_RfidSim.tag[39].nic  TagReceivedQuery  ETV
+vector 647  _01_RfidSim.tag[40].nic  TagReceivedQuery  ETV
+vector 715  _01_RfidSim.tag[57].nic  TagReceivedQuery  ETV
+vector 719  _01_RfidSim.tag[58].nic  TagReceivedQuery  ETV
+vector 723  _01_RfidSim.tag[59].nic  TagReceivedQuery  ETV
+vector 727  _01_RfidSim.tag[60].nic  TagReceivedQuery  ETV
+vector 731  _01_RfidSim.tag[61].nic  TagReceivedQuery  ETV
+vector 803  _01_RfidSim.tag[79].nic  TagReceivedQuery  ETV
+vector 807  _01_RfidSim.tag[80].nic  TagReceivedQuery  ETV
+vector 811  _01_RfidSim.tag[81].nic  TagReceivedQuery  ETV
+vector 887  _01_RfidSim.tag[100].nic  TagReceivedQuery  ETV
+vector 891  _01_RfidSim.tag[101].nic  TagReceivedQuery  ETV
+vector 895  _01_RfidSim.tag[102].nic  TagReceivedQuery  ETV
+vector 1867  _01_RfidSim.tag[345].nic  TagReceivedQuery  ETV
+vector 1871  _01_RfidSim.tag[346].nic  TagReceivedQuery  ETV
+vector 1875  _01_RfidSim.tag[347].nic  TagReceivedQuery  ETV
+vector 1951  _01_RfidSim.tag[366].nic  TagReceivedQuery  ETV
+vector 1955  _01_RfidSim.tag[367].nic  TagReceivedQuery  ETV
+vector 1959  _01_RfidSim.tag[368].nic  TagReceivedQuery  ETV
+vector 2031  _01_RfidSim.tag[386].nic  TagReceivedQuery  ETV
+vector 2035  _01_RfidSim.tag[387].nic  TagReceivedQuery  ETV
+vector 2039  _01_RfidSim.tag[388].nic  TagReceivedQuery  ETV
+vector 2043  _01_RfidSim.tag[389].nic  TagReceivedQuery  ETV
+vector 2047  _01_RfidSim.tag[390].nic  TagReceivedQuery  ETV
+vector 2115  _01_RfidSim.tag[407].nic  TagReceivedQuery  ETV
+vector 2119  _01_RfidSim.tag[408].nic  TagReceivedQuery  ETV
+vector 2123  _01_RfidSim.tag[409].nic  TagReceivedQuery  ETV
+vector 2127  _01_RfidSim.tag[410].nic  TagReceivedQuery  ETV
+vector 2131  _01_RfidSim.tag[411].nic  TagReceivedQuery  ETV
+vector 2199  _01_RfidSim.tag[428].nic  TagReceivedQuery  ETV
+vector 2203  _01_RfidSim.tag[429].nic  TagReceivedQuery  ETV
+vector 2207  _01_RfidSim.tag[430].nic  TagReceivedQuery  ETV
+vector 2211  _01_RfidSim.tag[431].nic  TagReceivedQuery  ETV
+vector 2215  _01_RfidSim.tag[432].nic  TagReceivedQuery  ETV
+vector 1895  _01_RfidSim.tag[352].nic  TagReceivedQuery  ETV
+vector 1899  _01_RfidSim.tag[353].nic  TagReceivedQuery  ETV
+vector 1903  _01_RfidSim.tag[354].nic  TagReceivedQuery  ETV
+vector 1979  _01_RfidSim.tag[373].nic  TagReceivedQuery  ETV
+vector 1983  _01_RfidSim.tag[374].nic  TagReceivedQuery  ETV
+vector 1987  _01_RfidSim.tag[375].nic  TagReceivedQuery  ETV
+vector 2059  _01_RfidSim.tag[393].nic  TagReceivedQuery  ETV
+vector 2063  _01_RfidSim.tag[394].nic  TagReceivedQuery  ETV
+vector 2067  _01_RfidSim.tag[395].nic  TagReceivedQuery  ETV
+vector 2071  _01_RfidSim.tag[396].nic  TagReceivedQuery  ETV
+vector 2075  _01_RfidSim.tag[397].nic  TagReceivedQuery  ETV
+vector 2143  _01_RfidSim.tag[414].nic  TagReceivedQuery  ETV
+vector 2147  _01_RfidSim.tag[415].nic  TagReceivedQuery  ETV
+vector 2151  _01_RfidSim.tag[416].nic  TagReceivedQuery  ETV
+vector 2155  _01_RfidSim.tag[417].nic  TagReceivedQuery  ETV
+vector 2159  _01_RfidSim.tag[418].nic  TagReceivedQuery  ETV
+vector 2227  _01_RfidSim.tag[435].nic  TagReceivedQuery  ETV
+vector 2231  _01_RfidSim.tag[436].nic  TagReceivedQuery  ETV
+vector 2235  _01_RfidSim.tag[437].nic  TagReceivedQuery  ETV
+vector 2239  _01_RfidSim.tag[438].nic  TagReceivedQuery  ETV
+vector 2243  _01_RfidSim.tag[439].nic  TagReceivedQuery  ETV
+vector 999  _01_RfidSim.tag[128].nic  TagReceivedQuery  ETV
+vector 1003  _01_RfidSim.tag[129].nic  TagReceivedQuery  ETV
+vector 1007  _01_RfidSim.tag[130].nic  TagReceivedQuery  ETV
+vector 1083  _01_RfidSim.tag[149].nic  TagReceivedQuery  ETV
+vector 1087  _01_RfidSim.tag[150].nic  TagReceivedQuery  ETV
+vector 1091  _01_RfidSim.tag[151].nic  TagReceivedQuery  ETV
+vector 1163  _01_RfidSim.tag[169].nic  TagReceivedQuery  ETV
+vector 1167  _01_RfidSim.tag[170].nic  TagReceivedQuery  ETV
+vector 1171  _01_RfidSim.tag[171].nic  TagReceivedQuery  ETV
+vector 1175  _01_RfidSim.tag[172].nic  TagReceivedQuery  ETV
+vector 1179  _01_RfidSim.tag[173].nic  TagReceivedQuery  ETV
+vector 1247  _01_RfidSim.tag[190].nic  TagReceivedQuery  ETV
+vector 1251  _01_RfidSim.tag[191].nic  TagReceivedQuery  ETV
+vector 1255  _01_RfidSim.tag[192].nic  TagReceivedQuery  ETV
+vector 1259  _01_RfidSim.tag[193].nic  TagReceivedQuery  ETV
+vector 1263  _01_RfidSim.tag[194].nic  TagReceivedQuery  ETV
+vector 1331  _01_RfidSim.tag[211].nic  TagReceivedQuery  ETV
+vector 1335  _01_RfidSim.tag[212].nic  TagReceivedQuery  ETV
+vector 1339  _01_RfidSim.tag[213].nic  TagReceivedQuery  ETV
+vector 1343  _01_RfidSim.tag[214].nic  TagReceivedQuery  ETV
+vector 1347  _01_RfidSim.tag[215].nic  TagReceivedQuery  ETV
+vector 1415  _01_RfidSim.tag[232].nic  TagReceivedQuery  ETV
+vector 1419  _01_RfidSim.tag[233].nic  TagReceivedQuery  ETV
+vector 1423  _01_RfidSim.tag[234].nic  TagReceivedQuery  ETV
+vector 1427  _01_RfidSim.tag[235].nic  TagReceivedQuery  ETV
+vector 1431  _01_RfidSim.tag[236].nic  TagReceivedQuery  ETV
+vector 1499  _01_RfidSim.tag[253].nic  TagReceivedQuery  ETV
+vector 1503  _01_RfidSim.tag[254].nic  TagReceivedQuery  ETV
+vector 1507  _01_RfidSim.tag[255].nic  TagReceivedQuery  ETV
+vector 1511  _01_RfidSim.tag[256].nic  TagReceivedQuery  ETV
+vector 1515  _01_RfidSim.tag[257].nic  TagReceivedQuery  ETV
+vector 1587  _01_RfidSim.tag[275].nic  TagReceivedQuery  ETV
+vector 1591  _01_RfidSim.tag[276].nic  TagReceivedQuery  ETV
+vector 1595  _01_RfidSim.tag[277].nic  TagReceivedQuery  ETV
+vector 1671  _01_RfidSim.tag[296].nic  TagReceivedQuery  ETV
+vector 1675  _01_RfidSim.tag[297].nic  TagReceivedQuery  ETV
+vector 1679  _01_RfidSim.tag[298].nic  TagReceivedQuery  ETV
+vector 519  _01_RfidSim.tag[8].nic  TagReceivedQuery  ETV
+vector 523  _01_RfidSim.tag[9].nic  TagReceivedQuery  ETV
+vector 527  _01_RfidSim.tag[10].nic  TagReceivedQuery  ETV
+vector 531  _01_RfidSim.tag[11].nic  TagReceivedQuery  ETV
+vector 535  _01_RfidSim.tag[12].nic  TagReceivedQuery  ETV
+vector 603  _01_RfidSim.tag[29].nic  TagReceivedQuery  ETV
+vector 607  _01_RfidSim.tag[30].nic  TagReceivedQuery  ETV
+vector 611  _01_RfidSim.tag[31].nic  TagReceivedQuery  ETV
+vector 615  _01_RfidSim.tag[32].nic  TagReceivedQuery  ETV
+vector 619  _01_RfidSim.tag[33].nic  TagReceivedQuery  ETV
+vector 687  _01_RfidSim.tag[50].nic  TagReceivedQuery  ETV
+vector 691  _01_RfidSim.tag[51].nic  TagReceivedQuery  ETV
+vector 695  _01_RfidSim.tag[52].nic  TagReceivedQuery  ETV
+vector 699  _01_RfidSim.tag[53].nic  TagReceivedQuery  ETV
+vector 703  _01_RfidSim.tag[54].nic  TagReceivedQuery  ETV
+vector 775  _01_RfidSim.tag[72].nic  TagReceivedQuery  ETV
+vector 779  _01_RfidSim.tag[73].nic  TagReceivedQuery  ETV
+vector 783  _01_RfidSim.tag[74].nic  TagReceivedQuery  ETV
+vector 859  _01_RfidSim.tag[93].nic  TagReceivedQuery  ETV
+vector 863  _01_RfidSim.tag[94].nic  TagReceivedQuery  ETV
+vector 867  _01_RfidSim.tag[95].nic  TagReceivedQuery  ETV
+vector 464  _01_RfidSim.reader[3].nic  ReaderSendAcknowledgement  ETV
+vector 456  _01_RfidSim.reader[1].nic  ReaderSendAcknowledgement  ETV
+vector 1590  _01_RfidSim.tag[276].nic  TagReceivedAcknowledgement  ETV
+vector 858  _01_RfidSim.tag[93].nic  TagReceivedAcknowledgement  ETV
+vector 1839  _01_RfidSim.tag[338].nic  TagReceivedQuery  ETV
+vector 1843  _01_RfidSim.tag[339].nic  TagReceivedQuery  ETV
+vector 1847  _01_RfidSim.tag[340].nic  TagReceivedQuery  ETV
+vector 1923  _01_RfidSim.tag[359].nic  TagReceivedQuery  ETV
+vector 1927  _01_RfidSim.tag[360].nic  TagReceivedQuery  ETV
+vector 1931  _01_RfidSim.tag[361].nic  TagReceivedQuery  ETV
+vector 2003  _01_RfidSim.tag[379].nic  TagReceivedQuery  ETV
+vector 2007  _01_RfidSim.tag[380].nic  TagReceivedQuery  ETV
+vector 2011  _01_RfidSim.tag[381].nic  TagReceivedQuery  ETV
+vector 2015  _01_RfidSim.tag[382].nic  TagReceivedQuery  ETV
+vector 2019  _01_RfidSim.tag[383].nic  TagReceivedQuery  ETV
+vector 2087  _01_RfidSim.tag[400].nic  TagReceivedQuery  ETV
+vector 2091  _01_RfidSim.tag[401].nic  TagReceivedQuery  ETV
+vector 2095  _01_RfidSim.tag[402].nic  TagReceivedQuery  ETV
+vector 2099  _01_RfidSim.tag[403].nic  TagReceivedQuery  ETV
+vector 2103  _01_RfidSim.tag[404].nic  TagReceivedQuery  ETV
+vector 2171  _01_RfidSim.tag[421].nic  TagReceivedQuery  ETV
+vector 2175  _01_RfidSim.tag[422].nic  TagReceivedQuery  ETV
+vector 2179  _01_RfidSim.tag[423].nic  TagReceivedQuery  ETV
+vector 2183  _01_RfidSim.tag[424].nic  TagReceivedQuery  ETV
+vector 2187  _01_RfidSim.tag[425].nic  TagReceivedQuery  ETV
+vector 484  _01_RfidSim.reader[8].nic  ReaderSendAcknowledgement  ETV
+vector 460  _01_RfidSim.reader[2].nic  ReaderSendAcknowledgement  ETV
+vector 1027  _01_RfidSim.tag[135].nic  TagReceivedQuery  ETV
+vector 1031  _01_RfidSim.tag[136].nic  TagReceivedQuery  ETV
+vector 1035  _01_RfidSim.tag[137].nic  TagReceivedQuery  ETV
+vector 1111  _01_RfidSim.tag[156].nic  TagReceivedQuery  ETV
+vector 1115  _01_RfidSim.tag[157].nic  TagReceivedQuery  ETV
+vector 1119  _01_RfidSim.tag[158].nic  TagReceivedQuery  ETV
+vector 1191  _01_RfidSim.tag[176].nic  TagReceivedQuery  ETV
+vector 1195  _01_RfidSim.tag[177].nic  TagReceivedQuery  ETV
+vector 1199  _01_RfidSim.tag[178].nic  TagReceivedQuery  ETV
+vector 1203  _01_RfidSim.tag[179].nic  TagReceivedQuery  ETV
+vector 1207  _01_RfidSim.tag[180].nic  TagReceivedQuery  ETV
+vector 1275  _01_RfidSim.tag[197].nic  TagReceivedQuery  ETV
+vector 1279  _01_RfidSim.tag[198].nic  TagReceivedQuery  ETV
+vector 1283  _01_RfidSim.tag[199].nic  TagReceivedQuery  ETV
+vector 1287  _01_RfidSim.tag[200].nic  TagReceivedQuery  ETV
+vector 1291  _01_RfidSim.tag[201].nic  TagReceivedQuery  ETV
+vector 1359  _01_RfidSim.tag[218].nic  TagReceivedQuery  ETV
+vector 1363  _01_RfidSim.tag[219].nic  TagReceivedQuery  ETV
+vector 1367  _01_RfidSim.tag[220].nic  TagReceivedQuery  ETV
+vector 1371  _01_RfidSim.tag[221].nic  TagReceivedQuery  ETV
+vector 1375  _01_RfidSim.tag[222].nic  TagReceivedQuery  ETV
+vector 1443  _01_RfidSim.tag[239].nic  TagReceivedQuery  ETV
+vector 1447  _01_RfidSim.tag[240].nic  TagReceivedQuery  ETV
+vector 1451  _01_RfidSim.tag[241].nic  TagReceivedQuery  ETV
+vector 1455  _01_RfidSim.tag[242].nic  TagReceivedQuery  ETV
+vector 1459  _01_RfidSim.tag[243].nic  TagReceivedQuery  ETV
+vector 1527  _01_RfidSim.tag[260].nic  TagReceivedQuery  ETV
+vector 1531  _01_RfidSim.tag[261].nic  TagReceivedQuery  ETV
+vector 1535  _01_RfidSim.tag[262].nic  TagReceivedQuery  ETV
+vector 1539  _01_RfidSim.tag[263].nic  TagReceivedQuery  ETV
+vector 1543  _01_RfidSim.tag[264].nic  TagReceivedQuery  ETV
+vector 1615  _01_RfidSim.tag[282].nic  TagReceivedQuery  ETV
+vector 1619  _01_RfidSim.tag[283].nic  TagReceivedQuery  ETV
+vector 1623  _01_RfidSim.tag[284].nic  TagReceivedQuery  ETV
+vector 1699  _01_RfidSim.tag[303].nic  TagReceivedQuery  ETV
+vector 1703  _01_RfidSim.tag[304].nic  TagReceivedQuery  ETV
+vector 1707  _01_RfidSim.tag[305].nic  TagReceivedQuery  ETV
+vector 2150  _01_RfidSim.tag[416].nic  TagReceivedAcknowledgement  ETV
+vector 810  _01_RfidSim.tag[81].nic  TagReceivedAcknowledgement  ETV
+vector 468  _01_RfidSim.reader[4].nic  ReaderSendAcknowledgement  ETV
+vector 476  _01_RfidSim.reader[6].nic  ReaderSendAcknowledgement  ETV
+vector 1278  _01_RfidSim.tag[198].nic  TagReceivedAcknowledgement  ETV
+vector 2182  _01_RfidSim.tag[424].nic  TagReceivedAcknowledgement  ETV
+vector 546  _01_RfidSim.tag[15].nic  TagReceivedAcknowledgement  ETV
+vector 2154  _01_RfidSim.tag[417].nic  TagReceivedAcknowledgement  ETV
+vector 894  _01_RfidSim.tag[102].nic  TagReceivedAcknowledgement  ETV
+vector 2058  _01_RfidSim.tag[393].nic  TagReceivedAcknowledgement  ETV
+vector 522  _01_RfidSim.tag[9].nic  TagReceivedAcknowledgement  ETV
+vector 1498  _01_RfidSim.tag[253].nic  TagReceivedAcknowledgement  ETV
+vector 642  _01_RfidSim.tag[39].nic  TagReceivedAcknowledgement  ETV
+vector 1978  _01_RfidSim.tag[373].nic  TagReceivedAcknowledgement  ETV
+vector 526  _01_RfidSim.tag[10].nic  TagReceivedAcknowledgement  ETV
+vector 890  _01_RfidSim.tag[101].nic  TagReceivedAcknowledgement  ETV
+vector 2070  _01_RfidSim.tag[396].nic  TagReceivedAcknowledgement  ETV
+vector 1842  _01_RfidSim.tag[339].nic  TagReceivedAcknowledgement  ETV
+vector 530  _01_RfidSim.tag[11].nic  TagReceivedAcknowledgement  ETV
+vector 646  _01_RfidSim.tag[40].nic  TagReceivedAcknowledgement  ETV
+vector 2074  _01_RfidSim.tag[397].nic  TagReceivedAcknowledgement  ETV
+vector 518  _01_RfidSim.tag[8].nic  TagReceivedAcknowledgement  ETV
+vector 2086  _01_RfidSim.tag[400].nic  TagReceivedAcknowledgement  ETV
+vector 491  _01_RfidSim.tag[1].nic  TagReceivedQuery  ETV
+vector 495  _01_RfidSim.tag[2].nic  TagReceivedQuery  ETV
+vector 499  _01_RfidSim.tag[3].nic  TagReceivedQuery  ETV
+vector 503  _01_RfidSim.tag[4].nic  TagReceivedQuery  ETV
+vector 507  _01_RfidSim.tag[5].nic  TagReceivedQuery  ETV
+vector 575  _01_RfidSim.tag[22].nic  TagReceivedQuery  ETV
+vector 579  _01_RfidSim.tag[23].nic  TagReceivedQuery  ETV
+vector 583  _01_RfidSim.tag[24].nic  TagReceivedQuery  ETV
+vector 587  _01_RfidSim.tag[25].nic  TagReceivedQuery  ETV
+vector 591  _01_RfidSim.tag[26].nic  TagReceivedQuery  ETV
+vector 659  _01_RfidSim.tag[43].nic  TagReceivedQuery  ETV
+vector 663  _01_RfidSim.tag[44].nic  TagReceivedQuery  ETV
+vector 667  _01_RfidSim.tag[45].nic  TagReceivedQuery  ETV
+vector 671  _01_RfidSim.tag[46].nic  TagReceivedQuery  ETV
+vector 675  _01_RfidSim.tag[47].nic  TagReceivedQuery  ETV
+vector 747  _01_RfidSim.tag[65].nic  TagReceivedQuery  ETV
+vector 751  _01_RfidSim.tag[66].nic  TagReceivedQuery  ETV
+vector 755  _01_RfidSim.tag[67].nic  TagReceivedQuery  ETV
+vector 831  _01_RfidSim.tag[86].nic  TagReceivedQuery  ETV
+vector 835  _01_RfidSim.tag[87].nic  TagReceivedQuery  ETV
+vector 839  _01_RfidSim.tag[88].nic  TagReceivedQuery  ETV
+vector 550  _01_RfidSim.tag[16].nic  TagReceivedAcknowledgement  ETV
+vector 480  _01_RfidSim.reader[7].nic  ReaderSendAcknowledgement  ETV
+vector 2242  _01_RfidSim.tag[439].nic  TagReceivedAcknowledgement  ETV
+vector 2118  _01_RfidSim.tag[408].nic  TagReceivedAcknowledgement  ETV
+vector 862  _01_RfidSim.tag[94].nic  TagReceivedAcknowledgement  ETV
+vector 2002  _01_RfidSim.tag[379].nic  TagReceivedAcknowledgement  ETV
+vector 802  _01_RfidSim.tag[79].nic  TagReceivedAcknowledgement  ETV
+vector 452  _01_RfidSim.reader[0].nic  ReaderSendAcknowledgement  ETV
+vector 754  _01_RfidSim.tag[67].nic  TagReceivedAcknowledgement  ETV
+vector 2094  _01_RfidSim.tag[402].nic  TagReceivedAcknowledgement  ETV
+vector 610  _01_RfidSim.tag[31].nic  TagReceivedAcknowledgement  ETV
+vector 2230  _01_RfidSim.tag[436].nic  TagReceivedAcknowledgement  ETV
+vector 1178  _01_RfidSim.tag[173].nic  TagReceivedAcknowledgement  ETV
+vector 2186  _01_RfidSim.tag[425].nic  TagReceivedAcknowledgement  ETV
+vector 698  _01_RfidSim.tag[53].nic  TagReceivedAcknowledgement  ETV
+vector 2066  _01_RfidSim.tag[395].nic  TagReceivedAcknowledgement  ETV
+vector 1170  _01_RfidSim.tag[171].nic  TagReceivedAcknowledgement  ETV
+vector 534  _01_RfidSim.tag[12].nic  TagReceivedAcknowledgement  ETV
+vector 2158  _01_RfidSim.tag[418].nic  TagReceivedAcknowledgement  ETV
+vector 1902  _01_RfidSim.tag[354].nic  TagReceivedAcknowledgement  ETV
+vector 2006  _01_RfidSim.tag[380].nic  TagReceivedAcknowledgement  ETV
+vector 726  _01_RfidSim.tag[60].nic  TagReceivedAcknowledgement  ETV
+vector 606  _01_RfidSim.tag[30].nic  TagReceivedAcknowledgement  ETV
+vector 2062  _01_RfidSim.tag[394].nic  TagReceivedAcknowledgement  ETV
+vector 554  _01_RfidSim.tag[17].nic  TagReceivedAcknowledgement  ETV
+vector 778  _01_RfidSim.tag[73].nic  TagReceivedAcknowledgement  ETV
+vector 1894  _01_RfidSim.tag[352].nic  TagReceivedAcknowledgement  ETV
+vector 502  _01_RfidSim.tag[4].nic  TagReceivedAcknowledgement  ETV
+vector 806  _01_RfidSim.tag[80].nic  TagReceivedAcknowledgement  ETV
+vector 1898  _01_RfidSim.tag[353].nic  TagReceivedAcknowledgement  ETV
+vector 498  _01_RfidSim.tag[3].nic  TagReceivedAcknowledgement  ETV
+vector 634  _01_RfidSim.tag[37].nic  TagReceivedAcknowledgement  ETV
+vector 1374  _01_RfidSim.tag[222].nic  TagReceivedAcknowledgement  ETV
+vector 2146  _01_RfidSim.tag[415].nic  TagReceivedAcknowledgement  ETV
+vector 830  _01_RfidSim.tag[86].nic  TagReceivedAcknowledgement  ETV
+vector 730  _01_RfidSim.tag[61].nic  TagReceivedAcknowledgement  ETV
+vector 1530  _01_RfidSim.tag[261].nic  TagReceivedAcknowledgement  ETV
+vector 2098  _01_RfidSim.tag[403].nic  TagReceivedAcknowledgement  ETV
+vector 1982  _01_RfidSim.tag[374].nic  TagReceivedAcknowledgement  ETV
+vector 886  _01_RfidSim.tag[100].nic  TagReceivedAcknowledgement  ETV
+vector 2178  _01_RfidSim.tag[423].nic  TagReceivedAcknowledgement  ETV
+vector 2238  _01_RfidSim.tag[438].nic  TagReceivedAcknowledgement  ETV
+vector 1706  _01_RfidSim.tag[305].nic  TagReceivedAcknowledgement  ETV
+vector 722  _01_RfidSim.tag[59].nic  TagReceivedAcknowledgement  ETV
+vector 586  _01_RfidSim.tag[25].nic  TagReceivedAcknowledgement  ETV
+vector 1846  _01_RfidSim.tag[340].nic  TagReceivedAcknowledgement  ETV
+vector 2234  _01_RfidSim.tag[437].nic  TagReceivedAcknowledgement  ETV
+vector 638  _01_RfidSim.tag[38].nic  TagReceivedAcknowledgement  ETV
+vector 674  _01_RfidSim.tag[47].nic  TagReceivedAcknowledgement  ETV
+vector 1055  _01_RfidSim.tag[142].nic  TagReceivedQuery  ETV
+vector 1059  _01_RfidSim.tag[143].nic  TagReceivedQuery  ETV
+vector 1063  _01_RfidSim.tag[144].nic  TagReceivedQuery  ETV
+vector 1139  _01_RfidSim.tag[163].nic  TagReceivedQuery  ETV
+vector 1143  _01_RfidSim.tag[164].nic  TagReceivedQuery  ETV
+vector 1147  _01_RfidSim.tag[165].nic  TagReceivedQuery  ETV
+vector 1219  _01_RfidSim.tag[183].nic  TagReceivedQuery  ETV
+vector 1223  _01_RfidSim.tag[184].nic  TagReceivedQuery  ETV
+vector 1227  _01_RfidSim.tag[185].nic  TagReceivedQuery  ETV
+vector 1231  _01_RfidSim.tag[186].nic  TagReceivedQuery  ETV
+vector 1235  _01_RfidSim.tag[187].nic  TagReceivedQuery  ETV
+vector 1303  _01_RfidSim.tag[204].nic  TagReceivedQuery  ETV
+vector 1307  _01_RfidSim.tag[205].nic  TagReceivedQuery  ETV
+vector 1311  _01_RfidSim.tag[206].nic  TagReceivedQuery  ETV
+vector 1315  _01_RfidSim.tag[207].nic  TagReceivedQuery  ETV
+vector 1319  _01_RfidSim.tag[208].nic  TagReceivedQuery  ETV
+vector 1387  _01_RfidSim.tag[225].nic  TagReceivedQuery  ETV
+vector 1391  _01_RfidSim.tag[226].nic  TagReceivedQuery  ETV
+vector 1395  _01_RfidSim.tag[227].nic  TagReceivedQuery  ETV
+vector 1399  _01_RfidSim.tag[228].nic  TagReceivedQuery  ETV
+vector 1403  _01_RfidSim.tag[229].nic  TagReceivedQuery  ETV
+vector 1471  _01_RfidSim.tag[246].nic  TagReceivedQuery  ETV
+vector 1475  _01_RfidSim.tag[247].nic  TagReceivedQuery  ETV
+vector 1479  _01_RfidSim.tag[248].nic  TagReceivedQuery  ETV
+vector 1483  _01_RfidSim.tag[249].nic  TagReceivedQuery  ETV
+vector 1487  _01_RfidSim.tag[250].nic  TagReceivedQuery  ETV
+vector 1555  _01_RfidSim.tag[267].nic  TagReceivedQuery  ETV
+vector 1559  _01_RfidSim.tag[268].nic  TagReceivedQuery  ETV
+vector 1563  _01_RfidSim.tag[269].nic  TagReceivedQuery  ETV
+vector 1567  _01_RfidSim.tag[270].nic  TagReceivedQuery  ETV
+vector 1571  _01_RfidSim.tag[271].nic  TagReceivedQuery  ETV
+vector 1643  _01_RfidSim.tag[289].nic  TagReceivedQuery  ETV
+vector 1647  _01_RfidSim.tag[290].nic  TagReceivedQuery  ETV
+vector 1651  _01_RfidSim.tag[291].nic  TagReceivedQuery  ETV
+vector 1727  _01_RfidSim.tag[310].nic  TagReceivedQuery  ETV
+vector 1731  _01_RfidSim.tag[311].nic  TagReceivedQuery  ETV
+vector 1735  _01_RfidSim.tag[312].nic  TagReceivedQuery  ETV
+vector 574  _01_RfidSim.tag[22].nic  TagReceivedAcknowledgement  ETV
+vector 1922  _01_RfidSim.tag[359].nic  TagReceivedAcknowledgement  ETV
+vector 562  _01_RfidSim.tag[19].nic  TagReceivedAcknowledgement  ETV
+vector 472  _01_RfidSim.reader[5].nic  ReaderSendAcknowledgement  ETV
+vector 1474  _01_RfidSim.tag[247].nic  TagReceivedAcknowledgement  ETV
+vector 998  _01_RfidSim.tag[128].nic  TagReceivedAcknowledgement  ETV
+vector 614  _01_RfidSim.tag[32].nic  TagReceivedAcknowledgement  ETV
+vector 1138  _01_RfidSim.tag[163].nic  TagReceivedAcknowledgement  ETV
+vector 2030  _01_RfidSim.tag[386].nic  TagReceivedAcknowledgement  ETV
+vector 1314  _01_RfidSim.tag[207].nic  TagReceivedAcknowledgement  ETV
+vector 782  _01_RfidSim.tag[74].nic  TagReceivedAcknowledgement  ETV
+vector 1566  _01_RfidSim.tag[270].nic  TagReceivedAcknowledgement  ETV
+vector 2046  _01_RfidSim.tag[390].nic  TagReceivedAcknowledgement  ETV
+vector 2170  _01_RfidSim.tag[421].nic  TagReceivedAcknowledgement  ETV
+vector 2042  _01_RfidSim.tag[389].nic  TagReceivedAcknowledgement  ETV
+vector 1558  _01_RfidSim.tag[268].nic  TagReceivedAcknowledgement  ETV
+vector 2102  _01_RfidSim.tag[404].nic  TagReceivedAcknowledgement  ETV
+vector 1394  _01_RfidSim.tag[227].nic  TagReceivedAcknowledgement  ETV
+vector 618  _01_RfidSim.tag[33].nic  TagReceivedAcknowledgement  ETV
+vector 2202  _01_RfidSim.tag[429].nic  TagReceivedAcknowledgement  ETV
+vector 2010  _01_RfidSim.tag[381].nic  TagReceivedAcknowledgement  ETV
+vector 1402  _01_RfidSim.tag[229].nic  TagReceivedAcknowledgement  ETV
+vector 670  _01_RfidSim.tag[46].nic  TagReceivedAcknowledgement  ETV
+vector 2126  _01_RfidSim.tag[410].nic  TagReceivedAcknowledgement  ETV
+vector 694  _01_RfidSim.tag[52].nic  TagReceivedAcknowledgement  ETV
+vector 2198  _01_RfidSim.tag[428].nic  TagReceivedAcknowledgement  ETV
+vector 774  _01_RfidSim.tag[72].nic  TagReceivedAcknowledgement  ETV
+vector 490  _01_RfidSim.tag[1].nic  TagReceivedAcknowledgement  ETV
+vector 1062  _01_RfidSim.tag[144].nic  TagReceivedAcknowledgement  ETV
+vector 494  _01_RfidSim.tag[2].nic  TagReceivedAcknowledgement  ETV
+vector 1306  _01_RfidSim.tag[205].nic  TagReceivedAcknowledgement  ETV
+vector 2114  _01_RfidSim.tag[407].nic  TagReceivedAcknowledgement  ETV
+vector 1986  _01_RfidSim.tag[375].nic  TagReceivedAcknowledgement  ETV
+vector 2038  _01_RfidSim.tag[388].nic  TagReceivedAcknowledgement  ETV
+vector 578  _01_RfidSim.tag[23].nic  TagReceivedAcknowledgement  ETV
+vector 1958  _01_RfidSim.tag[368].nic  TagReceivedAcknowledgement  ETV
+vector 558  _01_RfidSim.tag[18].nic  TagReceivedAcknowledgement  ETV
+vector 590  _01_RfidSim.tag[26].nic  TagReceivedAcknowledgement  ETV
+vector 1950  _01_RfidSim.tag[366].nic  TagReceivedAcknowledgement  ETV
+vector 1570  _01_RfidSim.tag[271].nic  TagReceivedAcknowledgement  ETV
+vector 1282  _01_RfidSim.tag[199].nic  TagReceivedAcknowledgement  ETV
+vector 582  _01_RfidSim.tag[24].nic  TagReceivedAcknowledgement  ETV
+vector 702  _01_RfidSim.tag[54].nic  TagReceivedAcknowledgement  ETV
+vector 662  _01_RfidSim.tag[44].nic  TagReceivedAcknowledgement  ETV
+vector 1478  _01_RfidSim.tag[248].nic  TagReceivedAcknowledgement  ETV
+vector 506  _01_RfidSim.tag[5].nic  TagReceivedAcknowledgement  ETV
+vector 1146  _01_RfidSim.tag[165].nic  TagReceivedAcknowledgement  ETV
+vector 746  _01_RfidSim.tag[65].nic  TagReceivedAcknowledgement  ETV
+vector 1358  _01_RfidSim.tag[218].nic  TagReceivedAcknowledgement  ETV
+vector 1226  _01_RfidSim.tag[185].nic  TagReceivedAcknowledgement  ETV
+vector 2090  _01_RfidSim.tag[401].nic  TagReceivedAcknowledgement  ETV
+vector 1202  _01_RfidSim.tag[179].nic  TagReceivedAcknowledgement  ETV
+vector 1726  _01_RfidSim.tag[310].nic  TagReceivedAcknowledgement  ETV
+vector 2142  _01_RfidSim.tag[414].nic  TagReceivedAcknowledgement  ETV
+vector 602  _01_RfidSim.tag[29].nic  TagReceivedAcknowledgement  ETV
+vector 2014  _01_RfidSim.tag[382].nic  TagReceivedAcknowledgement  ETV
+vector 1678  _01_RfidSim.tag[298].nic  TagReceivedAcknowledgement  ETV
+vector 686  _01_RfidSim.tag[50].nic  TagReceivedAcknowledgement  ETV
+vector 1142  _01_RfidSim.tag[164].nic  TagReceivedAcknowledgement  ETV
+vector 1502  _01_RfidSim.tag[254].nic  TagReceivedAcknowledgement  ETV
+vector 1026  _01_RfidSim.tag[135].nic  TagReceivedAcknowledgement  ETV
+vector 1390  _01_RfidSim.tag[226].nic  TagReceivedAcknowledgement  ETV
+vector 1418  _01_RfidSim.tag[233].nic  TagReceivedAcknowledgement  ETV
+vector 1398  _01_RfidSim.tag[228].nic  TagReceivedAcknowledgement  ETV
+vector 1110  _01_RfidSim.tag[156].nic  TagReceivedAcknowledgement  ETV
+vector 1254  _01_RfidSim.tag[192].nic  TagReceivedAcknowledgement  ETV
+vector 1222  _01_RfidSim.tag[184].nic  TagReceivedAcknowledgement  ETV
+vector 690  _01_RfidSim.tag[51].nic  TagReceivedAcknowledgement  ETV
+vector 834  _01_RfidSim.tag[87].nic  TagReceivedAcknowledgement  ETV
+vector 1058  _01_RfidSim.tag[143].nic  TagReceivedAcknowledgement  ETV
+vector 1838  _01_RfidSim.tag[338].nic  TagReceivedAcknowledgement  ETV
+vector 866  _01_RfidSim.tag[95].nic  TagReceivedAcknowledgement  ETV
+vector 1866  _01_RfidSim.tag[345].nic  TagReceivedAcknowledgement  ETV
+vector 718  _01_RfidSim.tag[58].nic  TagReceivedAcknowledgement  ETV
+vector 1926  _01_RfidSim.tag[360].nic  TagReceivedAcknowledgement  ETV
+vector 1250  _01_RfidSim.tag[191].nic  TagReceivedAcknowledgement  ETV
+vector 714  _01_RfidSim.tag[57].nic  TagReceivedAcknowledgement  ETV
+vector 2210  _01_RfidSim.tag[431].nic  TagReceivedAcknowledgement  ETV
+vector 1174  _01_RfidSim.tag[172].nic  TagReceivedAcknowledgement  ETV
+vector 630  _01_RfidSim.tag[36].nic  TagReceivedAcknowledgement  ETV
+vector 1198  _01_RfidSim.tag[178].nic  TagReceivedAcknowledgement  ETV
+vector 1194  _01_RfidSim.tag[177].nic  TagReceivedAcknowledgement  ETV
+vector 1542  _01_RfidSim.tag[264].nic  TagReceivedAcknowledgement  ETV
+vector 1646  _01_RfidSim.tag[290].nic  TagReceivedAcknowledgement  ETV
+vector 1362  _01_RfidSim.tag[219].nic  TagReceivedAcknowledgement  ETV
+vector 1930  _01_RfidSim.tag[361].nic  TagReceivedAcknowledgement  ETV
+vector 666  _01_RfidSim.tag[45].nic  TagReceivedAcknowledgement  ETV
+vector 1230  _01_RfidSim.tag[186].nic  TagReceivedAcknowledgement  ETV
+vector 1526  _01_RfidSim.tag[260].nic  TagReceivedAcknowledgement  ETV
+vector 1310  _01_RfidSim.tag[206].nic  TagReceivedAcknowledgement  ETV
+vector 1190  _01_RfidSim.tag[176].nic  TagReceivedAcknowledgement  ETV
+vector 1482  _01_RfidSim.tag[249].nic  TagReceivedAcknowledgement  ETV
+vector 1534  _01_RfidSim.tag[262].nic  TagReceivedAcknowledgement  ETV
+vector 1650  _01_RfidSim.tag[291].nic  TagReceivedAcknowledgement  ETV
+vector 1506  _01_RfidSim.tag[255].nic  TagReceivedAcknowledgement  ETV
+vector 1114  _01_RfidSim.tag[157].nic  TagReceivedAcknowledgement  ETV
+vector 1486  _01_RfidSim.tag[250].nic  TagReceivedAcknowledgement  ETV
+vector 1594  _01_RfidSim.tag[277].nic  TagReceivedAcknowledgement  ETV
+vector 1342  _01_RfidSim.tag[214].nic  TagReceivedAcknowledgement  ETV
+vector 1234  _01_RfidSim.tag[187].nic  TagReceivedAcknowledgement  ETV
+vector 1246  _01_RfidSim.tag[190].nic  TagReceivedAcknowledgement  ETV
+vector 1218  _01_RfidSim.tag[183].nic  TagReceivedAcknowledgement  ETV
+vector 1954  _01_RfidSim.tag[367].nic  TagReceivedAcknowledgement  ETV
+vector 1338  _01_RfidSim.tag[213].nic  TagReceivedAcknowledgement  ETV
+vector 1642  _01_RfidSim.tag[289].nic  TagReceivedAcknowledgement  ETV
+vector 1702  _01_RfidSim.tag[304].nic  TagReceivedAcknowledgement  ETV
+vector 1334  _01_RfidSim.tag[212].nic  TagReceivedAcknowledgement  ETV
+vector 1054  _01_RfidSim.tag[142].nic  TagReceivedAcknowledgement  ETV
+vector 1870  _01_RfidSim.tag[346].nic  TagReceivedAcknowledgement  ETV
+vector 1090  _01_RfidSim.tag[151].nic  TagReceivedAcknowledgement  ETV
+vector 1302  _01_RfidSim.tag[204].nic  TagReceivedAcknowledgement  ETV
+vector 2130  _01_RfidSim.tag[411].nic  TagReceivedAcknowledgement  ETV
+vector 1734  _01_RfidSim.tag[312].nic  TagReceivedAcknowledgement  ETV
+vector 2034  _01_RfidSim.tag[387].nic  TagReceivedAcknowledgement  ETV
+vector 1554  _01_RfidSim.tag[267].nic  TagReceivedAcknowledgement  ETV
+vector 838  _01_RfidSim.tag[88].nic  TagReceivedAcknowledgement  ETV
+vector 2122  _01_RfidSim.tag[409].nic  TagReceivedAcknowledgement  ETV
+vector 1386  _01_RfidSim.tag[225].nic  TagReceivedAcknowledgement  ETV
+vector 750  _01_RfidSim.tag[66].nic  TagReceivedAcknowledgement  ETV
+vector 1470  _01_RfidSim.tag[246].nic  TagReceivedAcknowledgement  ETV
+vector 1414  _01_RfidSim.tag[232].nic  TagReceivedAcknowledgement  ETV
+vector 1586  _01_RfidSim.tag[275].nic  TagReceivedAcknowledgement  ETV
+vector 1370  _01_RfidSim.tag[221].nic  TagReceivedAcknowledgement  ETV
+vector 1730  _01_RfidSim.tag[311].nic  TagReceivedAcknowledgement  ETV
+vector 1082  _01_RfidSim.tag[149].nic  TagReceivedAcknowledgement  ETV
+vector 1446  _01_RfidSim.tag[240].nic  TagReceivedAcknowledgement  ETV
+vector 1422  _01_RfidSim.tag[234].nic  TagReceivedAcknowledgement  ETV
+vector 1206  _01_RfidSim.tag[180].nic  TagReceivedAcknowledgement  ETV
+vector 1510  _01_RfidSim.tag[256].nic  TagReceivedAcknowledgement  ETV
+vector 1366  _01_RfidSim.tag[220].nic  TagReceivedAcknowledgement  ETV
+vector 1290  _01_RfidSim.tag[201].nic  TagReceivedAcknowledgement  ETV
+vector 1086  _01_RfidSim.tag[150].nic  TagReceivedAcknowledgement  ETV
+vector 1614  _01_RfidSim.tag[282].nic  TagReceivedAcknowledgement  ETV
+vector 1258  _01_RfidSim.tag[193].nic  TagReceivedAcknowledgement  ETV
+vector 1286  _01_RfidSim.tag[200].nic  TagReceivedAcknowledgement  ETV
+vector 1002  _01_RfidSim.tag[129].nic  TagReceivedAcknowledgement  ETV
+vector 1118  _01_RfidSim.tag[158].nic  TagReceivedAcknowledgement  ETV
+vector 1006  _01_RfidSim.tag[130].nic  TagReceivedAcknowledgement  ETV
+vector 1430  _01_RfidSim.tag[236].nic  TagReceivedAcknowledgement  ETV
+vector 1166  _01_RfidSim.tag[170].nic  TagReceivedAcknowledgement  ETV
+vector 1698  _01_RfidSim.tag[303].nic  TagReceivedAcknowledgement  ETV
+vector 1442  _01_RfidSim.tag[239].nic  TagReceivedAcknowledgement  ETV
+vector 1674  _01_RfidSim.tag[297].nic  TagReceivedAcknowledgement  ETV
+vector 1454  _01_RfidSim.tag[242].nic  TagReceivedAcknowledgement  ETV
+vector 1514  _01_RfidSim.tag[257].nic  TagReceivedAcknowledgement  ETV
+vector 1346  _01_RfidSim.tag[215].nic  TagReceivedAcknowledgement  ETV
+vector 1458  _01_RfidSim.tag[243].nic  TagReceivedAcknowledgement  ETV
+vector 1034  _01_RfidSim.tag[137].nic  TagReceivedAcknowledgement  ETV
+vector 1274  _01_RfidSim.tag[197].nic  TagReceivedAcknowledgement  ETV
+vector 1618  _01_RfidSim.tag[283].nic  TagReceivedAcknowledgement  ETV
+452	50580	0.014967855641	461
+452	81667	0.023686157756	461
+452	87490	0.025326157756	461
+452	92639	0.026926157756	461
+452	109603	0.031142157756	461
+452	114366	0.032702157756	461
+452	118593	0.034242157756	461
+452	158673	0.045950158756	461
+452	169586	0.049010158756	461
+452	175123	0.050630158756	461
+452	187555	0.054150158756	461
+452	192713	0.055710158756	461
+452	200627	0.058090158756	461
+452	207002	0.059770158756	461
+452	211608	0.061310158756	461
+452	218658	0.063230158756	461
+452	258493	0.076317511831	461
+452	288851	0.087277511831	461
+452	341923	0.107485514831	461
+452	344990	0.109005514831	461
+456	5926	0.002756887232	468
+456	20534	0.007296465049	468
+456	26338	0.008850620094	468
+456	32937	0.010490620094	468
+456	39857	0.012030620094	468
+456	45728	0.013570620094	468
+456	52484	0.015330620094	468
+456	59439	0.016990620094	468
+456	64854	0.018530620094	468
+456	75230	0.021970620094	468
+456	80709	0.023510620094	468
+456	124195	0.035966621094	468
+456	136212	0.039802622094	468
+456	153040	0.044238623094	468
+456	161952	0.046854624094	468
+456	168695	0.048734624094	468
+456	204803	0.059330625094	468
+456	233396	0.068410625094	468
+456	238506	0.070170625094	468
+456	254719	0.075250625094	468
+456	259949	0.076810625094	468
+460	8205	0.003498520354	475
+460	13200	0.005038520354	475
+460	18051	0.006578520354	475
+460	23552	0.008118520354	475
+460	30438	0.009718520354	475
+460	35417	0.011258520354	475
+460	42576	0.012818520354	475
+460	48388	0.014338520354	475
+460	74500	0.021574521354	475
+460	79837	0.023174521354	475
+460	85763	0.024774521354	475
+460	91087	0.026314521354	475
+460	96473	0.027874521354	475
+460	102075	0.029414521354	475
+460	108847	0.030994521354	475
+460	113773	0.032594521354	475
+460	120363	0.034654521354	475
+460	192481	0.055699767827	475
+460	264003	0.078087768827	475
+460	268263	0.079747768827	475
+460	273150	0.081367768827	475
+464	5129	0.002530995432	482
+464	23390	0.008110057374	482
+464	57307	0.016487855641	482
+464	63308	0.018047855641	482
+464	123753	0.035762157756	482
+464	238182	0.070137511831	482
+464	242938	0.071677511831	482
+464	248352	0.073257511831	482
+464	253585	0.074797511831	482
+464	267529	0.079617511831	482
+464	272312	0.081197511831	482
+464	303837	0.093145514831	482
+464	308490	0.094685514831	482
+464	312795	0.096245514831	482
+464	317264	0.097985514831	482
+464	321796	0.099685514831	482
+464	326487	0.101245514831	482
+464	331178	0.102845514831	482
+464	347891	0.110445514831	482
+464	353663	0.112645514831	482
+464	358252	0.114365514831	482
+464	361501	0.115965514831	482
+464	364804	0.117525514831	482
+464	368419	0.119345514831	482
+464	371683	0.120965514831	482
+464	374846	0.122645514831	482
+464	378010	0.124305514831	482
+464	381569	0.127045514831	482
+464	383231	0.128765514831	482
+464	388443	0.132625514831	482
+464	391534	0.134685514831	482
+464	393629	0.136505514831	482
+468	12285	0.004813802735	489
+468	91974	0.026630620094	489
+468	97300	0.028170620094	489
+468	104466	0.030070620094	489
+468	199320	0.057730625094	489
+468	220306	0.063690625094	489
+468	225015	0.065270625094	489
+468	243309	0.071710625094	489
+468	249387	0.073610625094	489
+468	274423	0.081866626094	489
+468	277946	0.083426626094	489
+468	281692	0.084986626094	489
+468	286385	0.086546626094	489
+468	291036	0.088086626094	489
+468	295483	0.089646626094	489
+468	300836	0.092042626094	489
+468	305526	0.093722626094	489
+468	325296	0.100802626094	489
+468	354198	0.112818626094	489
+468	358644	0.114498626094	489
+468	361890	0.116038626094	489
+468	365201	0.117718626094	489
+468	368039	0.119318626094	489
+468	371276	0.120898626094	489
+468	374474	0.122598626094	489
+468	377624	0.124218626094	489
+468	384634	0.129618627094	489
+468	386353	0.131318627094	489
+468	389501	0.133198627094	489
+468	395346	0.138834628094	489
+468	396969	0.141034628094	489
+468	398680	0.142754628094	489
+468	400335	0.146134628094	489
+472	121432	0.034983766827	496
+472	126701	0.036563766827	496
+472	131419	0.038483766827	496
+472	136658	0.040023766827	496
+472	145040	0.041903766827	496
+472	150427	0.043463766827	496
+472	155457	0.044983766827	496
+472	170628	0.049239767827	496
+472	175865	0.050779767827	496
+472	196934	0.057171768827	496
+472	210623	0.060967768827	496
+472	216470	0.062507768827	496
+472	221540	0.064067768827	496
+472	226242	0.065687768827	496
+472	239030	0.070307768827	496
+472	243721	0.071867768827	496
+472	248710	0.073407768827	496
+472	253967	0.074987768827	496
+472	259195	0.076567768827	496
+472	285727	0.086419769827	496
+472	290337	0.087959769827	496
+472	294895	0.089499769827	496
+472	298705	0.091059769827	496
+472	302424	0.092599769827	496
+472	307440	0.094339769827	496
+472	313877	0.096739769827	496
+472	318106	0.098359769827	496
+472	322169	0.099899769827	496
+472	326851	0.101459769827	496
+472	332242	0.103219769827	496
+472	335954	0.105059769827	496
+472	340204	0.106619769827	496
+472	344247	0.108519769827	496
+472	347564	0.110339769827	496
+472	357242	0.113879769827	496
+476	12986	0.005010057374	503
+476	31688	0.010161507831	503
+476	40596	0.012221507831	503
+476	46296	0.013741507831	503
+476	51905	0.015261507831	503
+476	58655	0.016821507831	503
+476	73410	0.021397508831	503
+476	97924	0.028349509831	503
+476	103747	0.029909509831	503
+476	110510	0.031469509831	503
+476	119699	0.034569509831	503
+476	137543	0.040245510831	503
+476	149881	0.043305510831	503
+476	155204	0.044925510831	503
+476	223810	0.064837511831	503
+476	233877	0.068577511831	503
+476	259673	0.076757511831	503
+476	264760	0.078337511831	503
+476	287218	0.086793512831	503
+480	44603	0.013341951189	510
+480	130760	0.038202621094	510
+480	137179	0.040122621094	510
+480	144399	0.041662621094	510
+480	153590	0.044462621094	510
+480	158906	0.046022621094	510
+480	165843	0.047982621094	510
+480	178419	0.051482621094	510
+480	184056	0.053122621094	510
+480	188951	0.054662621094	510
+480	194447	0.056322621094	510
+480	262591	0.077370625094	510
+480	270247	0.080470625094	510
+480	318268	0.098362626094	510
+480	329237	0.102322626094	510
+480	333719	0.103922626094	510
+480	337647	0.105742626094	510
+480	343692	0.108282626094	510
+484	7645	0.00341703236	517
+484	14039	0.00531703236	517
+484	18759	0.006862197078	517
+484	24594	0.008442197078	517
+484	30958	0.010022197078	517
+484	36317	0.011562197078	517
+484	43826	0.013122197078	517
+484	52816	0.015458198078	517
+484	59681	0.017038198078	517
+484	66305	0.018938198078	517
+484	70184	0.020478198078	517
+484	75587	0.022018198078	517
+484	80991	0.023558198078	517
+484	87043	0.025238198078	517
+484	92394	0.026798198078	517
+484	98169	0.028398198078	517
+484	104150	0.029978198078	517
+484	111161	0.031738198078	517
+484	181162	0.052299767827	517
+484	232516	0.067967768827	517
+490	170846	0.049314158756	531
+491	43588	0.013104620094	531
+494	176069	0.050934158756	538
+495	43592	0.013104620094	538
+498	88567	0.025630157756	545
+499	43596	0.013104620094	545
+502	82855	0.023990157756	552
+503	43600	0.013104620094	552
+506	212173	0.061614158756	559
+507	43604	0.013104620094	559
+518	41113	0.012334620094	580
+519	3008	0.001304	580
+522	21230	0.007600465049	587
+523	3012	0.001304	587
+526	27154	0.009154620094	594
+527	3016	0.001304	594
+530	34046	0.010794620094	601
+531	3020	0.001304	601
+534	65631	0.018834620094	608
+535	3024	0.001304	608
+546	14169	0.005342520354	629
+547	2134	0.000844	629
+550	43962	0.013122520354	636
+551	2138	0.000844	636
+554	80423	0.023478521354	643
+555	2142	0.000844	643
+558	193423	0.056003767827	650
+559	2146	0.000844	650
+562	121111	0.034958521354	657
+563	2150	0.000844	657
+574	119453	0.034546157756	678
+575	43612	0.013104620094	678
+578	188426	0.054454158756	685
+579	43616	0.013104620094	685
+582	201585	0.058394158756	692
+583	43620	0.013104620094	692
+586	110234	0.031446157756	699
+587	43624	0.013104620094	699
+590	193710	0.056014158756	706
+591	43628	0.013104620094	706
+602	234031	0.068714625094	727
+603	3034	0.001304	727
+606	76162	0.022274620094	734
+607	3038	0.001304	734
+610	53911	0.015634620094	741
+611	3042	0.001304	741
+614	125562	0.036270621094	748
+615	3046	0.001304	748
+618	154087	0.044542623094	755
+619	3050	0.001304	755
+630	273903	0.081671768827	776
+631	2158	0.000844	776
+634	91650	0.026618521354	783
+635	2162	0.000844	783
+638	114759	0.032898521354	790
+639	2166	0.000844	790
+642	24336	0.008422520354	797
+643	2170	0.000844	797
+646	36474	0.011562520354	804
+647	2174	0.000844	804
+659	43636	0.013104620094	825
+662	207722	0.060074158756	832
+663	43640	0.013104620094	832
+666	289550	0.087581511831	839
+667	43644	0.013104620094	839
+670	159731	0.046254158756	846
+671	43648	0.013104620094	846
+674	114984	0.033006157756	853
+675	43652	0.013104620094	853
+686	239581	0.070474625094	874
+687	3060	0.001304	874
+690	255784	0.075554625094	881
+691	3064	0.001304	881
+694	162545	0.047158624094	888
+695	3068	0.001304	888
+698	60685	0.017294620094	895
+699	3072	0.001304	895
+702	206465	0.059634625094	902
+703	3076	0.001304	902
+714	269542	0.080051768827	923
+715	2182	0.000844	923
+718	264987	0.078391768827	930
+719	2186	0.000844	930
+722	109969	0.031298521354	937
+723	2190	0.000844	937
+726	74992	0.021878521354	944
+727	2194	0.000844	944
+730	97573	0.028178521354	951
+731	2198	0.000844	951
+746	219207	0.063534158756	979
+747	43661	0.013104620094	979
+750	345483	0.109309514831	986
+751	43665	0.013104620094	986
+754	52099	0.015271855641	993
+755	43669	0.013104620094	993
+774	169784	0.049038624094	1028
+775	3087	0.001304	1028
+778	82127	0.023814620094	1035
+779	3091	0.001304	1035
+782	136957	0.040106622094	1042
+783	3095	0.001304	1042
+802	49429	0.014642520354	1077
+803	2207	0.000844	1077
+806	86429	0.025078521354	1084
+807	2211	0.000844	1084
+810	9379	0.003802520354	1091
+811	2215	0.000844	1091
+830	93866	0.027230157756	1126
+831	43679	0.013104620094	1126
+834	259467	0.076621511831	1133
+835	43683	0.013104620094	1133
+838	342644	0.107789514831	1140
+839	43687	0.013104620094	1140
+858	6954	0.003060887232	1175
+859	3106	0.001304	1175
+862	47080	0.013874620094	1182
+863	3110	0.001304	1182
+866	261467	0.077114625094	1189
+867	3114	0.001304	1189
+886	103464	0.029718521354	1224
+887	2224	0.000844	1224
+890	31164	0.010022520354	1231
+891	2228	0.000844	1231
+894	18975	0.006882520354	1238
+895	2232	0.000844	1238
+998	124615	0.036066157756	1420
+999	2768	0.001064	1420
+1002	375402	0.122949514831	1427
+1003	2772	0.001064	1427
+1006	378575	0.124609514831	1434
+1007	2776	0.001064	1434
+1026	244290	0.072014625094	1469
+1027	8350	0.003590887232	1469
+1031	8354	0.003590887232	1476
+1034	397271	0.141338628094	1483
+1035	8358	0.003590887232	1483
+1054	327866	0.101763769827	1518
+1055	116404	0.033648521354	1518
+1058	260309	0.076871768827	1525
+1059	116408	0.033648521354	1525
+1062	171907	0.049543767827	1532
+1063	116412	0.033648521354	1532
+1082	358949	0.114669514831	1567
+1083	2785	0.001064	1567
+1086	368996	0.119649514831	1574
+1087	2789	0.001064	1574
+1090	331713	0.103149514831	1581
+1091	2793	0.001064	1581
+1110	250525	0.073914625094	1616
+1111	8369	0.003590887232	1616
+1114	306538	0.094026626094	1623
+1115	8373	0.003590887232	1623
+1118	378300	0.124522626094	1630
+1119	8377	0.003590887232	1630
+1138	127482	0.036867766827	1665
+1139	116422	0.033648521354	1665
+1142	240133	0.070611768827	1672
+1143	116426	0.033648521354	1672
+1146	217286	0.062811768827	1679
+1147	116430	0.033648521354	1679
+1163	2802	0.001064	1707
+1166	383911	0.129069514831	1714
+1167	2806	0.001064	1714
+1170	63949	0.018351855641	1721
+1171	2810	0.001064	1721
+1174	273554	0.081501511831	1728
+1175	2814	0.001064	1728
+1178	58392	0.016791855641	1735
+1179	2818	0.001064	1735
+1190	296244	0.089950626094	1756
+1191	8388	0.003590887232	1756
+1194	278735	0.083730626094	1763
+1195	8392	0.003590887232	1763
+1198	275194	0.082170626094	1770
+1199	8396	0.003590887232	1770
+1202	225482	0.065574625094	1777
+1203	8400	0.003590887232	1777
+1206	362485	0.116342626094	1784
+1207	8404	0.003590887232	1784
+1218	318872	0.098663769827	1805
+1219	116439	0.033648521354	1805
+1222	254957	0.075291768827	1812
+1223	116443	0.033648521354	1812
+1226	222374	0.064371768827	1819
+1227	116447	0.033648521354	1819
+1230	291354	0.088263769827	1826
+1231	116451	0.033648521354	1826
+1234	314320	0.097043769827	1833
+1235	116455	0.033648521354	1833
+1246	317573	0.098289514831	1854
+1247	2826	0.001064	1854
+1250	268696	0.079921511831	1861
+1251	2830	0.001064	1861
+1254	254289	0.075101511831	1868
+1255	2834	0.001064	1868
+1258	372282	0.121269514831	1875
+1259	2838	0.001064	1875
+1263	2842	0.001064	1882
+1274	399020	0.143058628094	1903
+1275	8414	0.003590887232	1903
+1278	13444	0.005117802735	1910
+1279	8418	0.003590887232	1910
+1282	200365	0.058034625094	1917
+1283	8422	0.003590887232	1917
+1286	375162	0.122902626094	1924
+1287	8426	0.003590887232	1924
+1290	368749	0.119622626094	1931
+1291	8430	0.003590887232	1931
+1302	332802	0.103523769827	1952
+1303	116463	0.033648521354	1952
+1306	177188	0.051083767827	1959
+1307	116467	0.033648521354	1959
+1310	295821	0.089803769827	1966
+1311	116471	0.033648521354	1966
+1314	132579	0.038787766827	1973
+1315	116475	0.033648521354	1973
+1319	116479	0.033648521354	1980
+1331	2850	0.001064	2001
+1334	327463	0.101549514831	2008
+1335	2854	0.001064	2008
+1338	322721	0.099989514831	2015
+1339	2858	0.001064	2015
+1342	313608	0.096549514831	2022
+1343	2862	0.001064	2022
+1346	393959	0.136809514831	2029
+1347	2866	0.001064	2029
+1358	221001	0.063994625094	2050
+1359	8440	0.003590887232	2050
+1362	287625	0.086850626094	2057
+1363	8444	0.003590887232	2057
+1366	365816	0.118022626094	2064
+1367	8448	0.003590887232	2064
+1370	355182	0.113122626094	2071
+1371	8452	0.003590887232	2071
+1374	92923	0.026934620094	2078
+1375	8456	0.003590887232	2078
+1386	344728	0.108823769827	2099
+1387	116487	0.033648521354	2099
+1390	245020	0.072171768827	2106
+1391	116491	0.033648521354	2106
+1394	151720	0.043767766827	2113
+1395	116495	0.033648521354	2113
+1398	250112	0.073711768827	2120
+1399	116499	0.033648521354	2120
+1402	156919	0.045287766827	2127
+1403	116503	0.033648521354	2127
+1414	348500	0.110749514831	2148
+1415	2874	0.001064	2148
+1418	249072	0.073561511831	2155
+1419	2878	0.001064	2155
+1422	362243	0.116269514831	2162
+1423	2882	0.001064	2162
+1427	2886	0.001064	2169
+1430	381917	0.127349514831	2176
+1431	2890	0.001064	2176
+1442	386865	0.131622627094	2197
+1443	8466	0.003590887232	2197
+1446	359458	0.114802626094	2204
+1447	8470	0.003590887232	2204
+1451	8474	0.003590887232	2211
+1454	389874	0.133502627094	2218
+1455	8478	0.003590887232	2218
+1458	395729	0.139138628094	2225
+1459	8482	0.003590887232	2225
+1470	348231	0.110643769827	2246
+1471	116511	0.033648521354	2246
+1474	122511	0.035287766827	2253
+1475	116515	0.033648521354	2253
+1478	211390	0.061271768827	2260
+1479	116519	0.033648521354	2260
+1482	299454	0.091363769827	2267
+1483	116523	0.033648521354	2267
+1486	308195	0.094643769827	2274
+1487	116527	0.033648521354	2274
+1498	24178	0.008414057374	2295
+1499	2898	0.001064	2295
+1502	244090	0.071981511831	2302
+1503	2902	0.001064	2302
+1506	304726	0.093449514831	2309
+1507	2906	0.001064	2309
+1510	365579	0.117829514831	2316
+1511	2910	0.001064	2316
+1514	391897	0.134989514831	2323
+1515	2914	0.001064	2323
+1526	292301	0.088390626094	2344
+1527	8492	0.003590887232	2344
+1530	98483	0.028474620094	2351
+1531	8496	0.003590887232	2351
+1534	301974	0.092346626094	2358
+1535	8500	0.003590887232	2358
+1539	8504	0.003590887232	2365
+1542	282496	0.085290626094	2372
+1543	8508	0.003590887232	2372
+1554	340848	0.106923769827	2393
+1555	116535	0.033648521354	2393
+1558	146414	0.042207766827	2400
+1559	116539	0.033648521354	2400
+1563	116543	0.033648521354	2407
+1566	137839	0.040327766827	2414
+1567	116547	0.033648521354	2414
+1570	198417	0.057475768827	2421
+1571	116551	0.033648521354	2421
+1586	354593	0.112949514831	2449
+1587	2923	0.001064	2449
+1590	6249	0.002834995432	2456
+1591	2927	0.001064	2456
+1594	309289	0.094989514831	2463
+1595	2931	0.001064	2463
+1614	372068	0.121202626094	2498
+1615	8519	0.003590887232	2498
+1618	400736	0.146438628094	2505
+1619	8523	0.003590887232	2505
+1623	8527	0.003590887232	2512
+1642	323384	0.100203769827	2547
+1643	116560	0.033648521354	2547
+1646	286777	0.086723769827	2554
+1647	116564	0.033648521354	2554
+1650	303165	0.092903769827	2561
+1651	116568	0.033648521354	2561
+1671	2941	0.001064	2596
+1674	389224	0.132929514831	2603
+1675	2945	0.001064	2603
+1678	239447	0.070441511831	2610
+1679	2949	0.001064	2610
+1698	385062	0.129922627094	2645
+1699	8538	0.003590887232	2645
+1702	326086	0.101106626094	2652
+1703	8542	0.003590887232	2652
+1706	106068	0.030374620094	2659
+1707	8546	0.003590887232	2659
+1726	227292	0.065991768827	2694
+1727	116577	0.033648521354	2694
+1730	358024	0.114183769827	2701
+1731	116581	0.033648521354	2701
+1734	336988	0.105363769827	2708
+1735	116585	0.033648521354	2708
+1838	261280	0.077061511831	2890
+1839	7410	0.003364995432	2890
+1842	32742	0.010465507831	2897
+1843	7414	0.003364995432	2897
+1846	111353	0.031773509831	2904
+1847	7418	0.003364995432	2904
+1866	263269	0.077674625094	2939
+1867	2323	0.000844	2939
+1870	330389	0.102626626094	2946
+1871	2327	0.000844	2946
+1875	2331	0.000844	2953
+1894	82287	0.023862198078	2988
+1895	2618	0.001044	2988
+1898	88336	0.025542198078	2995
+1899	2622	0.001044	2995
+1902	71227	0.020782198078	3002
+1903	2626	0.001044	3002
+1922	120664	0.034873509831	3037
+1923	7427	0.003364995432	3037
+1926	265696	0.078641511831	3044
+1927	7431	0.003364995432	3044
+1930	288058	0.087097512831	3051
+1931	7435	0.003364995432	3051
+1950	195575	0.056626621094	3086
+1951	2342	0.000844	3086
+1954	319132	0.098666626094	3093
+1955	2346	0.000844	3093
+1958	190023	0.054966621094	3100
+1959	2350	0.000844	3100
+1978	25514	0.008746197078	3135
+1979	2636	0.001044	3135
+1982	99421	0.028702198078	3142
+1983	2640	0.001044	3142
+1986	182476	0.052603767827	3149
+1987	2644	0.001044	3149
+2002	47248	0.014045507831	3177
+2003	7444	0.003364995432	3177
+2006	74706	0.021701508831	3184
+2007	7448	0.003364995432	3184
+2010	156698	0.045229510831	3191
+2011	7452	0.003364995432	3191
+2014	234625	0.068881511831	3198
+2015	7456	0.003364995432	3198
+2019	7460	0.003364995432	3205
+2030	131706	0.038506621094	3226
+2031	2361	0.000844	3226
+2034	338810	0.106046626094	3233
+2035	2365	0.000844	3233
+2038	185139	0.053426621094	3240
+2039	2369	0.000844	3240
+2042	145498	0.041966621094	3247
+2043	2373	0.000844	3247
+2046	138197	0.040426621094	3254
+2047	2377	0.000844	3254
+2058	19904	0.007166197078	3275
+2059	2653	0.001044	3275
+2062	76385	0.022322198078	3282
+2063	2657	0.001044	3282
+2066	60885	0.017342198078	3289
+2067	2661	0.001044	3289
+2070	32101	0.010326197078	3296
+2071	2665	0.001044	3296
+2074	38346	0.011866197078	3303
+2075	2669	0.001044	3303
+2086	41524	0.012525507831	3324
+2087	7468	0.003364995432	3324
+2090	224411	0.065141511831	3331
+2091	7472	0.003364995432	3331
+2094	53057	0.015565507831	3338
+2095	7476	0.003364995432	3338
+2098	99292	0.028653509831	3345
+2099	7480	0.003364995432	3345
+2102	150764	0.043609510831	3352
+2103	7484	0.003364995432	3352
+2114	179084	0.051786621094	3373
+2115	2387	0.000844	3373
+2118	45967	0.013645951189	3380
+2119	2391	0.000844	3380
+2122	344538	0.108586626094	3387
+2123	2395	0.000844	3387
+2126	160176	0.046326621094	3394
+2127	2399	0.000844	3394
+2130	334144	0.104226626094	3401
+2131	2403	0.000844	3401
+2142	233180	0.068271768827	3422
+2143	2677	0.001044	3422
+2146	93585	0.027102198078	3429
+2147	2681	0.001044	3429
+2150	8910	0.00372103236	3436
+2151	2685	0.001044	3436
+2154	15088	0.00562103236	3443
+2155	2689	0.001044	3443
+2158	66689	0.019242198078	3450
+2159	2693	0.001044	3450
+2170	138820	0.040549510831	3471
+2171	7492	0.003364995432	3471
+2175	7496	0.003364995432	3478
+2178	105046	0.030213509831	3485
+2179	7500	0.003364995432	3485
+2182	14031	0.005314057374	3492
+2183	7504	0.003364995432	3492
+2186	59912	0.017125507831	3499
+2187	7508	0.003364995432	3499
+2198	166993	0.048286621094	3520
+2199	2413	0.000844	3520
+2202	154665	0.044766621094	3527
+2203	2417	0.000844	3527
+2207	2421	0.000844	3534
+2210	271267	0.080774625094	3541
+2211	2425	0.000844	3541
+2215	2429	0.000844	3548
+2227	2701	0.001044	3569
+2230	54654	0.015762198078	3576
+2231	2705	0.001044	3576
+2234	112406	0.032042198078	3583
+2235	2709	0.001044	3583
+2238	105197	0.030282198078	3590
+2239	2713	0.001044	3590
+2242	45082	0.013426197078	3597
+2243	2717	0.001044	3597
+2250	0	0	0
+2250	42002	0.012624620094	3
+2250	42002	0.012624620094	1
+2250	43583	0.013104620094	3
+2250	43583	0.013104620094	0
+2250	47918	0.014163855641	3
+2250	47918	0.014163855641	1
+2250	48815	0.014467855641	3
+2250	48815	0.014467855641	0
+2250	50580	0.014967855641	3
+2250	50580	0.014967855641	1
+2250	52044	0.015271855641	3
+2250	52044	0.015271855641	0
+2250	79127	0.022882157756	3
+2250	79127	0.022882157756	1
+2250	79924	0.023186157756	3
+2250	79924	0.023186157756	0
+2250	81667	0.023686157756	3
+2250	81667	0.023686157756	1
+2250	82841	0.023990157756	3
+2250	82841	0.023990157756	0
+2250	84788	0.024522157756	3
+2250	84788	0.024522157756	1
+2250	85888	0.024826157756	3
+2250	85888	0.024826157756	0
+2250	87490	0.025326157756	3
+2250	87490	0.025326157756	1
+2250	88556	0.025630157756	3
+2250	88556	0.025630157756	0
+2250	90238	0.026122157756	3
+2250	90238	0.026122157756	1
+2250	91205	0.026426157756	3
+2250	91205	0.026426157756	0
+2250	92639	0.026926157756	3
+2250	92639	0.026926157756	1
+2250	93789	0.027230157756	3
+2250	93789	0.027230157756	0
+2250	105704	0.030338157756	3
+2250	105704	0.030338157756	1
+2250	106845	0.030642157756	3
+2250	106845	0.030642157756	0
+2250	109603	0.031142157756	3
+2250	109603	0.031142157756	1
+2250	110203	0.031446157756	3
+2250	110203	0.031446157756	0
+2250	112180	0.031898157756	3
+2250	112180	0.031898157756	1
+2250	112906	0.032202157756	3
+2250	112906	0.032202157756	0
+2250	114366	0.032702157756	3
+2250	114366	0.032702157756	1
+2250	114931	0.033006157756	3
+2250	114931	0.033006157756	0
+2250	115940	0.033438157756	3
+2250	115940	0.033438157756	1
+2250	116660	0.033742157756	3
+2250	116660	0.033742157756	0
+2250	118593	0.034242157756	3
+2250	118593	0.034242157756	1
+2250	119431	0.034546157756	3
+2250	119431	0.034546157756	0
+2250	156255	0.045146158756	3
+2250	156255	0.045146158756	1
+2250	157377	0.045450158756	3
+2250	157377	0.045450158756	0
+2250	158673	0.045950158756	3
+2250	158673	0.045950158756	1
+2250	159685	0.046254158756	3
+2250	159685	0.046254158756	0
+2250	161205	0.046686158756	3
+2250	161205	0.046686158756	1
+2250	162347	0.046990158756	3
+2250	162347	0.046990158756	0
+2250	166494	0.048206158756	3
+2250	166494	0.048206158756	1
+2250	167996	0.048510158756	3
+2250	167996	0.048510158756	0
+2250	169586	0.049010158756	3
+2250	169586	0.049010158756	1
+2250	170841	0.049314158756	3
+2250	170841	0.049314158756	0
+2250	172889	0.049826158756	3
+2250	172889	0.049826158756	1
+2250	173683	0.050130158756	3
+2250	173683	0.050130158756	0
+2250	175123	0.050630158756	3
+2250	175123	0.050630158756	1
+2250	176061	0.050934158756	3
+2250	176061	0.050934158756	0
+2250	179666	0.051826158756	3
+2250	179666	0.051826158756	1
+2250	180107	0.052130158756	3
+2250	180107	0.052130158756	0
+2250	184459	0.053346158756	3
+2250	184459	0.053346158756	1
+2250	185654	0.053650158756	3
+2250	185654	0.053650158756	0
+2250	187555	0.054150158756	3
+2250	187555	0.054150158756	1
+2250	188404	0.054454158756	3
+2250	188404	0.054454158756	0
+2250	189752	0.054906158756	3
+2250	189752	0.054906158756	1
+2250	191127	0.055210158756	3
+2250	191127	0.055210158756	0
+2250	192713	0.055710158756	3
+2250	192713	0.055710158756	1
+2250	193681	0.056014158756	3
+2250	193681	0.056014158756	0
+2250	197624	0.057286158756	3
+2250	197624	0.057286158756	1
+2250	198654	0.057590158756	3
+2250	198654	0.057590158756	0
+2250	200627	0.058090158756	3
+2250	200627	0.058090158756	1
+2250	201561	0.058394158756	3
+2250	201561	0.058394158756	0
+2250	202842	0.058966158756	3
+2250	202842	0.058966158756	1
+2250	204280	0.059270158756	3
+2250	204280	0.059270158756	0
+2250	207002	0.059770158756	3
+2250	207002	0.059770158756	1
+2250	207684	0.060074158756	3
+2250	207684	0.060074158756	0
+2250	209323	0.060506158756	3
+2250	209323	0.060506158756	1
+2250	209798	0.060810158756	3
+2250	209798	0.060810158756	0
+2250	211608	0.061310158756	3
+2250	211608	0.061310158756	1
+2250	212160	0.061614158756	3
+2250	212160	0.061614158756	0
+2250	215950	0.062426158756	3
+2250	215950	0.062426158756	1
+2250	216820	0.062730158756	3
+2250	216820	0.062730158756	0
+2250	218658	0.063230158756	3
+2250	218658	0.063230158756	1
+2250	219157	0.063534158756	3
+2250	219157	0.063534158756	0
+2250	255612	0.075513511831	3
+2250	255612	0.075513511831	1
+2250	256746	0.075817511831	3
+2250	256746	0.075817511831	0
+2250	258493	0.076317511831	3
+2250	258493	0.076317511831	1
+2250	259403	0.076621511831	3
+2250	259403	0.076621511831	0
+2250	274786	0.081913511831	3
+2250	274786	0.081913511831	1
+2250	275351	0.082217511831	3
+2250	275351	0.082217511831	0
+2250	278130	0.083433511831	3
+2250	278130	0.083433511831	1
+2250	278898	0.083737511831	3
+2250	278898	0.083737511831	0
+2250	281348	0.084953511831	3
+2250	281348	0.084953511831	1
+2250	282152	0.085257511831	3
+2250	282152	0.085257511831	0
+2250	286034	0.086473511831	3
+2250	286034	0.086473511831	1
+2250	286837	0.086777511831	3
+2250	286837	0.086777511831	0
+2250	288851	0.087277511831	3
+2250	288851	0.087277511831	1
+2250	289513	0.087581511831	3
+2250	289513	0.087581511831	0
+2250	291994	0.088373511831	3
+2250	291994	0.088373511831	1
+2250	292581	0.088677511831	3
+2250	292581	0.088677511831	0
+2250	333101	0.103561514831	3
+2250	333101	0.103561514831	1
+2250	333338	0.103865514831	3
+2250	333338	0.103865514831	0
+2250	336272	0.105161514831	3
+2250	336272	0.105161514831	1
+2250	337213	0.105465514831	3
+2250	337213	0.105465514831	0
+2250	340545	0.106681514831	3
+2250	340545	0.106681514831	1
+2250	340923	0.106985514831	3
+2250	340923	0.106985514831	0
+2250	341923	0.107485514831	3
+2250	341923	0.107485514831	1
+2250	342579	0.107789514831	3
+2250	342579	0.107789514831	0
+2250	343461	0.108201514831	3
+2250	343461	0.108201514831	1
+2250	343791	0.108505514831	3
+2250	343791	0.108505514831	0
+2250	344990	0.109005514831	3
+2250	344990	0.109005514831	1
+2250	345433	0.109309514831	3
+2250	345433	0.109309514831	0
+2251	0	0	1
+2252	0	0	0
+2252	1990	0.000824	3
+2252	1990	0.000824	1
+2252	3001	0.001304	3
+2252	3001	0.001304	0
+2252	4008	0.001952887232	3
+2252	4008	0.001952887232	1
+2252	4560	0.002256887232	3
+2252	4560	0.002256887232	0
+2252	5926	0.002756887232	3
+2252	5926	0.002756887232	1
+2252	6878	0.003060887232	3
+2252	6878	0.003060887232	0
+2252	17792	0.006492465049	3
+2252	17792	0.006492465049	1
+2252	18379	0.006796465049	3
+2252	18379	0.006796465049	0
+2252	20534	0.007296465049	3
+2252	20534	0.007296465049	1
+2252	21221	0.007600465049	3
+2252	21221	0.007600465049	0
+2252	23010	0.008046620094	3
+2252	23010	0.008046620094	1
+2252	23657	0.008350620094	3
+2252	23657	0.008350620094	0
+2252	26338	0.008850620094	3
+2252	26338	0.008850620094	1
+2252	27142	0.009154620094	3
+2252	27142	0.009154620094	0
+2252	30169	0.009686620094	3
+2252	30169	0.009686620094	1
+2252	30605	0.009990620094	3
+2252	30605	0.009990620094	0
+2252	32937	0.010490620094	3
+2252	32937	0.010490620094	1
+2252	34030	0.010794620094	3
+2252	34030	0.010794620094	0
+2252	35211	0.011226620094	3
+2252	35211	0.011226620094	1
+2252	35929	0.011530620094	3
+2252	35929	0.011530620094	0
+2252	39857	0.012030620094	3
+2252	39857	0.012030620094	1
+2252	41107	0.012334620094	3
+2252	41107	0.012334620094	0
+2252	42348	0.012766620094	3
+2252	42348	0.012766620094	1
+2252	43322	0.013070620094	3
+2252	43322	0.013070620094	0
+2252	45728	0.013570620094	3
+2252	45728	0.013570620094	1
+2252	47008	0.013874620094	3
+2252	47008	0.013874620094	0
+2252	49224	0.014526620094	3
+2252	49224	0.014526620094	1
+2252	50068	0.014830620094	3
+2252	50068	0.014830620094	0
+2252	52484	0.015330620094	3
+2252	52484	0.015330620094	1
+2252	53882	0.015634620094	3
+2252	53882	0.015634620094	0
+2252	56187	0.016186620094	3
+2252	56187	0.016186620094	1
+2252	57469	0.016490620094	3
+2252	57469	0.016490620094	0
+2252	59439	0.016990620094	3
+2252	59439	0.016990620094	1
+2252	60629	0.017294620094	3
+2252	60629	0.017294620094	0
+2252	62315	0.017726620094	3
+2252	62315	0.017726620094	1
+2252	62885	0.018030620094	3
+2252	62885	0.018030620094	0
+2252	64854	0.018530620094	3
+2252	64854	0.018530620094	1
+2252	65614	0.018834620094	3
+2252	65614	0.018834620094	0
+2252	67848	0.019646620094	3
+2252	67848	0.019646620094	1
+2252	68629	0.019950620094	3
+2252	68629	0.019950620094	0
+2252	72664	0.021166620094	3
+2252	72664	0.021166620094	1
+2252	73515	0.021470620094	3
+2252	73515	0.021470620094	0
+2252	75230	0.021970620094	3
+2252	75230	0.021970620094	1
+2252	76136	0.022274620094	3
+2252	76136	0.022274620094	0
+2252	78152	0.022706620094	3
+2252	78152	0.022706620094	1
+2252	79216	0.023010620094	3
+2252	79216	0.023010620094	0
+2252	80709	0.023510620094	3
+2252	80709	0.023510620094	1
+2252	82062	0.023814620094	3
+2252	82062	0.023814620094	0
+2252	121750	0.035162621094	3
+2252	121750	0.035162621094	1
+2252	122768	0.035466621094	3
+2252	122768	0.035466621094	0
+2252	124195	0.035966621094	3
+2252	124195	0.035966621094	1
+2252	125532	0.036270621094	3
+2252	125532	0.036270621094	0
+2252	133456	0.038998622094	3
+2252	133456	0.038998622094	1
+2252	134213	0.039302622094	3
+2252	134213	0.039302622094	0
+2252	136212	0.039802622094	3
+2252	136212	0.039802622094	1
+2252	136889	0.040106622094	3
+2252	136889	0.040106622094	0
+2252	150115	0.043434623094	3
+2252	150115	0.043434623094	1
+2252	151204	0.043738623094	3
+2252	151204	0.043738623094	0
+2252	153040	0.044238623094	3
+2252	153040	0.044238623094	1
+2252	154055	0.044542623094	3
+2252	154055	0.044542623094	0
+2252	159163	0.046050624094	3
+2252	159163	0.046050624094	1
+2252	160206	0.046354624094	3
+2252	160206	0.046354624094	0
+2252	161952	0.046854624094	3
+2252	161952	0.046854624094	1
+2252	162498	0.047158624094	3
+2252	162498	0.047158624094	0
+2252	165615	0.047930624094	3
+2252	165615	0.047930624094	1
+2252	166585	0.048234624094	3
+2252	166585	0.048234624094	0
+2252	168695	0.048734624094	3
+2252	168695	0.048734624094	1
+2252	169725	0.049038624094	3
+2252	169725	0.049038624094	0
+2252	202107	0.058526625094	3
+2252	202107	0.058526625094	1
+2252	202431	0.058830625094	3
+2252	202431	0.058830625094	0
+2252	204803	0.059330625094	3
+2252	204803	0.059330625094	1
+2252	206415	0.059634625094	3
+2252	206415	0.059634625094	0
+2252	216037	0.062426625094	3
+2252	216037	0.062426625094	1
+2252	216929	0.062730625094	3
+2252	216929	0.062730625094	0
+2252	226954	0.065986625094	3
+2252	226954	0.065986625094	1
+2252	228035	0.066290625094	3
+2252	228035	0.066290625094	0
+2252	231260	0.067606625094	3
+2252	231260	0.067606625094	1
+2252	231824	0.067910625094	3
+2252	231824	0.067910625094	0
+2252	233396	0.068410625094	3
+2252	233396	0.068410625094	1
+2252	234008	0.068714625094	3
+2252	234008	0.068714625094	0
+2252	236071	0.069366625094	3
+2252	236071	0.069366625094	1
+2252	237146	0.069670625094	3
+2252	237146	0.069670625094	0
+2252	238506	0.070170625094	3
+2252	238506	0.070170625094	1
+2252	239541	0.070474625094	3
+2252	239541	0.070474625094	0
+2252	252461	0.074446625094	3
+2252	252461	0.074446625094	1
+2252	253136	0.074750625094	3
+2252	253136	0.074750625094	0
+2252	254719	0.075250625094	3
+2252	254719	0.075250625094	1
+2252	255743	0.075554625094	3
+2252	255743	0.075554625094	0
+2252	257402	0.076006625094	3
+2252	257402	0.076006625094	1
+2252	258372	0.076310625094	3
+2252	258372	0.076310625094	0
+2252	259949	0.076810625094	3
+2252	259949	0.076810625094	1
+2252	261393	0.077114625094	3
+2252	261393	0.077114625094	0
+2253	0	0	1
+2254	0	0	0
+2254	932	0.000364	3
+2254	932	0.000364	1
+2254	2125	0.000844	3
+2254	2125	0.000844	0
+2254	5651	0.002694520354	3
+2254	5651	0.002694520354	1
+2254	6615	0.002998520354	3
+2254	6615	0.002998520354	0
+2254	8205	0.003498520354	3
+2254	8205	0.003498520354	1
+2254	9308	0.003802520354	3
+2254	9308	0.003802520354	0
+2254	10537	0.004234520354	3
+2254	10537	0.004234520354	1
+2254	11621	0.004538520354	3
+2254	11621	0.004538520354	0
+2254	13200	0.005038520354	3
+2254	13200	0.005038520354	1
+2254	14162	0.005342520354	3
+2254	14162	0.005342520354	0
+2254	15401	0.005774520354	3
+2254	15401	0.005774520354	1
+2254	16530	0.006078520354	3
+2254	16530	0.006078520354	0
+2254	18051	0.006578520354	3
+2254	18051	0.006578520354	1
+2254	18894	0.006882520354	3
+2254	18894	0.006882520354	0
+2254	21051	0.007314520354	3
+2254	21051	0.007314520354	1
+2254	21551	0.007618520354	3
+2254	21551	0.007618520354	0
+2254	23552	0.008118520354	3
+2254	23552	0.008118520354	1
+2254	24303	0.008422520354	3
+2254	24303	0.008422520354	0
+2254	26711	0.008914520354	3
+2254	26711	0.008914520354	1
+2254	28205	0.009218520354	3
+2254	28205	0.009218520354	0
+2254	30438	0.009718520354	3
+2254	30438	0.009718520354	1
+2254	31091	0.010022520354	3
+2254	31091	0.010022520354	0
+2254	32562	0.010454520354	3
+2254	32562	0.010454520354	1
+2254	33813	0.010758520354	3
+2254	33813	0.010758520354	0
+2254	35417	0.011258520354	3
+2254	35417	0.011258520354	1
+2254	36438	0.011562520354	3
+2254	36438	0.011562520354	0
+2254	39640	0.012014520354	3
+2254	39640	0.012014520354	1
+2254	40866	0.012318520354	3
+2254	40866	0.012318520354	0
+2254	42576	0.012818520354	3
+2254	42576	0.012818520354	1
+2254	43953	0.013122520354	3
+2254	43953	0.013122520354	0
+2254	45453	0.013534520354	3
+2254	45453	0.013534520354	1
+2254	46513	0.013838520354	3
+2254	46513	0.013838520354	0
+2254	48388	0.014338520354	3
+2254	48388	0.014338520354	1
+2254	49369	0.014642520354	3
+2254	49369	0.014642520354	0
+2254	50942	0.015074520354	3
+2254	50942	0.015074520354	1
+2254	52583	0.015378520354	3
+2254	52583	0.015378520354	0
+2254	58118	0.016594520354	3
+2254	58118	0.016594520354	1
+2254	59093	0.016898520354	3
+2254	59093	0.016898520354	0
+2254	70854	0.020770521354	3
+2254	70854	0.020770521354	1
+2254	72095	0.021074521354	3
+2254	72095	0.021074521354	0
+2254	74500	0.021574521354	3
+2254	74500	0.021574521354	1
+2254	74941	0.021878521354	3
+2254	74941	0.021878521354	0
+2254	76693	0.022370521354	3
+2254	76693	0.022370521354	1
+2254	77781	0.022674521354	3
+2254	77781	0.022674521354	0
+2254	79837	0.023174521354	3
+2254	79837	0.023174521354	1
+2254	80412	0.023478521354	3
+2254	80412	0.023478521354	0
+2254	82722	0.023970521354	3
+2254	82722	0.023970521354	1
+2254	83666	0.024274521354	3
+2254	83666	0.024274521354	0
+2254	85763	0.024774521354	3
+2254	85763	0.024774521354	1
+2254	86365	0.025078521354	3
+2254	86365	0.025078521354	0
+2254	88152	0.025510521354	3
+2254	88152	0.025510521354	1
+2254	89014	0.025814521354	3
+2254	89014	0.025814521354	0
+2254	91087	0.026314521354	3
+2254	91087	0.026314521354	1
+2254	91623	0.026618521354	3
+2254	91623	0.026618521354	0
+2254	93362	0.027070521354	3
+2254	93362	0.027070521354	1
+2254	94640	0.027374521354	3
+2254	94640	0.027374521354	0
+2254	96473	0.027874521354	3
+2254	96473	0.027874521354	1
+2254	97521	0.028178521354	3
+2254	97521	0.028178521354	0
+2254	98953	0.028610521354	3
+2254	98953	0.028610521354	1
+2254	100075	0.028914521354	3
+2254	100075	0.028914521354	0
+2254	102075	0.029414521354	3
+2254	102075	0.029414521354	1
+2254	103391	0.029718521354	3
+2254	103391	0.029718521354	0
+2254	104821	0.030190521354	3
+2254	104821	0.030190521354	1
+2254	106522	0.030494521354	3
+2254	106522	0.030494521354	0
+2254	108847	0.030994521354	3
+2254	108847	0.030994521354	1
+2254	109923	0.031298521354	3
+2254	109923	0.031298521354	0
+2254	111552	0.031790521354	3
+2254	111552	0.031790521354	1
+2254	112415	0.032094521354	3
+2254	112415	0.032094521354	0
+2254	113773	0.032594521354	3
+2254	113773	0.032594521354	1
+2254	114731	0.032898521354	3
+2254	114731	0.032898521354	0
+2254	117485	0.033850521354	3
+2254	117485	0.033850521354	1
+2254	117790	0.034154521354	3
+2254	117790	0.034154521354	0
+2254	120363	0.034654521354	3
+2254	120363	0.034654521354	1
+2254	121095	0.034958521354	3
+2254	121095	0.034958521354	0
+2254	184690	0.053375767827	3
+2254	184690	0.053375767827	1
+2254	185988	0.053679767827	3
+2254	185988	0.053679767827	0
+2254	189522	0.054895767827	3
+2254	189522	0.054895767827	1
+2254	190941	0.055199767827	3
+2254	190941	0.055199767827	0
+2254	192481	0.055699767827	3
+2254	192481	0.055699767827	1
+2254	193410	0.056003767827	3
+2254	193410	0.056003767827	0
+2254	261983	0.077283768827	3
+2254	261983	0.077283768827	1
+2254	262934	0.077587768827	3
+2254	262934	0.077587768827	0
+2254	264003	0.078087768827	3
+2254	264003	0.078087768827	1
+2254	264948	0.078391768827	3
+2254	264948	0.078391768827	0
+2254	266269	0.078943768827	3
+2254	266269	0.078943768827	1
+2254	266729	0.079247768827	3
+2254	266729	0.079247768827	0
+2254	268263	0.079747768827	3
+2254	268263	0.079747768827	1
+2254	269506	0.080051768827	3
+2254	269506	0.080051768827	0
+2254	270490	0.080563768827	3
+2254	270490	0.080563768827	1
+2254	271276	0.080867768827	3
+2254	271276	0.080867768827	0
+2254	273150	0.081367768827	3
+2254	273150	0.081367768827	1
+2254	273882	0.081671768827	3
+2254	273882	0.081671768827	0
+2255	0	0	1
+2256	0	0	0
+2256	1547	0.000584	3
+2256	1547	0.000584	1
+2256	2722	0.001064	3
+2256	2722	0.001064	0
+2256	3660	0.001726995432	3
+2256	3660	0.001726995432	1
+2256	4109	0.002030995432	3
+2256	4109	0.002030995432	0
+2256	5129	0.002530995432	3
+2256	5129	0.002530995432	1
+2256	6087	0.002834995432	3
+2256	6087	0.002834995432	0
+2256	7898	0.003486995432	3
+2256	7898	0.003486995432	1
+2256	8937	0.003790995432	3
+2256	8937	0.003790995432	0
+2256	20888	0.007306057374	3
+2256	20888	0.007306057374	1
+2256	21351	0.007610057374	3
+2256	21351	0.007610057374	0
+2256	23390	0.008110057374	3
+2256	23390	0.008110057374	1
+2256	24037	0.008414057374	3
+2256	24037	0.008414057374	0
+2256	33437	0.01067382811	3
+2256	33437	0.01067382811	1
+2256	34288	0.01097782811	3
+2256	34288	0.01097782811	0
+2256	54346	0.015683855641	3
+2256	54346	0.015683855641	1
+2256	55080	0.015987855641	3
+2256	55080	0.015987855641	0
+2256	57307	0.016487855641	3
+2256	57307	0.016487855641	1
+2256	58306	0.016791855641	3
+2256	58306	0.016791855641	0
+2256	60413	0.017243855641	3
+2256	60413	0.017243855641	1
+2256	61516	0.017547855641	3
+2256	61516	0.017547855641	0
+2256	63308	0.018047855641	3
+2256	63308	0.018047855641	1
+2256	63869	0.018351855641	3
+2256	63869	0.018351855641	0
+2256	120903	0.034958157756	3
+2256	120903	0.034958157756	1
+2256	122015	0.035262157756	3
+2256	122015	0.035262157756	0
+2256	123753	0.035762157756	3
+2256	123753	0.035762157756	1
+2256	124569	0.036066157756	3
+2256	124569	0.036066157756	0
+2256	163145	0.047201510831	3
+2256	163145	0.047201510831	1
+2256	164134	0.047505510831	3
+2256	164134	0.047505510831	0
+2256	176844	0.051077510831	3
+2256	176844	0.051077510831	1
+2256	177459	0.051381510831	3
+2256	177459	0.051381510831	0
+2256	182197	0.052597510831	3
+2256	182197	0.052597510831	1
+2256	183042	0.052901510831	3
+2256	183042	0.052901510831	0
+2256	194107	0.056237510831	3
+2256	194107	0.056237510831	1
+2256	194933	0.056541510831	3
+2256	194933	0.056541510831	0
+2256	235749	0.069333511831	3
+2256	235749	0.069333511831	1
+2256	236795	0.069637511831	3
+2256	236795	0.069637511831	0
+2256	238182	0.070137511831	3
+2256	238182	0.070137511831	1
+2256	239261	0.070441511831	3
+2256	239261	0.070441511831	0
+2256	240677	0.070873511831	3
+2256	240677	0.070873511831	1
+2256	241635	0.071177511831	3
+2256	241635	0.071177511831	0
+2256	242938	0.071677511831	3
+2256	242938	0.071677511831	1
+2256	243944	0.071981511831	3
+2256	243944	0.071981511831	0
+2256	246008	0.072453511831	3
+2256	246008	0.072453511831	1
+2256	246677	0.072757511831	3
+2256	246677	0.072757511831	0
+2256	248352	0.073257511831	3
+2256	248352	0.073257511831	1
+2256	248948	0.073561511831	3
+2256	248948	0.073561511831	0
+2256	251093	0.073993511831	3
+2256	251093	0.073993511831	1
+2256	251944	0.074297511831	3
+2256	251944	0.074297511831	0
+2256	253585	0.074797511831	3
+2256	253585	0.074797511831	1
+2256	254193	0.075101511831	3
+2256	254193	0.075101511831	0
+2256	265943	0.078813511831	3
+2256	265943	0.078813511831	1
+2256	266356	0.079117511831	3
+2256	266356	0.079117511831	0
+2256	267529	0.079617511831	3
+2256	267529	0.079617511831	1
+2256	268603	0.079921511831	3
+2256	268603	0.079921511831	0
+2256	269951	0.080393511831	3
+2256	269951	0.080393511831	1
+2256	270577	0.080697511831	3
+2256	270577	0.080697511831	0
+2256	272312	0.081197511831	3
+2256	272312	0.081197511831	1
+2256	273473	0.081501511831	3
+2256	273473	0.081501511831	0
+2256	301599	0.092341514831	3
+2256	301599	0.092341514831	1
+2256	302588	0.092645514831	3
+2256	302588	0.092645514831	0
+2256	303837	0.093145514831	3
+2256	303837	0.093145514831	1
+2256	304579	0.093449514831	3
+2256	304579	0.093449514831	0
+2256	306244	0.093881514831	3
+2256	306244	0.093881514831	1
+2256	306913	0.094185514831	3
+2256	306913	0.094185514831	0
+2256	308490	0.094685514831	3
+2256	308490	0.094685514831	1
+2256	309122	0.094989514831	3
+2256	309122	0.094989514831	0
+2256	310386	0.095441514831	3
+2256	310386	0.095441514831	1
+2256	311044	0.095745514831	3
+2256	311044	0.095745514831	0
+2256	312795	0.096245514831	3
+2256	312795	0.096245514831	1
+2256	313491	0.096549514831	3
+2256	313491	0.096549514831	0
+2256	314662	0.097181514831	3
+2256	314662	0.097181514831	1
+2256	315298	0.097485514831	3
+2256	315298	0.097485514831	0
+2256	317264	0.097985514831	3
+2256	317264	0.097985514831	1
+2256	317484	0.098289514831	3
+2256	317484	0.098289514831	0
+2256	319949	0.098881514831	3
+2256	319949	0.098881514831	1
+2256	320691	0.099185514831	3
+2256	320691	0.099185514831	0
+2256	321796	0.099685514831	3
+2256	321796	0.099685514831	1
+2256	322610	0.099989514831	3
+2256	322610	0.099989514831	0
+2256	324210	0.100441514831	3
+2256	324210	0.100441514831	1
+2256	324741	0.100745514831	3
+2256	324741	0.100745514831	0
+2256	326487	0.101245514831	3
+2256	326487	0.101245514831	1
+2256	327355	0.101549514831	3
+2256	327355	0.101549514831	0
+2256	328508	0.102041514831	3
+2256	328508	0.102041514831	1
+2256	329336	0.102345514831	3
+2256	329336	0.102345514831	0
+2256	331178	0.102845514831	3
+2256	331178	0.102845514831	1
+2256	331648	0.103149514831	3
+2256	331648	0.103149514831	0
+2256	346256	0.109641514831	3
+2256	346256	0.109641514831	1
+2256	347007	0.109945514831	3
+2256	347007	0.109945514831	0
+2256	347891	0.110445514831	3
+2256	347891	0.110445514831	1
+2256	348380	0.110749514831	3
+2256	348380	0.110749514831	0
+2256	352103	0.111841514831	3
+2256	352103	0.111841514831	1
+2256	352689	0.112145514831	3
+2256	352689	0.112145514831	0
+2256	353663	0.112645514831	3
+2256	353663	0.112645514831	1
+2256	354442	0.112949514831	3
+2256	354442	0.112949514831	0
+2256	356146	0.113561514831	3
+2256	356146	0.113561514831	1
+2256	356725	0.113865514831	3
+2256	356725	0.113865514831	0
+2256	358252	0.114365514831	3
+2256	358252	0.114365514831	1
+2256	358890	0.114669514831	3
+2256	358890	0.114669514831	0
+2256	359955	0.115161514831	3
+2256	359955	0.115161514831	1
+2256	360535	0.115465514831	3
+2256	360535	0.115465514831	0
+2256	361501	0.115965514831	3
+2256	361501	0.115965514831	1
+2256	362121	0.116269514831	3
+2256	362121	0.116269514831	0
+2256	363229	0.116721514831	3
+2256	363229	0.116721514831	1
+2256	363812	0.117025514831	3
+2256	363812	0.117025514831	0
+2256	364804	0.117525514831	3
+2256	364804	0.117525514831	1
+2256	365442	0.117829514831	3
+2256	365442	0.117829514831	0
+2256	366893	0.118541514831	3
+2256	366893	0.118541514831	1
+2256	367460	0.118845514831	3
+2256	367460	0.118845514831	0
+2256	368419	0.119345514831	3
+2256	368419	0.119345514831	1
+2256	368935	0.119649514831	3
+2256	368935	0.119649514831	0
+2256	370132	0.120161514831	3
+2256	370132	0.120161514831	1
+2256	370684	0.120465514831	3
+2256	370684	0.120465514831	0
+2256	371683	0.120965514831	3
+2256	371683	0.120965514831	1
+2256	372190	0.121269514831	3
+2256	372190	0.121269514831	0
+2256	373337	0.121841514831	3
+2256	373337	0.121841514831	1
+2256	373905	0.122145514831	3
+2256	373905	0.122145514831	0
+2256	374846	0.122645514831	3
+2256	374846	0.122645514831	1
+2256	375354	0.122949514831	3
+2256	375354	0.122949514831	0
+2256	376499	0.123501514831	3
+2256	376499	0.123501514831	1
+2256	377055	0.123805514831	3
+2256	377055	0.123805514831	0
+2256	378010	0.124305514831	3
+2256	378010	0.124305514831	1
+2256	378525	0.124609514831	3
+2256	378525	0.124609514831	0
+2256	380334	0.126241514831	3
+2256	380334	0.126241514831	1
+2256	380739	0.126545514831	3
+2256	380739	0.126545514831	0
+2256	381569	0.127045514831	3
+2256	381569	0.127045514831	1
+2256	381796	0.127349514831	3
+2256	381796	0.127349514831	0
+2256	382379	0.127961514831	3
+2256	382379	0.127961514831	1
+2256	382543	0.128265514831	3
+2256	382543	0.128265514831	0
+2256	383231	0.128765514831	3
+2256	383231	0.128765514831	1
+2256	383841	0.129069514831	3
+2256	383841	0.129069514831	0
+2256	387156	0.131821514831	3
+2256	387156	0.131821514831	1
+2256	387505	0.132125514831	3
+2256	387505	0.132125514831	0
+2256	388443	0.132625514831	3
+2256	388443	0.132625514831	1
+2256	389068	0.132929514831	3
+2256	389068	0.132929514831	0
+2256	390548	0.133881514831	3
+2256	390548	0.133881514831	1
+2256	390927	0.134185514831	3
+2256	390927	0.134185514831	0
+2256	391534	0.134685514831	3
+2256	391534	0.134685514831	1
+2256	391763	0.134989514831	3
+2256	391763	0.134989514831	0
+2256	392620	0.135701514831	3
+2256	392620	0.135701514831	1
+2256	392782	0.136005514831	3
+2256	392782	0.136005514831	0
+2256	393629	0.136505514831	3
+2256	393629	0.136505514831	1
+2256	393855	0.136809514831	3
+2256	393855	0.136809514831	0
+2257	0	0	1
+2258	0	0	0
+2258	7013	0.003110887232	3
+2258	7013	0.003110887232	1
+2258	8300	0.003590887232	3
+2258	8300	0.003590887232	0
+2258	9898	0.004009802735	3
+2258	9898	0.004009802735	1
+2258	10796	0.004313802735	3
+2258	10796	0.004313802735	0
+2258	12285	0.004813802735	3
+2258	12285	0.004813802735	1
+2258	13345	0.005117802735	3
+2258	13345	0.005117802735	0
+2258	14768	0.005529802735	3
+2258	14768	0.005529802735	1
+2258	15730	0.005833802735	3
+2258	15730	0.005833802735	0
+2258	84113	0.024306620094	3
+2258	84113	0.024306620094	1
+2258	84875	0.024610620094	3
+2258	84875	0.024610620094	0
+2258	89460	0.025826620094	3
+2258	89460	0.025826620094	1
+2258	90327	0.026130620094	3
+2258	90327	0.026130620094	0
+2258	91974	0.026630620094	3
+2258	91974	0.026630620094	1
+2258	92788	0.026934620094	3
+2258	92788	0.026934620094	0
+2258	94454	0.027366620094	3
+2258	94454	0.027366620094	1
+2258	95524	0.027670620094	3
+2258	95524	0.027670620094	0
+2258	97300	0.028170620094	3
+2258	97300	0.028170620094	1
+2258	98321	0.028474620094	3
+2258	98321	0.028474620094	0
+2258	101601	0.029266620094	3
+2258	101601	0.029266620094	1
+2258	102438	0.029570620094	3
+2258	102438	0.029570620094	0
+2258	104466	0.030070620094	3
+2258	104466	0.030070620094	1
+2258	105867	0.030374620094	3
+2258	105867	0.030374620094	0
+2258	147033	0.042398621094	3
+2258	147033	0.042398621094	1
+2258	148216	0.042702621094	3
+2258	148216	0.042702621094	0
+2258	171335	0.049450624094	3
+2258	171335	0.049450624094	1
+2258	172405	0.049754624094	3
+2258	172405	0.049754624094	0
+2258	196299	0.056926625094	3
+2258	196299	0.056926625094	1
+2258	197096	0.057230625094	3
+2258	197096	0.057230625094	0
+2258	199320	0.057730625094	3
+2258	199320	0.057730625094	1
+2258	200258	0.058034625094	3
+2258	200258	0.058034625094	0
+2258	210216	0.060906625094	3
+2258	210216	0.060906625094	1
+2258	210833	0.061210625094	3
+2258	210833	0.061210625094	0
+2258	217686	0.062886625094	3
+2258	217686	0.062886625094	1
+2258	218109	0.063190625094	3
+2258	218109	0.063190625094	0
+2258	220306	0.063690625094	3
+2258	220306	0.063690625094	1
+2258	220880	0.063994625094	3
+2258	220880	0.063994625094	0
+2258	222750	0.064466625094	3
+2258	222750	0.064466625094	1
+2258	223291	0.064770625094	3
+2258	223291	0.064770625094	0
+2258	225015	0.065270625094	3
+2258	225015	0.065270625094	1
+2258	225391	0.065574625094	3
+2258	225391	0.065574625094	0
+2258	241052	0.070906625094	3
+2258	241052	0.070906625094	1
+2258	241972	0.071210625094	3
+2258	241972	0.071210625094	0
+2258	243309	0.071710625094	3
+2258	243309	0.071710625094	1
+2258	244240	0.072014625094	3
+2258	244240	0.072014625094	0
+2258	247237	0.072806625094	3
+2258	247237	0.072806625094	1
+2258	247768	0.073110625094	3
+2258	247768	0.073110625094	0
+2258	249387	0.073610625094	3
+2258	249387	0.073610625094	1
+2258	250461	0.073914625094	3
+2258	250461	0.073914625094	0
+2258	271908	0.081062626094	3
+2258	271908	0.081062626094	1
+2258	272928	0.081366626094	3
+2258	272928	0.081366626094	0
+2258	274423	0.081866626094	3
+2258	274423	0.081866626094	1
+2258	275108	0.082170626094	3
+2258	275108	0.082170626094	0
+2258	276628	0.082622626094	3
+2258	276628	0.082622626094	1
+2258	277022	0.082926626094	3
+2258	277022	0.082926626094	0
+2258	277946	0.083426626094	3
+2258	277946	0.083426626094	1
+2258	278652	0.083730626094	3
+2258	278652	0.083730626094	0
+2258	279957	0.084182626094	3
+2258	279957	0.084182626094	1
+2258	280314	0.084486626094	3
+2258	280314	0.084486626094	0
+2258	281692	0.084986626094	3
+2258	281692	0.084986626094	1
+2258	282328	0.085290626094	3
+2258	282328	0.085290626094	0
+2258	283708	0.085742626094	3
+2258	283708	0.085742626094	1
+2258	284612	0.086046626094	3
+2258	284612	0.086046626094	0
+2258	286385	0.086546626094	3
+2258	286385	0.086546626094	1
+2258	287506	0.086850626094	3
+2258	287506	0.086850626094	0
+2258	288940	0.087282626094	3
+2258	288940	0.087282626094	1
+2258	289624	0.087586626094	3
+2258	289624	0.087586626094	0
+2258	291036	0.088086626094	3
+2258	291036	0.088086626094	1
+2258	292147	0.088390626094	3
+2258	292147	0.088390626094	0
+2258	293464	0.088842626094	3
+2258	293464	0.088842626094	1
+2258	294077	0.089146626094	3
+2258	294077	0.089146626094	0
+2258	295483	0.089646626094	3
+2258	295483	0.089646626094	1
+2258	296164	0.089950626094	3
+2258	296164	0.089950626094	0
+2258	299090	0.091238626094	3
+2258	299090	0.091238626094	1
+2258	299721	0.091542626094	3
+2258	299721	0.091542626094	0
+2258	300836	0.092042626094	3
+2258	300836	0.092042626094	1
+2258	301816	0.092346626094	3
+2258	301816	0.092346626094	0
+2258	303438	0.092918626094	3
+2258	303438	0.092918626094	1
+2258	304131	0.093222626094	3
+2258	304131	0.093222626094	0
+2258	305526	0.093722626094	3
+2258	305526	0.093722626094	1
+2258	306471	0.094026626094	3
+2258	306471	0.094026626094	0
+2258	307830	0.094518626094	3
+2258	307830	0.094518626094	1
+2258	308654	0.094822626094	3
+2258	308654	0.094822626094	0
+2258	322831	0.099998626094	3
+2258	322831	0.099998626094	1
+2258	323636	0.100302626094	3
+2258	323636	0.100302626094	0
+2258	325296	0.100802626094	3
+2258	325296	0.100802626094	1
+2258	325898	0.101106626094	3
+2258	325898	0.101106626094	0
+2258	352503	0.112014626094	3
+2258	352503	0.112014626094	1
+2258	353020	0.112318626094	3
+2258	353020	0.112318626094	0
+2258	354198	0.112818626094	3
+2258	354198	0.112818626094	1
+2258	355063	0.113122626094	3
+2258	355063	0.113122626094	0
+2258	356540	0.113694626094	3
+2258	356540	0.113694626094	1
+2258	357404	0.113998626094	3
+2258	357404	0.113998626094	0
+2258	358644	0.114498626094	3
+2258	358644	0.114498626094	1
+2258	359325	0.114802626094	3
+2258	359325	0.114802626094	0
+2258	360344	0.115234626094	3
+2258	360344	0.115234626094	1
+2258	360894	0.115538626094	3
+2258	360894	0.115538626094	0
+2258	361890	0.116038626094	3
+2258	361890	0.116038626094	1
+2258	362399	0.116342626094	3
+2258	362399	0.116342626094	0
+2258	363628	0.116914626094	3
+2258	363628	0.116914626094	1
+2258	364181	0.117218626094	3
+2258	364181	0.117218626094	0
+2258	365201	0.117718626094	3
+2258	365201	0.117718626094	1
+2258	365698	0.118022626094	3
+2258	365698	0.118022626094	0
+2258	366510	0.118514626094	3
+2258	366510	0.118514626094	1
+2258	367056	0.118818626094	3
+2258	367056	0.118818626094	0
+2258	368039	0.119318626094	3
+2258	368039	0.119318626094	1
+2258	368645	0.119622626094	3
+2258	368645	0.119622626094	0
+2258	369723	0.120094626094	3
+2258	369723	0.120094626094	1
+2258	370295	0.120398626094	3
+2258	370295	0.120398626094	0
+2258	371276	0.120898626094	3
+2258	371276	0.120898626094	1
+2258	371905	0.121202626094	3
+2258	371905	0.121202626094	0
+2258	372966	0.121794626094	3
+2258	372966	0.121794626094	1
+2258	373504	0.122098626094	3
+2258	373504	0.122098626094	0
+2258	374474	0.122598626094	3
+2258	374474	0.122598626094	1
+2258	375062	0.122902626094	3
+2258	375062	0.122902626094	0
+2258	376113	0.123414626094	3
+2258	376113	0.123414626094	1
+2258	376664	0.123718626094	3
+2258	376664	0.123718626094	0
+2258	377624	0.124218626094	3
+2258	377624	0.124218626094	1
+2258	378232	0.124522626094	3
+2258	378232	0.124522626094	0
+2258	379128	0.125214626094	3
+2258	379128	0.125214626094	1
+2258	379313	0.125518626094	3
+2258	379313	0.125518626094	0
+2258	383600	0.128814627094	3
+2258	383600	0.128814627094	1
+2258	384043	0.129118627094	3
+2258	384043	0.129118627094	0
+2258	384634	0.129618627094	3
+2258	384634	0.129618627094	1
+2258	384884	0.129922627094	3
+2258	384884	0.129922627094	0
+2258	385531	0.130514627094	3
+2258	385531	0.130514627094	1
+2258	385719	0.130818627094	3
+2258	385719	0.130818627094	0
+2258	386353	0.131318627094	3
+2258	386353	0.131318627094	1
+2258	386739	0.131622627094	3
+2258	386739	0.131622627094	0
+2258	388070	0.132394627094	3
+2258	388070	0.132394627094	1
+2258	388605	0.132698627094	3
+2258	388605	0.132698627094	0
+2258	389501	0.133198627094	3
+2258	389501	0.133198627094	1
+2258	389741	0.133502627094	3
+2258	389741	0.133502627094	0
+2258	394528	0.138030628094	3
+2258	394528	0.138030628094	1
+2258	394712	0.138334628094	3
+2258	394712	0.138334628094	0
+2258	395346	0.138834628094	3
+2258	395346	0.138834628094	1
+2258	395594	0.139138628094	3
+2258	395594	0.139138628094	0
+2258	396194	0.140230628094	3
+2258	396194	0.140230628094	1
+2258	396380	0.140534628094	3
+2258	396380	0.140534628094	0
+2258	396969	0.141034628094	3
+2258	396969	0.141034628094	1
+2258	397217	0.141338628094	3
+2258	397217	0.141338628094	0
+2258	397858	0.141950628094	3
+2258	397858	0.141950628094	1
+2258	398044	0.142254628094	3
+2258	398044	0.142254628094	0
+2258	398680	0.142754628094	3
+2258	398680	0.142754628094	1
+2258	398928	0.143058628094	3
+2258	398928	0.143058628094	0
+2258	399544	0.145330628094	3
+2258	399544	0.145330628094	1
+2258	399728	0.145634628094	3
+2258	399728	0.145634628094	0
+2258	400335	0.146134628094	3
+2258	400335	0.146134628094	1
+2258	400576	0.146438628094	3
+2258	400576	0.146438628094	0
+2259	0	0	1
+2260	0	0	0
+2260	115489	0.033168521354	3
+2260	115489	0.033168521354	1
+2260	116357	0.033648521354	3
+2260	116357	0.033648521354	0
+2260	118327	0.034179766827	3
+2260	118327	0.034179766827	1
+2260	119020	0.034483766827	3
+2260	119020	0.034483766827	0
+2260	121432	0.034983766827	3
+2260	121432	0.034983766827	1
+2260	122395	0.035287766827	3
+2260	122395	0.035287766827	0
+2260	123590	0.035759766827	3
+2260	123590	0.035759766827	1
+2260	124294	0.036063766827	3
+2260	124294	0.036063766827	0
+2260	126701	0.036563766827	3
+2260	126701	0.036563766827	1
+2260	127421	0.036867766827	3
+2260	127421	0.036867766827	0
+2260	129440	0.037679766827	3
+2260	129440	0.037679766827	1
+2260	130142	0.037983766827	3
+2260	130142	0.037983766827	0
+2260	131419	0.038483766827	3
+2260	131419	0.038483766827	1
+2260	132484	0.038787766827	3
+2260	132484	0.038787766827	0
+2260	134042	0.039219766827	3
+2260	134042	0.039219766827	1
+2260	134924	0.039523766827	3
+2260	134924	0.039523766827	0
+2260	136658	0.040023766827	3
+2260	136658	0.040023766827	1
+2260	137690	0.040327766827	3
+2260	137690	0.040327766827	0
+2260	141805	0.041099766827	3
+2260	141805	0.041099766827	1
+2260	142324	0.041403766827	3
+2260	142324	0.041403766827	0
+2260	145040	0.041903766827	3
+2260	145040	0.041903766827	1
+2260	146272	0.042207766827	3
+2260	146272	0.042207766827	0
+2260	148050	0.042659766827	3
+2260	148050	0.042659766827	1
+2260	148916	0.042963766827	3
+2260	148916	0.042963766827	0
+2260	150427	0.043463766827	3
+2260	150427	0.043463766827	1
+2260	151605	0.043767766827	3
+2260	151605	0.043767766827	0
+2260	152727	0.044179766827	3
+2260	152727	0.044179766827	1
+2260	153689	0.044483766827	3
+2260	153689	0.044483766827	0
+2260	155457	0.044983766827	3
+2260	155457	0.044983766827	1
+2260	156794	0.045287766827	3
+2260	156794	0.045287766827	0
+2260	159448	0.046079766827	3
+2260	159448	0.046079766827	1
+2260	160449	0.046383766827	3
+2260	160449	0.046383766827	0
+2260	167580	0.048435767827	3
+2260	167580	0.048435767827	1
+2260	168794	0.048739767827	3
+2260	168794	0.048739767827	0
+2260	170628	0.049239767827	3
+2260	170628	0.049239767827	1
+2260	171854	0.049543767827	3
+2260	171854	0.049543767827	0
+2260	173519	0.049975767827	3
+2260	173519	0.049975767827	1
+2260	174081	0.050279767827	3
+2260	174081	0.050279767827	0
+2260	175865	0.050779767827	3
+2260	175865	0.050779767827	1
+2260	177091	0.051083767827	3
+2260	177091	0.051083767827	0
+2260	187051	0.054031768827	3
+2260	187051	0.054031768827	1
+2260	187898	0.054335768827	3
+2260	187898	0.054335768827	0
+2260	194705	0.056367768827	3
+2260	194705	0.056367768827	1
+2260	195655	0.056671768827	3
+2260	195655	0.056671768827	0
+2260	196934	0.057171768827	3
+2260	196934	0.057171768827	1
+2260	198264	0.057475768827	3
+2260	198264	0.057475768827	0
+2260	199920	0.057907768827	3
+2260	199920	0.057907768827	1
+2260	201163	0.058211768827	3
+2260	201163	0.058211768827	0
+2260	208511	0.060163768827	3
+2260	208511	0.060163768827	1
+2260	208840	0.060467768827	3
+2260	208840	0.060467768827	0
+2260	210623	0.060967768827	3
+2260	210623	0.060967768827	1
+2260	211262	0.061271768827	3
+2260	211262	0.061271768827	0
+2260	212870	0.061703768827	3
+2260	212870	0.061703768827	1
+2260	213467	0.062007768827	3
+2260	213467	0.062007768827	0
+2260	216470	0.062507768827	3
+2260	216470	0.062507768827	1
+2260	217219	0.062811768827	3
+2260	217219	0.062811768827	0
+2260	218946	0.063263768827	3
+2260	218946	0.063263768827	1
+2260	219309	0.063567768827	3
+2260	219309	0.063567768827	0
+2260	221540	0.064067768827	3
+2260	221540	0.064067768827	1
+2260	222296	0.064371768827	3
+2260	222296	0.064371768827	0
+2260	224097	0.064883768827	3
+2260	224097	0.064883768827	1
+2260	224437	0.065187768827	3
+2260	224437	0.065187768827	0
+2260	226242	0.065687768827	3
+2260	226242	0.065687768827	1
+2260	227118	0.065991768827	3
+2260	227118	0.065991768827	0
+2260	228586	0.066423768827	3
+2260	228586	0.066423768827	1
+2260	228899	0.066727768827	3
+2260	228899	0.066727768827	0
+2260	236503	0.069503768827	3
+2260	236503	0.069503768827	1
+2260	237388	0.069807768827	3
+2260	237388	0.069807768827	0
+2260	239030	0.070307768827	3
+2260	239030	0.070307768827	1
+2260	240070	0.070611768827	3
+2260	240070	0.070611768827	0
+2260	241470	0.071063768827	3
+2260	241470	0.071063768827	1
+2260	242354	0.071367768827	3
+2260	242354	0.071367768827	0
+2260	243721	0.071867768827	3
+2260	243721	0.071867768827	1
+2260	244912	0.072171768827	3
+2260	244912	0.072171768827	0
+2260	246511	0.072603768827	3
+2260	246511	0.072603768827	1
+2260	247421	0.072907768827	3
+2260	247421	0.072907768827	0
+2260	248710	0.073407768827	3
+2260	248710	0.073407768827	1
+2260	249998	0.073711768827	3
+2260	249998	0.073711768827	0
+2260	251611	0.074183768827	3
+2260	251611	0.074183768827	1
+2260	252562	0.074487768827	3
+2260	252562	0.074487768827	0
+2260	253967	0.074987768827	3
+2260	253967	0.074987768827	1
+2260	254881	0.075291768827	3
+2260	254881	0.075291768827	0
+2260	256579	0.075763768827	3
+2260	256579	0.075763768827	1
+2260	257501	0.076067768827	3
+2260	257501	0.076067768827	0
+2260	259195	0.076567768827	3
+2260	259195	0.076567768827	1
+2260	260259	0.076871768827	3
+2260	260259	0.076871768827	0
+2260	283181	0.085615769827	3
+2260	283181	0.085615769827	1
+2260	283993	0.085919769827	3
+2260	283993	0.085919769827	0
+2260	285727	0.086419769827	3
+2260	285727	0.086419769827	1
+2260	286625	0.086723769827	3
+2260	286625	0.086723769827	0
+2260	288290	0.087155769827	3
+2260	288290	0.087155769827	1
+2260	289134	0.087459769827	3
+2260	289134	0.087459769827	0
+2260	290337	0.087959769827	3
+2260	290337	0.087959769827	1
+2260	291277	0.088263769827	3
+2260	291277	0.088263769827	0
+2260	293068	0.088695769827	3
+2260	293068	0.088695769827	1
+2260	293656	0.088999769827	3
+2260	293656	0.088999769827	0
+2260	294895	0.089499769827	3
+2260	294895	0.089499769827	1
+2260	295730	0.089803769827	3
+2260	295730	0.089803769827	0
+2260	296989	0.090255769827	3
+2260	296989	0.090255769827	1
+2260	297590	0.090559769827	3
+2260	297590	0.090559769827	0
+2260	298705	0.091059769827	3
+2260	298705	0.091059769827	1
+2260	299330	0.091363769827	3
+2260	299330	0.091363769827	0
+2260	300295	0.091795769827	3
+2260	300295	0.091795769827	1
+2260	301067	0.092099769827	3
+2260	301067	0.092099769827	0
+2260	302424	0.092599769827	3
+2260	302424	0.092599769827	1
+2260	303008	0.092903769827	3
+2260	303008	0.092903769827	0
+2260	305143	0.093535769827	3
+2260	305143	0.093535769827	1
+2260	305712	0.093839769827	3
+2260	305712	0.093839769827	0
+2260	307440	0.094339769827	3
+2260	307440	0.094339769827	1
+2260	308070	0.094643769827	3
+2260	308070	0.094643769827	0
+2260	311581	0.095935769827	3
+2260	311581	0.095935769827	1
+2260	312596	0.096239769827	3
+2260	312596	0.096239769827	0
+2260	313877	0.096739769827	3
+2260	313877	0.096739769827	1
+2260	314240	0.097043769827	3
+2260	314240	0.097043769827	0
+2260	316170	0.097555769827	3
+2260	316170	0.097555769827	1
+2260	316469	0.097859769827	3
+2260	316469	0.097859769827	0
+2260	318106	0.098359769827	3
+2260	318106	0.098359769827	1
+2260	318801	0.098663769827	3
+2260	318801	0.098663769827	0
+2260	320322	0.099095769827	3
+2260	320322	0.099095769827	1
+2260	321054	0.099399769827	3
+2260	321054	0.099399769827	0
+2260	322169	0.099899769827	3
+2260	322169	0.099899769827	1
+2260	323241	0.100203769827	3
+2260	323241	0.100203769827	0
+2260	324575	0.100655769827	3
+2260	324575	0.100655769827	1
+2260	325480	0.100959769827	3
+2260	325480	0.100959769827	0
+2260	326851	0.101459769827	3
+2260	326851	0.101459769827	1
+2260	327819	0.101763769827	3
+2260	327819	0.101763769827	0
+2260	330116	0.102415769827	3
+2260	330116	0.102415769827	1
+2260	330462	0.102719769827	3
+2260	330462	0.102719769827	0
+2260	332242	0.103219769827	3
+2260	332242	0.103219769827	1
+2260	332717	0.103523769827	3
+2260	332717	0.103523769827	0
+2260	334337	0.104255769827	3
+2260	334337	0.104255769827	1
+2260	334687	0.104559769827	3
+2260	334687	0.104559769827	0
+2260	335954	0.105059769827	3
+2260	335954	0.105059769827	1
+2260	336827	0.105363769827	3
+2260	336827	0.105363769827	0
+2260	338008	0.105815769827	3
+2260	338008	0.105815769827	1
+2260	338855	0.106119769827	3
+2260	338855	0.106119769827	0
+2260	340204	0.106619769827	3
+2260	340204	0.106619769827	1
+2260	340719	0.106923769827	3
+2260	340719	0.106923769827	0
+2260	342240	0.107715769827	3
+2260	342240	0.107715769827	1
+2260	342923	0.108019769827	3
+2260	342923	0.108019769827	0
+2260	344247	0.108519769827	3
+2260	344247	0.108519769827	1
+2260	344629	0.108823769827	3
+2260	344629	0.108823769827	0
+2260	345930	0.109535769827	3
+2260	345930	0.109535769827	1
+2260	346625	0.109839769827	3
+2260	346625	0.109839769827	0
+2260	347564	0.110339769827	3
+2260	347564	0.110339769827	1
+2260	348118	0.110643769827	3
+2260	348118	0.110643769827	0
+2260	354843	0.113075769827	3
+2260	354843	0.113075769827	1
+2260	355631	0.113379769827	3
+2260	355631	0.113379769827	0
+2260	357242	0.113879769827	3
+2260	357242	0.113879769827	1
+2260	357869	0.114183769827	3
+2260	357869	0.114183769827	0
+2261	0	0	1
+2262	0	0	0
+2262	6314	0.002884995432	3
+2262	6314	0.002884995432	1
+2262	7365	0.003364995432	3
+2262	7365	0.003364995432	0
+2262	10325	0.004206057374	3
+2262	10325	0.004206057374	1
+2262	11327	0.004510057374	3
+2262	11327	0.004510057374	0
+2262	12986	0.005010057374	3
+2262	12986	0.005010057374	1
+2262	13925	0.005314057374	3
+2262	13925	0.005314057374	0
+2262	15643	0.005786057374	3
+2262	15643	0.005786057374	1
+2262	16752	0.006090057374	3
+2262	16752	0.006090057374	0
+2262	28721	0.009357507831	3
+2262	28721	0.009357507831	1
+2262	29812	0.009661507831	3
+2262	29812	0.009661507831	0
+2262	31688	0.010161507831	3
+2262	31688	0.010161507831	1
+2262	32695	0.010465507831	3
+2262	32695	0.010465507831	0
+2262	35609	0.011417507831	3
+2262	35609	0.011417507831	1
+2262	37629	0.011721507831	3
+2262	37629	0.011721507831	0
+2262	40596	0.012221507831	3
+2262	40596	0.012221507831	1
+2262	41436	0.012525507831	3
+2262	41436	0.012525507831	0
+2262	43010	0.012937507831	3
+2262	43010	0.012937507831	1
+2262	44217	0.013241507831	3
+2262	44217	0.013241507831	0
+2262	46296	0.013741507831	3
+2262	46296	0.013741507831	1
+2262	47175	0.014045507831	3
+2262	47175	0.014045507831	0
+2262	48728	0.014457507831	3
+2262	48728	0.014457507831	1
+2262	49854	0.014761507831	3
+2262	49854	0.014761507831	0
+2262	51905	0.015261507831	3
+2262	51905	0.015261507831	1
+2262	52967	0.015565507831	3
+2262	52967	0.015565507831	0
+2262	55729	0.016017507831	3
+2262	55729	0.016017507831	1
+2262	56687	0.016321507831	3
+2262	56687	0.016321507831	0
+2262	58655	0.016821507831	3
+2262	58655	0.016821507831	1
+2262	59803	0.017125507831	3
+2262	59803	0.017125507831	0
+2262	70406	0.020593508831	3
+2262	70406	0.020593508831	1
+2262	71547	0.020897508831	3
+2262	71547	0.020897508831	0
+2262	73410	0.021397508831	3
+2262	73410	0.021397508831	1
+2262	74631	0.021701508831	3
+2262	74631	0.021701508831	0
+2262	94977	0.027545509831	3
+2262	94977	0.027545509831	1
+2262	96146	0.027849509831	3
+2262	96146	0.027849509831	0
+2262	97924	0.028349509831	3
+2262	97924	0.028349509831	1
+2262	99199	0.028653509831	3
+2262	99199	0.028653509831	0
+2262	100594	0.029105509831	3
+2262	100594	0.029105509831	1
+2262	101966	0.029409509831	3
+2262	101966	0.029409509831	0
+2262	103747	0.029909509831	3
+2262	103747	0.029909509831	1
+2262	104933	0.030213509831	3
+2262	104933	0.030213509831	0
+2262	107355	0.030665509831	3
+2262	107355	0.030665509831	1
+2262	108461	0.030969509831	3
+2262	108461	0.030969509831	0
+2262	110510	0.031469509831	3
+2262	110510	0.031469509831	1
+2262	111302	0.031773509831	3
+2262	111302	0.031773509831	0
+2262	116988	0.033765509831	3
+2262	116988	0.033765509831	1
+2262	117576	0.034069509831	3
+2262	117576	0.034069509831	0
+2262	119699	0.034569509831	3
+2262	119699	0.034569509831	1
+2262	120607	0.034873509831	3
+2262	120607	0.034873509831	0
+2262	134833	0.039441510831	3
+2262	134833	0.039441510831	1
+2262	135859	0.039745510831	3
+2262	135859	0.039745510831	0
+2262	137543	0.040245510831	3
+2262	137543	0.040245510831	1
+2262	138717	0.040549510831	3
+2262	138717	0.040549510831	0
+2262	139985	0.040981510831	3
+2262	139985	0.040981510831	1
+2262	142210	0.041285510831	3
+2262	142210	0.041285510831	0
+2262	147469	0.042501510831	3
+2262	147469	0.042501510831	1
+2262	148444	0.042805510831	3
+2262	148444	0.042805510831	0
+2262	149881	0.043305510831	3
+2262	149881	0.043305510831	1
+2262	150674	0.043609510831	3
+2262	150674	0.043609510831	0
+2262	152472	0.044121510831	3
+2262	152472	0.044121510831	1
+2262	153250	0.044425510831	3
+2262	153250	0.044425510831	0
+2262	155204	0.044925510831	3
+2262	155204	0.044925510831	1
+2262	156624	0.045229510831	3
+2262	156624	0.045229510831	0
+2262	221250	0.064033511831	3
+2262	221250	0.064033511831	1
+2262	221909	0.064337511831	3
+2262	221909	0.064337511831	0
+2262	223810	0.064837511831	3
+2262	223810	0.064837511831	1
+2262	224322	0.065141511831	3
+2262	224322	0.065141511831	0
+2262	225953	0.065633511831	3
+2262	225953	0.065633511831	1
+2262	226659	0.065937511831	3
+2262	226659	0.065937511831	0
+2262	231737	0.067773511831	3
+2262	231737	0.067773511831	1
+2262	232607	0.068077511831	3
+2262	232607	0.068077511831	0
+2262	233877	0.068577511831	3
+2262	233877	0.068577511831	1
+2262	234550	0.068881511831	3
+2262	234550	0.068881511831	0
+2262	257130	0.075953511831	3
+2262	257130	0.075953511831	1
+2262	257987	0.076257511831	3
+2262	257987	0.076257511831	0
+2262	259673	0.076757511831	3
+2262	259673	0.076757511831	1
+2262	261235	0.077061511831	3
+2262	261235	0.077061511831	0
+2262	262847	0.077533511831	3
+2262	262847	0.077533511831	1
+2262	263481	0.077837511831	3
+2262	263481	0.077837511831	0
+2262	264760	0.078337511831	3
+2262	264760	0.078337511831	1
+2262	265638	0.078641511831	3
+2262	265638	0.078641511831	0
+2262	284507	0.085989512831	3
+2262	284507	0.085989512831	1
+2262	285297	0.086293512831	3
+2262	285297	0.086293512831	0
+2262	287218	0.086793512831	3
+2262	287218	0.086793512831	1
+2262	287996	0.087097512831	3
+2262	287996	0.087097512831	0
+2263	0	0	1
+2264	0	0	0
+2264	933	0.000364	3
+2264	933	0.000364	1
+2264	2126	0.000844	3
+2264	2126	0.000844	0
+2264	41697	0.012537951189	3
+2264	41697	0.012537951189	1
+2264	42663	0.012841951189	3
+2264	42663	0.012841951189	0
+2264	44603	0.013341951189	3
+2264	44603	0.013341951189	1
+2264	45865	0.013645951189	3
+2264	45865	0.013645951189	0
+2264	81911	0.023705805735	3
+2264	81911	0.023705805735	1
+2264	83303	0.024009805735	3
+2264	83303	0.024009805735	0
+2264	87273	0.025265805735	3
+2264	87273	0.025265805735	1
+2264	88406	0.025569805735	3
+2264	88406	0.025569805735	0
+2264	128696	0.037398621094	3
+2264	128696	0.037398621094	1
+2264	129608	0.037702621094	3
+2264	129608	0.037702621094	0
+2264	130760	0.038202621094	3
+2264	130760	0.038202621094	1
+2264	131626	0.038506621094	3
+2264	131626	0.038506621094	0
+2264	134626	0.039318621094	3
+2264	134626	0.039318621094	1
+2264	135615	0.039622621094	3
+2264	135615	0.039622621094	0
+2264	137179	0.040122621094	3
+2264	137179	0.040122621094	1
+2264	138108	0.040426621094	3
+2264	138108	0.040426621094	0
+2264	139731	0.040858621094	3
+2264	139731	0.040858621094	1
+2264	141967	0.041162621094	3
+2264	141967	0.041162621094	0
+2264	144399	0.041662621094	3
+2264	144399	0.041662621094	1
+2264	145408	0.041966621094	3
+2264	145408	0.041966621094	0
+2264	151104	0.043658621094	3
+2264	151104	0.043658621094	1
+2264	152009	0.043962621094	3
+2264	152009	0.043962621094	0
+2264	153590	0.044462621094	3
+2264	153590	0.044462621094	1
+2264	154545	0.044766621094	3
+2264	154545	0.044766621094	0
+2264	156484	0.045218621094	3
+2264	156484	0.045218621094	1
+2264	157619	0.045522621094	3
+2264	157619	0.045522621094	0
+2264	158906	0.046022621094	3
+2264	158906	0.046022621094	1
+2264	160067	0.046326621094	3
+2264	160067	0.046326621094	0
+2264	162752	0.047178621094	3
+2264	162752	0.047178621094	1
+2264	163913	0.047482621094	3
+2264	163913	0.047482621094	0
+2264	165843	0.047982621094	3
+2264	165843	0.047982621094	1
+2264	166873	0.048286621094	3
+2264	166873	0.048286621094	0
+2264	169394	0.048798621094	3
+2264	169394	0.048798621094	1
+2264	170190	0.049102621094	3
+2264	170190	0.049102621094	0
+2264	175355	0.050678621094	3
+2264	175355	0.050678621094	1
+2264	176388	0.050982621094	3
+2264	176388	0.050982621094	0
+2264	178419	0.051482621094	3
+2264	178419	0.051482621094	1
+2264	178991	0.051786621094	3
+2264	178991	0.051786621094	0
+2264	181407	0.052318621094	3
+2264	181407	0.052318621094	1
+2264	182652	0.052622621094	3
+2264	182652	0.052622621094	0
+2264	184056	0.053122621094	3
+2264	184056	0.053122621094	1
+2264	185053	0.053426621094	3
+2264	185053	0.053426621094	0
+2264	186764	0.053858621094	3
+2264	186764	0.053858621094	1
+2264	187644	0.054162621094	3
+2264	187644	0.054162621094	0
+2264	188951	0.054662621094	3
+2264	188951	0.054662621094	1
+2264	189952	0.054966621094	3
+2264	189952	0.054966621094	0
+2264	191959	0.055518621094	3
+2264	191959	0.055518621094	1
+2264	192800	0.055822621094	3
+2264	192800	0.055822621094	0
+2264	194447	0.056322621094	3
+2264	194447	0.056322621094	1
+2264	195513	0.056626621094	3
+2264	195513	0.056626621094	0
+2264	197836	0.057338621094	3
+2264	197836	0.057338621094	1
+2264	198862	0.057642621094	3
+2264	198862	0.057642621094	0
+2264	213362	0.061802626094	3
+2264	213362	0.061802626094	1
+2264	214816	0.062106626094	3
+2264	214816	0.062106626094	0
+2264	259096	0.076566625094	3
+2264	259096	0.076566625094	1
+2264	260048	0.076870625094	3
+2264	260048	0.076870625094	0
+2264	262591	0.077370625094	3
+2264	262591	0.077370625094	1
+2264	263220	0.077674625094	3
+2264	263220	0.077674625094	0
+2264	267817	0.079666625094	3
+2264	267817	0.079666625094	1
+2264	268828	0.079970625094	3
+2264	268828	0.079970625094	0
+2264	270247	0.080470625094	3
+2264	270247	0.080470625094	1
+2264	271151	0.080774625094	3
+2264	271151	0.080774625094	0
+2264	312081	0.096038626094	3
+2264	312081	0.096038626094	1
+2264	313075	0.096342626094	3
+2264	313075	0.096342626094	0
+2264	316334	0.097558626094	3
+2264	316334	0.097558626094	1
+2264	316669	0.097862626094	3
+2264	316669	0.097862626094	0
+2264	318268	0.098362626094	3
+2264	318268	0.098362626094	1
+2264	319067	0.098666626094	3
+2264	319067	0.098666626094	0
+2264	327201	0.101518626094	3
+2264	327201	0.101518626094	1
+2264	328028	0.101822626094	3
+2264	328028	0.101822626094	0
+2264	329237	0.102322626094	3
+2264	329237	0.102322626094	1
+2264	330338	0.102626626094	3
+2264	330338	0.102626626094	0
+2264	331485	0.103118626094	3
+2264	331485	0.103118626094	1
+2264	332414	0.103422626094	3
+2264	332414	0.103422626094	0
+2264	333719	0.103922626094	3
+2264	333719	0.103922626094	1
+2264	334044	0.104226626094	3
+2264	334044	0.104226626094	0
+2264	335681	0.104938626094	3
+2264	335681	0.104938626094	1
+2264	336392	0.105242626094	3
+2264	336392	0.105242626094	0
+2264	337647	0.105742626094	3
+2264	337647	0.105742626094	1
+2264	338733	0.106046626094	3
+2264	338733	0.106046626094	0
+2264	341824	0.107478626094	3
+2264	341824	0.107478626094	1
+2264	342404	0.107782626094	3
+2264	342404	0.107782626094	0
+2264	343692	0.108282626094	3
+2264	343692	0.108282626094	1
+2264	344442	0.108586626094	3
+2264	344442	0.108586626094	0
+2265	0	0	1
+2266	0	0	0
+2266	1428	0.000564	3
+2266	1428	0.000564	1
+2266	2572	0.001044	3
+2266	2572	0.001044	0
+2266	5419	0.00261303236	3
+2266	5419	0.00261303236	1
+2266	6403	0.00291703236	3
+2266	6403	0.00291703236	0
+2266	7645	0.00341703236	3
+2266	7645	0.00341703236	1
+2266	8814	0.00372103236	3
+2266	8814	0.00372103236	0
+2266	11436	0.00451303236	3
+2266	11436	0.00451303236	1
+2266	12469	0.00481703236	3
+2266	12469	0.00481703236	0
+2266	14039	0.00531703236	3
+2266	14039	0.00531703236	1
+2266	14994	0.00562103236	3
+2266	14994	0.00562103236	0
+2266	16442	0.006058197078	3
+2266	16442	0.006058197078	1
+2266	17426	0.006362197078	3
+2266	17426	0.006362197078	0
+2266	18759	0.006862197078	3
+2266	18759	0.006862197078	1
+2266	19831	0.007166197078	3
+2266	19831	0.007166197078	0
+2266	22036	0.007638197078	3
+2266	22036	0.007638197078	1
+2266	22426	0.007942197078	3
+2266	22426	0.007942197078	0
+2266	24594	0.008442197078	3
+2266	24594	0.008442197078	1
+2266	25454	0.008746197078	3
+2266	25454	0.008746197078	0
+2266	28118	0.009218197078	3
+2266	28118	0.009218197078	1
+2266	29606	0.009522197078	3
+2266	29606	0.009522197078	0
+2266	30958	0.010022197078	3
+2266	30958	0.010022197078	1
+2266	32018	0.010326197078	3
+2266	32018	0.010326197078	0
+2266	33725	0.010758197078	3
+2266	33725	0.010758197078	1
+2266	34889	0.011062197078	3
+2266	34889	0.011062197078	0
+2266	36317	0.011562197078	3
+2266	36317	0.011562197078	1
+2266	38262	0.011866197078	3
+2266	38262	0.011866197078	0
+2266	40778	0.012318197078	3
+2266	40778	0.012318197078	1
+2266	41893	0.012622197078	3
+2266	41893	0.012622197078	0
+2266	43826	0.013122197078	3
+2266	43826	0.013122197078	1
+2266	44963	0.013426197078	3
+2266	44963	0.013426197078	0
+2266	49613	0.014654198078	3
+2266	49613	0.014654198078	1
+2266	50469	0.014958198078	3
+2266	50469	0.014958198078	0
+2266	52816	0.015458198078	3
+2266	52816	0.015458198078	1
+2266	54541	0.015762198078	3
+2266	54541	0.015762198078	0
+2266	56600	0.016234198078	3
+2266	56600	0.016234198078	1
+2266	57712	0.016538198078	3
+2266	57712	0.016538198078	0
+2266	59681	0.017038198078	3
+2266	59681	0.017038198078	1
+2266	60805	0.017342198078	3
+2266	60805	0.017342198078	0
+2266	63686	0.018134198078	3
+2266	63686	0.018134198078	1
+2266	64532	0.018438198078	3
+2266	64532	0.018438198078	0
+2266	66305	0.018938198078	3
+2266	66305	0.018938198078	1
+2266	66588	0.019242198078	3
+2266	66588	0.019242198078	0
+2266	68203	0.019674198078	3
+2266	68203	0.019674198078	1
+2266	68934	0.019978198078	3
+2266	68934	0.019978198078	0
+2266	70184	0.020478198078	3
+2266	70184	0.020478198078	1
+2266	71175	0.020782198078	3
+2266	71175	0.020782198078	0
+2266	73046	0.021214198078	3
+2266	73046	0.021214198078	1
+2266	73973	0.021518198078	3
+2266	73973	0.021518198078	0
+2266	75587	0.022018198078	3
+2266	75587	0.022018198078	1
+2266	76308	0.022322198078	3
+2266	76308	0.022322198078	0
+2266	78430	0.022754198078	3
+2266	78430	0.022754198078	1
+2266	79472	0.023058198078	3
+2266	79472	0.023058198078	0
+2266	80991	0.023558198078	3
+2266	80991	0.023558198078	1
+2266	82241	0.023862198078	3
+2266	82241	0.023862198078	0
+2266	84587	0.024434198078	3
+2266	84587	0.024434198078	1
+2266	85376	0.024738198078	3
+2266	85376	0.024738198078	0
+2266	87043	0.025238198078	3
+2266	87043	0.025238198078	1
+2266	88288	0.025542198078	3
+2266	88288	0.025542198078	0
+2266	89886	0.025994198078	3
+2266	89886	0.025994198078	1
+2266	90733	0.026298198078	3
+2266	90733	0.026298198078	0
+2266	92394	0.026798198078	3
+2266	92394	0.026798198078	1
+2266	93492	0.027102198078	3
+2266	93492	0.027102198078	0
+2266	95228	0.027594198078	3
+2266	95228	0.027594198078	1
+2266	96560	0.027898198078	3
+2266	96560	0.027898198078	0
+2266	98169	0.028398198078	3
+2266	98169	0.028398198078	1
+2266	99361	0.028702198078	3
+2266	99361	0.028702198078	0
+2266	100786	0.029174198078	3
+2266	100786	0.029174198078	1
+2266	102250	0.029478198078	3
+2266	102250	0.029478198078	0
+2266	104150	0.029978198078	3
+2266	104150	0.029978198078	1
+2266	105086	0.030282198078	3
+2266	105086	0.030282198078	0
+2266	108374	0.030934198078	3
+2266	108374	0.030934198078	1
+2266	109690	0.031238198078	3
+2266	109690	0.031238198078	0
+2266	111161	0.031738198078	3
+2266	111161	0.031738198078	1
+2266	112302	0.032042198078	3
+2266	112302	0.032042198078	0
+2266	113556	0.032534198078	3
+2266	113556	0.032534198078	1
+2266	114589	0.032838198078	3
+2266	114589	0.032838198078	0
+2266	178662	0.051495767827	3
+2266	178662	0.051495767827	1
+2266	179117	0.051799767827	3
+2266	179117	0.051799767827	0
+2266	181162	0.052299767827	3
+2266	181162	0.052299767827	1
+2266	182414	0.052603767827	3
+2266	182414	0.052603767827	0
+2266	229747	0.067163768827	3
+2266	229747	0.067163768827	1
+2266	230494	0.067467768827	3
+2266	230494	0.067467768827	0
+2266	232516	0.067967768827	3
+2266	232516	0.067967768827	1
+2266	233097	0.068271768827	3
+2266	233097	0.068271768827	0
+2266	234419	0.068783768827	3
+2266	234419	0.068783768827	1
+2266	235007	0.069087768827	3
+2266	235007	0.069087768827	0
+2267	0	0	1

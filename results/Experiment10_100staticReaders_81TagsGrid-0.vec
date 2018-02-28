@@ -1,0 +1,4546 @@
+version 2
+run Experiment10_100staticReaders_81TagsGrid-0-20150406-10:16:17-2868
+attr configname Experiment10_100staticReaders_81TagsGrid
+attr datetime 20150406-10:16:17
+attr experiment Experiment10_100staticReaders_81TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 2868
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 905  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 906  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 907  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 908  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 909  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 910  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 911  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 912  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 913  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 914  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 915  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 916  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 917  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 918  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 919  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 920  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 921  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 922  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+vector 923  _01_RfidSim.reader[9].nic.phy  RadioState  ETV
+vector 924  _01_RfidSim.reader[9].nic.phy  RadioChannel  ETV
+vector 925  _01_RfidSim.reader[10].nic.phy  RadioState  ETV
+vector 926  _01_RfidSim.reader[10].nic.phy  RadioChannel  ETV
+vector 927  _01_RfidSim.reader[11].nic.phy  RadioState  ETV
+vector 928  _01_RfidSim.reader[11].nic.phy  RadioChannel  ETV
+vector 929  _01_RfidSim.reader[12].nic.phy  RadioState  ETV
+vector 930  _01_RfidSim.reader[12].nic.phy  RadioChannel  ETV
+vector 931  _01_RfidSim.reader[13].nic.phy  RadioState  ETV
+vector 932  _01_RfidSim.reader[13].nic.phy  RadioChannel  ETV
+vector 933  _01_RfidSim.reader[14].nic.phy  RadioState  ETV
+vector 934  _01_RfidSim.reader[14].nic.phy  RadioChannel  ETV
+vector 935  _01_RfidSim.reader[15].nic.phy  RadioState  ETV
+vector 936  _01_RfidSim.reader[15].nic.phy  RadioChannel  ETV
+vector 937  _01_RfidSim.reader[16].nic.phy  RadioState  ETV
+vector 938  _01_RfidSim.reader[16].nic.phy  RadioChannel  ETV
+vector 939  _01_RfidSim.reader[17].nic.phy  RadioState  ETV
+vector 940  _01_RfidSim.reader[17].nic.phy  RadioChannel  ETV
+vector 941  _01_RfidSim.reader[18].nic.phy  RadioState  ETV
+vector 942  _01_RfidSim.reader[18].nic.phy  RadioChannel  ETV
+vector 943  _01_RfidSim.reader[19].nic.phy  RadioState  ETV
+vector 944  _01_RfidSim.reader[19].nic.phy  RadioChannel  ETV
+vector 945  _01_RfidSim.reader[20].nic.phy  RadioState  ETV
+vector 946  _01_RfidSim.reader[20].nic.phy  RadioChannel  ETV
+vector 947  _01_RfidSim.reader[21].nic.phy  RadioState  ETV
+vector 948  _01_RfidSim.reader[21].nic.phy  RadioChannel  ETV
+vector 949  _01_RfidSim.reader[22].nic.phy  RadioState  ETV
+vector 950  _01_RfidSim.reader[22].nic.phy  RadioChannel  ETV
+vector 951  _01_RfidSim.reader[23].nic.phy  RadioState  ETV
+vector 952  _01_RfidSim.reader[23].nic.phy  RadioChannel  ETV
+vector 953  _01_RfidSim.reader[24].nic.phy  RadioState  ETV
+vector 954  _01_RfidSim.reader[24].nic.phy  RadioChannel  ETV
+vector 955  _01_RfidSim.reader[25].nic.phy  RadioState  ETV
+vector 956  _01_RfidSim.reader[25].nic.phy  RadioChannel  ETV
+vector 957  _01_RfidSim.reader[26].nic.phy  RadioState  ETV
+vector 958  _01_RfidSim.reader[26].nic.phy  RadioChannel  ETV
+vector 959  _01_RfidSim.reader[27].nic.phy  RadioState  ETV
+vector 960  _01_RfidSim.reader[27].nic.phy  RadioChannel  ETV
+vector 961  _01_RfidSim.reader[28].nic.phy  RadioState  ETV
+vector 962  _01_RfidSim.reader[28].nic.phy  RadioChannel  ETV
+vector 963  _01_RfidSim.reader[29].nic.phy  RadioState  ETV
+vector 964  _01_RfidSim.reader[29].nic.phy  RadioChannel  ETV
+vector 965  _01_RfidSim.reader[30].nic.phy  RadioState  ETV
+vector 966  _01_RfidSim.reader[30].nic.phy  RadioChannel  ETV
+vector 967  _01_RfidSim.reader[31].nic.phy  RadioState  ETV
+vector 968  _01_RfidSim.reader[31].nic.phy  RadioChannel  ETV
+vector 969  _01_RfidSim.reader[32].nic.phy  RadioState  ETV
+vector 970  _01_RfidSim.reader[32].nic.phy  RadioChannel  ETV
+vector 971  _01_RfidSim.reader[33].nic.phy  RadioState  ETV
+vector 972  _01_RfidSim.reader[33].nic.phy  RadioChannel  ETV
+vector 973  _01_RfidSim.reader[34].nic.phy  RadioState  ETV
+vector 974  _01_RfidSim.reader[34].nic.phy  RadioChannel  ETV
+vector 975  _01_RfidSim.reader[35].nic.phy  RadioState  ETV
+vector 976  _01_RfidSim.reader[35].nic.phy  RadioChannel  ETV
+vector 977  _01_RfidSim.reader[36].nic.phy  RadioState  ETV
+vector 978  _01_RfidSim.reader[36].nic.phy  RadioChannel  ETV
+vector 979  _01_RfidSim.reader[37].nic.phy  RadioState  ETV
+vector 980  _01_RfidSim.reader[37].nic.phy  RadioChannel  ETV
+vector 981  _01_RfidSim.reader[38].nic.phy  RadioState  ETV
+vector 982  _01_RfidSim.reader[38].nic.phy  RadioChannel  ETV
+vector 983  _01_RfidSim.reader[39].nic.phy  RadioState  ETV
+vector 984  _01_RfidSim.reader[39].nic.phy  RadioChannel  ETV
+vector 985  _01_RfidSim.reader[40].nic.phy  RadioState  ETV
+vector 986  _01_RfidSim.reader[40].nic.phy  RadioChannel  ETV
+vector 987  _01_RfidSim.reader[41].nic.phy  RadioState  ETV
+vector 988  _01_RfidSim.reader[41].nic.phy  RadioChannel  ETV
+vector 989  _01_RfidSim.reader[42].nic.phy  RadioState  ETV
+vector 990  _01_RfidSim.reader[42].nic.phy  RadioChannel  ETV
+vector 991  _01_RfidSim.reader[43].nic.phy  RadioState  ETV
+vector 992  _01_RfidSim.reader[43].nic.phy  RadioChannel  ETV
+vector 993  _01_RfidSim.reader[44].nic.phy  RadioState  ETV
+vector 994  _01_RfidSim.reader[44].nic.phy  RadioChannel  ETV
+vector 995  _01_RfidSim.reader[45].nic.phy  RadioState  ETV
+vector 996  _01_RfidSim.reader[45].nic.phy  RadioChannel  ETV
+vector 997  _01_RfidSim.reader[46].nic.phy  RadioState  ETV
+vector 998  _01_RfidSim.reader[46].nic.phy  RadioChannel  ETV
+vector 999  _01_RfidSim.reader[47].nic.phy  RadioState  ETV
+vector 1000  _01_RfidSim.reader[47].nic.phy  RadioChannel  ETV
+vector 1001  _01_RfidSim.reader[48].nic.phy  RadioState  ETV
+vector 1002  _01_RfidSim.reader[48].nic.phy  RadioChannel  ETV
+vector 1003  _01_RfidSim.reader[49].nic.phy  RadioState  ETV
+vector 1004  _01_RfidSim.reader[49].nic.phy  RadioChannel  ETV
+vector 1005  _01_RfidSim.reader[50].nic.phy  RadioState  ETV
+vector 1006  _01_RfidSim.reader[50].nic.phy  RadioChannel  ETV
+vector 1007  _01_RfidSim.reader[51].nic.phy  RadioState  ETV
+vector 1008  _01_RfidSim.reader[51].nic.phy  RadioChannel  ETV
+vector 1009  _01_RfidSim.reader[52].nic.phy  RadioState  ETV
+vector 1010  _01_RfidSim.reader[52].nic.phy  RadioChannel  ETV
+vector 1011  _01_RfidSim.reader[53].nic.phy  RadioState  ETV
+vector 1012  _01_RfidSim.reader[53].nic.phy  RadioChannel  ETV
+vector 1013  _01_RfidSim.reader[54].nic.phy  RadioState  ETV
+vector 1014  _01_RfidSim.reader[54].nic.phy  RadioChannel  ETV
+vector 1015  _01_RfidSim.reader[55].nic.phy  RadioState  ETV
+vector 1016  _01_RfidSim.reader[55].nic.phy  RadioChannel  ETV
+vector 1017  _01_RfidSim.reader[56].nic.phy  RadioState  ETV
+vector 1018  _01_RfidSim.reader[56].nic.phy  RadioChannel  ETV
+vector 1019  _01_RfidSim.reader[57].nic.phy  RadioState  ETV
+vector 1020  _01_RfidSim.reader[57].nic.phy  RadioChannel  ETV
+vector 1021  _01_RfidSim.reader[58].nic.phy  RadioState  ETV
+vector 1022  _01_RfidSim.reader[58].nic.phy  RadioChannel  ETV
+vector 1023  _01_RfidSim.reader[59].nic.phy  RadioState  ETV
+vector 1024  _01_RfidSim.reader[59].nic.phy  RadioChannel  ETV
+vector 1025  _01_RfidSim.reader[60].nic.phy  RadioState  ETV
+vector 1026  _01_RfidSim.reader[60].nic.phy  RadioChannel  ETV
+vector 1027  _01_RfidSim.reader[61].nic.phy  RadioState  ETV
+vector 1028  _01_RfidSim.reader[61].nic.phy  RadioChannel  ETV
+vector 1029  _01_RfidSim.reader[62].nic.phy  RadioState  ETV
+vector 1030  _01_RfidSim.reader[62].nic.phy  RadioChannel  ETV
+vector 1031  _01_RfidSim.reader[63].nic.phy  RadioState  ETV
+vector 1032  _01_RfidSim.reader[63].nic.phy  RadioChannel  ETV
+vector 1033  _01_RfidSim.reader[64].nic.phy  RadioState  ETV
+vector 1034  _01_RfidSim.reader[64].nic.phy  RadioChannel  ETV
+vector 1035  _01_RfidSim.reader[65].nic.phy  RadioState  ETV
+vector 1036  _01_RfidSim.reader[65].nic.phy  RadioChannel  ETV
+vector 1037  _01_RfidSim.reader[66].nic.phy  RadioState  ETV
+vector 1038  _01_RfidSim.reader[66].nic.phy  RadioChannel  ETV
+vector 1039  _01_RfidSim.reader[67].nic.phy  RadioState  ETV
+vector 1040  _01_RfidSim.reader[67].nic.phy  RadioChannel  ETV
+vector 1041  _01_RfidSim.reader[68].nic.phy  RadioState  ETV
+vector 1042  _01_RfidSim.reader[68].nic.phy  RadioChannel  ETV
+vector 1043  _01_RfidSim.reader[69].nic.phy  RadioState  ETV
+vector 1044  _01_RfidSim.reader[69].nic.phy  RadioChannel  ETV
+vector 1045  _01_RfidSim.reader[70].nic.phy  RadioState  ETV
+vector 1046  _01_RfidSim.reader[70].nic.phy  RadioChannel  ETV
+vector 1047  _01_RfidSim.reader[71].nic.phy  RadioState  ETV
+vector 1048  _01_RfidSim.reader[71].nic.phy  RadioChannel  ETV
+vector 1049  _01_RfidSim.reader[72].nic.phy  RadioState  ETV
+vector 1050  _01_RfidSim.reader[72].nic.phy  RadioChannel  ETV
+vector 1051  _01_RfidSim.reader[73].nic.phy  RadioState  ETV
+vector 1052  _01_RfidSim.reader[73].nic.phy  RadioChannel  ETV
+vector 1053  _01_RfidSim.reader[74].nic.phy  RadioState  ETV
+vector 1054  _01_RfidSim.reader[74].nic.phy  RadioChannel  ETV
+vector 1055  _01_RfidSim.reader[75].nic.phy  RadioState  ETV
+vector 1056  _01_RfidSim.reader[75].nic.phy  RadioChannel  ETV
+vector 1057  _01_RfidSim.reader[76].nic.phy  RadioState  ETV
+vector 1058  _01_RfidSim.reader[76].nic.phy  RadioChannel  ETV
+vector 1059  _01_RfidSim.reader[77].nic.phy  RadioState  ETV
+vector 1060  _01_RfidSim.reader[77].nic.phy  RadioChannel  ETV
+vector 1061  _01_RfidSim.reader[78].nic.phy  RadioState  ETV
+vector 1062  _01_RfidSim.reader[78].nic.phy  RadioChannel  ETV
+vector 1063  _01_RfidSim.reader[79].nic.phy  RadioState  ETV
+vector 1064  _01_RfidSim.reader[79].nic.phy  RadioChannel  ETV
+vector 1065  _01_RfidSim.reader[80].nic.phy  RadioState  ETV
+vector 1066  _01_RfidSim.reader[80].nic.phy  RadioChannel  ETV
+vector 1067  _01_RfidSim.reader[81].nic.phy  RadioState  ETV
+vector 1068  _01_RfidSim.reader[81].nic.phy  RadioChannel  ETV
+vector 1069  _01_RfidSim.reader[82].nic.phy  RadioState  ETV
+vector 1070  _01_RfidSim.reader[82].nic.phy  RadioChannel  ETV
+vector 1071  _01_RfidSim.reader[83].nic.phy  RadioState  ETV
+vector 1072  _01_RfidSim.reader[83].nic.phy  RadioChannel  ETV
+vector 1073  _01_RfidSim.reader[84].nic.phy  RadioState  ETV
+vector 1074  _01_RfidSim.reader[84].nic.phy  RadioChannel  ETV
+vector 1075  _01_RfidSim.reader[85].nic.phy  RadioState  ETV
+vector 1076  _01_RfidSim.reader[85].nic.phy  RadioChannel  ETV
+vector 1077  _01_RfidSim.reader[86].nic.phy  RadioState  ETV
+vector 1078  _01_RfidSim.reader[86].nic.phy  RadioChannel  ETV
+vector 1079  _01_RfidSim.reader[87].nic.phy  RadioState  ETV
+vector 1080  _01_RfidSim.reader[87].nic.phy  RadioChannel  ETV
+vector 1081  _01_RfidSim.reader[88].nic.phy  RadioState  ETV
+vector 1082  _01_RfidSim.reader[88].nic.phy  RadioChannel  ETV
+vector 1083  _01_RfidSim.reader[89].nic.phy  RadioState  ETV
+vector 1084  _01_RfidSim.reader[89].nic.phy  RadioChannel  ETV
+vector 1085  _01_RfidSim.reader[90].nic.phy  RadioState  ETV
+vector 1086  _01_RfidSim.reader[90].nic.phy  RadioChannel  ETV
+vector 1087  _01_RfidSim.reader[91].nic.phy  RadioState  ETV
+vector 1088  _01_RfidSim.reader[91].nic.phy  RadioChannel  ETV
+vector 1089  _01_RfidSim.reader[92].nic.phy  RadioState  ETV
+vector 1090  _01_RfidSim.reader[92].nic.phy  RadioChannel  ETV
+vector 1091  _01_RfidSim.reader[93].nic.phy  RadioState  ETV
+vector 1092  _01_RfidSim.reader[93].nic.phy  RadioChannel  ETV
+vector 1093  _01_RfidSim.reader[94].nic.phy  RadioState  ETV
+vector 1094  _01_RfidSim.reader[94].nic.phy  RadioChannel  ETV
+vector 1095  _01_RfidSim.reader[95].nic.phy  RadioState  ETV
+vector 1096  _01_RfidSim.reader[95].nic.phy  RadioChannel  ETV
+vector 1097  _01_RfidSim.reader[96].nic.phy  RadioState  ETV
+vector 1098  _01_RfidSim.reader[96].nic.phy  RadioChannel  ETV
+vector 1099  _01_RfidSim.reader[97].nic.phy  RadioState  ETV
+vector 1100  _01_RfidSim.reader[97].nic.phy  RadioChannel  ETV
+vector 1101  _01_RfidSim.reader[98].nic.phy  RadioState  ETV
+vector 1102  _01_RfidSim.reader[98].nic.phy  RadioChannel  ETV
+vector 1103  _01_RfidSim.reader[99].nic.phy  RadioState  ETV
+vector 1104  _01_RfidSim.reader[99].nic.phy  RadioChannel  ETV
+vector 190  _01_RfidSim.reader[2].nic  TagReceivedQuery  ETV
+vector 194  _01_RfidSim.reader[3].nic  TagReceivedQuery  ETV
+vector 198  _01_RfidSim.reader[4].nic  TagReceivedQuery  ETV
+vector 206  _01_RfidSim.reader[6].nic  TagReceivedQuery  ETV
+vector 230  _01_RfidSim.reader[12].nic  TagReceivedQuery  ETV
+vector 234  _01_RfidSim.reader[13].nic  TagReceivedQuery  ETV
+vector 238  _01_RfidSim.reader[14].nic  TagReceivedQuery  ETV
+vector 242  _01_RfidSim.reader[15].nic  TagReceivedQuery  ETV
+vector 246  _01_RfidSim.reader[16].nic  TagReceivedQuery  ETV
+vector 274  _01_RfidSim.reader[23].nic  TagReceivedQuery  ETV
+vector 278  _01_RfidSim.reader[24].nic  TagReceivedQuery  ETV
+vector 282  _01_RfidSim.reader[25].nic  TagReceivedQuery  ETV
+vector 286  _01_RfidSim.reader[26].nic  TagReceivedQuery  ETV
+vector 314  _01_RfidSim.reader[33].nic  TagReceivedQuery  ETV
+vector 318  _01_RfidSim.reader[34].nic  TagReceivedQuery  ETV
+vector 322  _01_RfidSim.reader[35].nic  TagReceivedQuery  ETV
+vector 326  _01_RfidSim.reader[36].nic  TagReceivedQuery  ETV
+vector 358  _01_RfidSim.reader[44].nic  TagReceivedQuery  ETV
+vector 362  _01_RfidSim.reader[45].nic  TagReceivedQuery  ETV
+vector 598  _01_RfidSim.tag[4].nic  TagReceivedQuery  ETV
+vector 602  _01_RfidSim.tag[5].nic  TagReceivedQuery  ETV
+vector 634  _01_RfidSim.tag[13].nic  TagReceivedQuery  ETV
+vector 638  _01_RfidSim.tag[14].nic  TagReceivedQuery  ETV
+vector 218  _01_RfidSim.reader[9].nic  TagReceivedQuery  ETV
+vector 258  _01_RfidSim.reader[19].nic  TagReceivedQuery  ETV
+vector 294  _01_RfidSim.reader[28].nic  TagReceivedQuery  ETV
+vector 298  _01_RfidSim.reader[29].nic  TagReceivedQuery  ETV
+vector 334  _01_RfidSim.reader[38].nic  TagReceivedQuery  ETV
+vector 338  _01_RfidSim.reader[39].nic  TagReceivedQuery  ETV
+vector 606  _01_RfidSim.tag[6].nic  TagReceivedQuery  ETV
+vector 642  _01_RfidSim.tag[15].nic  TagReceivedQuery  ETV
+vector 182  _01_RfidSim.reader[0].nic  TagReceivedQuery  ETV
+vector 186  _01_RfidSim.reader[1].nic  TagReceivedQuery  ETV
+vector 222  _01_RfidSim.reader[10].nic  TagReceivedQuery  ETV
+vector 226  _01_RfidSim.reader[11].nic  TagReceivedQuery  ETV
+vector 262  _01_RfidSim.reader[20].nic  TagReceivedQuery  ETV
+vector 266  _01_RfidSim.reader[21].nic  TagReceivedQuery  ETV
+vector 270  _01_RfidSim.reader[22].nic  TagReceivedQuery  ETV
+vector 302  _01_RfidSim.reader[30].nic  TagReceivedQuery  ETV
+vector 306  _01_RfidSim.reader[31].nic  TagReceivedQuery  ETV
+vector 310  _01_RfidSim.reader[32].nic  TagReceivedQuery  ETV
+vector 346  _01_RfidSim.reader[41].nic  TagReceivedQuery  ETV
+vector 350  _01_RfidSim.reader[42].nic  TagReceivedQuery  ETV
+vector 354  _01_RfidSim.reader[43].nic  TagReceivedQuery  ETV
+vector 382  _01_RfidSim.reader[50].nic  TagReceivedQuery  ETV
+vector 386  _01_RfidSim.reader[51].nic  TagReceivedQuery  ETV
+vector 390  _01_RfidSim.reader[52].nic  TagReceivedQuery  ETV
+vector 394  _01_RfidSim.reader[53].nic  TagReceivedQuery  ETV
+vector 422  _01_RfidSim.reader[60].nic  TagReceivedQuery  ETV
+vector 426  _01_RfidSim.reader[61].nic  TagReceivedQuery  ETV
+vector 430  _01_RfidSim.reader[62].nic  TagReceivedQuery  ETV
+vector 466  _01_RfidSim.reader[71].nic  TagReceivedQuery  ETV
+vector 470  _01_RfidSim.reader[72].nic  TagReceivedQuery  ETV
+vector 658  _01_RfidSim.tag[19].nic  TagReceivedQuery  ETV
+vector 690  _01_RfidSim.tag[27].nic  TagReceivedQuery  ETV
+vector 694  _01_RfidSim.tag[28].nic  TagReceivedQuery  ETV
+vector 698  _01_RfidSim.tag[29].nic  TagReceivedQuery  ETV
+vector 726  _01_RfidSim.tag[36].nic  TagReceivedQuery  ETV
+vector 730  _01_RfidSim.tag[37].nic  TagReceivedQuery  ETV
+vector 734  _01_RfidSim.tag[38].nic  TagReceivedQuery  ETV
+vector 766  _01_RfidSim.tag[46].nic  TagReceivedQuery  ETV
+vector 378  _01_RfidSim.reader[49].nic  TagReceivedQuery  ETV
+vector 398  _01_RfidSim.reader[54].nic  TagReceivedQuery  ETV
+vector 402  _01_RfidSim.reader[55].nic  TagReceivedQuery  ETV
+vector 406  _01_RfidSim.reader[56].nic  TagReceivedQuery  ETV
+vector 410  _01_RfidSim.reader[57].nic  TagReceivedQuery  ETV
+vector 414  _01_RfidSim.reader[58].nic  TagReceivedQuery  ETV
+vector 418  _01_RfidSim.reader[59].nic  TagReceivedQuery  ETV
+vector 438  _01_RfidSim.reader[64].nic  TagReceivedQuery  ETV
+vector 442  _01_RfidSim.reader[65].nic  TagReceivedQuery  ETV
+vector 446  _01_RfidSim.reader[66].nic  TagReceivedQuery  ETV
+vector 454  _01_RfidSim.reader[68].nic  TagReceivedQuery  ETV
+vector 458  _01_RfidSim.reader[69].nic  TagReceivedQuery  ETV
+vector 478  _01_RfidSim.reader[74].nic  TagReceivedQuery  ETV
+vector 482  _01_RfidSim.reader[75].nic  TagReceivedQuery  ETV
+vector 486  _01_RfidSim.reader[76].nic  TagReceivedQuery  ETV
+vector 490  _01_RfidSim.reader[77].nic  TagReceivedQuery  ETV
+vector 494  _01_RfidSim.reader[78].nic  TagReceivedQuery  ETV
+vector 498  _01_RfidSim.reader[79].nic  TagReceivedQuery  ETV
+vector 522  _01_RfidSim.reader[85].nic  TagReceivedQuery  ETV
+vector 526  _01_RfidSim.reader[86].nic  TagReceivedQuery  ETV
+vector 530  _01_RfidSim.reader[87].nic  TagReceivedQuery  ETV
+vector 534  _01_RfidSim.reader[88].nic  TagReceivedQuery  ETV
+vector 538  _01_RfidSim.reader[89].nic  TagReceivedQuery  ETV
+vector 562  _01_RfidSim.reader[95].nic  TagReceivedQuery  ETV
+vector 566  _01_RfidSim.reader[96].nic  TagReceivedQuery  ETV
+vector 570  _01_RfidSim.reader[97].nic  TagReceivedQuery  ETV
+vector 574  _01_RfidSim.reader[98].nic  TagReceivedQuery  ETV
+vector 578  _01_RfidSim.reader[99].nic  TagReceivedQuery  ETV
+vector 746  _01_RfidSim.tag[41].nic  TagReceivedQuery  ETV
+vector 750  _01_RfidSim.tag[42].nic  TagReceivedQuery  ETV
+vector 782  _01_RfidSim.tag[50].nic  TagReceivedQuery  ETV
+vector 786  _01_RfidSim.tag[51].nic  TagReceivedQuery  ETV
+vector 818  _01_RfidSim.tag[59].nic  TagReceivedQuery  ETV
+vector 822  _01_RfidSim.tag[60].nic  TagReceivedQuery  ETV
+vector 854  _01_RfidSim.tag[68].nic  TagReceivedQuery  ETV
+vector 858  _01_RfidSim.tag[69].nic  TagReceivedQuery  ETV
+vector 510  _01_RfidSim.reader[82].nic  TagReceivedQuery  ETV
+vector 546  _01_RfidSim.reader[91].nic  TagReceivedQuery  ETV
+vector 550  _01_RfidSim.reader[92].nic  TagReceivedQuery  ETV
+vector 838  _01_RfidSim.tag[64].nic  TagReceivedQuery  ETV
+vector 870  _01_RfidSim.tag[72].nic  TagReceivedQuery  ETV
+vector 874  _01_RfidSim.tag[73].nic  TagReceivedQuery  ETV
+vector 878  _01_RfidSim.tag[74].nic  TagReceivedQuery  ETV
+vector 434  _01_RfidSim.reader[63].nic  TagReceivedQuery  ETV
+vector 474  _01_RfidSim.reader[73].nic  TagReceivedQuery  ETV
+vector 518  _01_RfidSim.reader[84].nic  TagReceivedQuery  ETV
+vector 846  _01_RfidSim.tag[66].nic  TagReceivedQuery  ETV
+vector 850  _01_RfidSim.tag[67].nic  TagReceivedQuery  ETV
+vector 882  _01_RfidSim.tag[75].nic  TagReceivedQuery  ETV
+vector 886  _01_RfidSim.tag[76].nic  TagReceivedQuery  ETV
+vector 202  _01_RfidSim.reader[5].nic  TagReceivedQuery  ETV
+vector 590  _01_RfidSim.tag[2].nic  TagReceivedQuery  ETV
+vector 594  _01_RfidSim.tag[3].nic  TagReceivedQuery  ETV
+vector 626  _01_RfidSim.tag[11].nic  TagReceivedQuery  ETV
+vector 662  _01_RfidSim.tag[20].nic  TagReceivedQuery  ETV
+vector 666  _01_RfidSim.tag[21].nic  TagReceivedQuery  ETV
+vector 670  _01_RfidSim.tag[22].nic  TagReceivedQuery  ETV
+vector 366  _01_RfidSim.reader[46].nic  TagReceivedQuery  ETV
+vector 706  _01_RfidSim.tag[31].nic  TagReceivedQuery  ETV
+vector 738  _01_RfidSim.tag[39].nic  TagReceivedQuery  ETV
+vector 586  _01_RfidSim.tag[1].nic  TagReceivedQuery  ETV
+vector 618  _01_RfidSim.tag[9].nic  TagReceivedQuery  ETV
+vector 622  _01_RfidSim.tag[10].nic  TagReceivedQuery  ETV
+vector 654  _01_RfidSim.tag[18].nic  TagReceivedQuery  ETV
+vector 290  _01_RfidSim.reader[27].nic  TagReceivedQuery  ETV
+vector 330  _01_RfidSim.reader[37].nic  TagReceivedQuery  ETV
+vector 370  _01_RfidSim.reader[47].nic  TagReceivedQuery  ETV
+vector 374  _01_RfidSim.reader[48].nic  TagReceivedQuery  ETV
+vector 450  _01_RfidSim.reader[67].nic  TagReceivedQuery  ETV
+vector 754  _01_RfidSim.tag[43].nic  TagReceivedQuery  ETV
+vector 790  _01_RfidSim.tag[52].nic  TagReceivedQuery  ETV
+vector 826  _01_RfidSim.tag[61].nic  TagReceivedQuery  ETV
+vector 862  _01_RfidSim.tag[70].nic  TagReceivedQuery  ETV
+vector 210  _01_RfidSim.reader[7].nic  TagReceivedQuery  ETV
+vector 214  _01_RfidSim.reader[8].nic  TagReceivedQuery  ETV
+vector 250  _01_RfidSim.reader[17].nic  TagReceivedQuery  ETV
+vector 254  _01_RfidSim.reader[18].nic  TagReceivedQuery  ETV
+vector 610  _01_RfidSim.tag[7].nic  TagReceivedQuery  ETV
+vector 614  _01_RfidSim.tag[8].nic  TagReceivedQuery  ETV
+vector 646  _01_RfidSim.tag[16].nic  TagReceivedQuery  ETV
+vector 506  _01_RfidSim.reader[81].nic  TagReceivedQuery  ETV
+vector 514  _01_RfidSim.reader[83].nic  TagReceivedQuery  ETV
+vector 554  _01_RfidSim.reader[93].nic  TagReceivedQuery  ETV
+vector 558  _01_RfidSim.reader[94].nic  TagReceivedQuery  ETV
+vector 810  _01_RfidSim.tag[57].nic  TagReceivedQuery  ETV
+vector 814  _01_RfidSim.tag[58].nic  TagReceivedQuery  ETV
+vector 582  _01_RfidSim.tag[0].nic  TagReceivedQuery  ETV
+vector 462  _01_RfidSim.reader[70].nic  TagReceivedQuery  ETV
+vector 502  _01_RfidSim.reader[80].nic  TagReceivedQuery  ETV
+vector 542  _01_RfidSim.reader[90].nic  TagReceivedQuery  ETV
+vector 762  _01_RfidSim.tag[45].nic  TagReceivedQuery  ETV
+vector 770  _01_RfidSim.tag[47].nic  TagReceivedQuery  ETV
+vector 802  _01_RfidSim.tag[55].nic  TagReceivedQuery  ETV
+vector 742  _01_RfidSim.tag[40].nic  TagReceivedQuery  ETV
+vector 778  _01_RfidSim.tag[49].nic  TagReceivedQuery  ETV
+vector 342  _01_RfidSim.reader[40].nic  TagReceivedQuery  ETV
+vector 842  _01_RfidSim.tag[65].nic  TagReceivedQuery  ETV
+vector 890  _01_RfidSim.tag[77].nic  TagReceivedQuery  ETV
+vector 894  _01_RfidSim.tag[78].nic  TagReceivedQuery  ETV
+vector 650  _01_RfidSim.tag[17].nic  TagReceivedQuery  ETV
+vector 682  _01_RfidSim.tag[25].nic  TagReceivedQuery  ETV
+vector 702  _01_RfidSim.tag[30].nic  TagReceivedQuery  ETV
+vector 774  _01_RfidSim.tag[48].nic  TagReceivedQuery  ETV
+vector 834  _01_RfidSim.tag[63].nic  TagReceivedQuery  ETV
+vector 203  _01_RfidSim.reader[5].nic  ReaderSendAcknowledgement  ETV
+vector 597  _01_RfidSim.tag[4].nic  TagReceivedAcknowledgement  ETV
+vector 798  _01_RfidSim.tag[54].nic  TagReceivedQuery  ETV
+vector 806  _01_RfidSim.tag[56].nic  TagReceivedQuery  ETV
+vector 219  _01_RfidSim.reader[9].nic  ReaderSendAcknowledgement  ETV
+vector 609  _01_RfidSim.tag[7].nic  TagReceivedAcknowledgement  ETV
+vector 674  _01_RfidSim.tag[23].nic  TagReceivedQuery  ETV
+vector 710  _01_RfidSim.tag[32].nic  TagReceivedQuery  ETV
+vector 678  _01_RfidSim.tag[24].nic  TagReceivedQuery  ETV
+vector 714  _01_RfidSim.tag[33].nic  TagReceivedQuery  ETV
+vector 830  _01_RfidSim.tag[62].nic  TagReceivedQuery  ETV
+vector 866  _01_RfidSim.tag[71].nic  TagReceivedQuery  ETV
+vector 902  _01_RfidSim.tag[80].nic  TagReceivedQuery  ETV
+vector 263  _01_RfidSim.reader[20].nic  ReaderSendAcknowledgement  ETV
+vector 630  _01_RfidSim.tag[12].nic  TagReceivedQuery  ETV
+vector 653  _01_RfidSim.tag[18].nic  TagReceivedAcknowledgement  ETV
+vector 613  _01_RfidSim.tag[8].nic  TagReceivedAcknowledgement  ETV
+vector 718  _01_RfidSim.tag[34].nic  TagReceivedQuery  ETV
+vector 758  _01_RfidSim.tag[44].nic  TagReceivedQuery  ETV
+vector 794  _01_RfidSim.tag[53].nic  TagReceivedQuery  ETV
+vector 559  _01_RfidSim.reader[94].nic  ReaderSendAcknowledgement  ETV
+vector 543  _01_RfidSim.reader[90].nic  ReaderSendAcknowledgement  ETV
+vector 885  _01_RfidSim.tag[76].nic  TagReceivedAcknowledgement  ETV
+vector 873  _01_RfidSim.tag[73].nic  TagReceivedAcknowledgement  ETV
+vector 451  _01_RfidSim.reader[67].nic  ReaderSendAcknowledgement  ETV
+vector 785  _01_RfidSim.tag[51].nic  TagReceivedAcknowledgement  ETV
+vector 191  _01_RfidSim.reader[2].nic  ReaderSendAcknowledgement  ETV
+vector 259  _01_RfidSim.reader[19].nic  ReaderSendAcknowledgement  ETV
+vector 898  _01_RfidSim.tag[79].nic  TagReceivedQuery  ETV
+vector 593  _01_RfidSim.tag[3].nic  TagReceivedAcknowledgement  ETV
+vector 605  _01_RfidSim.tag[6].nic  TagReceivedAcknowledgement  ETV
+vector 455  _01_RfidSim.reader[68].nic  ReaderSendAcknowledgement  ETV
+vector 861  _01_RfidSim.tag[70].nic  TagReceivedAcknowledgement  ETV
+vector 215  _01_RfidSim.reader[8].nic  ReaderSendAcknowledgement  ETV
+vector 625  _01_RfidSim.tag[11].nic  TagReceivedAcknowledgement  ETV
+vector 551  _01_RfidSim.reader[92].nic  ReaderSendAcknowledgement  ETV
+vector 841  _01_RfidSim.tag[65].nic  TagReceivedAcknowledgement  ETV
+vector 183  _01_RfidSim.reader[0].nic  ReaderSendAcknowledgement  ETV
+vector 589  _01_RfidSim.tag[2].nic  TagReceivedAcknowledgement  ETV
+vector 315  _01_RfidSim.reader[33].nic  ReaderSendAcknowledgement  ETV
+vector 877  _01_RfidSim.tag[74].nic  TagReceivedAcknowledgement  ETV
+vector 571  _01_RfidSim.reader[97].nic  ReaderSendAcknowledgement  ETV
+vector 705  _01_RfidSim.tag[31].nic  TagReceivedAcknowledgement  ETV
+vector 889  _01_RfidSim.tag[77].nic  TagReceivedAcknowledgement  ETV
+vector 511  _01_RfidSim.reader[82].nic  ReaderSendAcknowledgement  ETV
+vector 641  _01_RfidSim.tag[15].nic  TagReceivedAcknowledgement  ETV
+vector 686  _01_RfidSim.tag[26].nic  TagReceivedQuery  ETV
+vector 722  _01_RfidSim.tag[35].nic  TagReceivedQuery  ETV
+vector 267  _01_RfidSim.reader[21].nic  ReaderSendAcknowledgement  ETV
+vector 661  _01_RfidSim.tag[20].nic  TagReceivedAcknowledgement  ETV
+vector 601  _01_RfidSim.tag[5].nic  TagReceivedAcknowledgement  ETV
+vector 503  _01_RfidSim.reader[80].nic  ReaderSendAcknowledgement  ETV
+vector 443  _01_RfidSim.reader[65].nic  ReaderSendAcknowledgement  ETV
+vector 837  _01_RfidSim.tag[64].nic  TagReceivedAcknowledgement  ETV
+vector 853  _01_RfidSim.tag[68].nic  TagReceivedAcknowledgement  ETV
+vector 423  _01_RfidSim.reader[60].nic  ReaderSendAcknowledgement  ETV
+vector 231  _01_RfidSim.reader[12].nic  ReaderSendAcknowledgement  ETV
+vector 801  _01_RfidSim.tag[55].nic  TagReceivedAcknowledgement  ETV
+vector 777  _01_RfidSim.tag[49].nic  TagReceivedAcknowledgement  ETV
+vector 567  _01_RfidSim.reader[96].nic  ReaderSendAcknowledgement  ETV
+vector 351  _01_RfidSim.reader[42].nic  ReaderSendAcknowledgement  ETV
+vector 701  _01_RfidSim.tag[30].nic  TagReceivedAcknowledgement  ETV
+vector 327  _01_RfidSim.reader[36].nic  ReaderSendAcknowledgement  ETV
+vector 343  _01_RfidSim.reader[40].nic  ReaderSendAcknowledgement  ETV
+vector 673  _01_RfidSim.tag[23].nic  TagReceivedAcknowledgement  ETV
+vector 765  _01_RfidSim.tag[46].nic  TagReceivedAcknowledgement  ETV
+vector 303  _01_RfidSim.reader[30].nic  ReaderSendAcknowledgement  ETV
+vector 833  _01_RfidSim.tag[63].nic  TagReceivedAcknowledgement  ETV
+vector 527  _01_RfidSim.reader[86].nic  ReaderSendAcknowledgement  ETV
+vector 547  _01_RfidSim.reader[91].nic  ReaderSendAcknowledgement  ETV
+vector 657  _01_RfidSim.tag[19].nic  TagReceivedAcknowledgement  ETV
+vector 291  _01_RfidSim.reader[27].nic  ReaderSendAcknowledgement  ETV
+vector 575  _01_RfidSim.reader[98].nic  ReaderSendAcknowledgement  ETV
+vector 897  _01_RfidSim.tag[79].nic  TagReceivedAcknowledgement  ETV
+vector 435  _01_RfidSim.reader[63].nic  ReaderSendAcknowledgement  ETV
+vector 773  _01_RfidSim.tag[48].nic  TagReceivedAcknowledgement  ETV
+vector 581  _01_RfidSim.tag[0].nic  TagReceivedAcknowledgement  ETV
+vector 733  _01_RfidSim.tag[38].nic  TagReceivedAcknowledgement  ETV
+vector 295  _01_RfidSim.reader[28].nic  ReaderSendAcknowledgement  ETV
+vector 693  _01_RfidSim.tag[28].nic  TagReceivedAcknowledgement  ETV
+vector 519  _01_RfidSim.reader[84].nic  ReaderSendAcknowledgement  ETV
+vector 645  _01_RfidSim.tag[16].nic  TagReceivedAcknowledgement  ETV
+vector 845  _01_RfidSim.tag[66].nic  TagReceivedAcknowledgement  ETV
+vector 347  _01_RfidSim.reader[41].nic  ReaderSendAcknowledgement  ETV
+vector 821  _01_RfidSim.tag[60].nic  TagReceivedAcknowledgement  ETV
+vector 881  _01_RfidSim.tag[75].nic  TagReceivedAcknowledgement  ETV
+vector 247  _01_RfidSim.reader[16].nic  ReaderSendAcknowledgement  ETV
+vector 463  _01_RfidSim.reader[70].nic  ReaderSendAcknowledgement  ETV
+vector 235  _01_RfidSim.reader[13].nic  ReaderSendAcknowledgement  ETV
+vector 621  _01_RfidSim.tag[10].nic  TagReceivedAcknowledgement  ETV
+vector 227  _01_RfidSim.reader[11].nic  ReaderSendAcknowledgement  ETV
+vector 585  _01_RfidSim.tag[1].nic  TagReceivedAcknowledgement  ETV
+vector 499  _01_RfidSim.reader[79].nic  ReaderSendAcknowledgement  ETV
+vector 865  _01_RfidSim.tag[71].nic  TagReceivedAcknowledgement  ETV
+vector 387  _01_RfidSim.reader[51].nic  ReaderSendAcknowledgement  ETV
+vector 415  _01_RfidSim.reader[58].nic  ReaderSendAcknowledgement  ETV
+vector 669  _01_RfidSim.tag[22].nic  TagReceivedAcknowledgement  ETV
+vector 419  _01_RfidSim.reader[59].nic  ReaderSendAcknowledgement  ETV
+vector 793  _01_RfidSim.tag[53].nic  TagReceivedAcknowledgement  ETV
+vector 717  _01_RfidSim.tag[34].nic  TagReceivedAcknowledgement  ETV
+vector 813  _01_RfidSim.tag[58].nic  TagReceivedAcknowledgement  ETV
+vector 271  _01_RfidSim.reader[22].nic  ReaderSendAcknowledgement  ETV
+vector 243  _01_RfidSim.reader[15].nic  ReaderSendAcknowledgement  ETV
+vector 637  _01_RfidSim.tag[14].nic  TagReceivedAcknowledgement  ETV
+vector 535  _01_RfidSim.reader[88].nic  ReaderSendAcknowledgement  ETV
+vector 555  _01_RfidSim.reader[93].nic  ReaderSendAcknowledgement  ETV
+vector 287  _01_RfidSim.reader[26].nic  ReaderSendAcknowledgement  ETV
+vector 251  _01_RfidSim.reader[17].nic  ReaderSendAcknowledgement  ETV
+vector 805  _01_RfidSim.tag[56].nic  TagReceivedAcknowledgement  ETV
+vector 817  _01_RfidSim.tag[59].nic  TagReceivedAcknowledgement  ETV
+vector 697  _01_RfidSim.tag[29].nic  TagReceivedAcknowledgement  ETV
+vector 749  _01_RfidSim.tag[42].nic  TagReceivedAcknowledgement  ETV
+vector 781  _01_RfidSim.tag[50].nic  TagReceivedAcknowledgement  ETV
+vector 689  _01_RfidSim.tag[27].nic  TagReceivedAcknowledgement  ETV
+vector 399  _01_RfidSim.reader[54].nic  ReaderSendAcknowledgement  ETV
+vector 319  _01_RfidSim.reader[34].nic  ReaderSendAcknowledgement  ETV
+vector 681  _01_RfidSim.tag[25].nic  TagReceivedAcknowledgement  ETV
+vector 729  _01_RfidSim.tag[37].nic  TagReceivedAcknowledgement  ETV
+vector 467  _01_RfidSim.reader[71].nic  ReaderSendAcknowledgement  ETV
+vector 375  _01_RfidSim.reader[48].nic  ReaderSendAcknowledgement  ETV
+vector 335  _01_RfidSim.reader[38].nic  ReaderSendAcknowledgement  ETV
+vector 789  _01_RfidSim.tag[52].nic  TagReceivedAcknowledgement  ETV
+vector 753  _01_RfidSim.tag[43].nic  TagReceivedAcknowledgement  ETV
+vector 367  _01_RfidSim.reader[46].nic  ReaderSendAcknowledgement  ETV
+vector 391  _01_RfidSim.reader[52].nic  ReaderSendAcknowledgement  ETV
+vector 479  _01_RfidSim.reader[74].nic  ReaderSendAcknowledgement  ETV
+vector 371  _01_RfidSim.reader[47].nic  ReaderSendAcknowledgement  ETV
+vector 677  _01_RfidSim.tag[24].nic  TagReceivedAcknowledgement  ETV
+vector 355  _01_RfidSim.reader[43].nic  ReaderSendAcknowledgement  ETV
+vector 769  _01_RfidSim.tag[47].nic  TagReceivedAcknowledgement  ETV
+vector 809  _01_RfidSim.tag[57].nic  TagReceivedAcknowledgement  ETV
+vector 363  _01_RfidSim.reader[45].nic  ReaderSendAcknowledgement  ETV
+vector 713  _01_RfidSim.tag[33].nic  TagReceivedAcknowledgement  ETV
+vector 311  _01_RfidSim.reader[32].nic  ReaderSendAcknowledgement  ETV
+vector 745  _01_RfidSim.tag[41].nic  TagReceivedAcknowledgement  ETV
+vector 199  _01_RfidSim.reader[4].nic  ReaderSendAcknowledgement  ETV
+vector 629  _01_RfidSim.tag[12].nic  TagReceivedAcknowledgement  ETV
+vector 275  _01_RfidSim.reader[23].nic  ReaderSendAcknowledgement  ETV
+vector 665  _01_RfidSim.tag[21].nic  TagReceivedAcknowledgement  ETV
+vector 283  _01_RfidSim.reader[25].nic  ReaderSendAcknowledgement  ETV
+vector 709  _01_RfidSim.tag[32].nic  TagReceivedAcknowledgement  ETV
+vector 741  _01_RfidSim.tag[40].nic  TagReceivedAcknowledgement  ETV
+182	1223	0.000844	192
+182	2198	0.001414	192
+182	4021	0.002654	192
+182	4879	0.003204	192
+182	5895	0.003754	192
+182	6862	0.004484	192
+182	16198	0.009738498308	192
+182	19604	0.011694498308	192
+182	29407	0.017560001	192
+182	43983	0.026964	192
+182	45092	0.027674	192
+183	25626	0.015484498308	192
+183	58168	0.036202486697	192
+186	1226	0.000844	199
+186	2201	0.001414	199
+186	3396	0.002064	199
+186	4881	0.003204	199
+186	5897	0.003754	199
+186	6864	0.004484	199
+186	16200	0.009738498308	199
+186	19606	0.011694498308	199
+186	29409	0.017560001	199
+186	43987	0.026964	199
+186	45094	0.027674	199
+186	59785	0.037334	199
+190	1052	0.000844	206
+190	3399	0.002064	206
+190	4023	0.002654	206
+190	4883	0.003204	206
+190	5899	0.003754	206
+190	9161	0.005782497308	206
+190	10422	0.006372497308	206
+190	16202	0.009738498308	206
+190	19610	0.011694498308	206
+190	29411	0.017560001	206
+190	43989	0.026964	206
+190	45096	0.027674	206
+190	59787	0.037334	206
+190	67456	0.042294	206
+190	70350	0.044444	206
+190	80727	0.052094	206
+190	81466	0.052784	206
+191	14664	0.008824498308	206
+191	21651	0.013024498308	206
+194	1055	0.000844	213
+194	2204	0.001414	213
+194	5901	0.003754	213
+194	7357	0.004662497308	213
+194	9165	0.005782497308	213
+194	10424	0.006372497308	213
+194	12644	0.007638497308	213
+194	16204	0.009738498308	213
+194	22694	0.013834	213
+194	29413	0.017560001	213
+194	59789	0.037334	213
+194	60901	0.037884	213
+194	67458	0.042294	213
+194	70352	0.044444	213
+194	80729	0.052094	213
+194	81468	0.052784	213
+198	1058	0.000844	220
+198	2207	0.001414	220
+198	7360	0.004662497308	220
+198	8200	0.005212497308	220
+198	10427	0.006372497308	220
+198	12648	0.007638497308	220
+198	17039	0.010288498308	220
+198	19616	0.011694498308	220
+198	22696	0.013834	220
+198	35225	0.020984498308	220
+198	52263	0.032316500308	220
+198	59791	0.037334	220
+198	60903	0.037884	220
+198	67462	0.042294	220
+198	70354	0.044444	220
+198	80731	0.052094	220
+198	81470	0.052784	220
+198	102015	0.070584	220
+199	135216	0.104512002	220
+202	2210	0.001414	227
+202	7363	0.004662497308	227
+202	8203	0.005212497308	227
+202	9167	0.005782497308	227
+202	10429	0.006372497308	227
+202	12652	0.007638497308	227
+202	17041	0.010288498308	227
+202	19618	0.011694498308	227
+202	22698	0.013834	227
+202	34039	0.020414498308	227
+202	35227	0.020984498308	227
+202	52265	0.032316500308	227
+202	59793	0.037334	227
+202	60905	0.037884	227
+202	80733	0.052094	227
+202	102017	0.070584	227
+203	6054	0.003768497308	227
+203	32755	0.019480498308	227
+206	1061	0.000844	234
+206	8205	0.005212497308	234
+206	9169	0.005782497308	234
+206	19622	0.011694498308	234
+206	34041	0.020414498308	234
+206	35229	0.020984498308	234
+206	36109	0.021614498308	234
+206	52267	0.032316500308	234
+206	65456	0.040664	234
+206	80735	0.052094	234
+206	102019	0.070584	234
+206	107310	0.07501	234
+210	2926	0.001754	241
+210	3663	0.002344	241
+210	4614	0.003014	241
+210	8207	0.005212497308	241
+210	12654	0.007638497308	241
+210	19433	0.011668497308	241
+210	27742	0.016744498308	241
+210	34043	0.020414498308	241
+210	35231	0.020984498308	241
+210	36111	0.021614498308	241
+210	50676	0.031266500308	241
+210	52269	0.032316500308	241
+210	65460	0.040664	241
+210	95358	0.064344	241
+210	107312	0.07501	241
+210	108307	0.075754	241
+214	2928	0.001754	248
+214	4616	0.003014	248
+214	12658	0.007638497308	248
+214	23944	0.014554498308	248
+214	27744	0.016744498308	248
+214	34045	0.020414498308	248
+214	35233	0.020984498308	248
+214	36113	0.021614498308	248
+214	50678	0.031266500308	248
+214	52271	0.032316500308	248
+214	65464	0.040664	248
+214	95362	0.064344	248
+214	108309	0.075754	248
+215	17987	0.010774497308	248
+215	26055	0.015770498308	248
+218	1163	0.000844	255
+218	3665	0.002344	255
+218	4618	0.003014	255
+218	12662	0.007638497308	255
+218	23946	0.014554498308	255
+218	27746	0.016744498308	255
+218	34047	0.020414498308	255
+218	35235	0.020984498308	255
+218	36115	0.021614498308	255
+218	50680	0.031266500308	255
+218	95364	0.064344	255
+218	108311	0.075754	255
+219	6808	0.00429	255
+219	9492	0.00589	255
+222	1229	0.000844	262
+222	3404	0.002064	262
+222	4029	0.002654	262
+222	4888	0.003204	262
+222	5905	0.003754	262
+222	16207	0.009738498308	262
+222	19624	0.011694498308	262
+222	29417	0.017560001	262
+222	43991	0.026964	262
+222	45098	0.027674	262
+222	74781	0.047864	262
+226	1232	0.000844	269
+226	2215	0.001414	269
+226	3406	0.002064	269
+226	4032	0.002654	269
+226	4891	0.003204	269
+226	6868	0.004484	269
+226	16209	0.009738498308	269
+226	19628	0.011694498308	269
+226	29419	0.017560001	269
+226	43995	0.026964	269
+226	45100	0.027674	269
+226	74783	0.047864	269
+226	101374	0.069974	269
+227	73729	0.04693	269
+230	1068	0.000844	276
+230	2218	0.001414	276
+230	3408	0.002064	276
+230	4035	0.002654	276
+230	4894	0.003204	276
+230	5908	0.003754	276
+230	9176	0.005782497308	276
+230	10434	0.006372497308	276
+230	16211	0.009738498308	276
+230	19632	0.011694498308	276
+230	22700	0.013834	276
+230	43997	0.026964	276
+230	59799	0.037334	276
+230	67469	0.042294	276
+230	70358	0.044444	276
+230	74785	0.047864	276
+230	80738	0.052094	276
+230	81474	0.052784	276
+230	101376	0.069974	276
+231	36689	0.021792002	276
+234	1071	0.000844	283
+234	4037	0.002654	283
+234	5910	0.003754	283
+234	7371	0.004662497308	283
+234	9180	0.005782497308	283
+234	10437	0.006372497308	283
+234	12666	0.007638497308	283
+234	16214	0.009738498308	283
+234	17047	0.010288498308	283
+234	22703	0.013834	283
+234	40883	0.024894	283
+234	43999	0.026964	283
+234	59801	0.037334	283
+234	60910	0.037884	283
+234	67471	0.042294	283
+234	70360	0.044444	283
+234	80740	0.052094	283
+234	81476	0.052784	283
+234	101378	0.069974	283
+235	69445	0.04351	283
+238	1074	0.000844	290
+238	7374	0.004662497308	290
+238	8211	0.005212497308	290
+238	9184	0.005782497308	290
+238	10440	0.006372497308	290
+238	12670	0.007638497308	290
+238	17050	0.010288498308	290
+238	19636	0.011694498308	290
+238	22705	0.013834	290
+238	34049	0.020414498308	290
+238	35240	0.020984498308	290
+238	40887	0.024894	290
+238	60912	0.037884	290
+238	67475	0.042294	290
+238	70362	0.044444	290
+238	79954	0.051504	290
+238	80742	0.052094	290
+238	81478	0.052784	290
+238	102022	0.070584	290
+242	1077	0.000844	297
+242	7377	0.004662497308	297
+242	8214	0.005212497308	297
+242	10443	0.006372497308	297
+242	12673	0.007638497308	297
+242	17053	0.010288498308	297
+242	19639	0.011694498308	297
+242	22708	0.013834	297
+242	34052	0.020414498308	297
+242	35243	0.020984498308	297
+242	40891	0.024894	297
+242	52276	0.032316500308	297
+242	59803	0.037334	297
+242	60914	0.037884	297
+242	68297	0.042886500308	297
+242	70364	0.044444	297
+242	79956	0.051504	297
+242	80744	0.052094	297
+242	102024	0.070584	297
+242	107316	0.07501	297
+243	87055	0.05713	297
+246	1080	0.000844	304
+246	2303	0.001414	304
+246	8217	0.005212497308	304
+246	12675	0.007638497308	304
+246	19437	0.011668497308	304
+246	22710	0.013834	304
+246	34054	0.020414498308	304
+246	36119	0.021614498308	304
+246	52278	0.032316500308	304
+246	65470	0.040664	304
+246	68299	0.042886500308	304
+246	79958	0.051504	304
+246	80746	0.052094	304
+246	95366	0.064344	304
+246	102026	0.070584	304
+246	107318	0.07501	304
+247	67186	0.042032500308	304
+250	2932	0.001754	311
+250	3669	0.002344	311
+250	4622	0.003014	311
+250	8219	0.005212497308	311
+250	11337	0.006794	311
+250	19439	0.011668497308	311
+250	34057	0.020414498308	311
+250	35245	0.020984498308	311
+250	42336	0.026016500308	311
+250	50687	0.031266500308	311
+250	52280	0.032316500308	311
+250	65474	0.040664	311
+250	68301	0.042886500308	311
+250	73122	0.046576500308	311
+250	95370	0.064344	311
+250	107320	0.07501	311
+251	92760	0.06217	311
+251	127838	0.094886001	311
+254	2934	0.001754	318
+254	3672	0.002344	318
+254	4624	0.003014	318
+254	11340	0.006794	318
+254	23951	0.014554498308	318
+254	34060	0.020414498308	318
+254	35248	0.020984498308	318
+254	36121	0.021614498308	318
+254	50689	0.031266500308	318
+254	52282	0.032316500308	318
+254	65476	0.040664	318
+254	73124	0.046576500308	318
+254	95374	0.064344	318
+254	107322	0.07501	318
+254	108316	0.075754	318
+258	1171	0.000844	325
+258	2937	0.001754	325
+258	3675	0.002344	325
+258	12680	0.007638497308	325
+258	23954	0.014554498308	325
+258	27751	0.016744498308	325
+258	34062	0.020414498308	325
+258	35250	0.020984498308	325
+258	36123	0.021614498308	325
+258	50693	0.031266500308	325
+258	52284	0.032316500308	325
+258	65480	0.040664	325
+258	95376	0.064344	325
+258	108318	0.075754	325
+259	14791	0.008854497308	325
+259	29994	0.017960498308	325
+259	62043	0.038512500308	325
+259	103861	0.07194	325
+262	1236	0.000844	332
+262	3414	0.002064	332
+262	4041	0.002654	332
+262	4900	0.003204	332
+262	5914	0.003754	332
+262	6872	0.004484	332
+262	16218	0.009738498308	332
+262	29424	0.017560001	332
+262	44001	0.026964	332
+262	45104	0.027674	332
+262	74787	0.047864	332
+262	101380	0.069974	332
+263	8917	0.005712861632	332
+263	71668	0.04525	332
+266	1239	0.000844	339
+266	3416	0.002064	339
+266	4043	0.002654	339
+266	5916	0.003754	339
+266	6874	0.004484	339
+266	16220	0.009738498308	339
+266	19645	0.011694498308	339
+266	29426	0.017560001	339
+266	44003	0.026964	339
+266	74789	0.047864	339
+266	101382	0.069974	339
+267	31788	0.018936001	339
+267	52682	0.032602486697	339
+270	1242	0.000844	346
+270	3418	0.002064	346
+270	4046	0.002654	346
+270	4902	0.003204	346
+270	5918	0.003754	346
+270	6876	0.004484	346
+270	9195	0.005782497308	346
+270	10448	0.006372497308	346
+270	16222	0.009738498308	346
+270	19649	0.011694498308	346
+270	22714	0.013834	346
+270	40895	0.024894	346
+270	44005	0.026964	346
+270	59809	0.037334	346
+270	70369	0.044444	346
+270	74791	0.047864	346
+270	80750	0.052094	346
+270	81483	0.052784	346
+270	101384	0.069974	346
+271	83269	0.054	346
+271	110928	0.07796	346
+271	123013	0.089896001	346
+274	1090	0.000844	353
+274	4048	0.002654	353
+274	5920	0.003754	353
+274	7384	0.004662497308	353
+274	8223	0.005212497308	353
+274	9199	0.005782497308	353
+274	10451	0.006372497308	353
+274	16225	0.009738498308	353
+274	19653	0.011694498308	353
+274	22717	0.013834	353
+274	40899	0.024894	353
+274	59811	0.037334	353
+274	60921	0.037884	353
+274	67482	0.042294	353
+274	70371	0.044444	353
+274	74793	0.047864	353
+274	80752	0.052094	353
+274	81485	0.052784	353
+274	101386	0.069974	353
+275	136075	0.106032002	353
+278	1093	0.000844	360
+278	7386	0.004662497308	360
+278	8225	0.005212497308	360
+278	9201	0.005782497308	360
+278	12683	0.007638497308	360
+278	16227	0.009738498308	360
+278	17060	0.010288498308	360
+278	19655	0.011694498308	360
+278	22719	0.013834	360
+278	34064	0.020414498308	360
+278	35254	0.020984498308	360
+278	40903	0.024894	360
+278	59813	0.037334	360
+278	60923	0.037884	360
+278	67486	0.042294	360
+278	70373	0.044444	360
+278	79961	0.051504	360
+278	80754	0.052094	360
+278	101388	0.069974	360
+282	1096	0.000844	367
+282	2309	0.001414	367
+282	8228	0.005212497308	367
+282	10453	0.006372497308	367
+282	12685	0.007638497308	367
+282	17062	0.010288498308	367
+282	22721	0.013834	367
+282	34066	0.020414498308	367
+282	35256	0.020984498308	367
+282	40907	0.024894	367
+282	52288	0.032316500308	367
+282	59815	0.037334	367
+282	60925	0.037884	367
+282	65485	0.040664	367
+282	68304	0.042886500308	367
+282	70375	0.044444	367
+282	79963	0.051504	367
+282	80756	0.052094	367
+282	102032	0.070584	367
+282	107329	0.07501	367
+283	138924	0.111332002	367
+286	1099	0.000844	374
+286	2312	0.001414	374
+286	7389	0.004662497308	374
+286	8230	0.005212497308	374
+286	10455	0.006372497308	374
+286	22723	0.013834	374
+286	34068	0.020414498308	374
+286	35258	0.020984498308	374
+286	36127	0.021614498308	374
+286	40911	0.024894	374
+286	65489	0.040664	374
+286	68306	0.042886500308	374
+286	73130	0.046576500308	374
+286	79965	0.051504	374
+286	80758	0.052094	374
+286	95379	0.064344	374
+286	102034	0.070584	374
+286	107331	0.07501	374
+287	90773	0.06063	374
+290	2548	0.001454	381
+290	4628	0.003014	381
+290	8232	0.005212497308	381
+290	9277	0.005782497308	381
+290	11345	0.006794	381
+290	35261	0.020984498308	381
+290	36129	0.021614498308	381
+290	42345	0.026016500308	381
+290	50700	0.031266500308	381
+290	52290	0.032316500308	381
+290	65493	0.040664	381
+290	68308	0.042886500308	381
+290	73132	0.046576500308	381
+290	95381	0.064344	381
+290	107333	0.07501	381
+291	54368	0.033532500308	381
+294	1178	0.000844	388
+294	4632	0.003014	388
+294	11348	0.006794	388
+294	27756	0.016744498308	388
+294	34070	0.020414498308	388
+294	50702	0.031266500308	388
+294	52292	0.032316500308	388
+294	65495	0.040664	388
+294	68310	0.042886500308	388
+294	73134	0.046576500308	388
+294	95383	0.064344	388
+294	107337	0.07501	388
+294	108323	0.075754	388
+295	59229	0.036892500308	388
+298	1181	0.000844	395
+298	4634	0.003014	395
+298	23959	0.014554498308	395
+298	27758	0.016744498308	395
+298	50706	0.031266500308	395
+298	52294	0.032316500308	395
+298	65497	0.040664	395
+298	95385	0.064344	395
+298	108325	0.075754	395
+302	1246	0.000844	402
+302	4053	0.002654	402
+302	4907	0.003204	402
+302	5924	0.003754	402
+302	6879	0.004484	402
+302	16229	0.009738498308	402
+302	29432	0.017560001	402
+302	44010	0.026964	402
+302	48219	0.029754	402
+302	74795	0.047864	402
+302	101390	0.069974	402
+303	50515	0.031042486697	402
+303	79082	0.05092507601	402
+306	1249	0.000844	409
+306	3423	0.002064	409
+306	4056	0.002654	409
+306	4910	0.003204	409
+306	5926	0.003754	409
+306	6882	0.004484	409
+306	29435	0.017560001	409
+306	44013	0.026964	409
+306	48221	0.029754	409
+306	74797	0.047864	409
+306	101392	0.069974	409
+310	1252	0.000844	416
+310	3425	0.002064	416
+310	4059	0.002654	416
+310	5928	0.003754	416
+310	6885	0.004484	416
+310	9211	0.005782497308	416
+310	10459	0.006372497308	416
+310	13410	0.008064	416
+310	16232	0.009738498308	416
+310	19661	0.011694498308	416
+310	22731	0.013834	416
+310	40916	0.024894	416
+310	44015	0.026964	416
+310	59820	0.037334	416
+310	67493	0.042294	416
+310	70385	0.044444	416
+310	74799	0.047864	416
+310	80762	0.052094	416
+310	101394	0.069974	416
+311	133072	0.101632002	416
+314	1106	0.000844	423
+314	4061	0.002654	423
+314	5930	0.003754	423
+314	7395	0.004662497308	423
+314	8236	0.005212497308	423
+314	9215	0.005782497308	423
+314	10462	0.006372497308	423
+314	16235	0.009738498308	423
+314	19665	0.011694498308	423
+314	22734	0.013834	423
+314	40920	0.024894	423
+314	59822	0.037334	423
+314	60932	0.037884	423
+314	67497	0.042294	423
+314	70388	0.044444	423
+314	74801	0.047864	423
+314	80765	0.052094	423
+314	101396	0.069974	423
+315	27546	0.016646001	423
+318	1109	0.000844	430
+318	7397	0.004662497308	430
+318	8238	0.005212497308	430
+318	9217	0.005782497308	430
+318	10464	0.006372497308	430
+318	12691	0.007638497308	430
+318	16237	0.009738498308	430
+318	17070	0.010288498308	430
+318	22736	0.013834	430
+318	34073	0.020414498308	430
+318	40924	0.024894	430
+318	59824	0.037334	430
+318	60934	0.037884	430
+318	67499	0.042294	430
+318	70390	0.044444	430
+318	79970	0.051504	430
+318	101398	0.069974	430
+318	107344	0.07501	430
+319	103531	0.0718	430
+322	1112	0.000844	437
+322	2319	0.001414	437
+322	7400	0.004662497308	437
+322	8241	0.005212497308	437
+322	10467	0.006372497308	437
+322	17073	0.010288498308	437
+322	21109	0.012744	437
+322	22739	0.013834	437
+322	40928	0.024894	437
+322	52298	0.032316500308	437
+322	59827	0.037334	437
+322	65502	0.040664	437
+322	68314	0.042886500308	437
+322	70393	0.044444	437
+322	79973	0.051504	437
+322	80767	0.052094	437
+322	102041	0.070584	437
+322	107346	0.07501	437
+326	1115	0.000844	444
+326	2322	0.001414	444
+326	7403	0.004662497308	444
+326	10469	0.006372497308	444
+326	21113	0.012744	444
+326	22742	0.013834	444
+326	40932	0.024894	444
+326	42352	0.026016500308	444
+326	52300	0.032316500308	444
+326	59830	0.037334	444
+326	65506	0.040664	444
+326	68316	0.042886500308	444
+326	70395	0.044444	444
+326	73143	0.046576500308	444
+326	79975	0.051504	444
+326	80769	0.052094	444
+326	95388	0.064344	444
+326	107348	0.07501	444
+327	46810	0.028772500308	444
+327	78909	0.05065	444
+327	131093	0.099652002	444
+330	2555	0.001454	451
+330	4638	0.003014	451
+330	8244	0.005212497308	451
+330	9285	0.005782497308	451
+330	11354	0.006794	451
+330	22744	0.013834	451
+330	36136	0.021614498308	451
+330	42356	0.026016500308	451
+330	52302	0.032316500308	451
+330	65508	0.040664	451
+330	68318	0.042886500308	451
+330	73147	0.046576500308	451
+330	95390	0.064344	451
+330	107350	0.07501	451
+334	1187	0.000844	458
+334	2557	0.001454	458
+334	4640	0.003014	458
+334	11357	0.006794	458
+334	23964	0.014554498308	458
+334	27763	0.016744498308	458
+334	42359	0.026016500308	458
+334	50713	0.031266500308	458
+334	52304	0.032316500308	458
+334	65510	0.040664	458
+334	68320	0.042886500308	458
+334	73149	0.046576500308	458
+334	95392	0.064344	458
+334	107352	0.07501	458
+335	111851	0.07885	458
+335	113398	0.08041	458
+335	118028	0.08519	458
+335	125570	0.092386001	458
+338	1190	0.000844	465
+338	2559	0.001454	465
+338	4644	0.003014	465
+338	11359	0.006794	465
+338	23967	0.014554498308	465
+338	27766	0.016744498308	465
+338	50717	0.031266500308	465
+338	52307	0.032316500308	465
+338	65513	0.040664	465
+338	95395	0.064344	465
+338	107356	0.07501	465
+338	108330	0.075754	465
+342	4065	0.002654	472
+342	4919	0.003204	472
+342	16240	0.009738498308	472
+342	44020	0.026964	472
+342	48223	0.029754	472
+342	74804	0.047864	472
+342	101401	0.069974	472
+343	46999	0.0289	472
+343	61301	0.03804	472
+343	96482	0.065311084083	472
+343	99135	0.067571084083	472
+343	104929	0.07271	472
+346	1256	0.000844	479
+346	4067	0.002654	479
+346	4921	0.003204	479
+346	5935	0.003754	479
+346	6890	0.004484	479
+346	13417	0.008064	479
+346	14282	0.008634	479
+346	16244	0.009738498308	479
+346	29443	0.017560001	479
+346	48225	0.029754	479
+346	70400	0.044444	479
+346	74806	0.047864	479
+346	101403	0.069974	479
+347	63785	0.0396	479
+347	94558	0.063571084083	479
+350	1259	0.000844	486
+350	3472	0.002164	486
+350	4070	0.002654	486
+350	5937	0.003754	486
+350	6892	0.004484	486
+350	13419	0.008064	486
+350	14284	0.008634	486
+350	16248	0.009738498308	486
+350	22749	0.013834	486
+350	40939	0.024894	486
+350	44022	0.026964	486
+350	70402	0.044444	486
+350	74808	0.047864	486
+350	80773	0.052094	486
+350	101405	0.069974	486
+351	42699	0.02611	486
+351	58591	0.03648	486
+351	126350	0.093272002	486
+354	1262	0.000844	493
+354	7259	0.004654	493
+354	9225	0.005782497308	493
+354	10474	0.006372497308	493
+354	13421	0.008064	493
+354	14286	0.008634	493
+354	16252	0.009738498308	493
+354	22751	0.013834	493
+354	40943	0.024894	493
+354	59835	0.037334	493
+354	60942	0.037884	493
+354	67507	0.042294	493
+354	74810	0.047864	493
+354	80775	0.052094	493
+354	101407	0.069974	493
+355	124930	0.091752002	493
+358	1121	0.000844	500
+358	2328	0.001414	500
+358	7410	0.004662497308	500
+358	8250	0.005212497308	500
+358	9227	0.005782497308	500
+358	10477	0.006372497308	500
+358	13423	0.008064	500
+358	14288	0.008634	500
+358	16256	0.009738498308	500
+358	17079	0.010288498308	500
+358	19301	0.011604	500
+358	21119	0.012744	500
+358	25031	0.015144	500
+358	35545	0.021184	500
+358	40947	0.024894	500
+358	52310	0.032316500308	500
+358	59837	0.037334	500
+358	60944	0.037884	500
+358	67511	0.042294	500
+358	70404	0.044444	500
+358	79981	0.051504	500
+358	80777	0.052094	500
+358	101409	0.069974	500
+358	107361	0.07501	500
+362	1124	0.000844	507
+362	2330	0.001414	507
+362	7413	0.004662497308	507
+362	8253	0.005212497308	507
+362	10480	0.006372497308	507
+362	21123	0.012744	507
+362	22755	0.013834	507
+362	35547	0.021184	507
+362	40951	0.024894	507
+362	59839	0.037334	507
+362	60946	0.037884	507
+362	65516	0.040664	507
+362	68325	0.042886500308	507
+362	70406	0.044444	507
+362	73157	0.046576500308	507
+362	79983	0.051504	507
+362	80779	0.052094	507
+362	101411	0.069974	507
+362	107363	0.07501	507
+363	128856	0.096312002	507
+363	137011	0.107552002	507
+363	137952	0.109252002	507
+366	2417	0.001414	514
+366	7415	0.004662497308	514
+366	8256	0.005212497308	514
+366	9291	0.005782497308	514
+366	10482	0.006372497308	514
+366	18348	0.011034	514
+366	19307	0.011604	514
+366	21127	0.012744	514
+366	35549	0.021184	514
+366	40955	0.024894	514
+366	42365	0.026016500308	514
+366	59843	0.037334	514
+366	60948	0.037884	514
+366	65519	0.040664	514
+366	68327	0.042886500308	514
+366	70409	0.044444	514
+366	73161	0.046576500308	514
+367	119333	0.08673	514
+367	134204	0.102992002	514
+370	2563	0.001454	521
+370	4648	0.003014	521
+370	10013	0.006204	521
+370	11363	0.006794	521
+370	18351	0.011034	521
+370	21131	0.012744	521
+370	22126	0.013374	521
+370	36142	0.021614498308	521
+370	40959	0.024894	521
+370	42369	0.026016500308	521
+370	68330	0.042886500308	521
+370	73165	0.046576500308	521
+370	95399	0.064344	521
+370	107365	0.07501	521
+371	123854	0.090866001	521
+374	2566	0.001454	528
+374	4652	0.003014	528
+374	8260	0.005212497308	528
+374	10015	0.006204	528
+374	11366	0.006794	528
+374	22128	0.013374	528
+374	23974	0.014554498308	528
+374	27771	0.016744498308	528
+374	42372	0.026016500308	528
+374	50724	0.031266500308	528
+374	52315	0.032316500308	528
+374	65522	0.040664	528
+374	68332	0.042886500308	528
+374	73167	0.046576500308	528
+374	107367	0.07501	528
+374	108335	0.075754	528
+375	109904	0.07697	528
+375	120934	0.08825	528
+378	1358	0.000844	535
+378	2568	0.001454	535
+378	4656	0.003014	535
+378	11368	0.006794	535
+378	23978	0.014554498308	535
+378	27774	0.016744498308	535
+378	52453	0.032394	535
+378	65525	0.040664	535
+378	73171	0.046576500308	535
+378	95401	0.064344	535
+378	107371	0.07501	535
+378	108337	0.075754	535
+382	1265	0.000844	542
+382	2493	0.001414	542
+382	4926	0.003204	542
+382	16260	0.009738498308	542
+382	25033	0.015144	542
+382	44026	0.026964	542
+382	48229	0.029754	542
+382	74814	0.047864	542
+382	101414	0.069974	542
+386	1267	0.000844	549
+386	3475	0.002164	549
+386	6359	0.004124	549
+386	7262	0.004654	549
+386	13429	0.008064	549
+386	14292	0.008634	549
+386	44028	0.026964	549
+386	48231	0.029754	549
+386	81501	0.052784	549
+386	101416	0.069974	549
+387	76854	0.04940507601	549
+390	1269	0.000844	556
+390	2336	0.001414	556
+390	3478	0.002164	556
+390	7264	0.004654	556
+390	13432	0.008064	556
+390	14295	0.008634	556
+390	25038	0.015144	556
+390	40965	0.024894	556
+390	48233	0.029754	556
+390	49161	0.030304	556
+390	70414	0.044444	556
+390	74816	0.047864	556
+390	80785	0.052094	556
+391	120726	0.087992002	556
+391	131484	0.100112002	556
+394	1272	0.000844	563
+394	3745	0.002404	563
+394	7267	0.004654	563
+394	9344	0.005814	563
+394	10486	0.006372497308	563
+394	13435	0.008064	563
+394	14297	0.008634	563
+394	25040	0.015144	563
+394	31399	0.018814	563
+394	40969	0.024894	563
+394	59846	0.037334	563
+394	67519	0.042294	563
+394	74818	0.047864	563
+394	79990	0.051504	563
+394	80788	0.052094	563
+394	101418	0.069974	563
+398	1361	0.000844	570
+398	3747	0.002404	570
+398	9294	0.005782497308	570
+398	10488	0.006372497308	570
+398	13438	0.008064	570
+398	14299	0.008634	570
+398	19313	0.011604	570
+398	21138	0.012744	570
+398	25043	0.015144	570
+398	35555	0.021184	570
+398	59848	0.037334	570
+398	60956	0.037884	570
+398	67523	0.042294	570
+398	68336	0.042886500308	570
+398	70419	0.044444	570
+398	79992	0.051504	570
+398	80790	0.052094	570
+398	101420	0.069974	570
+398	107376	0.07501	570
+399	100548	0.0691	570
+399	109231	0.0764	570
+402	1364	0.000844	577
+402	2047	0.001324	577
+402	2987	0.001854	577
+402	3750	0.002404	577
+402	9296	0.005782497308	577
+402	10490	0.006372497308	577
+402	18357	0.011034	577
+402	19317	0.011604	577
+402	21140	0.012744	577
+402	35558	0.021184	577
+402	40973	0.024894	577
+402	59850	0.037334	577
+402	60958	0.037884	577
+402	65528	0.040664	577
+402	68340	0.042886500308	577
+402	70421	0.044444	577
+402	73177	0.046576500308	577
+402	80792	0.052094	577
+402	101422	0.069974	577
+402	102055	0.070584	577
+402	107380	0.07501	577
+406	1367	0.000844	584
+406	2571	0.001454	584
+406	4498	0.002994	584
+406	7892	0.005104	584
+406	18360	0.011034	584
+406	21143	0.012744	584
+406	22133	0.013374	584
+406	35561	0.021184	584
+406	40977	0.024894	584
+406	42375	0.026016500308	584
+406	60960	0.037884	584
+406	65530	0.040664	584
+406	70424	0.044444	584
+406	73181	0.046576500308	584
+406	107384	0.07501	584
+410	1370	0.000844	591
+410	2573	0.001454	591
+410	4501	0.002994	591
+410	7894	0.005104	591
+410	8729	0.005674	591
+410	10020	0.006204	591
+410	11372	0.006794	591
+410	21145	0.012744	591
+410	22135	0.013374	591
+410	29515	0.017694	591
+410	30217	0.018244	591
+410	40981	0.024894	591
+410	42379	0.026016500308	591
+410	52457	0.032394	591
+410	65533	0.040664	591
+410	68343	0.042886500308	591
+410	107386	0.07501	591
+414	1373	0.000844	598
+414	2576	0.001454	598
+414	4505	0.002994	598
+414	7896	0.005104	598
+414	8731	0.005674	598
+414	10023	0.006204	598
+414	22137	0.013374	598
+414	31465	0.018894	598
+414	42382	0.026016500308	598
+414	52322	0.032316500308	598
+414	65536	0.040664	598
+414	73185	0.046576500308	598
+414	95406	0.064344	598
+414	107388	0.07501	598
+414	108342	0.075754	598
+415	77129	0.049492500308	598
+415	81363	0.05255	598
+415	116636	0.08367	598
+418	1376	0.000844	605
+418	2579	0.001454	605
+418	4661	0.003014	605
+418	8734	0.005674	605
+418	11375	0.006794	605
+418	22139	0.013374	605
+418	23985	0.014554498308	605
+418	42384	0.026016500308	605
+418	52460	0.032394	605
+418	65538	0.040664	605
+418	73189	0.046576500308	605
+418	95408	0.064344	605
+418	107392	0.07501	605
+418	108344	0.075754	605
+419	79389	0.05099	605
+422	1275	0.000844	612
+422	2498	0.001414	612
+422	3481	0.002164	612
+422	4264	0.002804	612
+422	5277	0.003414	612
+422	13442	0.008064	612
+422	14303	0.008634	612
+422	25047	0.015144	612
+422	38167	0.022730001	612
+422	48236	0.029754	612
+422	74824	0.047864	612
+422	81507	0.052784	612
+422	101424	0.069974	612
+423	36555	0.021776001	612
+423	92601	0.062011084083	612
+426	1277	0.000844	619
+426	2426	0.001414	619
+426	3484	0.002164	619
+426	5280	0.003414	619
+426	6363	0.004124	619
+426	7272	0.004654	619
+426	13444	0.008064	619
+426	14305	0.008634	619
+426	24063	0.014594	619
+426	25049	0.015144	619
+426	48238	0.029754	619
+426	74826	0.047864	619
+426	81509	0.052784	619
+426	101426	0.069974	619
+430	1279	0.000844	626
+430	2991	0.001854	626
+430	3756	0.002404	626
+430	7275	0.004654	626
+430	13446	0.008064	626
+430	14308	0.008634	626
+430	24066	0.014594	626
+430	25052	0.015144	626
+430	40987	0.024894	626
+430	48240	0.029754	626
+430	49169	0.030304	626
+430	70428	0.044444	626
+430	74828	0.047864	626
+430	80796	0.052094	626
+430	101428	0.069974	626
+434	2051	0.001324	633
+434	2993	0.001854	633
+434	3758	0.002404	633
+434	5021	0.003204	633
+434	9353	0.005814	633
+434	14311	0.008634	633
+434	24069	0.014594	633
+434	25055	0.015144	633
+434	40991	0.024894	633
+434	48242	0.029754	633
+434	49171	0.030304	633
+434	54591	0.033724	633
+434	79998	0.051504	633
+434	80798	0.052094	633
+434	101430	0.069974	633
+435	56490	0.03496	633
+438	1379	0.000844	640
+438	2053	0.001324	640
+438	2995	0.001854	640
+438	3760	0.002404	640
+438	5023	0.003204	640
+438	7899	0.005104	640
+438	9357	0.005814	640
+438	13449	0.008064	640
+438	14313	0.008634	640
+438	21154	0.012744	640
+438	25057	0.015144	640
+438	31468	0.018894	640
+438	40993	0.024894	640
+438	70434	0.044444	640
+438	80000	0.051504	640
+438	80800	0.052094	640
+438	101432	0.069974	640
+442	1382	0.000844	647
+442	2055	0.001324	647
+442	2998	0.001854	647
+442	4509	0.002994	647
+442	7901	0.005104	647
+442	9360	0.005814	647
+442	18368	0.011034	647
+442	19329	0.011604	647
+442	21156	0.012744	647
+442	22144	0.013374	647
+442	31471	0.018894	647
+442	40995	0.024894	647
+442	54596	0.033724	647
+442	60968	0.037884	647
+442	65541	0.040664	647
+442	68350	0.042886500308	647
+442	70436	0.044444	647
+442	73195	0.046576500308	647
+442	80002	0.051504	647
+442	80802	0.052094	647
+442	101434	0.069974	647
+442	102063	0.070584	647
+442	107398	0.07501	647
+443	33920	0.02029	647
+443	37735	0.02244	647
+443	98609	0.0671	647
+443	139858	0.112872002	647
+446	1385	0.000844	654
+446	3001	0.001854	654
+446	3762	0.002404	654
+446	4511	0.002994	654
+446	7903	0.005104	654
+446	11378	0.006794	654
+446	20411	0.012194	654
+446	21158	0.012744	654
+446	22146	0.013374	654
+446	25798	0.015604	654
+446	29520	0.017694	654
+446	31473	0.018894	654
+446	35571	0.021184	654
+446	40997	0.024894	654
+446	65543	0.040664	654
+446	68352	0.042886500308	654
+446	70555	0.044444	654
+446	73199	0.046576500308	654
+446	80804	0.052094	654
+446	107402	0.07501	654
+450	2584	0.001454	661
+450	4514	0.002994	661
+450	7905	0.005104	661
+450	8739	0.005674	661
+450	11380	0.006794	661
+450	21160	0.012744	661
+450	22148	0.013374	661
+450	29522	0.017694	661
+450	30223	0.018244	661
+450	31475	0.018894	661
+450	41001	0.024894	661
+450	42387	0.026016500308	661
+450	52465	0.032394	661
+450	65545	0.040664	661
+450	68356	0.042886500308	661
+450	73203	0.046576500308	661
+450	107406	0.07501	661
+451	13283	0.00805	661
+451	64124	0.03981	661
+451	94381	0.06349	661
+451	132881	0.101472002	661
+454	1388	0.000844	668
+454	4518	0.002994	668
+454	7907	0.005104	668
+454	8741	0.005674	668
+454	10030	0.006204	668
+454	11382	0.006794	668
+454	21162	0.012744	668
+454	22150	0.013374	668
+454	29524	0.017694	668
+454	30225	0.018244	668
+454	42389	0.026016500308	668
+454	52467	0.032394	668
+454	65547	0.040664	668
+454	73205	0.046576500308	668
+454	95413	0.064344	668
+454	107408	0.07501	668
+454	108348	0.075754	668
+455	16663	0.01012	668
+455	96905	0.06558	668
+455	114915	0.08193	668
+458	1391	0.000844	675
+458	2586	0.001454	675
+458	4520	0.002994	675
+458	8743	0.005674	675
+458	11384	0.006794	675
+458	14939	0.008904	675
+458	22152	0.013374	675
+458	23991	0.014554498308	675
+458	29526	0.017694	675
+458	30227	0.018244	675
+458	42391	0.026016500308	675
+458	50739	0.031266500308	675
+458	52471	0.032394	675
+458	73207	0.046576500308	675
+458	95415	0.064344	675
+458	108350	0.075754	675
+462	3489	0.002164	682
+462	4271	0.002804	682
+462	5285	0.003414	682
+462	6368	0.004124	682
+462	25061	0.015144	682
+462	38174	0.022730001	682
+462	74836	0.047864	682
+462	101436	0.069974	682
+463	68057	0.042602498012	682
+463	108253	0.07575	682
+466	1284	0.000844	689
+466	4273	0.002804	689
+466	5288	0.003414	689
+466	6371	0.004124	689
+466	7284	0.004654	689
+466	13455	0.008064	689
+466	14321	0.008634	689
+466	24077	0.014594	689
+466	25064	0.015144	689
+466	48244	0.029754	689
+466	74838	0.047864	689
+466	81514	0.052784	689
+466	101438	0.069974	689
+467	106713	0.07423	689
+470	1286	0.000844	696
+470	2060	0.001324	696
+470	3006	0.001854	696
+470	5028	0.003204	696
+470	7287	0.004654	696
+470	9365	0.005814	696
+470	13457	0.008064	696
+470	14324	0.008634	696
+470	24080	0.014594	696
+470	38177	0.022730001	696
+470	41006	0.024894	696
+470	48246	0.029754	696
+470	49178	0.030304	696
+470	54603	0.033724	696
+470	70440	0.044444	696
+470	74840	0.047864	696
+470	101440	0.069974	696
+474	2062	0.001324	703
+474	3008	0.001854	703
+474	3769	0.002404	703
+474	5030	0.003204	703
+474	9369	0.005814	703
+474	13460	0.008064	703
+474	24083	0.014594	703
+474	25067	0.015144	703
+474	41010	0.024894	703
+474	48248	0.029754	703
+474	49180	0.030304	703
+474	54605	0.033724	703
+474	74844	0.047864	703
+474	80008	0.051504	703
+474	80806	0.052094	703
+474	101442	0.069974	703
+478	1394	0.000844	710
+478	2064	0.001324	710
+478	3010	0.001854	710
+478	3771	0.002404	710
+478	7912	0.005104	710
+478	9372	0.005814	710
+478	13463	0.008064	710
+478	14327	0.008634	710
+478	21170	0.012744	710
+478	25069	0.015144	710
+478	31410	0.018814	710
+478	35579	0.021184	710
+478	41012	0.024894	710
+478	54607	0.033724	710
+478	70446	0.044444	710
+478	73557	0.046816498012	710
+478	80010	0.051504	710
+478	80808	0.052094	710
+478	101444	0.069974	710
+479	122628	0.089512002	710
+479	140803	0.114392002	710
+482	1397	0.000844	717
+482	2066	0.001324	717
+482	3013	0.001854	717
+482	3773	0.002404	717
+482	4525	0.002994	717
+482	7914	0.005104	717
+482	9375	0.005814	717
+482	18375	0.011034	717
+482	21172	0.012744	717
+482	22156	0.013374	717
+482	31480	0.018894	717
+482	41015	0.024894	717
+482	54611	0.033724	717
+482	68364	0.042886500308	717
+482	70448	0.044444	717
+482	73212	0.046576500308	717
+482	80012	0.051504	717
+482	80810	0.052094	717
+482	102070	0.070584	717
+482	107414	0.07501	717
+486	1400	0.000844	724
+486	2068	0.001324	724
+486	3016	0.001854	724
+486	3775	0.002404	724
+486	4528	0.002994	724
+486	7916	0.005104	724
+486	20424	0.012194	724
+486	22158	0.013374	724
+486	25806	0.015604	724
+486	29529	0.017694	724
+486	30229	0.018244	724
+486	31482	0.018894	724
+486	41017	0.024894	724
+486	65553	0.040664	724
+486	68366	0.042886500308	724
+486	73216	0.046576500308	724
+486	80014	0.051504	724
+486	102072	0.070584	724
+486	107418	0.07501	724
+490	1403	0.000844	731
+490	2591	0.001454	731
+490	4531	0.002994	731
+490	7918	0.005104	731
+490	8748	0.005674	731
+490	11389	0.006794	731
+490	20427	0.012194	731
+490	21174	0.012744	731
+490	22160	0.013374	731
+490	29531	0.017694	731
+490	30231	0.018244	731
+490	42393	0.026016500308	731
+490	52477	0.032394	731
+490	65555	0.040664	731
+490	68370	0.042886500308	731
+490	73218	0.046576500308	731
+490	107422	0.07501	731
+490	108352	0.075754	731
+494	1406	0.000844	738
+494	2593	0.001454	738
+494	4535	0.002994	738
+494	7920	0.005104	738
+494	8750	0.005674	738
+494	11391	0.006794	738
+494	21176	0.012744	738
+494	22163	0.013374	738
+494	30234	0.018244	738
+494	42395	0.026016500308	738
+494	52479	0.032394	738
+494	65557	0.040664	738
+494	73220	0.046576500308	738
+494	95419	0.064344	738
+494	107426	0.07501	738
+494	108354	0.075754	738
+498	1409	0.000844	745
+498	2596	0.001454	745
+498	4539	0.002994	745
+498	7923	0.005104	745
+498	11394	0.006794	745
+498	14948	0.008904	745
+498	22166	0.013374	745
+498	29534	0.017694	745
+498	30236	0.018244	745
+498	42397	0.026016500308	745
+498	52481	0.032394	745
+498	73222	0.046576500308	745
+498	95421	0.064344	745
+498	108356	0.075754	745
+499	75145	0.04801	745
+502	3495	0.002164	752
+502	4279	0.002804	752
+502	6376	0.004124	752
+502	25073	0.015144	752
+502	38182	0.022730001	752
+502	48250	0.029754	752
+502	74849	0.047864	752
+502	101447	0.069974	752
+503	33768	0.020236001	752
+503	50066	0.03097	752
+506	3019	0.001854	759
+506	4282	0.002804	759
+506	5293	0.003414	759
+506	6378	0.004124	759
+506	7296	0.004654	759
+506	13468	0.008064	759
+506	14333	0.008634	759
+506	24092	0.014594	759
+506	25075	0.015144	759
+506	38184	0.022730001	759
+506	48252	0.029754	759
+506	74851	0.047864	759
+506	101449	0.069974	759
+510	1574	0.000864	766
+510	3021	0.001854	766
+510	4284	0.002804	766
+510	5296	0.003414	766
+510	6381	0.004124	766
+510	9381	0.005814	766
+510	13470	0.008064	766
+510	14336	0.008634	766
+510	24095	0.014594	766
+510	25078	0.015144	766
+510	38186	0.022730001	766
+510	41020	0.024894	766
+510	48254	0.029754	766
+510	49186	0.030304	766
+510	54616	0.033724	766
+510	70450	0.044444	766
+510	74853	0.047864	766
+510	101451	0.069974	766
+511	29939	0.01796	766
+514	3023	0.001854	773
+514	9385	0.005814	773
+514	13472	0.008064	773
+514	14338	0.008634	773
+514	24097	0.014594	773
+514	25080	0.015144	773
+514	41024	0.024894	773
+514	48256	0.029754	773
+514	49188	0.030304	773
+514	70454	0.044444	773
+514	74857	0.047864	773
+514	80018	0.051504	773
+514	101453	0.069974	773
+518	2076	0.001324	780
+518	3783	0.002404	780
+518	4543	0.002994	780
+518	7928	0.005104	780
+518	9388	0.005814	780
+518	13475	0.008064	780
+518	14341	0.008634	780
+518	21184	0.012744	780
+518	22168	0.013374	780
+518	24100	0.014594	780
+518	25082	0.015144	780
+518	31415	0.018814	780
+518	35593	0.021184	780
+518	41027	0.024894	780
+518	49190	0.030304	780
+518	54618	0.033724	780
+518	70458	0.044444	780
+518	73566	0.046816498012	780
+518	80020	0.051504	780
+518	101455	0.069974	780
+518	102075	0.070584	780
+519	62358	0.038682498012	780
+519	82650	0.05332	780
+519	127656	0.094792002	780
+522	1413	0.000844	787
+522	2079	0.001324	787
+522	3026	0.001854	787
+522	3785	0.002404	787
+522	4545	0.002994	787
+522	7930	0.005104	787
+522	14950	0.008904	787
+522	18384	0.011034	787
+522	19354	0.011604	787
+522	20437	0.012194	787
+522	21186	0.012744	787
+522	22170	0.013374	787
+522	24104	0.014594	787
+522	31487	0.018894	787
+522	41029	0.024894	787
+522	54620	0.033724	787
+522	68377	0.042886500308	787
+522	70568	0.044444	787
+522	73224	0.046576500308	787
+522	80022	0.051504	787
+522	102077	0.070584	787
+522	107430	0.07501	787
+526	1416	0.000844	794
+526	2081	0.001324	794
+526	3029	0.001854	794
+526	3787	0.002404	794
+526	4548	0.002994	794
+526	19356	0.011604	794
+526	20439	0.012194	794
+526	21188	0.012744	794
+526	22172	0.013374	794
+526	24108	0.014594	794
+526	25816	0.015604	794
+526	29537	0.017694	794
+526	30238	0.018244	794
+526	31489	0.018894	794
+526	41031	0.024894	794
+526	52487	0.032394	794
+526	65561	0.040664	794
+526	68379	0.042886500308	794
+526	73228	0.046576500308	794
+526	80024	0.051504	794
+526	102079	0.070584	794
+526	107434	0.07501	794
+527	51232	0.03154	794
+530	1419	0.000844	801
+530	3790	0.002404	801
+530	4551	0.002994	801
+530	7933	0.005104	801
+530	8754	0.005674	801
+530	11398	0.006794	801
+530	20441	0.012194	801
+530	21190	0.012744	801
+530	29539	0.017694	801
+530	30240	0.018244	801
+530	31491	0.018894	801
+530	52489	0.032394	801
+530	65563	0.040664	801
+530	68383	0.042886500308	801
+530	73230	0.046576500308	801
+530	107438	0.07501	801
+534	1422	0.000844	808
+534	2602	0.001454	808
+534	4554	0.002994	808
+534	7936	0.005104	808
+534	8756	0.005674	808
+534	11400	0.006794	808
+534	14956	0.008904	808
+534	20444	0.012194	808
+534	21193	0.012744	808
+534	22174	0.013374	808
+534	29541	0.017694	808
+534	30242	0.018244	808
+534	42399	0.026016500308	808
+534	65565	0.040664	808
+534	68387	0.042886500308	808
+534	73232	0.046576500308	808
+534	95424	0.064344	808
+535	90088	0.06013	808
+538	1425	0.000844	815
+538	2605	0.001454	815
+538	4558	0.002994	815
+538	7939	0.005104	815
+538	8758	0.005674	815
+538	11403	0.006794	815
+538	14958	0.008904	815
+538	22177	0.013374	815
+538	29544	0.017694	815
+538	42402	0.026016500308	815
+538	52491	0.032394	815
+538	73234	0.046576500308	815
+538	95426	0.064344	815
+542	3500	0.002164	822
+542	4289	0.002804	822
+542	5300	0.003414	822
+542	6385	0.004124	822
+542	7302	0.004654	822
+542	24112	0.014594	822
+542	25086	0.015144	822
+542	38190	0.022730001	822
+542	44141	0.026964	822
+542	48259	0.029754	822
+542	74861	0.047864	822
+543	12057	0.007239699037	822
+546	1578	0.000864	829
+546	3033	0.001854	829
+546	4291	0.002804	829
+546	5302	0.003414	829
+546	6387	0.004124	829
+546	7304	0.004654	829
+546	13479	0.008064	829
+546	14346	0.008634	829
+546	24114	0.014594	829
+546	25088	0.015144	829
+546	38192	0.022730001	829
+546	44143	0.026964	829
+546	48261	0.029754	829
+546	74863	0.047864	829
+546	101457	0.069974	829
+547	53067	0.03275	829
+547	72337	0.045862498012	829
+550	1580	0.000864	836
+550	3035	0.001854	836
+550	5305	0.003414	836
+550	6390	0.004124	836
+550	7307	0.004654	836
+550	9393	0.005814	836
+550	13481	0.008064	836
+550	14349	0.008634	836
+550	24116	0.014594	836
+550	25090	0.015144	836
+550	38194	0.022730001	836
+550	48263	0.029754	836
+550	49196	0.030304	836
+550	54627	0.033724	836
+550	70570	0.044444	836
+550	74865	0.047864	836
+550	101459	0.069974	836
+551	22501	0.0137	836
+551	27365	0.0164	836
+551	65932	0.041002498012	836
+554	3038	0.001854	843
+554	5307	0.003414	843
+554	9397	0.005814	843
+554	13483	0.008064	843
+554	14351	0.008634	843
+554	20448	0.012194	843
+554	25092	0.015144	843
+554	35601	0.021184	843
+554	41033	0.024894	843
+554	49198	0.030304	843
+554	54629	0.033724	843
+554	70574	0.044444	843
+554	73574	0.046816498012	843
+554	101461	0.069974	843
+555	90616	0.060451084083	843
+558	3041	0.001854	850
+558	3796	0.002404	850
+558	7944	0.005104	850
+558	9400	0.005814	850
+558	13486	0.008064	850
+558	14354	0.008634	850
+558	20450	0.012194	850
+558	21198	0.012744	850
+558	24118	0.014594	850
+558	25094	0.015144	850
+558	31421	0.018814	850
+558	35603	0.021184	850
+558	41035	0.024894	850
+558	49200	0.030304	850
+558	54631	0.033724	850
+558	70576	0.044444	850
+558	73576	0.046816498012	850
+558	80027	0.051504	850
+559	11766	0.00713	850
+562	1428	0.000844	857
+562	2088	0.001324	857
+562	3043	0.001854	857
+562	3798	0.002404	857
+562	4565	0.002994	857
+562	7946	0.005104	857
+562	9402	0.005814	857
+562	13488	0.008064	857
+562	14356	0.008634	857
+562	18391	0.011034	857
+562	19366	0.011604	857
+562	21200	0.012744	857
+562	22182	0.013374	857
+562	24122	0.014594	857
+562	25825	0.015604	857
+562	31496	0.018894	857
+562	35605	0.021184	857
+562	41037	0.024894	857
+562	54635	0.033724	857
+562	68391	0.042886500308	857
+562	80029	0.051504	857
+566	1431	0.000844	864
+566	2091	0.001324	864
+566	3046	0.001854	864
+566	3800	0.002404	864
+566	4568	0.002994	864
+566	7949	0.005104	864
+566	14962	0.008904	864
+566	19369	0.011604	864
+566	20452	0.012194	864
+566	21202	0.012744	864
+566	22184	0.013374	864
+566	24126	0.014594	864
+566	29548	0.017694	864
+566	30245	0.018244	864
+566	31498	0.018894	864
+566	35607	0.021184	864
+566	52495	0.032394	864
+566	68393	0.042886500308	864
+566	73236	0.046576500308	864
+566	80031	0.051504	864
+567	39965	0.024	864
+570	1434	0.000844	871
+570	2093	0.001324	871
+570	3049	0.001854	871
+570	3803	0.002404	871
+570	7952	0.005104	871
+570	8762	0.005674	871
+570	14964	0.008904	871
+570	19373	0.011604	871
+570	20455	0.012194	871
+570	21205	0.012744	871
+570	22187	0.013374	871
+570	29550	0.017694	871
+570	30247	0.018244	871
+570	31500	0.018894	871
+570	52497	0.032394	871
+570	68397	0.042886500308	871
+570	73238	0.046576500308	871
+571	28046	0.01682	871
+574	1437	0.000844	878
+574	2610	0.001454	878
+574	4571	0.002994	878
+574	7954	0.005104	878
+574	11408	0.006794	878
+574	20457	0.012194	878
+574	21207	0.012744	878
+574	22189	0.013374	878
+574	29552	0.017694	878
+574	30249	0.018244	878
+574	52499	0.032394	878
+574	73240	0.046576500308	878
+575	54536	0.03371	878
+575	86683	0.05677	878
+578	1440	0.000844	885
+578	2613	0.001454	885
+578	4575	0.002994	885
+578	7957	0.005104	885
+578	11411	0.006794	885
+578	14966	0.008904	885
+578	22191	0.013374	885
+578	29554	0.017694	885
+578	30251	0.018244	885
+578	52501	0.032394	885
+581	58712	0.036506486697	892
+582	3431	0.002064	892
+582	6897	0.004484	892
+585	74117	0.047234	899
+586	2503	0.001414	899
+586	3435	0.002064	899
+586	4074	0.002654	899
+586	4938	0.003204	899
+586	5946	0.003754	899
+586	6901	0.004484	899
+589	26160	0.015788498308	906
+589	37311	0.022096002	906
+589	123404	0.090200001	906
+590	2264	0.001414	906
+590	3439	0.002064	906
+590	4078	0.002654	906
+590	4942	0.003204	906
+590	5950	0.003754	906
+590	6905	0.004484	906
+590	17084	0.010288498308	906
+590	19679	0.011694498308	906
+590	29452	0.017560001	906
+590	67531	0.042294	906
+593	15297	0.009128498308	913
+594	2268	0.001414	913
+594	9232	0.005782497308	913
+594	10501	0.006372497308	913
+594	17089	0.010288498308	913
+594	29456	0.017560001	913
+594	59855	0.037334	913
+594	67535	0.042294	913
+597	6324	0.004072497308	920
+598	1131	0.000844	920
+598	7428	0.004662497308	920
+598	9236	0.005782497308	920
+598	10506	0.006372497308	920
+598	12701	0.007638497308	920
+598	17094	0.010288498308	920
+598	19685	0.011694498308	920
+598	35282	0.020984498308	920
+598	59860	0.037334	920
+601	33323	0.019784498308	927
+601	55008	0.033836500308	927
+601	91223	0.060934	927
+602	1135	0.000844	927
+602	7432	0.004662497308	927
+602	9302	0.005782497308	927
+602	12705	0.007638497308	927
+602	34095	0.020414498308	927
+602	35287	0.020984498308	927
+602	36150	0.021614498308	927
+602	52331	0.032316500308	927
+605	15392	0.009158497308	934
+605	26805	0.016074498308	934
+605	67708	0.042336500308	934
+606	1202	0.000844	934
+606	2950	0.001754	934
+606	3691	0.002344	934
+606	4666	0.003014	934
+606	12709	0.007638497308	934
+606	23994	0.014554498308	934
+606	27781	0.016744498308	934
+606	34099	0.020414498308	934
+606	35291	0.020984498308	934
+606	36154	0.021614498308	934
+609	7120	0.004594	941
+609	18530	0.011078497308	941
+609	59490	0.037196500308	941
+610	2954	0.001754	941
+610	3695	0.002344	941
+610	4670	0.003014	941
+610	23999	0.014554498308	941
+610	27785	0.016744498308	941
+613	9982	0.006194	948
+614	2958	0.001754	948
+614	4675	0.003014	948
+618	2509	0.001414	955
+618	6911	0.004484	955
+621	72006	0.045554	962
+622	2513	0.001414	962
+622	3445	0.002064	962
+622	4084	0.002654	962
+622	4949	0.003204	962
+622	5956	0.003754	962
+622	6915	0.004484	962
+622	16280	0.009738498308	962
+622	45129	0.027674	962
+625	22005	0.013328498308	969
+625	69778	0.043814	969
+626	2274	0.001414	969
+626	4088	0.002654	969
+626	4954	0.003204	969
+626	5960	0.003754	969
+626	6920	0.004484	969
+626	16285	0.009738498308	969
+626	19691	0.011694498308	969
+626	29463	0.017560001	969
+626	67541	0.042294	969
+626	81523	0.052784	969
+629	135425	0.104816002	976
+630	9242	0.005782497308	976
+630	10512	0.006372497308	976
+630	17102	0.010288498308	976
+630	19695	0.011694498308	976
+630	29467	0.017560001	976
+630	59867	0.037334	976
+630	67546	0.042294	976
+630	80817	0.052094	976
+630	81528	0.052784	976
+634	1141	0.000844	983
+634	2352	0.001414	983
+634	7438	0.004662497308	983
+634	10516	0.006372497308	983
+634	19700	0.011694498308	983
+634	35297	0.020984498308	983
+634	52339	0.032316500308	983
+634	59872	0.037334	983
+634	60985	0.037884	983
+634	80822	0.052094	983
+637	87405	0.057434	990
+638	1145	0.000844	990
+638	7442	0.004662497308	990
+638	8283	0.005212497308	990
+638	9310	0.005782497308	990
+638	12717	0.007638497308	990
+638	34105	0.020414498308	990
+638	35301	0.020984498308	990
+638	36160	0.021614498308	990
+638	50749	0.031266500308	990
+638	52344	0.032316500308	990
+638	60990	0.037884	990
+641	30553	0.018264498308	997
+641	93302	0.062474	997
+641	125972	0.092690001	997
+642	1209	0.000844	997
+642	3702	0.002344	997
+642	4680	0.003014	997
+642	19465	0.011668497308	997
+642	24005	0.014554498308	997
+642	27792	0.016744498308	997
+642	34109	0.020414498308	997
+642	35306	0.020984498308	997
+642	36164	0.021614498308	997
+642	50753	0.031266500308	997
+642	52349	0.032316500308	997
+642	108363	0.075754	997
+645	62726	0.038816500308	1004
+645	113736	0.080714	1004
+646	2964	0.001754	1004
+646	3706	0.002344	1004
+646	4684	0.003014	1004
+646	24010	0.014554498308	1004
+646	27797	0.016744498308	1004
+646	31595	0.018914498308	1004
+646	108367	0.075754	1004
+650	4688	0.003014	1011
+653	9763	0.006016861632	1018
+653	51040	0.031346486697	1018
+654	2519	0.001414	1018
+654	45136	0.027674	1018
+657	53342	0.032906486697	1025
+657	79660	0.05122907601	1025
+658	1299	0.000844	1025
+658	2523	0.001414	1025
+658	4960	0.003204	1025
+658	5966	0.003754	1025
+658	6927	0.004484	1025
+658	16292	0.009738498308	1025
+658	44060	0.026964	1025
+658	45140	0.027674	1025
+661	32245	0.019240001	1032
+661	64443	0.039904	1032
+661	83755	0.054304	1032
+661	133565	0.101936002	1032
+662	2358	0.001414	1032
+662	4964	0.003204	1032
+662	5970	0.003754	1032
+662	16297	0.009738498308	1032
+662	29474	0.017560001	1032
+662	44064	0.026964	1032
+662	45145	0.027674	1032
+662	67552	0.042294	1032
+662	81535	0.052784	1032
+665	136312	0.106336002	1039
+666	2362	0.001414	1039
+666	5047	0.003204	1039
+666	10523	0.006372497308	1039
+666	19707	0.011694498308	1039
+666	22790	0.013834	1039
+666	29479	0.017560001	1039
+666	59879	0.037334	1039
+666	67556	0.042294	1039
+666	70468	0.044444	1039
+666	80829	0.052094	1039
+666	81540	0.052784	1039
+669	79297	0.050954	1046
+669	104081	0.072104	1046
+669	138213	0.109556002	1046
+670	2366	0.001414	1046
+670	7448	0.004662497308	1046
+670	8290	0.005212497308	1046
+670	9316	0.005782497308	1046
+670	10528	0.006372497308	1046
+670	22795	0.013834	1046
+670	52356	0.032316500308	1046
+670	59883	0.037334	1046
+670	60996	0.037884	1046
+670	80834	0.052094	1046
+670	102089	0.070584	1046
+673	47316	0.029076500308	1053
+673	128264	0.095190001	1053
+674	7452	0.004662497308	1053
+674	8294	0.005212497308	1053
+674	9320	0.005782497308	1053
+674	34115	0.020414498308	1053
+674	35313	0.020984498308	1053
+674	36170	0.021614498308	1053
+674	50759	0.031266500308	1053
+674	52360	0.032316500308	1053
+674	61001	0.037884	1053
+674	65575	0.040664	1053
+674	102094	0.070584	1053
+674	107450	0.07501	1053
+677	124313	0.091170001	1060
+678	8298	0.005212497308	1060
+678	19473	0.011668497308	1060
+678	24017	0.014554498308	1060
+678	27804	0.016744498308	1060
+678	31602	0.018914498308	1060
+678	34119	0.020414498308	1060
+678	36174	0.021614498308	1060
+678	50763	0.031266500308	1060
+678	52364	0.032316500308	1060
+678	65579	0.040664	1060
+678	95436	0.064344	1060
+678	108373	0.075754	1060
+681	104436	0.072244	1067
+681	118329	0.085494	1067
+682	4694	0.003014	1067
+682	24022	0.014554498308	1067
+682	27809	0.016744498308	1067
+682	31606	0.018914498308	1067
+682	95441	0.064344	1067
+682	108378	0.075754	1067
+686	31611	0.018914498308	1074
+689	99517	0.067875084083	1081
+690	1305	0.000844	1081
+690	45150	0.027674	1081
+693	61816	0.038344	1088
+693	77361	0.04970907601	1088
+694	1309	0.000844	1088
+694	2530	0.001414	1088
+694	3511	0.002164	1088
+694	4970	0.003204	1088
+694	16304	0.009738498308	1088
+694	44070	0.026964	1088
+694	45155	0.027674	1088
+694	74877	0.047864	1088
+697	97103	0.065615084083	1095
+697	131824	0.100416002	1095
+698	1313	0.000844	1095
+698	2449	0.001414	1095
+698	16309	0.009738498308	1095
+698	44074	0.026964	1095
+698	45159	0.027674	1095
+698	67562	0.042294	1095
+698	70476	0.044444	1095
+698	74881	0.047864	1095
+698	81547	0.052784	1095
+698	101473	0.069974	1095
+701	43084	0.026414	1102
+701	111332	0.078264	1102
+702	5054	0.003204	1102
+702	10535	0.006372497308	1102
+702	22802	0.013834	1102
+702	41049	0.024894	1102
+702	67566	0.042294	1102
+702	70481	0.044444	1102
+702	80840	0.052094	1102
+702	81552	0.052784	1102
+702	101477	0.069974	1102
+705	28263	0.016950001	1109
+705	109671	0.076704	1109
+705	137278	0.107856002	1109
+706	2454	0.001414	1109
+706	7458	0.004662497308	1109
+706	8304	0.005212497308	1109
+706	10539	0.006372497308	1109
+706	22807	0.013834	1109
+706	41054	0.024894	1109
+706	61007	0.037884	1109
+706	70485	0.044444	1109
+706	80043	0.051504	1109
+706	80845	0.052094	1109
+706	102101	0.070584	1109
+706	107457	0.07501	1109
+709	139167	0.111636002	1116
+710	7462	0.004662497308	1116
+710	8308	0.005212497308	1116
+710	34126	0.020414498308	1116
+710	50769	0.031266500308	1116
+710	52372	0.032316500308	1116
+710	61011	0.037884	1116
+710	65585	0.040664	1116
+710	68410	0.042886500308	1116
+710	73252	0.046576500308	1116
+710	80048	0.051504	1116
+710	102106	0.070584	1116
+710	107461	0.07501	1116
+713	131338	0.099956002	1123
+714	8313	0.005212497308	1123
+714	11423	0.006794	1123
+714	24029	0.014554498308	1123
+714	31616	0.018914498308	1123
+714	34130	0.020414498308	1123
+714	42415	0.026016500308	1123
+714	50773	0.031266500308	1123
+714	65590	0.040664	1123
+714	73256	0.046576500308	1123
+714	95448	0.064344	1123
+714	107465	0.07501	1123
+714	108384	0.075754	1123
+717	82036	0.052854	1130
+717	110334	0.077274	1130
+717	112135	0.079154	1130
+718	10065	0.006204	1130
+718	11427	0.006794	1130
+718	19482	0.011668497308	1130
+718	24034	0.014554498308	1130
+718	31621	0.018914498308	1130
+718	42420	0.026016500308	1130
+718	95453	0.064344	1130
+718	108389	0.075754	1130
+722	31626	0.018914498308	1137
+722	42425	0.026016500308	1137
+726	1318	0.000844	1144
+726	3517	0.002164	1144
+729	105311	0.073014	1151
+730	1322	0.000844	1151
+730	3521	0.002164	1151
+730	6400	0.004124	1151
+730	16316	0.009738498308	1151
+730	44081	0.026964	1151
+730	45166	0.027674	1151
+730	74887	0.047864	1151
+733	58981	0.036784	1158
+733	125363	0.092056002	1158
+734	1326	0.000844	1158
+734	3526	0.002164	1158
+734	5060	0.003204	1158
+734	16321	0.009738498308	1158
+734	44085	0.026964	1158
+734	70492	0.044444	1158
+734	73590	0.046816498012	1158
+734	74892	0.047864	1158
+734	81558	0.052784	1158
+734	101484	0.069974	1158
+738	2461	0.001414	1165
+738	5064	0.003204	1165
+738	13499	0.008064	1165
+738	22814	0.013834	1165
+738	35619	0.021184	1165
+738	41060	0.024894	1165
+738	70496	0.044444	1165
+738	73594	0.046816498012	1165
+738	80852	0.052094	1165
+738	81563	0.052784	1165
+738	101489	0.069974	1165
+741	140111	0.113176002	1172
+742	3816	0.002404	1172
+742	22818	0.013834	1172
+742	35623	0.021184	1172
+742	41065	0.024894	1172
+742	61018	0.037884	1172
+742	68418	0.042886500308	1172
+742	70501	0.044444	1172
+742	80054	0.051504	1172
+742	80857	0.052094	1172
+742	102113	0.070584	1172
+742	107471	0.07501	1172
+745	133302	0.101776002	1179
+746	1453	0.000844	1179
+746	3820	0.002404	1179
+746	8320	0.005212497308	1179
+746	18406	0.011034	1179
+746	50779	0.031266500308	1179
+746	61022	0.037884	1179
+746	65596	0.040664	1179
+746	68422	0.042886500308	1179
+746	73262	0.046576500308	1179
+746	80059	0.051504	1179
+746	102118	0.070584	1179
+746	107475	0.07501	1179
+749	97514	0.065884	1186
+749	119708	0.087034	1186
+750	1457	0.000844	1186
+750	2626	0.001454	1186
+750	10071	0.006204	1186
+750	11433	0.006794	1186
+750	42431	0.026016500308	1186
+750	50783	0.031266500308	1186
+750	65601	0.040664	1186
+750	68427	0.042886500308	1186
+750	73266	0.046576500308	1186
+750	95459	0.064344	1186
+750	107480	0.07501	1186
+750	108396	0.075754	1186
+753	117061	0.083974	1193
+754	2630	0.001454	1193
+754	10075	0.006204	1193
+754	11437	0.006794	1193
+754	31632	0.018914498308	1193
+754	42436	0.026016500308	1193
+754	95464	0.064344	1193
+754	108400	0.075754	1193
+758	10079	0.006204	1200
+758	42441	0.026016500308	1200
+762	3531	0.002164	1207
+762	6406	0.004124	1207
+765	47708	0.029204	1214
+765	95143	0.063875084083	1214
+766	1332	0.000844	1214
+766	3535	0.002164	1214
+766	6410	0.004124	1214
+766	38208	0.022730001	1214
+766	44092	0.026964	1214
+766	48274	0.029754	1214
+766	74898	0.047864	1214
+769	126618	0.093576002	1221
+770	3539	0.002164	1221
+770	5070	0.003204	1221
+770	6414	0.004124	1221
+770	13506	0.008064	1221
+770	25107	0.015144	1221
+770	38213	0.022730001	1221
+770	70596	0.044444	1221
+770	74903	0.047864	1221
+770	101496	0.069974	1221
+773	56978	0.035264	1228
+773	141038	0.114696002	1228
+774	5074	0.003204	1228
+774	13510	0.008064	1228
+774	14368	0.008634	1228
+774	22825	0.013834	1228
+774	25112	0.015144	1228
+774	35630	0.021184	1228
+774	41072	0.024894	1228
+774	49215	0.030304	1228
+774	73602	0.046816498012	1228
+774	101501	0.069974	1228
+777	38397	0.022744	1235
+777	101084	0.069404	1235
+777	129150	0.096616002	1235
+778	3826	0.002404	1235
+778	13514	0.008064	1235
+778	18414	0.011034	1235
+778	19388	0.011604	1235
+778	22829	0.013834	1235
+778	35634	0.021184	1235
+778	41077	0.024894	1235
+778	49220	0.030304	1235
+778	68434	0.042886500308	1235
+778	70602	0.044444	1235
+778	80065	0.051504	1235
+778	102125	0.070584	1235
+781	98955	0.067404	1242
+781	134499	0.103296002	1242
+782	1463	0.000844	1242
+782	3830	0.002404	1242
+782	18419	0.011034	1242
+782	21219	0.012744	1242
+782	31514	0.018894	1242
+782	65608	0.040664	1242
+782	68439	0.042886500308	1242
+782	73272	0.046576500308	1242
+782	80070	0.051504	1242
+782	102129	0.070584	1242
+782	107487	0.07501	1242
+785	14005	0.008354	1249
+785	77683	0.049796500308	1249
+785	121454	0.088554	1249
+786	1467	0.000844	1249
+786	2636	0.001454	1249
+786	10084	0.006204	1249
+786	11443	0.006794	1249
+786	18424	0.011034	1249
+786	29566	0.017694	1249
+786	31519	0.018894	1249
+786	65613	0.040664	1249
+786	68444	0.042886500308	1249
+786	73276	0.046576500308	1249
+786	95471	0.064344	1249
+789	115588	0.082234	1256
+790	2641	0.001454	1256
+790	8776	0.005674	1256
+790	10089	0.006204	1256
+790	11448	0.006794	1256
+790	29570	0.017694	1256
+790	42448	0.026016500308	1256
+790	95475	0.064344	1256
+793	79848	0.051294	1263
+794	10094	0.006204	1263
+798	6419	0.004124	1270
+798	48280	0.029754	1270
+801	37218	0.022080001	1277
+801	106993	0.074534	1277
+802	3545	0.002164	1277
+802	5317	0.003414	1277
+802	6423	0.004124	1277
+802	38220	0.022730001	1277
+802	44165	0.026964	1277
+802	48285	0.029754	1277
+802	74909	0.047864	1277
+805	92989	0.062315084083	1284
+805	121191	0.088296002	1284
+806	6427	0.004124	1284
+806	7322	0.004654	1284
+806	13520	0.008064	1284
+806	14375	0.008634	1284
+806	25118	0.015144	1284
+806	38224	0.022730001	1284
+806	44170	0.026964	1284
+806	48290	0.029754	1284
+806	74914	0.047864	1284
+806	101508	0.069974	1284
+809	128037	0.095096002	1291
+810	3061	0.001854	1291
+810	7326	0.004654	1291
+810	13524	0.008064	1291
+810	14380	0.008634	1291
+810	25123	0.015144	1291
+810	35641	0.021184	1291
+810	41083	0.024894	1291
+810	49227	0.030304	1291
+810	54649	0.033724	1291
+810	70610	0.044444	1291
+810	73609	0.046816498012	1291
+810	101512	0.069974	1291
+813	83011	0.053624	1298
+814	3065	0.001854	1298
+814	3836	0.002404	1298
+814	9418	0.005814	1298
+814	13529	0.008064	1298
+814	14385	0.008634	1298
+814	18430	0.011034	1298
+814	19398	0.011604	1298
+814	21226	0.012744	1298
+814	41088	0.024894	1298
+814	49231	0.030304	1298
+814	80076	0.051504	1298
+817	94812	0.063794	1305
+818	1473	0.000844	1305
+818	3840	0.002404	1305
+818	7969	0.005104	1305
+818	9422	0.005814	1305
+818	18434	0.011034	1305
+818	21230	0.012744	1305
+818	22203	0.013374	1305
+818	31525	0.018894	1305
+818	68452	0.042886500308	1305
+818	73283	0.046576500308	1305
+818	80081	0.051504	1305
+821	64863	0.040114	1312
+821	90515	0.060434	1312
+822	1477	0.000844	1312
+822	2647	0.001454	1312
+822	8783	0.005674	1312
+822	10153	0.006204	1312
+822	11454	0.006794	1312
+822	18439	0.011034	1312
+822	21234	0.012744	1312
+822	22207	0.013374	1312
+822	29576	0.017694	1312
+822	31530	0.018894	1312
+822	52513	0.032394	1312
+822	73288	0.046576500308	1312
+826	2651	0.001454	1319
+826	8787	0.005674	1319
+826	11458	0.006794	1319
+826	29581	0.017694	1319
+826	30262	0.018244	1319
+826	52517	0.032394	1319
+830	8792	0.005674	1326
+830	10158	0.006204	1326
+833	50863	0.031274	1333
+833	108838	0.076054	1333
+834	5323	0.003414	1333
+834	48296	0.029754	1333
+837	34374	0.020540001	1340
+837	72723	0.046166498012	1340
+838	1592	0.000864	1340
+838	5327	0.003414	1340
+838	6433	0.004124	1340
+838	20800	0.012484	1340
+838	38231	0.022730001	1340
+838	44177	0.026964	1340
+838	48301	0.029754	1340
+841	23286	0.014004	1347
+841	30434	0.018264	1347
+841	68591	0.042906498012	1347
+842	4307	0.002804	1347
+842	5331	0.003414	1347
+842	7332	0.004654	1347
+842	14391	0.008634	1347
+842	20805	0.012484	1347
+842	25130	0.015144	1347
+842	38236	0.022730001	1347
+842	44182	0.026964	1347
+842	48306	0.029754	1347
+842	54656	0.033724	1347
+845	62902	0.038986498012	1354
+845	122923	0.089816002	1354
+846	2105	0.001324	1354
+846	3071	0.001854	1354
+846	4311	0.002804	1354
+846	7337	0.004654	1354
+846	13536	0.008064	1354
+846	14396	0.008634	1354
+846	24139	0.014594	1354
+846	25135	0.015144	1354
+846	35648	0.021184	1354
+846	49238	0.030304	1354
+846	54661	0.033724	1354
+846	73616	0.046816498012	1354
+850	2109	0.001324	1361
+850	3075	0.001854	1361
+850	3846	0.002404	1361
+850	7976	0.005104	1361
+850	9428	0.005814	1361
+850	14401	0.008634	1361
+850	19406	0.011604	1361
+850	21240	0.012744	1361
+850	49242	0.030304	1361
+850	54665	0.033724	1361
+853	34558	0.020594	1368
+853	40404	0.024304	1368
+854	1483	0.000844	1368
+854	3850	0.002404	1368
+854	4589	0.002994	1368
+854	7980	0.005104	1368
+854	9433	0.005814	1368
+854	18447	0.011034	1368
+854	20472	0.012194	1368
+854	21244	0.012744	1368
+854	22214	0.013374	1368
+854	25842	0.015604	1368
+854	31536	0.018894	1368
+858	1487	0.000844	1375
+858	2657	0.001454	1375
+858	4594	0.002994	1375
+858	7984	0.005104	1375
+858	8797	0.005674	1375
+858	21249	0.012744	1375
+858	22218	0.013374	1375
+858	29588	0.017694	1375
+858	30269	0.018244	1375
+858	31541	0.018894	1375
+858	52524	0.032394	1375
+861	17433	0.010424	1382
+861	86921	0.057074	1382
+862	2661	0.001454	1382
+862	8801	0.005674	1382
+862	14979	0.008904	1382
+862	29593	0.017694	1382
+862	30274	0.018244	1382
+862	52528	0.032394	1382
+865	75692	0.048314	1389
+866	8806	0.005674	1389
+866	30278	0.018244	1389
+870	1598	0.000864	1396
+870	5336	0.003414	1396
+873	12347	0.007543699037	1403
+873	53759	0.033054	1403
+874	1602	0.000864	1403
+874	5340	0.003414	1403
+874	20812	0.012484	1403
+874	38242	0.022730001	1403
+874	48312	0.029754	1403
+877	27728	0.016704	1410
+877	90951	0.060755084083	1410
+878	1606	0.000864	1410
+878	4317	0.002804	1410
+878	5344	0.003414	1410
+878	7343	0.004654	1410
+878	20816	0.012484	1410
+878	24147	0.014594	1410
+878	25141	0.015144	1410
+878	38247	0.022730001	1410
+878	54671	0.033724	1410
+881	66385	0.041306498012	1417
+882	2115	0.001324	1417
+882	3081	0.001854	1417
+882	4321	0.002804	1417
+882	7348	0.004654	1417
+882	14408	0.008634	1417
+882	24152	0.014594	1417
+882	25146	0.015144	1417
+882	49249	0.030304	1417
+882	54676	0.033724	1417
+885	12259	0.007434	1424
+885	51747	0.031844	1424
+886	2119	0.001324	1424
+886	3085	0.001854	1424
+886	7991	0.005104	1424
+886	9439	0.005814	1424
+886	19416	0.011604	1424
+886	20479	0.012194	1424
+886	24157	0.014594	1424
+886	25849	0.015604	1424
+886	49253	0.030304	1424
+886	54681	0.033724	1424
+889	28557	0.017124	1431
+890	4600	0.002994	1431
+890	7995	0.005104	1431
+890	9444	0.005814	1431
+890	19421	0.011604	1431
+890	20484	0.012194	1431
+890	21256	0.012744	1431
+890	22225	0.013374	1431
+890	25853	0.015604	1431
+890	31548	0.018894	1431
+894	4604	0.002994	1438
+894	7999	0.005104	1438
+894	8844	0.005674	1438
+894	14986	0.008904	1438
+894	22230	0.013374	1438
+894	29599	0.017694	1438
+894	30284	0.018244	1438
+894	31552	0.018894	1438
+894	52535	0.032394	1438
+897	55194	0.034014	1445
+898	14990	0.008904	1445
+898	29604	0.017694	1445
+898	30289	0.018244	1445
+898	52539	0.032394	1445
+902	8849	0.005674	1452
+902	30294	0.018244	1452
+905	0	0	0
+905	2677	0.001584	3
+905	2677	0.001584	1
+905	3393	0.002064	3
+905	3393	0.002064	0
+905	24444	0.014680498308	3
+905	24444	0.014680498308	1
+905	24752	0.014984498308	3
+905	24752	0.014984498308	0
+905	25626	0.015484498308	3
+905	25626	0.015484498308	1
+905	26126	0.015788498308	3
+905	26126	0.015788498308	0
+905	57221	0.035398486697	3
+905	57221	0.035398486697	1
+905	57588	0.035702486697	3
+905	57588	0.035702486697	0
+905	58168	0.036202486697	3
+905	58168	0.036202486697	1
+905	58685	0.036506486697	3
+905	58685	0.036506486697	0
+906	0	0	1
+907	0	0	0
+907	3557	0.002174	3
+907	3557	0.002174	1
+907	4018	0.002654	3
+907	4018	0.002654	0
+908	0	0	1
+909	0	0	0
+909	1623	0.000934	3
+909	1623	0.000934	1
+909	2189	0.001414	3
+909	2189	0.001414	0
+909	13048	0.008020498308	3
+909	13048	0.008020498308	1
+909	13718	0.008324498308	3
+909	13718	0.008324498308	0
+909	14664	0.008824498308	3
+909	14664	0.008824498308	1
+909	15233	0.009128498308	3
+909	15233	0.009128498308	0
+909	20575	0.012220498308	3
+909	20575	0.012220498308	1
+909	20825	0.012524498308	3
+909	20825	0.012524498308	0
+909	21651	0.013024498308	3
+909	21651	0.013024498308	1
+909	21935	0.013328498308	3
+909	21935	0.013328498308	0
+910	0	0	1
+911	0	0	0
+911	16408	0.009808498308	3
+911	16408	0.009808498308	1
+911	17033	0.010288498308	3
+911	17033	0.010288498308	0
+912	0	0	1
+913	0	0	0
+913	8440	0.005302497308	3
+913	8440	0.005302497308	1
+913	9155	0.005782497308	3
+913	9155	0.005782497308	0
+913	50297	0.031008500308	3
+913	50297	0.031008500308	1
+913	50894	0.031312500308	3
+913	50894	0.031312500308	0
+913	105826	0.073516	3
+913	105826	0.073516	1
+913	106308	0.07382	3
+913	106308	0.07382	0
+913	134893	0.103708002	3
+913	134893	0.103708002	1
+913	134943	0.104012002	3
+913	134943	0.104012002	0
+913	135216	0.104512002	3
+913	135216	0.104512002	1
+913	135358	0.104816002	3
+913	135358	0.104816002	0
+914	0	0	1
+915	0	0	0
+915	569	0.000364	3
+915	569	0.000364	1
+915	1042	0.000844	3
+915	1042	0.000844	0
+915	4447	0.002964497308	3
+915	4447	0.002964497308	1
+915	5088	0.003268497308	3
+915	5088	0.003268497308	0
+915	6054	0.003768497308	3
+915	6054	0.003768497308	1
+915	6268	0.004072497308	3
+915	6268	0.004072497308	0
+915	31260	0.018676498308	3
+915	31260	0.018676498308	1
+915	31860	0.018980498308	3
+915	31860	0.018980498308	0
+915	32755	0.019480498308	3
+915	32755	0.019480498308	1
+915	33263	0.019784498308	3
+915	33263	0.019784498308	0
+916	0	0	1
+917	0	0	0
+917	11816	0.007158497308	3
+917	11816	0.007158497308	1
+917	12641	0.007638497308	3
+917	12641	0.007638497308	0
+918	0	0	1
+919	0	0	0
+919	570	0.000364	3
+919	570	0.000364	1
+919	1043	0.000844	3
+919	1043	0.000844	0
+920	0	0	1
+921	0	0	0
+921	3090	0.001864	3
+921	3090	0.001864	1
+921	3656	0.002344	3
+921	3656	0.002344	0
+921	16526	0.009970497308	3
+921	16526	0.009970497308	1
+921	16935	0.010274497308	3
+921	16935	0.010274497308	0
+921	17987	0.010774497308	3
+921	17987	0.010774497308	1
+921	18477	0.011078497308	3
+921	18477	0.011078497308	0
+921	24695	0.014966498308	3
+921	24695	0.014966498308	1
+921	25215	0.015270498308	3
+921	25215	0.015270498308	0
+921	26055	0.015770498308	3
+921	26055	0.015770498308	1
+921	26752	0.016074498308	3
+921	26752	0.016074498308	0
+922	0	0	1
+923	0	0	0
+923	2000	0.001274	3
+923	2000	0.001274	1
+923	2921	0.001754	3
+923	2921	0.001754	0
+923	5599	0.003486	3
+923	5599	0.003486	1
+923	6104	0.00379	3
+923	6104	0.00379	0
+923	6808	0.00429	3
+923	6808	0.00429	1
+923	7078	0.004594	3
+923	7078	0.004594	0
+923	7847	0.005086	3
+923	7847	0.005086	1
+923	8616	0.00539	3
+923	8616	0.00539	0
+923	9492	0.00589	3
+923	9492	0.00589	1
+923	9942	0.006194	3
+923	9942	0.006194	0
+924	0	0	1
+925	0	0	0
+925	6206	0.004004	3
+925	6206	0.004004	1
+925	6859	0.004484	3
+925	6859	0.004484	0
+925	80230	0.05164107601	3
+925	80230	0.05164107601	1
+925	80456	0.05194507601	3
+925	80456	0.05194507601	0
+926	0	0	1
+927	0	0	0
+927	5151	0.003274	3
+927	5151	0.003274	1
+927	5892	0.003754	3
+927	5892	0.003754	0
+927	72587	0.046126	3
+927	72587	0.046126	1
+927	72993	0.04643	3
+927	72993	0.04643	0
+927	73729	0.04693	3
+927	73729	0.04693	1
+927	74056	0.047234	3
+927	74056	0.047234	0
+928	0	0	1
+929	0	0	0
+929	28388	0.017080001	3
+929	28388	0.017080001	1
+929	29404	0.017560001	3
+929	29404	0.017560001	0
+929	35326	0.020988002	3
+929	35326	0.020988002	1
+929	35961	0.021292002	3
+929	35961	0.021292002	0
+929	36689	0.021792002	3
+929	36689	0.021792002	1
+929	37257	0.022096002	3
+929	37257	0.022096002	0
+930	0	0	1
+931	0	0	0
+931	18812	0.011214498308	3
+931	18812	0.011214498308	1
+931	19601	0.011694498308	3
+931	19601	0.011694498308	0
+931	37914	0.022508002	3
+931	37914	0.022508002	1
+931	38546	0.022812002	3
+931	38546	0.022812002	0
+931	68201	0.042706	3
+931	68201	0.042706	1
+931	68776	0.04301	3
+931	68776	0.04301	0
+931	69445	0.04351	3
+931	69445	0.04351	1
+931	69689	0.043814	3
+931	69689	0.043814	0
+932	0	0	1
+933	0	0	0
+933	59012	0.036854	3
+933	59012	0.036854	1
+933	59783	0.037334	3
+933	59783	0.037334	0
+934	0	0	1
+935	0	0	0
+935	8441	0.005302497308	3
+935	8441	0.005302497308	1
+935	9156	0.005782497308	3
+935	9156	0.005782497308	0
+935	86199	0.056326	3
+935	86199	0.056326	1
+935	86435	0.05663	3
+935	86435	0.05663	0
+935	87055	0.05713	3
+935	87055	0.05713	1
+935	87316	0.057434	3
+935	87316	0.057434	0
+936	0	0	1
+937	0	0	0
+937	34212	0.020504498308	3
+937	34212	0.020504498308	1
+937	35219	0.020984498308	3
+937	35219	0.020984498308	0
+937	66219	0.041228500308	3
+937	66219	0.041228500308	1
+937	66553	0.041532500308	3
+937	66553	0.041532500308	0
+937	67186	0.042032500308	3
+937	67186	0.042032500308	1
+937	67627	0.042336500308	3
+937	67627	0.042336500308	0
+938	0	0	1
+939	0	0	0
+939	35471	0.021134498308	3
+939	35471	0.021134498308	1
+939	36104	0.021614498308	3
+939	36104	0.021614498308	0
+939	56139	0.034568500308	3
+939	56139	0.034568500308	1
+939	56253	0.034872500308	3
+939	56253	0.034872500308	0
+939	63944	0.039708500308	3
+939	63944	0.039708500308	1
+939	64620	0.040012500308	3
+939	64620	0.040012500308	0
+939	84586	0.054806	3
+939	84586	0.054806	1
+939	84803	0.05511	3
+939	84803	0.05511	0
+939	91967	0.061366	3
+939	91967	0.061366	1
+939	92256	0.06167	3
+939	92256	0.06167	0
+939	92760	0.06217	3
+939	92760	0.06217	1
+939	93227	0.062474	3
+939	93227	0.062474	0
+939	127118	0.094082001	3
+939	127118	0.094082001	1
+939	127351	0.094386001	3
+939	127351	0.094386001	0
+939	127838	0.094886001	3
+939	127838	0.094886001	1
+939	128189	0.095190001	3
+939	128189	0.095190001	0
+940	0	0	1
+941	0	0	0
+941	27056	0.016264498308	3
+941	27056	0.016264498308	1
+941	27737	0.016744498308	3
+941	27737	0.016744498308	0
+942	0	0	1
+943	0	0	0
+943	3916	0.002534	3
+943	3916	0.002534	1
+943	4609	0.003014	3
+943	4609	0.003014	0
+943	13357	0.008050497308	3
+943	13357	0.008050497308	1
+943	14027	0.008354497308	3
+943	14027	0.008354497308	0
+943	14791	0.008854497308	3
+943	14791	0.008854497308	1
+943	15349	0.009158497308	3
+943	15349	0.009158497308	0
+943	28837	0.017156498308	3
+943	28837	0.017156498308	1
+943	29167	0.017460498308	3
+943	29167	0.017460498308	0
+943	29994	0.017960498308	3
+943	29994	0.017960498308	1
+943	30484	0.018264498308	3
+943	30484	0.018264498308	0
+943	60505	0.037708500308	3
+943	60505	0.037708500308	1
+943	61092	0.038012500308	3
+943	61092	0.038012500308	0
+943	62043	0.038512500308	3
+943	62043	0.038512500308	1
+943	62669	0.038816500308	3
+943	62669	0.038816500308	0
+943	102936	0.071136	3
+943	102936	0.071136	1
+943	103189	0.07144	3
+943	103189	0.07144	0
+943	103861	0.07194	3
+943	103861	0.07194	1
+943	104383	0.072244	3
+943	104383	0.072244	0
+944	0	0	1
+945	0	0	0
+945	1626	0.000934	3
+945	1626	0.000934	1
+945	2192	0.001414	3
+945	2192	0.001414	0
+945	7748	0.004908861632	3
+945	7748	0.004908861632	1
+945	8334	0.005212861632	3
+945	8334	0.005212861632	0
+945	8917	0.005712861632	3
+945	8917	0.005712861632	1
+945	9701	0.006016861632	3
+945	9701	0.006016861632	0
+945	70623	0.044446	3
+945	70623	0.044446	1
+945	71036	0.04475	3
+945	71036	0.04475	0
+945	71668	0.04525	3
+945	71668	0.04525	1
+945	71948	0.045554	3
+945	71948	0.045554	0
+946	0	0	1
+947	0	0	0
+947	4108	0.002724	3
+947	4108	0.002724	1
+947	4875	0.003204	3
+947	4875	0.003204	0
+947	30150	0.018132001	3
+947	30150	0.018132001	1
+947	30939	0.018436001	3
+947	30939	0.018436001	0
+947	31788	0.018936001	3
+947	31788	0.018936001	1
+947	32156	0.019240001	3
+947	32156	0.019240001	0
+947	40096	0.024028002	3
+947	40096	0.024028002	1
+947	40419	0.024332002	3
+947	40419	0.024332002	0
+947	51476	0.031798486697	3
+947	51476	0.031798486697	1
+947	51914	0.032102486697	3
+947	51914	0.032102486697	0
+947	52682	0.032602486697	3
+947	52682	0.032602486697	1
+947	53258	0.032906486697	3
+947	53258	0.032906486697	0
+948	0	0	1
+949	0	0	0
+949	66915	0.041814	3
+949	66915	0.041814	1
+949	67451	0.042294	3
+949	67451	0.042294	0
+949	82343	0.053196	3
+949	82343	0.053196	1
+949	82709	0.0535	3
+949	82709	0.0535	0
+949	83269	0.054	3
+949	83269	0.054	1
+949	83661	0.054304	3
+949	83661	0.054304	0
+949	110132	0.077156	3
+949	110132	0.077156	1
+949	110431	0.07746	3
+949	110431	0.07746	0
+949	110928	0.07796	3
+949	110928	0.07796	1
+949	111222	0.078264	3
+949	111222	0.078264	0
+949	122290	0.089092001	3
+949	122290	0.089092001	1
+949	122360	0.089396001	3
+949	122360	0.089396001	0
+949	123013	0.089896001	3
+949	123013	0.089896001	1
+949	123326	0.090200001	3
+949	123326	0.090200001	0
+950	0	0	1
+951	0	0	0
+951	1624	0.000934	3
+951	1624	0.000934	1
+951	2190	0.001414	3
+951	2190	0.001414	0
+951	48066	0.029488500308	3
+951	48066	0.029488500308	1
+951	48322	0.029792500308	3
+951	48322	0.029792500308	0
+951	135661	0.105228002	3
+951	135661	0.105228002	1
+951	135739	0.105532002	3
+951	135739	0.105532002	0
+951	136075	0.106032002	3
+951	136075	0.106032002	1
+951	136207	0.106336002	3
+951	136207	0.106336002	0
+952	0	0	1
+953	0	0	0
+953	9530	0.005892497308	3
+953	9530	0.005892497308	1
+953	10418	0.006372497308	3
+953	10418	0.006372497308	0
+954	0	0	1
+955	0	0	0
+955	6512	0.004182497308	3
+955	6512	0.004182497308	1
+955	7353	0.004662497308	3
+955	7353	0.004662497308	0
+955	61631	0.038246	3
+955	61631	0.038246	1
+955	62087	0.03855	3
+955	62087	0.03855	0
+955	138501	0.110528002	3
+955	138501	0.110528002	1
+955	138571	0.110832002	3
+955	138571	0.110832002	0
+955	138924	0.111332002	3
+955	138924	0.111332002	1
+955	139063	0.111636002	3
+955	139063	0.111636002	0
+956	0	0	1
+957	0	0	0
+957	51535	0.031836500308	3
+957	51535	0.031836500308	1
+957	52259	0.032316500308	3
+957	52259	0.032316500308	0
+957	89714	0.059826	3
+957	89714	0.059826	1
+957	90087	0.06013	3
+957	90087	0.06013	0
+957	90773	0.06063	3
+957	90773	0.06063	1
+957	91138	0.060934	3
+957	91138	0.060934	0
+958	0	0	1
+959	0	0	0
+959	33539	0.019934498308	3
+959	33539	0.019934498308	1
+959	34035	0.020414498308	3
+959	34035	0.020414498308	0
+959	52941	0.032728500308	3
+959	52941	0.032728500308	1
+959	53521	0.033032500308	3
+959	53521	0.033032500308	0
+959	54368	0.033532500308	3
+959	54368	0.033532500308	1
+959	54927	0.033836500308	3
+959	54927	0.033836500308	0
+960	0	0	1
+961	0	0	0
+961	23326	0.014074498308	3
+961	23326	0.014074498308	1
+961	23938	0.014554498308	3
+961	23938	0.014554498308	0
+961	58070	0.036088500308	3
+961	58070	0.036088500308	1
+961	58319	0.036392500308	3
+961	58319	0.036392500308	0
+961	59229	0.036892500308	3
+961	59229	0.036892500308	1
+961	59429	0.037196500308	3
+961	59429	0.037196500308	0
+962	0	0	1
+963	0	0	0
+963	18723	0.011188497308	3
+963	18723	0.011188497308	1
+963	19429	0.011668497308	3
+963	19429	0.011668497308	0
+964	0	0	1
+965	0	0	0
+965	44411	0.027194	3
+965	44411	0.027194	1
+965	45089	0.027674	3
+965	45089	0.027674	0
+965	48977	0.030238486697	3
+965	48977	0.030238486697	1
+965	49405	0.030542486697	3
+965	49405	0.030542486697	0
+965	50515	0.031042486697	3
+965	50515	0.031042486697	1
+965	50989	0.031346486697	3
+965	50989	0.031346486697	0
+965	78124	0.05012107601	3
+965	78124	0.05012107601	1
+965	78510	0.05042507601	3
+965	78510	0.05042507601	0
+965	79082	0.05092507601	3
+965	79082	0.05092507601	1
+965	79590	0.05122907601	3
+965	79590	0.05122907601	0
+966	0	0	1
+967	0	0	0
+967	15553	0.009258498308	3
+967	15553	0.009258498308	1
+967	16195	0.009738498308	3
+967	16195	0.009738498308	0
+968	0	0	1
+969	0	0	0
+969	80952	0.052304	3
+969	80952	0.052304	1
+969	81461	0.052784	3
+969	81461	0.052784	0
+969	132256	0.100828002	3
+969	132256	0.100828002	1
+969	132544	0.101132002	3
+969	132544	0.101132002	0
+969	133072	0.101632002	3
+969	133072	0.101632002	1
+969	133471	0.101936002	3
+969	133471	0.101936002	0
+970	0	0	1
+971	0	0	0
+971	1625	0.000934	3
+971	1625	0.000934	1
+971	2191	0.001414	3
+971	2191	0.001414	0
+971	26293	0.015842001	3
+971	26293	0.015842001	1
+971	26831	0.016146001	3
+971	26831	0.016146001	0
+971	27546	0.016646001	3
+971	27546	0.016646001	1
+971	28143	0.016950001	3
+971	28143	0.016950001	0
+972	0	0	1
+973	0	0	0
+973	80099	0.051614	3
+973	80099	0.051614	1
+973	80724	0.052094	3
+973	80724	0.052094	0
+973	102771	0.070996	3
+973	102771	0.070996	1
+973	102982	0.0713	3
+973	102982	0.0713	0
+973	103531	0.0718	3
+973	103531	0.0718	1
+973	103972	0.072104	3
+973	103972	0.072104	0
+974	0	0	1
+975	0	0	0
+975	59953	0.037404	3
+975	59953	0.037404	1
+975	60897	0.037884	3
+975	60897	0.037884	0
+976	0	0	1
+977	0	0	0
+977	7512	0.004732497308	3
+977	7512	0.004732497308	1
+977	8197	0.005212497308	3
+977	8197	0.005212497308	0
+977	43233	0.026448500308	3
+977	43233	0.026448500308	1
+977	43667	0.026752500308	3
+977	43667	0.026752500308	0
+977	45639	0.027968500308	3
+977	45639	0.027968500308	1
+977	46056	0.028272500308	3
+977	46056	0.028272500308	0
+977	46810	0.028772500308	3
+977	46810	0.028772500308	1
+977	47179	0.029076500308	3
+977	47179	0.029076500308	0
+977	77869	0.049846	3
+977	77869	0.049846	1
+977	78180	0.05015	3
+977	78180	0.05015	0
+977	78909	0.05065	3
+977	78909	0.05065	1
+977	79191	0.050954	3
+977	79191	0.050954	0
+977	130144	0.098848002	3
+977	130144	0.098848002	1
+977	130353	0.099152002	3
+977	130353	0.099152002	0
+977	131093	0.099652002	3
+977	131093	0.099652002	1
+977	131229	0.099956002	3
+977	131229	0.099956002	0
+978	0	0	1
+979	0	0	0
+979	49929	0.030786500308	3
+979	49929	0.030786500308	1
+979	50671	0.031266500308	3
+979	50671	0.031266500308	0
+980	0	0	1
+981	0	0	0
+981	107900	0.075274	3
+981	107900	0.075274	1
+981	108303	0.075754	3
+981	108303	0.075754	0
+981	111094	0.078046	3
+981	111094	0.078046	1
+981	111432	0.07835	3
+981	111432	0.07835	0
+981	111851	0.07885	3
+981	111851	0.07885	1
+981	112041	0.079154	3
+981	112041	0.079154	0
+981	112578	0.079606	3
+981	112578	0.079606	1
+981	112869	0.07991	3
+981	112869	0.07991	0
+981	113398	0.08041	3
+981	113398	0.08041	1
+981	113663	0.080714	3
+981	113663	0.080714	0
+981	117489	0.084386	3
+981	117489	0.084386	1
+981	117648	0.08469	3
+981	117648	0.08469	0
+981	118028	0.08519	3
+981	118028	0.08519	1
+981	118241	0.085494	3
+981	118241	0.085494	0
+981	124728	0.091582001	3
+981	124728	0.091582001	1
+981	125016	0.091886001	3
+981	125016	0.091886001	0
+981	125570	0.092386001	3
+981	125570	0.092386001	1
+981	125893	0.092690001	3
+981	125893	0.092690001	0
+982	0	0	1
+983	0	0	0
+983	30881	0.018434498308	3
+983	30881	0.018434498308	1
+983	31560	0.018914498308	3
+983	31560	0.018914498308	0
+984	0	0	1
+985	0	0	0
+985	571	0.000364	3
+985	571	0.000364	1
+985	1044	0.000844	3
+985	1044	0.000844	0
+985	45953	0.028096	3
+985	45953	0.028096	1
+985	46403	0.0284	3
+985	46403	0.0284	0
+985	46999	0.0289	3
+985	46999	0.0289	1
+985	47607	0.029204	3
+985	47607	0.029204	0
+985	59618	0.037236	3
+985	59618	0.037236	1
+985	60275	0.03754	3
+985	60275	0.03754	0
+985	61301	0.03804	3
+985	61301	0.03804	1
+985	61742	0.038344	3
+985	61742	0.038344	0
+985	95722	0.064507084083	3
+985	95722	0.064507084083	1
+985	95988	0.064811084083	3
+985	95988	0.064811084083	0
+985	96482	0.065311084083	3
+985	96482	0.065311084083	1
+985	97026	0.065615084083	3
+985	97026	0.065615084083	0
+985	98197	0.066767084083	3
+985	98197	0.066767084083	1
+985	98328	0.067071084083	3
+985	98328	0.067071084083	0
+985	99135	0.067571084083	3
+985	99135	0.067571084083	1
+985	99440	0.067875084083	3
+985	99440	0.067875084083	0
+985	103712	0.071906	3
+985	103712	0.071906	1
+985	104194	0.07221	3
+985	104194	0.07221	0
+985	104929	0.07271	3
+985	104929	0.07271	1
+985	105236	0.073014	3
+985	105236	0.073014	0
+986	0	0	1
+987	0	0	0
+987	43399	0.026484	3
+987	43399	0.026484	1
+987	43977	0.026964	3
+987	43977	0.026964	0
+987	62565	0.038796	3
+987	62565	0.038796	1
+987	63120	0.0391	3
+987	63120	0.0391	0
+987	63785	0.0396	3
+987	63785	0.0396	1
+987	64347	0.039904	3
+987	64347	0.039904	0
+987	93622	0.062767084083	3
+987	93622	0.062767084083	1
+987	93986	0.063071084083	3
+987	93986	0.063071084083	0
+987	94558	0.063571084083	3
+987	94558	0.063571084083	1
+987	95032	0.063875084083	3
+987	95032	0.063875084083	0
+988	0	0	1
+989	0	0	0
+989	4109	0.002724	3
+989	4109	0.002724	1
+989	4876	0.003204	3
+989	4876	0.003204	0
+989	41633	0.025306	3
+989	41633	0.025306	1
+989	41979	0.02561	3
+989	41979	0.02561	0
+989	42699	0.02611	3
+989	42699	0.02611	1
+989	42952	0.026414	3
+989	42952	0.026414	0
+989	57489	0.035676	3
+989	57489	0.035676	1
+989	57746	0.03598	3
+989	57746	0.03598	0
+989	58591	0.03648	3
+989	58591	0.03648	1
+989	58852	0.036784	3
+989	58852	0.036784	0
+989	125763	0.092468002	3
+989	125763	0.092468002	1
+989	126007	0.092772002	3
+989	126007	0.092772002	0
+989	126350	0.093272002	3
+989	126350	0.093272002	1
+989	126493	0.093576002	3
+989	126493	0.093576002	0
+990	0	0	1
+991	0	0	0
+991	69874	0.043964	3
+991	69874	0.043964	1
+991	70345	0.044444	3
+991	70345	0.044444	0
+991	124067	0.090948002	3
+991	124067	0.090948002	1
+991	124412	0.091252002	3
+991	124412	0.091252002	0
+991	124930	0.091752002	3
+991	124930	0.091752002	1
+991	125245	0.092056002	3
+991	125245	0.092056002	0
+992	0	0	1
+993	0	0	0
+993	22023	0.013354	3
+993	22023	0.013354	1
+993	22691	0.013834	3
+993	22691	0.013834	0
+994	0	0	1
+995	0	0	0
+995	101620	0.070104	3
+995	101620	0.070104	1
+995	102012	0.070584	3
+995	102012	0.070584	0
+995	128405	0.095508002	3
+995	128405	0.095508002	1
+995	128495	0.095812002	3
+995	128495	0.095812002	0
+995	128856	0.096312002	3
+995	128856	0.096312002	1
+995	129013	0.096616002	3
+995	129013	0.096616002	0
+995	136563	0.106748002	3
+995	136563	0.106748002	1
+995	136648	0.107052002	3
+995	136648	0.107052002	0
+995	137011	0.107552002	3
+995	137011	0.107552002	1
+995	137159	0.107856002	3
+995	137159	0.107856002	0
+995	137520	0.108448002	3
+995	137520	0.108448002	1
+995	137607	0.108752002	3
+995	137607	0.108752002	0
+995	137952	0.109252002	3
+995	137952	0.109252002	1
+995	138102	0.109556002	3
+995	138102	0.109556002	0
+996	0	0	1
+997	0	0	0
+997	106777	0.07453	3
+997	106777	0.07453	1
+997	107305	0.07501	3
+997	107305	0.07501	0
+997	118767	0.085926	3
+997	118767	0.085926	1
+997	118980	0.08623	3
+997	118980	0.08623	0
+997	119333	0.08673	3
+997	119333	0.08673	1
+997	119577	0.087034	3
+997	119577	0.087034	0
+997	133735	0.102188002	3
+997	133735	0.102188002	1
+997	133827	0.102492002	3
+997	133827	0.102492002	0
+997	134204	0.102992002	3
+997	134204	0.102992002	1
+997	134362	0.103296002	3
+997	134362	0.103296002	0
+998	0	0	1
+999	0	0	0
+999	64876	0.040184	3
+999	64876	0.040184	1
+999	65453	0.040664	3
+999	65453	0.040664	0
+999	123189	0.090062001	3
+999	123189	0.090062001	1
+999	123449	0.090366001	3
+999	123449	0.090366001	0
+999	123854	0.090866001	3
+999	123854	0.090866001	1
+999	124212	0.091170001	3
+999	124212	0.091170001	0
+1000	0	0	1
+1001	0	0	0
+1001	94904	0.063864	3
+1001	94904	0.063864	1
+1001	95355	0.064344	3
+1001	95355	0.064344	0
+1001	99330	0.067836	3
+1001	99330	0.067836	1
+1001	99646	0.06814	3
+1001	99646	0.06814	0
+1001	108957	0.076166	3
+1001	108957	0.076166	1
+1001	109316	0.07647	3
+1001	109316	0.07647	0
+1001	109904	0.07697	3
+1001	109904	0.07697	1
+1001	110239	0.077274	3
+1001	110239	0.077274	0
+1001	120140	0.087446	3
+1001	120140	0.087446	1
+1001	120416	0.08775	3
+1001	120416	0.08775	0
+1001	120934	0.08825	3
+1001	120934	0.08825	1
+1001	121345	0.088554	3
+1001	121345	0.088554	0
+1002	0	0	1
+1003	0	0	0
+1003	41826	0.025536500308	3
+1003	41826	0.025536500308	1
+1003	42329	0.026016500308	3
+1003	42329	0.026016500308	0
+1004	0	0	1
+1005	0	0	0
+1005	2857	0.001684	3
+1005	2857	0.001684	1
+1005	3458	0.002164	3
+1005	3458	0.002164	0
+1006	0	0	1
+1007	0	0	0
+1007	74289	0.047384	3
+1007	74289	0.047384	1
+1007	74778	0.047864	3
+1007	74778	0.047864	0
+1007	75911	0.04860107601	3
+1007	75911	0.04860107601	1
+1007	76252	0.04890507601	3
+1007	76252	0.04890507601	0
+1007	76854	0.04940507601	3
+1007	76854	0.04940507601	1
+1007	77268	0.04970907601	3
+1007	77268	0.04970907601	0
+1008	0	0	1
+1009	0	0	0
+1009	101103	0.069494	3
+1009	101103	0.069494	1
+1009	101371	0.069974	3
+1009	101371	0.069974	0
+1009	119920	0.087188002	3
+1009	119920	0.087188002	1
+1009	120215	0.087492002	3
+1009	120215	0.087492002	0
+1009	120726	0.087992002	3
+1009	120726	0.087992002	1
+1009	121063	0.088296002	3
+1009	121063	0.088296002	0
+1009	130681	0.099308002	3
+1009	130681	0.099308002	1
+1009	130761	0.099612002	3
+1009	130761	0.099612002	0
+1009	131484	0.100112002	3
+1009	131484	0.100112002	1
+1009	131724	0.100416002	3
+1009	131724	0.100416002	0
+1010	0	0	1
+1011	0	0	0
+1011	69875	0.043964	3
+1011	69875	0.043964	1
+1011	70346	0.044444	3
+1011	70346	0.044444	0
+1012	0	0	1
+1013	0	0	0
+1013	40639	0.024414	3
+1013	40639	0.024414	1
+1013	40880	0.024894	3
+1013	40880	0.024894	0
+1013	99908	0.068296	3
+1013	99908	0.068296	1
+1013	99999	0.0686	3
+1013	99999	0.0686	0
+1013	100548	0.0691	3
+1013	100548	0.0691	1
+1013	100949	0.069404	3
+1013	100949	0.069404	0
+1013	108114	0.075596	3
+1013	108114	0.075596	1
+1013	108482	0.0759	3
+1013	108482	0.0759	0
+1013	109231	0.0764	3
+1013	109231	0.0764	1
+1013	109551	0.076704	3
+1013	109551	0.076704	0
+1014	0	0	1
+1015	0	0	0
+1015	79454	0.051024	3
+1015	79454	0.051024	1
+1015	79951	0.051504	3
+1015	79951	0.051504	0
+1015	104644	0.072516	3
+1015	104644	0.072516	1
+1015	104990	0.07282	3
+1015	104990	0.07282	0
+1016	0	0	1
+1017	0	0	0
+1017	67802	0.042406500308	3
+1017	67802	0.042406500308	1
+1017	68294	0.042886500308	3
+1017	68294	0.042886500308	0
+1018	0	0	1
+1019	0	0	0
+1019	72430	0.046096500308	3
+1019	72430	0.046096500308	1
+1019	73117	0.046576500308	3
+1019	73117	0.046576500308	0
+1020	0	0	1
+1021	0	0	0
+1021	10210	0.006314	3
+1021	10210	0.006314	1
+1021	11334	0.006794	3
+1021	11334	0.006794	0
+1021	76115	0.048688500308	3
+1021	76115	0.048688500308	1
+1021	76452	0.048992500308	3
+1021	76452	0.048992500308	0
+1021	77129	0.049492500308	3
+1021	77129	0.049492500308	1
+1021	77589	0.049796500308	3
+1021	77589	0.049796500308	0
+1021	80375	0.051746	3
+1021	80375	0.051746	1
+1021	80550	0.05205	3
+1021	80550	0.05205	0
+1021	81363	0.05255	3
+1021	81363	0.05255	1
+1021	81948	0.052854	3
+1021	81948	0.052854	0
+1021	100813	0.069356	3
+1021	100813	0.069356	1
+1021	101196	0.06966	3
+1021	101196	0.06966	0
+1021	116017	0.082866	3
+1021	116017	0.082866	1
+1021	116215	0.08317	3
+1021	116215	0.08317	0
+1021	116636	0.08367	3
+1021	116636	0.08367	1
+1021	116959	0.083974	3
+1021	116959	0.083974	0
+1022	0	0	1
+1023	0	0	0
+1023	8975	0.005724	3
+1023	8975	0.005724	1
+1023	9998	0.006204	3
+1023	9998	0.006204	0
+1023	32322	0.019288002	3
+1023	32322	0.019288002	1
+1023	32898	0.019592002	3
+1023	32898	0.019592002	0
+1023	78439	0.050186	3
+1023	78439	0.050186	1
+1023	78656	0.05049	3
+1023	78656	0.05049	0
+1023	79389	0.05099	3
+1023	79389	0.05099	1
+1023	79759	0.051294	3
+1023	79759	0.051294	0
+1024	0	0	1
+1025	0	0	0
+1025	5638	0.003644	3
+1025	5638	0.003644	1
+1025	6346	0.004124	3
+1025	6346	0.004124	0
+1025	35099	0.020972001	3
+1025	35099	0.020972001	1
+1025	35815	0.021276001	3
+1025	35815	0.021276001	0
+1025	36555	0.021776001	3
+1025	36555	0.021776001	1
+1025	37133	0.022080001	3
+1025	37133	0.022080001	0
+1025	91651	0.061207084083	3
+1025	91651	0.061207084083	1
+1025	92093	0.061511084083	3
+1025	92093	0.061511084083	0
+1025	92601	0.062011084083	3
+1025	92601	0.062011084083	1
+1025	92898	0.062315084083	3
+1025	92898	0.062315084083	0
+1026	0	0	1
+1027	0	0	0
+1027	43400	0.026484	3
+1027	43400	0.026484	1
+1027	43978	0.026964	3
+1027	43978	0.026964	0
+1028	0	0	1
+1029	0	0	0
+1029	72748	0.046336498012	3
+1029	72748	0.046336498012	1
+1029	73524	0.046816498012	3
+1029	73524	0.046816498012	0
+1030	0	0	1
+1031	0	0	0
+1031	12551	0.007584	3
+1031	12551	0.007584	1
+1031	13400	0.008064	3
+1031	13400	0.008064	0
+1031	55422	0.034156	3
+1031	55422	0.034156	1
+1031	55691	0.03446	3
+1031	55691	0.03446	0
+1031	56490	0.03496	3
+1031	56490	0.03496	1
+1031	56852	0.035264	3
+1031	56852	0.035264	0
+1032	0	0	1
+1033	0	0	0
+1033	34690	0.020704	3
+1033	34690	0.020704	1
+1033	35529	0.021184	3
+1033	35529	0.021184	0
+1034	0	0	1
+1035	0	0	0
+1035	3134	0.001924	3
+1035	3134	0.001924	1
+1035	3726	0.002404	3
+1035	3726	0.002404	0
+1035	5457	0.003426	3
+1035	5457	0.003426	1
+1035	5702	0.00373	3
+1035	5702	0.00373	0
+1035	32803	0.019486	3
+1035	32803	0.019486	1
+1035	33342	0.01979	3
+1035	33342	0.01979	0
+1035	33920	0.02029	3
+1035	33920	0.02029	1
+1035	34433	0.020594	3
+1035	34433	0.020594	0
+1035	36307	0.021636	3
+1035	36307	0.021636	1
+1035	36763	0.02194	3
+1035	36763	0.02194	0
+1035	37735	0.02244	3
+1035	37735	0.02244	1
+1035	38294	0.022744	3
+1035	38294	0.022744	0
+1035	97803	0.066296	3
+1035	97803	0.066296	1
+1035	97922	0.0666	3
+1035	97922	0.0666	0
+1035	98609	0.0671	3
+1035	98609	0.0671	1
+1035	98828	0.067404	3
+1035	98828	0.067404	0
+1035	139415	0.112068002	3
+1035	139415	0.112068002	1
+1035	139494	0.112372002	3
+1035	139494	0.112372002	0
+1035	139858	0.112872002	3
+1035	139858	0.112872002	1
+1035	140007	0.113176002	3
+1035	140007	0.113176002	0
+1036	0	0	1
+1037	0	0	0
+1037	17546	0.010554	3
+1037	17546	0.010554	1
+1037	18333	0.011034	3
+1037	18333	0.011034	0
+1038	0	0	1
+1039	0	0	0
+1039	572	0.000364	3
+1039	572	0.000364	1
+1039	1045	0.000844	3
+1039	1045	0.000844	0
+1039	12091	0.007246	3
+1039	12091	0.007246	1
+1039	12358	0.00755	3
+1039	12358	0.00755	0
+1039	13283	0.00805	3
+1039	13283	0.00805	1
+1039	13892	0.008354	3
+1039	13892	0.008354	0
+1039	63011	0.039006	3
+1039	63011	0.039006	1
+1039	63362	0.03931	3
+1039	63362	0.03931	0
+1039	64124	0.03981	3
+1039	64124	0.03981	1
+1039	64749	0.040114	3
+1039	64749	0.040114	0
+1039	93450	0.062686	3
+1039	93450	0.062686	1
+1039	93716	0.06299	3
+1039	93716	0.06299	0
+1039	94381	0.06349	3
+1039	94381	0.06349	1
+1039	94694	0.063794	3
+1039	94694	0.063794	0
+1039	129433	0.097168002	3
+1039	129433	0.097168002	1
+1039	129601	0.097472002	3
+1039	129601	0.097472002	0
+1039	132068	0.100668002	3
+1039	132068	0.100668002	1
+1039	132330	0.100972002	3
+1039	132330	0.100972002	0
+1039	132881	0.101472002	3
+1039	132881	0.101472002	1
+1039	133208	0.101776002	3
+1039	133208	0.101776002	0
+1040	0	0	1
+1041	0	0	0
+1041	1906	0.000974	3
+1041	1906	0.000974	1
+1041	2545	0.001454	3
+1041	2545	0.001454	0
+1041	15711	0.009316	3
+1041	15711	0.009316	1
+1041	15979	0.00962	3
+1041	15979	0.00962	0
+1041	16663	0.01012	3
+1041	16663	0.01012	1
+1041	17312	0.010424	3
+1041	17312	0.010424	0
+1041	95920	0.064776	3
+1041	95920	0.064776	1
+1041	96162	0.06508	3
+1041	96162	0.06508	0
+1041	96905	0.06558	3
+1041	96905	0.06558	1
+1041	97426	0.065884	3
+1041	97426	0.065884	0
+1041	114023	0.081126	3
+1041	114023	0.081126	1
+1041	114223	0.08143	3
+1041	114223	0.08143	0
+1041	114915	0.08193	3
+1041	114915	0.08193	1
+1041	115498	0.082234	3
+1041	115498	0.082234	0
+1042	0	0	1
+1043	0	0	0
+1043	8976	0.005724	3
+1043	8976	0.005724	1
+1043	9999	0.006204	3
+1043	9999	0.006204	0
+1044	0	0	1
+1045	0	0	0
+1045	47730	0.029274	3
+1045	47730	0.029274	1
+1045	48216	0.029754	3
+1045	48216	0.029754	0
+1045	66865	0.041798498012	3
+1045	66865	0.041798498012	1
+1045	67246	0.042102498012	3
+1045	67246	0.042102498012	0
+1045	68057	0.042602498012	3
+1045	68057	0.042602498012	1
+1045	68508	0.042906498012	3
+1045	68508	0.042906498012	0
+1045	69295	0.043478498012	3
+1045	69295	0.043478498012	1
+1045	69542	0.043782498012	3
+1045	69542	0.043782498012	0
+1045	107255	0.074946	3
+1045	107255	0.074946	1
+1045	107797	0.07525	3
+1045	107797	0.07525	0
+1045	108253	0.07575	3
+1045	108253	0.07575	1
+1045	108776	0.076054	3
+1045	108776	0.076054	0
+1046	0	0	1
+1047	0	0	0
+1047	37422	0.022250001	3
+1047	37422	0.022250001	1
+1047	38152	0.022730001	3
+1047	38152	0.022730001	0
+1047	105669	0.073426	3
+1047	105669	0.073426	1
+1047	106125	0.07373	3
+1047	106125	0.07373	0
+1047	106713	0.07423	3
+1047	106713	0.07423	1
+1047	106908	0.074534	3
+1047	106908	0.074534	0
+1048	0	0	1
+1049	0	0	0
+1049	24283	0.014664	3
+1049	24283	0.014664	1
+1049	25021	0.015144	3
+1049	25021	0.015144	0
+1050	0	0	1
+1051	0	0	0
+1051	13552	0.008154	3
+1051	13552	0.008154	1
+1051	14274	0.008634	3
+1051	14274	0.008634	0
+1052	0	0	1
+1053	0	0	0
+1053	48574	0.029824	3
+1053	48574	0.029824	1
+1053	49149	0.030304	3
+1053	49149	0.030304	0
+1053	121722	0.088708002	3
+1053	121722	0.088708002	1
+1053	121942	0.089012002	3
+1053	121942	0.089012002	0
+1053	122628	0.089512002	3
+1053	122628	0.089512002	1
+1053	122812	0.089816002	3
+1053	122812	0.089816002	0
+1053	140378	0.113588002	3
+1053	140378	0.113588002	1
+1053	140450	0.113892002	3
+1053	140450	0.113892002	0
+1053	140803	0.114392002	3
+1053	140803	0.114392002	1
+1053	140944	0.114696002	3
+1053	140944	0.114696002	0
+1054	0	0	1
+1055	0	0	0
+1055	18555	0.011124	3
+1055	18555	0.011124	1
+1055	19290	0.011604	3
+1055	19290	0.011604	0
+1056	0	0	1
+1057	0	0	0
+1057	20623	0.012264	3
+1057	20623	0.012264	1
+1057	21106	0.012744	3
+1057	21106	0.012744	0
+1058	0	0	1
+1059	0	0	0
+1059	30809	0.018414	3
+1059	30809	0.018414	1
+1059	31449	0.018894	3
+1059	31449	0.018894	0
+1060	0	0	1
+1061	0	0	0
+1061	28881	0.017214	3
+1061	28881	0.017214	1
+1061	29502	0.017694	3
+1061	29502	0.017694	0
+1062	0	0	1
+1063	0	0	0
+1063	8106	0.005194	3
+1063	8106	0.005194	1
+1063	8717	0.005674	3
+1063	8717	0.005674	0
+1063	37551	0.022368002	3
+1063	37551	0.022368002	1
+1063	37982	0.022672002	3
+1063	37982	0.022672002	0
+1063	59333	0.036946	3
+1063	59333	0.036946	1
+1063	59679	0.03725	3
+1063	59679	0.03725	0
+1063	73984	0.047206	3
+1063	73984	0.047206	1
+1063	74437	0.04751	3
+1063	74437	0.04751	0
+1063	75145	0.04801	3
+1063	75145	0.04801	1
+1063	75619	0.048314	3
+1063	75619	0.048314	0
+1064	0	0	1
+1065	0	0	0
+1065	4330	0.002934	3
+1065	4330	0.002934	1
+1065	5267	0.003414	3
+1065	5267	0.003414	0
+1065	32517	0.019432001	3
+1065	32517	0.019432001	1
+1065	33112	0.019736001	3
+1065	33112	0.019736001	0
+1065	33768	0.020236001	3
+1065	33768	0.020236001	1
+1065	34309	0.020540001	3
+1065	34309	0.020540001	0
+1065	44763	0.027428002	3
+1065	44763	0.027428002	1
+1065	45179	0.027732002	3
+1065	45179	0.027732002	0
+1065	48881	0.030166	3
+1065	48881	0.030166	1
+1065	49315	0.03047	3
+1065	49315	0.03047	0
+1065	50066	0.03097	3
+1065	50066	0.03097	1
+1065	50814	0.031274	3
+1065	50814	0.031274	0
+1066	0	0	1
+1067	0	0	0
+1067	30687	0.018334	3
+1067	30687	0.018334	1
+1067	31391	0.018814	3
+1067	31391	0.018814	0
+1068	0	0	1
+1069	0	0	0
+1069	6447	0.004174	3
+1069	6447	0.004174	1
+1069	7254	0.004654	3
+1069	7254	0.004654	0
+1069	28782	0.017156	3
+1069	28782	0.017156	1
+1069	29079	0.01746	3
+1069	29079	0.01746	0
+1069	29939	0.01796	3
+1069	29939	0.01796	1
+1069	30337	0.018264	3
+1069	30337	0.018264	0
+1070	0	0	1
+1071	0	0	0
+1071	53945	0.033244	3
+1071	53945	0.033244	1
+1071	54577	0.033724	3
+1071	54577	0.033724	0
+1072	0	0	1
+1073	0	0	0
+1073	2124	0.001374	3
+1073	2124	0.001374	1
+1073	2976	0.001854	3
+1073	2976	0.001854	0
+1073	60836	0.037878498012	3
+1073	60836	0.037878498012	1
+1073	61400	0.038182498012	3
+1073	61400	0.038182498012	0
+1073	62358	0.038682498012	3
+1073	62358	0.038682498012	1
+1073	62825	0.038986498012	3
+1073	62825	0.038986498012	0
+1073	81203	0.052516	3
+1073	81203	0.052516	1
+1073	81577	0.05282	3
+1073	81577	0.05282	0
+1073	82650	0.05332	3
+1073	82650	0.05332	1
+1073	82926	0.053624	3
+1073	82926	0.053624	0
+1073	126940	0.093988002	3
+1073	126940	0.093988002	1
+1073	127175	0.094292002	3
+1073	127175	0.094292002	0
+1073	127656	0.094792002	3
+1073	127656	0.094792002	1
+1073	127955	0.095096002	3
+1073	127955	0.095096002	0
+1074	0	0	1
+1075	0	0	0
+1075	8556	0.005334	3
+1075	8556	0.005334	1
+1075	9339	0.005814	3
+1075	9339	0.005814	0
+1076	0	0	1
+1077	0	0	0
+1077	7175	0.004624	3
+1077	7175	0.004624	1
+1077	7881	0.005104	3
+1077	7881	0.005104	0
+1077	49867	0.030736	3
+1077	49867	0.030736	1
+1077	50416	0.03104	3
+1077	50416	0.03104	0
+1077	51232	0.03154	3
+1077	51232	0.03154	1
+1077	51651	0.031844	3
+1077	51651	0.031844	0
+1078	0	0	1
+1079	0	0	0
+1079	21455	0.012894	3
+1079	21455	0.012894	1
+1079	22121	0.013374	3
+1079	22121	0.013374	0
+1080	0	0	1
+1081	0	0	0
+1081	51763	0.031914	3
+1081	51763	0.031914	1
+1081	52447	0.032394	3
+1081	52447	0.032394	0
+1081	89167	0.059326	3
+1081	89167	0.059326	1
+1081	89312	0.05963	3
+1081	89312	0.05963	0
+1081	90088	0.06013	3
+1081	90088	0.06013	1
+1081	90448	0.060434	3
+1081	90448	0.060434	0
+1082	0	0	1
+1083	0	0	0
+1083	29610	0.017764	3
+1083	29610	0.017764	1
+1083	30212	0.018244	3
+1083	30212	0.018244	0
+1084	0	0	1
+1085	0	0	0
+1085	907	0.000384	3
+1085	907	0.000384	1
+1085	1560	0.000864	3
+1085	1560	0.000864	0
+1085	10788	0.006435699037	3
+1085	10788	0.006435699037	1
+1085	11033	0.006739699037	3
+1085	11033	0.006739699037	0
+1085	12057	0.007239699037	3
+1085	12057	0.007239699037	1
+1085	12295	0.007543699037	3
+1085	12295	0.007543699037	0
+1086	0	0	1
+1087	0	0	0
+1087	20103	0.012004	3
+1087	20103	0.012004	1
+1087	20766	0.012484	3
+1087	20766	0.012484	0
+1087	51871	0.031946	3
+1087	51871	0.031946	1
+1087	52082	0.03225	3
+1087	52082	0.03225	0
+1087	53067	0.03275	3
+1087	53067	0.03275	1
+1087	53702	0.033054	3
+1087	53702	0.033054	0
+1087	71502	0.045058498012	3
+1087	71502	0.045058498012	1
+1087	71719	0.045362498012	3
+1087	71719	0.045362498012	0
+1087	72337	0.045862498012	3
+1087	72337	0.045862498012	1
+1087	72666	0.046166498012	3
+1087	72666	0.046166498012	0
+1088	0	0	1
+1089	0	0	0
+1089	3606	0.002324	3
+1089	3606	0.002324	1
+1089	4256	0.002804	3
+1089	4256	0.002804	0
+1089	15154	0.009046	3
+1089	15154	0.009046	1
+1089	15791	0.00935	3
+1089	15791	0.00935	0
+1089	17715	0.010566	3
+1089	17715	0.010566	1
+1089	18147	0.01087	3
+1089	18147	0.01087	0
+1089	21515	0.012896	3
+1089	21515	0.012896	1
+1089	21724	0.0132	3
+1089	21724	0.0132	0
+1089	22501	0.0137	3
+1089	22501	0.0137	1
+1089	23228	0.014004	3
+1089	23228	0.014004	0
+1089	25742	0.015596	3
+1089	25742	0.015596	1
+1089	26374	0.0159	3
+1089	26374	0.0159	0
+1089	27365	0.0164	3
+1089	27365	0.0164	1
+1089	27655	0.016704	3
+1089	27655	0.016704	0
+1089	65033	0.040198498012	3
+1089	65033	0.040198498012	1
+1089	65316	0.040502498012	3
+1089	65316	0.040502498012	0
+1089	65932	0.041002498012	3
+1089	65932	0.041002498012	1
+1089	66308	0.041306498012	3
+1089	66308	0.041306498012	0
+1090	0	0	1
+1091	0	0	0
+1091	23466	0.014114	3
+1091	23466	0.014114	1
+1091	24054	0.014594	3
+1091	24054	0.014594	0
+1091	89543	0.059647084083	3
+1091	89543	0.059647084083	1
+1091	89848	0.059951084083	3
+1091	89848	0.059951084083	0
+1091	90616	0.060451084083	3
+1091	90616	0.060451084083	1
+1091	90876	0.060755084083	3
+1091	90876	0.060755084083	0
+1092	0	0	1
+1093	0	0	0
+1093	1041	0.000844	3
+1093	1041	0.000844	1
+1093	2040	0.001324	3
+1093	2040	0.001324	0
+1093	10368	0.006326	3
+1093	10368	0.006326	1
+1093	10902	0.00663	3
+1093	10902	0.00663	0
+1093	11766	0.00713	3
+1093	11766	0.00713	1
+1093	12191	0.007434	3
+1093	12191	0.007434	0
+1094	0	0	1
+1095	0	0	0
+1095	19721	0.011714	3
+1095	19721	0.011714	1
+1095	20391	0.012194	3
+1095	20391	0.012194	0
+1096	0	0	1
+1097	0	0	0
+1097	24919	0.015124	3
+1097	24919	0.015124	1
+1097	25787	0.015604	3
+1097	25787	0.015604	0
+1097	39121	0.023196	3
+1097	39121	0.023196	1
+1097	39267	0.0235	3
+1097	39267	0.0235	0
+1097	39965	0.024	3
+1097	39965	0.024	1
+1097	40338	0.024304	3
+1097	40338	0.024304	0
+1098	0	0	1
+1099	0	0	0
+1099	3864	0.002514	3
+1099	3864	0.002514	1
+1099	4495	0.002994	3
+1099	4495	0.002994	0
+1099	22646	0.013806	3
+1099	22646	0.013806	1
+1099	23391	0.01411	3
+1099	23391	0.01411	0
+1099	26670	0.016016	3
+1099	26670	0.016016	1
+1099	27161	0.01632	3
+1099	27161	0.01632	0
+1099	28046	0.01682	3
+1099	28046	0.01682	1
+1099	28485	0.017124	3
+1099	28485	0.017124	0
+1100	0	0	1
+1101	0	0	0
+1101	14140	0.008424	3
+1101	14140	0.008424	1
+1101	14926	0.008904	3
+1101	14926	0.008904	0
+1101	53177	0.032906	3
+1101	53177	0.032906	1
+1101	53841	0.03321	3
+1101	53841	0.03321	0
+1101	54536	0.03371	3
+1101	54536	0.03371	1
+1101	55130	0.034014	3
+1101	55130	0.034014	0
+1101	85843	0.055966	3
+1101	85843	0.055966	1
+1101	85971	0.05627	3
+1101	85971	0.05627	0
+1101	86683	0.05677	3
+1101	86683	0.05677	1
+1101	86866	0.057074	3
+1101	86866	0.057074	0
+1102	0	0	1
+1103	0	0	0
+1103	8107	0.005194	3
+1103	8107	0.005194	1
+1103	8718	0.005674	3
+1103	8718	0.005674	0
+1103	69839	0.043886	3
+1103	69839	0.043886	1
+1103	70109	0.04419	3
+1103	70109	0.04419	0
+1104	0	0	1

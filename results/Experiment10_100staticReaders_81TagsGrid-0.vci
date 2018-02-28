@@ -1,0 +1,1032 @@
+file 131209 1428340702                                          
+version 2
+run Experiment10_100staticReaders_81TagsGrid-0-20150406-10:16:17-2868
+attr configname Experiment10_100staticReaders_81TagsGrid
+attr datetime 20150406-10:16:17
+attr experiment Experiment10_100staticReaders_81TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 2868
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 905  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 906  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 907  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 908  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 909  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 910  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 911  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 912  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 913  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 914  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 915  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 916  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 917  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 918  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 919  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 920  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 921  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 922  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+vector 923  _01_RfidSim.reader[9].nic.phy  RadioState  ETV
+vector 924  _01_RfidSim.reader[9].nic.phy  RadioChannel  ETV
+vector 925  _01_RfidSim.reader[10].nic.phy  RadioState  ETV
+vector 926  _01_RfidSim.reader[10].nic.phy  RadioChannel  ETV
+vector 927  _01_RfidSim.reader[11].nic.phy  RadioState  ETV
+vector 928  _01_RfidSim.reader[11].nic.phy  RadioChannel  ETV
+vector 929  _01_RfidSim.reader[12].nic.phy  RadioState  ETV
+vector 930  _01_RfidSim.reader[12].nic.phy  RadioChannel  ETV
+vector 931  _01_RfidSim.reader[13].nic.phy  RadioState  ETV
+vector 932  _01_RfidSim.reader[13].nic.phy  RadioChannel  ETV
+vector 933  _01_RfidSim.reader[14].nic.phy  RadioState  ETV
+vector 934  _01_RfidSim.reader[14].nic.phy  RadioChannel  ETV
+vector 935  _01_RfidSim.reader[15].nic.phy  RadioState  ETV
+vector 936  _01_RfidSim.reader[15].nic.phy  RadioChannel  ETV
+vector 937  _01_RfidSim.reader[16].nic.phy  RadioState  ETV
+vector 938  _01_RfidSim.reader[16].nic.phy  RadioChannel  ETV
+vector 939  _01_RfidSim.reader[17].nic.phy  RadioState  ETV
+vector 940  _01_RfidSim.reader[17].nic.phy  RadioChannel  ETV
+vector 941  _01_RfidSim.reader[18].nic.phy  RadioState  ETV
+vector 942  _01_RfidSim.reader[18].nic.phy  RadioChannel  ETV
+vector 943  _01_RfidSim.reader[19].nic.phy  RadioState  ETV
+vector 944  _01_RfidSim.reader[19].nic.phy  RadioChannel  ETV
+vector 945  _01_RfidSim.reader[20].nic.phy  RadioState  ETV
+vector 946  _01_RfidSim.reader[20].nic.phy  RadioChannel  ETV
+vector 947  _01_RfidSim.reader[21].nic.phy  RadioState  ETV
+vector 948  _01_RfidSim.reader[21].nic.phy  RadioChannel  ETV
+vector 949  _01_RfidSim.reader[22].nic.phy  RadioState  ETV
+vector 950  _01_RfidSim.reader[22].nic.phy  RadioChannel  ETV
+vector 951  _01_RfidSim.reader[23].nic.phy  RadioState  ETV
+vector 952  _01_RfidSim.reader[23].nic.phy  RadioChannel  ETV
+vector 953  _01_RfidSim.reader[24].nic.phy  RadioState  ETV
+vector 954  _01_RfidSim.reader[24].nic.phy  RadioChannel  ETV
+vector 955  _01_RfidSim.reader[25].nic.phy  RadioState  ETV
+vector 956  _01_RfidSim.reader[25].nic.phy  RadioChannel  ETV
+vector 957  _01_RfidSim.reader[26].nic.phy  RadioState  ETV
+vector 958  _01_RfidSim.reader[26].nic.phy  RadioChannel  ETV
+vector 959  _01_RfidSim.reader[27].nic.phy  RadioState  ETV
+vector 960  _01_RfidSim.reader[27].nic.phy  RadioChannel  ETV
+vector 961  _01_RfidSim.reader[28].nic.phy  RadioState  ETV
+vector 962  _01_RfidSim.reader[28].nic.phy  RadioChannel  ETV
+vector 963  _01_RfidSim.reader[29].nic.phy  RadioState  ETV
+vector 964  _01_RfidSim.reader[29].nic.phy  RadioChannel  ETV
+vector 965  _01_RfidSim.reader[30].nic.phy  RadioState  ETV
+vector 966  _01_RfidSim.reader[30].nic.phy  RadioChannel  ETV
+vector 967  _01_RfidSim.reader[31].nic.phy  RadioState  ETV
+vector 968  _01_RfidSim.reader[31].nic.phy  RadioChannel  ETV
+vector 969  _01_RfidSim.reader[32].nic.phy  RadioState  ETV
+vector 970  _01_RfidSim.reader[32].nic.phy  RadioChannel  ETV
+vector 971  _01_RfidSim.reader[33].nic.phy  RadioState  ETV
+vector 972  _01_RfidSim.reader[33].nic.phy  RadioChannel  ETV
+vector 973  _01_RfidSim.reader[34].nic.phy  RadioState  ETV
+vector 974  _01_RfidSim.reader[34].nic.phy  RadioChannel  ETV
+vector 975  _01_RfidSim.reader[35].nic.phy  RadioState  ETV
+vector 976  _01_RfidSim.reader[35].nic.phy  RadioChannel  ETV
+vector 977  _01_RfidSim.reader[36].nic.phy  RadioState  ETV
+vector 978  _01_RfidSim.reader[36].nic.phy  RadioChannel  ETV
+vector 979  _01_RfidSim.reader[37].nic.phy  RadioState  ETV
+vector 980  _01_RfidSim.reader[37].nic.phy  RadioChannel  ETV
+vector 981  _01_RfidSim.reader[38].nic.phy  RadioState  ETV
+vector 982  _01_RfidSim.reader[38].nic.phy  RadioChannel  ETV
+vector 983  _01_RfidSim.reader[39].nic.phy  RadioState  ETV
+vector 984  _01_RfidSim.reader[39].nic.phy  RadioChannel  ETV
+vector 985  _01_RfidSim.reader[40].nic.phy  RadioState  ETV
+vector 986  _01_RfidSim.reader[40].nic.phy  RadioChannel  ETV
+vector 987  _01_RfidSim.reader[41].nic.phy  RadioState  ETV
+vector 988  _01_RfidSim.reader[41].nic.phy  RadioChannel  ETV
+vector 989  _01_RfidSim.reader[42].nic.phy  RadioState  ETV
+vector 990  _01_RfidSim.reader[42].nic.phy  RadioChannel  ETV
+vector 991  _01_RfidSim.reader[43].nic.phy  RadioState  ETV
+vector 992  _01_RfidSim.reader[43].nic.phy  RadioChannel  ETV
+vector 993  _01_RfidSim.reader[44].nic.phy  RadioState  ETV
+vector 994  _01_RfidSim.reader[44].nic.phy  RadioChannel  ETV
+vector 995  _01_RfidSim.reader[45].nic.phy  RadioState  ETV
+vector 996  _01_RfidSim.reader[45].nic.phy  RadioChannel  ETV
+vector 997  _01_RfidSim.reader[46].nic.phy  RadioState  ETV
+vector 998  _01_RfidSim.reader[46].nic.phy  RadioChannel  ETV
+vector 999  _01_RfidSim.reader[47].nic.phy  RadioState  ETV
+vector 1000  _01_RfidSim.reader[47].nic.phy  RadioChannel  ETV
+vector 1001  _01_RfidSim.reader[48].nic.phy  RadioState  ETV
+vector 1002  _01_RfidSim.reader[48].nic.phy  RadioChannel  ETV
+vector 1003  _01_RfidSim.reader[49].nic.phy  RadioState  ETV
+vector 1004  _01_RfidSim.reader[49].nic.phy  RadioChannel  ETV
+vector 1005  _01_RfidSim.reader[50].nic.phy  RadioState  ETV
+vector 1006  _01_RfidSim.reader[50].nic.phy  RadioChannel  ETV
+vector 1007  _01_RfidSim.reader[51].nic.phy  RadioState  ETV
+vector 1008  _01_RfidSim.reader[51].nic.phy  RadioChannel  ETV
+vector 1009  _01_RfidSim.reader[52].nic.phy  RadioState  ETV
+vector 1010  _01_RfidSim.reader[52].nic.phy  RadioChannel  ETV
+vector 1011  _01_RfidSim.reader[53].nic.phy  RadioState  ETV
+vector 1012  _01_RfidSim.reader[53].nic.phy  RadioChannel  ETV
+vector 1013  _01_RfidSim.reader[54].nic.phy  RadioState  ETV
+vector 1014  _01_RfidSim.reader[54].nic.phy  RadioChannel  ETV
+vector 1015  _01_RfidSim.reader[55].nic.phy  RadioState  ETV
+vector 1016  _01_RfidSim.reader[55].nic.phy  RadioChannel  ETV
+vector 1017  _01_RfidSim.reader[56].nic.phy  RadioState  ETV
+vector 1018  _01_RfidSim.reader[56].nic.phy  RadioChannel  ETV
+vector 1019  _01_RfidSim.reader[57].nic.phy  RadioState  ETV
+vector 1020  _01_RfidSim.reader[57].nic.phy  RadioChannel  ETV
+vector 1021  _01_RfidSim.reader[58].nic.phy  RadioState  ETV
+vector 1022  _01_RfidSim.reader[58].nic.phy  RadioChannel  ETV
+vector 1023  _01_RfidSim.reader[59].nic.phy  RadioState  ETV
+vector 1024  _01_RfidSim.reader[59].nic.phy  RadioChannel  ETV
+vector 1025  _01_RfidSim.reader[60].nic.phy  RadioState  ETV
+vector 1026  _01_RfidSim.reader[60].nic.phy  RadioChannel  ETV
+vector 1027  _01_RfidSim.reader[61].nic.phy  RadioState  ETV
+vector 1028  _01_RfidSim.reader[61].nic.phy  RadioChannel  ETV
+vector 1029  _01_RfidSim.reader[62].nic.phy  RadioState  ETV
+vector 1030  _01_RfidSim.reader[62].nic.phy  RadioChannel  ETV
+vector 1031  _01_RfidSim.reader[63].nic.phy  RadioState  ETV
+vector 1032  _01_RfidSim.reader[63].nic.phy  RadioChannel  ETV
+vector 1033  _01_RfidSim.reader[64].nic.phy  RadioState  ETV
+vector 1034  _01_RfidSim.reader[64].nic.phy  RadioChannel  ETV
+vector 1035  _01_RfidSim.reader[65].nic.phy  RadioState  ETV
+vector 1036  _01_RfidSim.reader[65].nic.phy  RadioChannel  ETV
+vector 1037  _01_RfidSim.reader[66].nic.phy  RadioState  ETV
+vector 1038  _01_RfidSim.reader[66].nic.phy  RadioChannel  ETV
+vector 1039  _01_RfidSim.reader[67].nic.phy  RadioState  ETV
+vector 1040  _01_RfidSim.reader[67].nic.phy  RadioChannel  ETV
+vector 1041  _01_RfidSim.reader[68].nic.phy  RadioState  ETV
+vector 1042  _01_RfidSim.reader[68].nic.phy  RadioChannel  ETV
+vector 1043  _01_RfidSim.reader[69].nic.phy  RadioState  ETV
+vector 1044  _01_RfidSim.reader[69].nic.phy  RadioChannel  ETV
+vector 1045  _01_RfidSim.reader[70].nic.phy  RadioState  ETV
+vector 1046  _01_RfidSim.reader[70].nic.phy  RadioChannel  ETV
+vector 1047  _01_RfidSim.reader[71].nic.phy  RadioState  ETV
+vector 1048  _01_RfidSim.reader[71].nic.phy  RadioChannel  ETV
+vector 1049  _01_RfidSim.reader[72].nic.phy  RadioState  ETV
+vector 1050  _01_RfidSim.reader[72].nic.phy  RadioChannel  ETV
+vector 1051  _01_RfidSim.reader[73].nic.phy  RadioState  ETV
+vector 1052  _01_RfidSim.reader[73].nic.phy  RadioChannel  ETV
+vector 1053  _01_RfidSim.reader[74].nic.phy  RadioState  ETV
+vector 1054  _01_RfidSim.reader[74].nic.phy  RadioChannel  ETV
+vector 1055  _01_RfidSim.reader[75].nic.phy  RadioState  ETV
+vector 1056  _01_RfidSim.reader[75].nic.phy  RadioChannel  ETV
+vector 1057  _01_RfidSim.reader[76].nic.phy  RadioState  ETV
+vector 1058  _01_RfidSim.reader[76].nic.phy  RadioChannel  ETV
+vector 1059  _01_RfidSim.reader[77].nic.phy  RadioState  ETV
+vector 1060  _01_RfidSim.reader[77].nic.phy  RadioChannel  ETV
+vector 1061  _01_RfidSim.reader[78].nic.phy  RadioState  ETV
+vector 1062  _01_RfidSim.reader[78].nic.phy  RadioChannel  ETV
+vector 1063  _01_RfidSim.reader[79].nic.phy  RadioState  ETV
+vector 1064  _01_RfidSim.reader[79].nic.phy  RadioChannel  ETV
+vector 1065  _01_RfidSim.reader[80].nic.phy  RadioState  ETV
+vector 1066  _01_RfidSim.reader[80].nic.phy  RadioChannel  ETV
+vector 1067  _01_RfidSim.reader[81].nic.phy  RadioState  ETV
+vector 1068  _01_RfidSim.reader[81].nic.phy  RadioChannel  ETV
+vector 1069  _01_RfidSim.reader[82].nic.phy  RadioState  ETV
+vector 1070  _01_RfidSim.reader[82].nic.phy  RadioChannel  ETV
+vector 1071  _01_RfidSim.reader[83].nic.phy  RadioState  ETV
+vector 1072  _01_RfidSim.reader[83].nic.phy  RadioChannel  ETV
+vector 1073  _01_RfidSim.reader[84].nic.phy  RadioState  ETV
+vector 1074  _01_RfidSim.reader[84].nic.phy  RadioChannel  ETV
+vector 1075  _01_RfidSim.reader[85].nic.phy  RadioState  ETV
+vector 1076  _01_RfidSim.reader[85].nic.phy  RadioChannel  ETV
+vector 1077  _01_RfidSim.reader[86].nic.phy  RadioState  ETV
+vector 1078  _01_RfidSim.reader[86].nic.phy  RadioChannel  ETV
+vector 1079  _01_RfidSim.reader[87].nic.phy  RadioState  ETV
+vector 1080  _01_RfidSim.reader[87].nic.phy  RadioChannel  ETV
+vector 1081  _01_RfidSim.reader[88].nic.phy  RadioState  ETV
+vector 1082  _01_RfidSim.reader[88].nic.phy  RadioChannel  ETV
+vector 1083  _01_RfidSim.reader[89].nic.phy  RadioState  ETV
+vector 1084  _01_RfidSim.reader[89].nic.phy  RadioChannel  ETV
+vector 1085  _01_RfidSim.reader[90].nic.phy  RadioState  ETV
+vector 1086  _01_RfidSim.reader[90].nic.phy  RadioChannel  ETV
+vector 1087  _01_RfidSim.reader[91].nic.phy  RadioState  ETV
+vector 1088  _01_RfidSim.reader[91].nic.phy  RadioChannel  ETV
+vector 1089  _01_RfidSim.reader[92].nic.phy  RadioState  ETV
+vector 1090  _01_RfidSim.reader[92].nic.phy  RadioChannel  ETV
+vector 1091  _01_RfidSim.reader[93].nic.phy  RadioState  ETV
+vector 1092  _01_RfidSim.reader[93].nic.phy  RadioChannel  ETV
+vector 1093  _01_RfidSim.reader[94].nic.phy  RadioState  ETV
+vector 1094  _01_RfidSim.reader[94].nic.phy  RadioChannel  ETV
+vector 1095  _01_RfidSim.reader[95].nic.phy  RadioState  ETV
+vector 1096  _01_RfidSim.reader[95].nic.phy  RadioChannel  ETV
+vector 1097  _01_RfidSim.reader[96].nic.phy  RadioState  ETV
+vector 1098  _01_RfidSim.reader[96].nic.phy  RadioChannel  ETV
+vector 1099  _01_RfidSim.reader[97].nic.phy  RadioState  ETV
+vector 1100  _01_RfidSim.reader[97].nic.phy  RadioChannel  ETV
+vector 1101  _01_RfidSim.reader[98].nic.phy  RadioState  ETV
+vector 1102  _01_RfidSim.reader[98].nic.phy  RadioChannel  ETV
+vector 1103  _01_RfidSim.reader[99].nic.phy  RadioState  ETV
+vector 1104  _01_RfidSim.reader[99].nic.phy  RadioChannel  ETV
+vector 190  _01_RfidSim.reader[2].nic  TagReceivedQuery  ETV
+vector 194  _01_RfidSim.reader[3].nic  TagReceivedQuery  ETV
+vector 198  _01_RfidSim.reader[4].nic  TagReceivedQuery  ETV
+vector 206  _01_RfidSim.reader[6].nic  TagReceivedQuery  ETV
+vector 230  _01_RfidSim.reader[12].nic  TagReceivedQuery  ETV
+vector 234  _01_RfidSim.reader[13].nic  TagReceivedQuery  ETV
+vector 238  _01_RfidSim.reader[14].nic  TagReceivedQuery  ETV
+vector 242  _01_RfidSim.reader[15].nic  TagReceivedQuery  ETV
+vector 246  _01_RfidSim.reader[16].nic  TagReceivedQuery  ETV
+vector 274  _01_RfidSim.reader[23].nic  TagReceivedQuery  ETV
+vector 278  _01_RfidSim.reader[24].nic  TagReceivedQuery  ETV
+vector 282  _01_RfidSim.reader[25].nic  TagReceivedQuery  ETV
+vector 286  _01_RfidSim.reader[26].nic  TagReceivedQuery  ETV
+vector 314  _01_RfidSim.reader[33].nic  TagReceivedQuery  ETV
+vector 318  _01_RfidSim.reader[34].nic  TagReceivedQuery  ETV
+vector 322  _01_RfidSim.reader[35].nic  TagReceivedQuery  ETV
+vector 326  _01_RfidSim.reader[36].nic  TagReceivedQuery  ETV
+vector 358  _01_RfidSim.reader[44].nic  TagReceivedQuery  ETV
+vector 362  _01_RfidSim.reader[45].nic  TagReceivedQuery  ETV
+vector 598  _01_RfidSim.tag[4].nic  TagReceivedQuery  ETV
+vector 602  _01_RfidSim.tag[5].nic  TagReceivedQuery  ETV
+vector 634  _01_RfidSim.tag[13].nic  TagReceivedQuery  ETV
+vector 638  _01_RfidSim.tag[14].nic  TagReceivedQuery  ETV
+vector 218  _01_RfidSim.reader[9].nic  TagReceivedQuery  ETV
+vector 258  _01_RfidSim.reader[19].nic  TagReceivedQuery  ETV
+vector 294  _01_RfidSim.reader[28].nic  TagReceivedQuery  ETV
+vector 298  _01_RfidSim.reader[29].nic  TagReceivedQuery  ETV
+vector 334  _01_RfidSim.reader[38].nic  TagReceivedQuery  ETV
+vector 338  _01_RfidSim.reader[39].nic  TagReceivedQuery  ETV
+vector 606  _01_RfidSim.tag[6].nic  TagReceivedQuery  ETV
+vector 642  _01_RfidSim.tag[15].nic  TagReceivedQuery  ETV
+vector 182  _01_RfidSim.reader[0].nic  TagReceivedQuery  ETV
+vector 186  _01_RfidSim.reader[1].nic  TagReceivedQuery  ETV
+vector 222  _01_RfidSim.reader[10].nic  TagReceivedQuery  ETV
+vector 226  _01_RfidSim.reader[11].nic  TagReceivedQuery  ETV
+vector 262  _01_RfidSim.reader[20].nic  TagReceivedQuery  ETV
+vector 266  _01_RfidSim.reader[21].nic  TagReceivedQuery  ETV
+vector 270  _01_RfidSim.reader[22].nic  TagReceivedQuery  ETV
+vector 302  _01_RfidSim.reader[30].nic  TagReceivedQuery  ETV
+vector 306  _01_RfidSim.reader[31].nic  TagReceivedQuery  ETV
+vector 310  _01_RfidSim.reader[32].nic  TagReceivedQuery  ETV
+vector 346  _01_RfidSim.reader[41].nic  TagReceivedQuery  ETV
+vector 350  _01_RfidSim.reader[42].nic  TagReceivedQuery  ETV
+vector 354  _01_RfidSim.reader[43].nic  TagReceivedQuery  ETV
+vector 382  _01_RfidSim.reader[50].nic  TagReceivedQuery  ETV
+vector 386  _01_RfidSim.reader[51].nic  TagReceivedQuery  ETV
+vector 390  _01_RfidSim.reader[52].nic  TagReceivedQuery  ETV
+vector 394  _01_RfidSim.reader[53].nic  TagReceivedQuery  ETV
+vector 422  _01_RfidSim.reader[60].nic  TagReceivedQuery  ETV
+vector 426  _01_RfidSim.reader[61].nic  TagReceivedQuery  ETV
+vector 430  _01_RfidSim.reader[62].nic  TagReceivedQuery  ETV
+vector 466  _01_RfidSim.reader[71].nic  TagReceivedQuery  ETV
+vector 470  _01_RfidSim.reader[72].nic  TagReceivedQuery  ETV
+vector 658  _01_RfidSim.tag[19].nic  TagReceivedQuery  ETV
+vector 690  _01_RfidSim.tag[27].nic  TagReceivedQuery  ETV
+vector 694  _01_RfidSim.tag[28].nic  TagReceivedQuery  ETV
+vector 698  _01_RfidSim.tag[29].nic  TagReceivedQuery  ETV
+vector 726  _01_RfidSim.tag[36].nic  TagReceivedQuery  ETV
+vector 730  _01_RfidSim.tag[37].nic  TagReceivedQuery  ETV
+vector 734  _01_RfidSim.tag[38].nic  TagReceivedQuery  ETV
+vector 766  _01_RfidSim.tag[46].nic  TagReceivedQuery  ETV
+vector 378  _01_RfidSim.reader[49].nic  TagReceivedQuery  ETV
+vector 398  _01_RfidSim.reader[54].nic  TagReceivedQuery  ETV
+vector 402  _01_RfidSim.reader[55].nic  TagReceivedQuery  ETV
+vector 406  _01_RfidSim.reader[56].nic  TagReceivedQuery  ETV
+vector 410  _01_RfidSim.reader[57].nic  TagReceivedQuery  ETV
+vector 414  _01_RfidSim.reader[58].nic  TagReceivedQuery  ETV
+vector 418  _01_RfidSim.reader[59].nic  TagReceivedQuery  ETV
+vector 438  _01_RfidSim.reader[64].nic  TagReceivedQuery  ETV
+vector 442  _01_RfidSim.reader[65].nic  TagReceivedQuery  ETV
+vector 446  _01_RfidSim.reader[66].nic  TagReceivedQuery  ETV
+vector 454  _01_RfidSim.reader[68].nic  TagReceivedQuery  ETV
+vector 458  _01_RfidSim.reader[69].nic  TagReceivedQuery  ETV
+vector 478  _01_RfidSim.reader[74].nic  TagReceivedQuery  ETV
+vector 482  _01_RfidSim.reader[75].nic  TagReceivedQuery  ETV
+vector 486  _01_RfidSim.reader[76].nic  TagReceivedQuery  ETV
+vector 490  _01_RfidSim.reader[77].nic  TagReceivedQuery  ETV
+vector 494  _01_RfidSim.reader[78].nic  TagReceivedQuery  ETV
+vector 498  _01_RfidSim.reader[79].nic  TagReceivedQuery  ETV
+vector 522  _01_RfidSim.reader[85].nic  TagReceivedQuery  ETV
+vector 526  _01_RfidSim.reader[86].nic  TagReceivedQuery  ETV
+vector 530  _01_RfidSim.reader[87].nic  TagReceivedQuery  ETV
+vector 534  _01_RfidSim.reader[88].nic  TagReceivedQuery  ETV
+vector 538  _01_RfidSim.reader[89].nic  TagReceivedQuery  ETV
+vector 562  _01_RfidSim.reader[95].nic  TagReceivedQuery  ETV
+vector 566  _01_RfidSim.reader[96].nic  TagReceivedQuery  ETV
+vector 570  _01_RfidSim.reader[97].nic  TagReceivedQuery  ETV
+vector 574  _01_RfidSim.reader[98].nic  TagReceivedQuery  ETV
+vector 578  _01_RfidSim.reader[99].nic  TagReceivedQuery  ETV
+vector 746  _01_RfidSim.tag[41].nic  TagReceivedQuery  ETV
+vector 750  _01_RfidSim.tag[42].nic  TagReceivedQuery  ETV
+vector 782  _01_RfidSim.tag[50].nic  TagReceivedQuery  ETV
+vector 786  _01_RfidSim.tag[51].nic  TagReceivedQuery  ETV
+vector 818  _01_RfidSim.tag[59].nic  TagReceivedQuery  ETV
+vector 822  _01_RfidSim.tag[60].nic  TagReceivedQuery  ETV
+vector 854  _01_RfidSim.tag[68].nic  TagReceivedQuery  ETV
+vector 858  _01_RfidSim.tag[69].nic  TagReceivedQuery  ETV
+vector 510  _01_RfidSim.reader[82].nic  TagReceivedQuery  ETV
+vector 546  _01_RfidSim.reader[91].nic  TagReceivedQuery  ETV
+vector 550  _01_RfidSim.reader[92].nic  TagReceivedQuery  ETV
+vector 838  _01_RfidSim.tag[64].nic  TagReceivedQuery  ETV
+vector 870  _01_RfidSim.tag[72].nic  TagReceivedQuery  ETV
+vector 874  _01_RfidSim.tag[73].nic  TagReceivedQuery  ETV
+vector 878  _01_RfidSim.tag[74].nic  TagReceivedQuery  ETV
+vector 434  _01_RfidSim.reader[63].nic  TagReceivedQuery  ETV
+vector 474  _01_RfidSim.reader[73].nic  TagReceivedQuery  ETV
+vector 518  _01_RfidSim.reader[84].nic  TagReceivedQuery  ETV
+vector 846  _01_RfidSim.tag[66].nic  TagReceivedQuery  ETV
+vector 850  _01_RfidSim.tag[67].nic  TagReceivedQuery  ETV
+vector 882  _01_RfidSim.tag[75].nic  TagReceivedQuery  ETV
+vector 886  _01_RfidSim.tag[76].nic  TagReceivedQuery  ETV
+vector 202  _01_RfidSim.reader[5].nic  TagReceivedQuery  ETV
+vector 590  _01_RfidSim.tag[2].nic  TagReceivedQuery  ETV
+vector 594  _01_RfidSim.tag[3].nic  TagReceivedQuery  ETV
+vector 626  _01_RfidSim.tag[11].nic  TagReceivedQuery  ETV
+vector 662  _01_RfidSim.tag[20].nic  TagReceivedQuery  ETV
+vector 666  _01_RfidSim.tag[21].nic  TagReceivedQuery  ETV
+vector 670  _01_RfidSim.tag[22].nic  TagReceivedQuery  ETV
+vector 366  _01_RfidSim.reader[46].nic  TagReceivedQuery  ETV
+vector 706  _01_RfidSim.tag[31].nic  TagReceivedQuery  ETV
+vector 738  _01_RfidSim.tag[39].nic  TagReceivedQuery  ETV
+vector 586  _01_RfidSim.tag[1].nic  TagReceivedQuery  ETV
+vector 618  _01_RfidSim.tag[9].nic  TagReceivedQuery  ETV
+vector 622  _01_RfidSim.tag[10].nic  TagReceivedQuery  ETV
+vector 654  _01_RfidSim.tag[18].nic  TagReceivedQuery  ETV
+vector 290  _01_RfidSim.reader[27].nic  TagReceivedQuery  ETV
+vector 330  _01_RfidSim.reader[37].nic  TagReceivedQuery  ETV
+vector 370  _01_RfidSim.reader[47].nic  TagReceivedQuery  ETV
+vector 374  _01_RfidSim.reader[48].nic  TagReceivedQuery  ETV
+vector 450  _01_RfidSim.reader[67].nic  TagReceivedQuery  ETV
+vector 754  _01_RfidSim.tag[43].nic  TagReceivedQuery  ETV
+vector 790  _01_RfidSim.tag[52].nic  TagReceivedQuery  ETV
+vector 826  _01_RfidSim.tag[61].nic  TagReceivedQuery  ETV
+vector 862  _01_RfidSim.tag[70].nic  TagReceivedQuery  ETV
+vector 210  _01_RfidSim.reader[7].nic  TagReceivedQuery  ETV
+vector 214  _01_RfidSim.reader[8].nic  TagReceivedQuery  ETV
+vector 250  _01_RfidSim.reader[17].nic  TagReceivedQuery  ETV
+vector 254  _01_RfidSim.reader[18].nic  TagReceivedQuery  ETV
+vector 610  _01_RfidSim.tag[7].nic  TagReceivedQuery  ETV
+vector 614  _01_RfidSim.tag[8].nic  TagReceivedQuery  ETV
+vector 646  _01_RfidSim.tag[16].nic  TagReceivedQuery  ETV
+vector 506  _01_RfidSim.reader[81].nic  TagReceivedQuery  ETV
+vector 514  _01_RfidSim.reader[83].nic  TagReceivedQuery  ETV
+vector 554  _01_RfidSim.reader[93].nic  TagReceivedQuery  ETV
+vector 558  _01_RfidSim.reader[94].nic  TagReceivedQuery  ETV
+vector 810  _01_RfidSim.tag[57].nic  TagReceivedQuery  ETV
+vector 814  _01_RfidSim.tag[58].nic  TagReceivedQuery  ETV
+vector 582  _01_RfidSim.tag[0].nic  TagReceivedQuery  ETV
+vector 462  _01_RfidSim.reader[70].nic  TagReceivedQuery  ETV
+vector 502  _01_RfidSim.reader[80].nic  TagReceivedQuery  ETV
+vector 542  _01_RfidSim.reader[90].nic  TagReceivedQuery  ETV
+vector 762  _01_RfidSim.tag[45].nic  TagReceivedQuery  ETV
+vector 770  _01_RfidSim.tag[47].nic  TagReceivedQuery  ETV
+vector 802  _01_RfidSim.tag[55].nic  TagReceivedQuery  ETV
+vector 742  _01_RfidSim.tag[40].nic  TagReceivedQuery  ETV
+vector 778  _01_RfidSim.tag[49].nic  TagReceivedQuery  ETV
+vector 342  _01_RfidSim.reader[40].nic  TagReceivedQuery  ETV
+vector 842  _01_RfidSim.tag[65].nic  TagReceivedQuery  ETV
+vector 890  _01_RfidSim.tag[77].nic  TagReceivedQuery  ETV
+vector 894  _01_RfidSim.tag[78].nic  TagReceivedQuery  ETV
+vector 650  _01_RfidSim.tag[17].nic  TagReceivedQuery  ETV
+vector 682  _01_RfidSim.tag[25].nic  TagReceivedQuery  ETV
+vector 702  _01_RfidSim.tag[30].nic  TagReceivedQuery  ETV
+vector 774  _01_RfidSim.tag[48].nic  TagReceivedQuery  ETV
+vector 834  _01_RfidSim.tag[63].nic  TagReceivedQuery  ETV
+vector 203  _01_RfidSim.reader[5].nic  ReaderSendAcknowledgement  ETV
+vector 597  _01_RfidSim.tag[4].nic  TagReceivedAcknowledgement  ETV
+vector 798  _01_RfidSim.tag[54].nic  TagReceivedQuery  ETV
+vector 806  _01_RfidSim.tag[56].nic  TagReceivedQuery  ETV
+vector 219  _01_RfidSim.reader[9].nic  ReaderSendAcknowledgement  ETV
+vector 609  _01_RfidSim.tag[7].nic  TagReceivedAcknowledgement  ETV
+vector 674  _01_RfidSim.tag[23].nic  TagReceivedQuery  ETV
+vector 710  _01_RfidSim.tag[32].nic  TagReceivedQuery  ETV
+vector 678  _01_RfidSim.tag[24].nic  TagReceivedQuery  ETV
+vector 714  _01_RfidSim.tag[33].nic  TagReceivedQuery  ETV
+vector 830  _01_RfidSim.tag[62].nic  TagReceivedQuery  ETV
+vector 866  _01_RfidSim.tag[71].nic  TagReceivedQuery  ETV
+vector 902  _01_RfidSim.tag[80].nic  TagReceivedQuery  ETV
+vector 263  _01_RfidSim.reader[20].nic  ReaderSendAcknowledgement  ETV
+vector 630  _01_RfidSim.tag[12].nic  TagReceivedQuery  ETV
+vector 653  _01_RfidSim.tag[18].nic  TagReceivedAcknowledgement  ETV
+vector 613  _01_RfidSim.tag[8].nic  TagReceivedAcknowledgement  ETV
+vector 718  _01_RfidSim.tag[34].nic  TagReceivedQuery  ETV
+vector 758  _01_RfidSim.tag[44].nic  TagReceivedQuery  ETV
+vector 794  _01_RfidSim.tag[53].nic  TagReceivedQuery  ETV
+vector 559  _01_RfidSim.reader[94].nic  ReaderSendAcknowledgement  ETV
+vector 543  _01_RfidSim.reader[90].nic  ReaderSendAcknowledgement  ETV
+vector 885  _01_RfidSim.tag[76].nic  TagReceivedAcknowledgement  ETV
+vector 873  _01_RfidSim.tag[73].nic  TagReceivedAcknowledgement  ETV
+vector 451  _01_RfidSim.reader[67].nic  ReaderSendAcknowledgement  ETV
+vector 785  _01_RfidSim.tag[51].nic  TagReceivedAcknowledgement  ETV
+vector 191  _01_RfidSim.reader[2].nic  ReaderSendAcknowledgement  ETV
+vector 259  _01_RfidSim.reader[19].nic  ReaderSendAcknowledgement  ETV
+vector 898  _01_RfidSim.tag[79].nic  TagReceivedQuery  ETV
+vector 593  _01_RfidSim.tag[3].nic  TagReceivedAcknowledgement  ETV
+vector 605  _01_RfidSim.tag[6].nic  TagReceivedAcknowledgement  ETV
+vector 455  _01_RfidSim.reader[68].nic  ReaderSendAcknowledgement  ETV
+vector 861  _01_RfidSim.tag[70].nic  TagReceivedAcknowledgement  ETV
+vector 215  _01_RfidSim.reader[8].nic  ReaderSendAcknowledgement  ETV
+vector 625  _01_RfidSim.tag[11].nic  TagReceivedAcknowledgement  ETV
+vector 551  _01_RfidSim.reader[92].nic  ReaderSendAcknowledgement  ETV
+vector 841  _01_RfidSim.tag[65].nic  TagReceivedAcknowledgement  ETV
+vector 183  _01_RfidSim.reader[0].nic  ReaderSendAcknowledgement  ETV
+vector 589  _01_RfidSim.tag[2].nic  TagReceivedAcknowledgement  ETV
+vector 315  _01_RfidSim.reader[33].nic  ReaderSendAcknowledgement  ETV
+vector 877  _01_RfidSim.tag[74].nic  TagReceivedAcknowledgement  ETV
+vector 571  _01_RfidSim.reader[97].nic  ReaderSendAcknowledgement  ETV
+vector 705  _01_RfidSim.tag[31].nic  TagReceivedAcknowledgement  ETV
+vector 889  _01_RfidSim.tag[77].nic  TagReceivedAcknowledgement  ETV
+vector 511  _01_RfidSim.reader[82].nic  ReaderSendAcknowledgement  ETV
+vector 641  _01_RfidSim.tag[15].nic  TagReceivedAcknowledgement  ETV
+vector 686  _01_RfidSim.tag[26].nic  TagReceivedQuery  ETV
+vector 722  _01_RfidSim.tag[35].nic  TagReceivedQuery  ETV
+vector 267  _01_RfidSim.reader[21].nic  ReaderSendAcknowledgement  ETV
+vector 661  _01_RfidSim.tag[20].nic  TagReceivedAcknowledgement  ETV
+vector 601  _01_RfidSim.tag[5].nic  TagReceivedAcknowledgement  ETV
+vector 503  _01_RfidSim.reader[80].nic  ReaderSendAcknowledgement  ETV
+vector 443  _01_RfidSim.reader[65].nic  ReaderSendAcknowledgement  ETV
+vector 837  _01_RfidSim.tag[64].nic  TagReceivedAcknowledgement  ETV
+vector 853  _01_RfidSim.tag[68].nic  TagReceivedAcknowledgement  ETV
+vector 423  _01_RfidSim.reader[60].nic  ReaderSendAcknowledgement  ETV
+vector 231  _01_RfidSim.reader[12].nic  ReaderSendAcknowledgement  ETV
+vector 801  _01_RfidSim.tag[55].nic  TagReceivedAcknowledgement  ETV
+vector 777  _01_RfidSim.tag[49].nic  TagReceivedAcknowledgement  ETV
+vector 567  _01_RfidSim.reader[96].nic  ReaderSendAcknowledgement  ETV
+vector 351  _01_RfidSim.reader[42].nic  ReaderSendAcknowledgement  ETV
+vector 701  _01_RfidSim.tag[30].nic  TagReceivedAcknowledgement  ETV
+vector 327  _01_RfidSim.reader[36].nic  ReaderSendAcknowledgement  ETV
+vector 343  _01_RfidSim.reader[40].nic  ReaderSendAcknowledgement  ETV
+vector 673  _01_RfidSim.tag[23].nic  TagReceivedAcknowledgement  ETV
+vector 765  _01_RfidSim.tag[46].nic  TagReceivedAcknowledgement  ETV
+vector 303  _01_RfidSim.reader[30].nic  ReaderSendAcknowledgement  ETV
+vector 833  _01_RfidSim.tag[63].nic  TagReceivedAcknowledgement  ETV
+vector 527  _01_RfidSim.reader[86].nic  ReaderSendAcknowledgement  ETV
+vector 547  _01_RfidSim.reader[91].nic  ReaderSendAcknowledgement  ETV
+vector 657  _01_RfidSim.tag[19].nic  TagReceivedAcknowledgement  ETV
+vector 291  _01_RfidSim.reader[27].nic  ReaderSendAcknowledgement  ETV
+vector 575  _01_RfidSim.reader[98].nic  ReaderSendAcknowledgement  ETV
+vector 897  _01_RfidSim.tag[79].nic  TagReceivedAcknowledgement  ETV
+vector 435  _01_RfidSim.reader[63].nic  ReaderSendAcknowledgement  ETV
+vector 773  _01_RfidSim.tag[48].nic  TagReceivedAcknowledgement  ETV
+vector 581  _01_RfidSim.tag[0].nic  TagReceivedAcknowledgement  ETV
+vector 733  _01_RfidSim.tag[38].nic  TagReceivedAcknowledgement  ETV
+vector 295  _01_RfidSim.reader[28].nic  ReaderSendAcknowledgement  ETV
+vector 693  _01_RfidSim.tag[28].nic  TagReceivedAcknowledgement  ETV
+vector 519  _01_RfidSim.reader[84].nic  ReaderSendAcknowledgement  ETV
+vector 645  _01_RfidSim.tag[16].nic  TagReceivedAcknowledgement  ETV
+vector 845  _01_RfidSim.tag[66].nic  TagReceivedAcknowledgement  ETV
+vector 347  _01_RfidSim.reader[41].nic  ReaderSendAcknowledgement  ETV
+vector 821  _01_RfidSim.tag[60].nic  TagReceivedAcknowledgement  ETV
+vector 881  _01_RfidSim.tag[75].nic  TagReceivedAcknowledgement  ETV
+vector 247  _01_RfidSim.reader[16].nic  ReaderSendAcknowledgement  ETV
+vector 463  _01_RfidSim.reader[70].nic  ReaderSendAcknowledgement  ETV
+vector 235  _01_RfidSim.reader[13].nic  ReaderSendAcknowledgement  ETV
+vector 621  _01_RfidSim.tag[10].nic  TagReceivedAcknowledgement  ETV
+vector 227  _01_RfidSim.reader[11].nic  ReaderSendAcknowledgement  ETV
+vector 585  _01_RfidSim.tag[1].nic  TagReceivedAcknowledgement  ETV
+vector 499  _01_RfidSim.reader[79].nic  ReaderSendAcknowledgement  ETV
+vector 865  _01_RfidSim.tag[71].nic  TagReceivedAcknowledgement  ETV
+vector 387  _01_RfidSim.reader[51].nic  ReaderSendAcknowledgement  ETV
+vector 415  _01_RfidSim.reader[58].nic  ReaderSendAcknowledgement  ETV
+vector 669  _01_RfidSim.tag[22].nic  TagReceivedAcknowledgement  ETV
+vector 419  _01_RfidSim.reader[59].nic  ReaderSendAcknowledgement  ETV
+vector 793  _01_RfidSim.tag[53].nic  TagReceivedAcknowledgement  ETV
+vector 717  _01_RfidSim.tag[34].nic  TagReceivedAcknowledgement  ETV
+vector 813  _01_RfidSim.tag[58].nic  TagReceivedAcknowledgement  ETV
+vector 271  _01_RfidSim.reader[22].nic  ReaderSendAcknowledgement  ETV
+vector 243  _01_RfidSim.reader[15].nic  ReaderSendAcknowledgement  ETV
+vector 637  _01_RfidSim.tag[14].nic  TagReceivedAcknowledgement  ETV
+vector 535  _01_RfidSim.reader[88].nic  ReaderSendAcknowledgement  ETV
+vector 555  _01_RfidSim.reader[93].nic  ReaderSendAcknowledgement  ETV
+vector 287  _01_RfidSim.reader[26].nic  ReaderSendAcknowledgement  ETV
+vector 251  _01_RfidSim.reader[17].nic  ReaderSendAcknowledgement  ETV
+vector 805  _01_RfidSim.tag[56].nic  TagReceivedAcknowledgement  ETV
+vector 817  _01_RfidSim.tag[59].nic  TagReceivedAcknowledgement  ETV
+vector 697  _01_RfidSim.tag[29].nic  TagReceivedAcknowledgement  ETV
+vector 749  _01_RfidSim.tag[42].nic  TagReceivedAcknowledgement  ETV
+vector 781  _01_RfidSim.tag[50].nic  TagReceivedAcknowledgement  ETV
+vector 689  _01_RfidSim.tag[27].nic  TagReceivedAcknowledgement  ETV
+vector 399  _01_RfidSim.reader[54].nic  ReaderSendAcknowledgement  ETV
+vector 319  _01_RfidSim.reader[34].nic  ReaderSendAcknowledgement  ETV
+vector 681  _01_RfidSim.tag[25].nic  TagReceivedAcknowledgement  ETV
+vector 729  _01_RfidSim.tag[37].nic  TagReceivedAcknowledgement  ETV
+vector 467  _01_RfidSim.reader[71].nic  ReaderSendAcknowledgement  ETV
+vector 375  _01_RfidSim.reader[48].nic  ReaderSendAcknowledgement  ETV
+vector 335  _01_RfidSim.reader[38].nic  ReaderSendAcknowledgement  ETV
+vector 789  _01_RfidSim.tag[52].nic  TagReceivedAcknowledgement  ETV
+vector 753  _01_RfidSim.tag[43].nic  TagReceivedAcknowledgement  ETV
+vector 367  _01_RfidSim.reader[46].nic  ReaderSendAcknowledgement  ETV
+vector 391  _01_RfidSim.reader[52].nic  ReaderSendAcknowledgement  ETV
+vector 479  _01_RfidSim.reader[74].nic  ReaderSendAcknowledgement  ETV
+vector 371  _01_RfidSim.reader[47].nic  ReaderSendAcknowledgement  ETV
+vector 677  _01_RfidSim.tag[24].nic  TagReceivedAcknowledgement  ETV
+vector 355  _01_RfidSim.reader[43].nic  ReaderSendAcknowledgement  ETV
+vector 769  _01_RfidSim.tag[47].nic  TagReceivedAcknowledgement  ETV
+vector 809  _01_RfidSim.tag[57].nic  TagReceivedAcknowledgement  ETV
+vector 363  _01_RfidSim.reader[45].nic  ReaderSendAcknowledgement  ETV
+vector 713  _01_RfidSim.tag[33].nic  TagReceivedAcknowledgement  ETV
+vector 311  _01_RfidSim.reader[32].nic  ReaderSendAcknowledgement  ETV
+vector 745  _01_RfidSim.tag[41].nic  TagReceivedAcknowledgement  ETV
+vector 199  _01_RfidSim.reader[4].nic  ReaderSendAcknowledgement  ETV
+vector 629  _01_RfidSim.tag[12].nic  TagReceivedAcknowledgement  ETV
+vector 275  _01_RfidSim.reader[23].nic  ReaderSendAcknowledgement  ETV
+vector 665  _01_RfidSim.tag[21].nic  TagReceivedAcknowledgement  ETV
+vector 283  _01_RfidSim.reader[25].nic  ReaderSendAcknowledgement  ETV
+vector 709  _01_RfidSim.tag[32].nic  TagReceivedAcknowledgement  ETV
+vector 741  _01_RfidSim.tag[40].nic  TagReceivedAcknowledgement  ETV
+182	33037 273 1223 45092 0.000844 0.027674 11 192 192 2112 405504
+183	33310 60 25626 58168 0.015484498308 0.036202486697 2 192 192 384 73728
+186	33370 297 1226 59785 0.000844 0.037334 12 199 199 2388 475212
+190	33667 429 1052 81466 0.000844 0.052784 17 206 206 3502 721412
+191	34096 60 14664 21651 0.008824498308 0.013024498308 2 206 206 412 84872
+194	34156 412 1055 81468 0.000844 0.052784 16 213 213 3408 725904
+198	34568 477 1058 102015 0.000844 0.070584 18 220 220 3960 871200
+199	35045 28 135216 135216 0.104512002 0.104512002 1 220 220 220 48400
+202	35073 441 2210 102017 0.001414 0.070584 16 227 227 3632 824464
+203	35514 59 6054 32755 0.003768497308 0.019480498308 2 227 227 454 103058
+206	35573 328 1061 107310 0.000844 0.07501 12 234 234 2808 657072
+210	35901 435 2926 108307 0.001754 0.075754 16 241 241 3856 929296
+214	36336 359 2928 108309 0.001754 0.075754 13 248 248 3224 799552
+215	36695 60 17987 26055 0.010774497308 0.015770498308 2 248 248 496 123008
+218	36755 328 1163 108311 0.000844 0.075754 12 255 255 3060 780300
+219	37083 44 6808 9492 0.00429 0.00589 2 255 255 510 130050
+222	37127 274 1229 74781 0.000844 0.047864 11 262 262 2882 755084
+226	37401 322 1232 101374 0.000844 0.069974 13 269 269 3497 940693
+227	37723 23 73729 73729 0.04693 0.04693 1 269 269 269 72361
+230	37746 474 1068 101376 0.000844 0.069974 19 276 276 5244 1447344
+231	38220 27 36689 36689 0.021792002 0.021792002 1 276 276 276 76176
+234	38247 488 1071 101378 0.000844 0.069974 19 283 283 5377 1521691
+235	38735 23 69445 69445 0.04351 0.04351 1 283 283 283 80089
+238	38758 507 1074 102022 0.000844 0.070584 19 290 290 5510 1597900
+242	39265 538 1077 107316 0.000844 0.07501 20 297 297 5940 1764180
+243	39803 23 87055 87055 0.05713 0.05713 1 297 297 297 88209
+246	39826 424 1080 107318 0.000844 0.07501 16 304 304 4864 1478656
+247	40250 30 67186 67186 0.042032500308 0.042032500308 1 304 304 304 92416
+250	40280 434 2932 107320 0.001754 0.07501 16 311 311 4976 1547536
+251	40714 51 92760 127838 0.06217 0.094886001 2 311 311 622 193442
+254	40765 400 2934 108316 0.001754 0.075754 15 318 318 4770 1516860
+258	41165 382 1171 108318 0.000844 0.075754 14 325 325 4550 1478750
+259	41547 114 14791 103861 0.008854497308 0.07194 4 325 325 1300 422500
+262	41661 292 1236 101380 0.000844 0.069974 12 332 332 3984 1322688
+263	41953 52 8917 71668 0.005712861632 0.04525 2 332 332 664 220448
+266	42005 275 1239 101382 0.000844 0.069974 11 339 339 3729 1264131
+267	42280 57 31788 52682 0.018936001 0.032602486697 2 339 339 678 229842
+270	42337 474 1242 101384 0.000844 0.069974 19 346 346 6574 2274604
+271	42811 73 83269 123013 0.054 0.089896001 3 346 346 1038 359148
+274	42884 487 1090 101386 0.000844 0.069974 19 353 353 6707 2367571
+275	43371 28 136075 136075 0.106032002 0.106032002 1 353 353 353 124609
+278	43399 507 1093 101388 0.000844 0.069974 19 360 360 6840 2462400
+282	43906 526 1096 107329 0.000844 0.07501 20 367 367 7340 2693780
+283	44432 28 138924 138924 0.111332002 0.111332002 1 367 367 367 134689
+286	44460 477 1099 107331 0.000844 0.07501 18 374 374 6732 2517768
+287	44937 23 90773 90773 0.06063 0.06063 1 374 374 374 139876
+290	44960 410 2548 107333 0.001454 0.07501 15 381 381 5715 2177415
+291	45370 30 54368 54368 0.033532500308 0.033532500308 1 381 381 381 145161
+294	45400 347 1178 108323 0.000844 0.075754 13 388 388 5044 1957072
+295	45747 30 59229 59229 0.036892500308 0.036892500308 1 388 388 388 150544
+298	45777 239 1181 108325 0.000844 0.075754 9 395 395 3555 1404225
+302	46016 269 1246 101390 0.000844 0.069974 11 402 402 4422 1777644
+303	46285 59 50515 79082 0.031042486697 0.05092507601 2 402 402 804 323208
+306	46344 262 1249 101392 0.000844 0.069974 11 409 409 4499 1840091
+310	46606 475 1252 101394 0.000844 0.069974 19 416 416 7904 3288064
+311	47081 28 133072 133072 0.101632002 0.101632002 1 416 416 416 173056
+314	47109 463 1106 101396 0.000844 0.069974 18 423 423 7614 3220722
+315	47572 27 27546 27546 0.016646001 0.016646001 1 423 423 423 178929
+318	47599 477 1109 107344 0.000844 0.07501 18 430 430 7740 3328200
+319	48076 23 103531 103531 0.0718 0.0718 1 430 430 430 184900
+322	48099 465 1112 107346 0.000844 0.07501 18 437 437 7866 3437442
+326	48564 465 1115 107348 0.000844 0.07501 18 444 444 7992 3548448
+327	49029 81 46810 131093 0.028772500308 0.099652002 3 444 444 1332 591408
+330	49110 374 2555 107350 0.001454 0.07501 14 451 451 6314 2847614
+334	49484 375 1187 107352 0.000844 0.07501 14 458 458 6412 2936696
+335	49859 100 111851 125570 0.07885 0.092386001 4 458 458 1832 839056
+338	49959 310 1190 108330 0.000844 0.075754 12 465 465 5580 2594700
+342	50269 173 4065 101401 0.002654 0.069974 7 472 472 3304 1559488
+343	50442 129 46999 104929 0.0289 0.07271 5 472 472 2360 1113920
+346	50571 317 1256 101403 0.000844 0.069974 13 479 479 6227 2982733
+347	50888 52 63785 94558 0.0396 0.063571084083 2 479 479 958 458882
+350	50940 362 1259 101405 0.000844 0.069974 15 486 486 7290 3542940
+351	51302 74 42699 126350 0.02611 0.093272002 3 486 486 1458 708588
+354	51376 376 1262 101407 0.000844 0.069974 15 493 493 7395 3645735
+355	51752 28 124930 124930 0.091752002 0.091752002 1 493 493 493 243049
+358	51780 614 1121 107361 0.000844 0.07501 24 500 500 12000 6000000
+362	52394 483 1124 107363 0.000844 0.07501 19 507 507 9633 4883931
+363	52877 84 128856 137952 0.096312002 0.109252002 3 507 507 1521 771147
+366	52961 446 2417 73161 0.001414 0.046576500308 17 514 514 8738 4491332
+367	53407 52 119333 134204 0.08673 0.102992002 2 514 514 1028 528392
+370	53459 358 2563 107365 0.001454 0.07501 14 521 521 7294 3800174
+371	53817 28 123854 123854 0.090866001 0.090866001 1 521 521 521 271441
+374	53845 430 2566 108335 0.001454 0.075754 16 528 528 8448 4460544
+375	54275 48 109904 120934 0.07697 0.08825 2 528 528 1056 557568
+378	54323 304 1358 108337 0.000844 0.075754 12 535 535 6420 3434700
+382	54627 220 1265 101414 0.000844 0.069974 9 542 542 4878 2643876
+386	54847 237 1267 101416 0.000844 0.069974 10 549 549 5490 3014010
+387	55084 29 76854 76854 0.04940507601 0.04940507601 1 549 549 549 301401
+390	55113 308 1269 80785 0.000844 0.052094 13 556 556 7228 4018768
+391	55421 56 120726 131484 0.087992002 0.100112002 2 556 556 1112 618272
+394	55477 387 1272 101418 0.000844 0.069974 16 563 563 9008 5071504
+398	55864 472 1361 107376 0.000844 0.07501 19 570 570 10830 6173100
+399	56336 46 100548 109231 0.0691 0.0764 2 570 570 1140 649800
+402	56382 525 1364 107380 0.000844 0.07501 21 577 577 12117 6991509
+406	56907 368 1367 107384 0.000844 0.07501 15 584 584 8760 5115840
+410	57275 415 1370 107386 0.000844 0.07501 17 591 591 10047 5937777
+414	57690 374 1373 108342 0.000844 0.075754 15 598 598 8970 5364060
+415	58064 77 77129 116636 0.049492500308 0.08367 3 598 598 1794 1072812
+418	58141 351 1376 108344 0.000844 0.075754 14 605 605 8470 5124350
+419	58492 23 79389 79389 0.05099 0.05099 1 605 605 605 366025
+422	58515 311 1275 101424 0.000844 0.069974 13 612 612 7956 4869072
+423	58826 57 36555 92601 0.021776001 0.062011084083 2 612 612 1224 749088
+426	58883 331 1277 101426 0.000844 0.069974 14 619 619 8666 5364254
+430	59214 357 1279 101428 0.000844 0.069974 15 626 626 9390 5878140
+434	59571 356 2051 101430 0.001324 0.069974 15 633 633 9495 6010335
+435	59927 23 56490 56490 0.03496 0.03496 1 633 633 633 400689
+438	59950 402 1379 101432 0.000844 0.069974 17 640 640 10880 6963200
+442	60352 560 1382 107398 0.000844 0.07501 23 647 647 14881 9628007
+443	60912 96 33920 139858 0.02029 0.112872002 4 647 647 2588 1674436
+446	61008 487 1385 107402 0.000844 0.07501 20 654 654 13080 8554320
+450	61495 422 2584 107406 0.001454 0.07501 17 661 661 11237 7427657
+451	61917 97 13283 132881 0.00805 0.101472002 4 661 661 2644 1747684
+454	62014 417 1388 108348 0.000844 0.075754 17 668 668 11356 7585808
+455	62431 70 16663 114915 0.01012 0.08193 3 668 668 2004 1338672
+458	62501 405 1391 108350 0.000844 0.075754 16 675 675 10800 7290000
+462	62906 192 3489 101436 0.002164 0.069974 8 682 682 5456 3720992
+463	63098 54 68057 108253 0.042602498012 0.07575 2 682 682 1364 930248
+466	63152 308 1284 101438 0.000844 0.069974 13 689 689 8957 6171373
+467	63460 24 106713 106713 0.07423 0.07423 1 689 689 689 474721
+470	63484 406 1286 101440 0.000844 0.069974 17 696 696 11832 8235072
+474	63890 380 2062 101442 0.001324 0.069974 16 703 703 11248 7907344
+478	64270 457 1394 101444 0.000844 0.069974 19 710 710 13490 9577900
+479	64727 56 122628 140803 0.089512002 0.114392002 2 710 710 1420 1008200
+482	64783 486 1397 107414 0.000844 0.07501 20 717 717 14340 10281780
+486	65269 463 1400 107418 0.000844 0.07501 19 724 724 13756 9959344
+490	65732 446 1403 108352 0.000844 0.075754 18 731 731 13158 9618498
+494	66178 392 1406 108354 0.000844 0.075754 16 738 738 11808 8714304
+498	66570 345 1409 108356 0.000844 0.075754 14 745 745 10430 7770350
+499	66915 23 75145 75145 0.04801 0.04801 1 745 745 745 555025
+502	66938 193 3495 101447 0.002164 0.069974 8 752 752 6016 4524032
+503	67131 50 33768 50066 0.020236001 0.03097 2 752 752 1504 1131008
+506	67181 311 3019 101449 0.001854 0.069974 13 759 759 9867 7489053
+510	67492 430 1574 101451 0.000864 0.069974 18 766 766 13788 10561608
+511	67922 23 29939 29939 0.01796 0.01796 1 766 766 766 586756
+514	67945 311 3023 101453 0.001854 0.069974 13 773 773 10049 7767877
+518	68256 507 2076 102075 0.001324 0.070584 21 780 780 16380 12776400
+519	68763 81 62358 127656 0.038682498012 0.094792002 3 780 780 2340 1825200
+522	68844 535 1413 107430 0.000844 0.07501 22 787 787 17314 13626118
+526	69379 536 1416 107434 0.000844 0.07501 22 794 794 17468 13869592
+527	69915 23 51232 51232 0.03154 0.03154 1 794 794 794 630436
+530	69938 391 1419 107438 0.000844 0.07501 16 801 801 12816 10265616
+534	70329 421 1422 95424 0.000844 0.064344 17 808 808 13736 11098688
+535	70750 23 90088 90088 0.06013 0.06013 1 808 808 808 652864
+538	70773 319 1425 95426 0.000844 0.064344 13 815 815 10595 8634925
+542	71092 262 3500 74861 0.002164 0.047864 11 822 822 9042 7432524
+543	71354 30 12057 12057 0.007239699037 0.007239699037 1 822 822 822 675684
+546	71384 358 1578 101457 0.000864 0.069974 15 829 829 12435 10308615
+547	71742 53 53067 72337 0.03275 0.045862498012 2 829 829 1658 1374482
+550	71795 406 1580 101459 0.000864 0.069974 17 836 836 14212 11881232
+551	72201 74 22501 65932 0.0137 0.041002498012 3 836 836 2508 2096688
+554	72275 340 3038 101461 0.001854 0.069974 14 843 843 11802 9949086
+555	72615 30 90616 90616 0.060451084083 0.060451084083 1 843 843 843 710649
+558	72645 434 3041 80027 0.001854 0.051504 18 850 850 15300 13005000
+559	73079 23 11766 11766 0.00713 0.00713 1 850 850 850 722500
+562	73102 503 1428 80029 0.000844 0.051504 21 857 857 17997 15423429
+566	73605 486 1431 80031 0.000844 0.051504 20 864 864 17280 14929920
+567	74091 21 39965 39965 0.024 0.024 1 864 864 864 746496
+570	74112 414 1434 73238 0.000844 0.046576500308 17 871 871 14807 12896897
+571	74526 23 28046 28046 0.01682 0.01682 1 871 871 871 758641
+574	74549 290 1437 73240 0.000844 0.046576500308 12 878 878 10536 9250608
+575	74839 46 54536 86683 0.03371 0.05677 2 878 878 1756 1541768
+578	74885 236 1440 52501 0.000844 0.032394 10 885 885 8850 7832250
+581	75121 30 58712 58712 0.036506486697 0.036506486697 1 892 892 892 795664
+582	75151 46 3431 6897 0.002064 0.004484 2 892 892 1784 1591328
+585	75197 24 74117 74117 0.047234 0.047234 1 899 899 899 808201
+586	75221 138 2503 6901 0.001414 0.004484 6 899 899 5394 4849206
+589	75359 85 26160 123404 0.015788498308 0.090200001 3 906 906 2718 2462508
+590	75444 249 2264 67531 0.001414 0.042294 10 906 906 9060 8208360
+593	75693 30 15297 15297 0.009128498308 0.009128498308 1 913 913 913 833569
+594	75723 187 2268 67535 0.001414 0.042294 7 913 913 6391 5834983
+597	75910 29 6324 6324 0.004072497308 0.004072497308 1 920 920 920 846400
+598	75939 255 1131 59860 0.000844 0.037334 9 920 920 8280 7617600
+601	76194 84 33323 91223 0.019784498308 0.060934 3 927 927 2781 2577987
+602	76278 231 1135 52331 0.000844 0.032316500308 8 927 927 7416 6874632
+605	76509 90 15392 67708 0.009158497308 0.042336500308 3 934 934 2802 2617068
+606	76599 272 1202 36154 0.000844 0.021614498308 10 934 934 9340 8723560
+609	76871 83 7120 59490 0.004594 0.037196500308 3 941 941 2823 2656443
+610	76954 129 2954 27785 0.001754 0.016744498308 5 941 941 4705 4427405
+613	77083 23 9982 9982 0.006194 0.006194 1 948 948 948 898704
+614	77106 46 2958 4675 0.001754 0.003014 2 948 948 1896 1797408
+618	77152 46 2509 6911 0.001414 0.004484 2 955 955 1910 1824050
+621	77198 24 72006 72006 0.045554 0.045554 1 962 962 962 925444
+622	77222 192 2513 45129 0.001414 0.027674 8 962 962 7696 7403552
+625	77414 54 22005 69778 0.013328498308 0.043814 2 969 969 1938 1877922
+626	77468 250 2274 81523 0.001414 0.052784 10 969 969 9690 9389610
+629	77718 28 135425 135425 0.104816002 0.104816002 1 976 976 976 952576
+630	77746 242 9242 81528 0.005782497308 0.052784 9 976 976 8784 8573184
+634	77988 267 1141 80822 0.000844 0.052094 10 983 983 9830 9662890
+637	78255 24 87405 87405 0.057434 0.057434 1 990 990 990 980100
+638	78279 314 1145 60990 0.000844 0.037884 11 990 990 10890 10781100
+641	78593 82 30553 125972 0.018264498308 0.092690001 3 997 997 2991 2982027
+642	78675 334 1209 108363 0.000844 0.075754 12 997 997 11964 11928108
+645	79009 57 62726 113736 0.038816500308 0.080714 2 1004 1004 2008 2016032
+646	79066 191 2964 108367 0.001754 0.075754 7 1004 1004 7028 7056112
+650	79257 24 4688 4688 0.003014 0.003014 1 1011 1011 1011 1022121
+653	79281 61 9763 51040 0.006016861632 0.031346486697 2 1018 1018 2036 2072648
+654	79342 49 2519 45136 0.001414 0.027674 2 1018 1018 2036 2072648
+657	79391 61 53342 79660 0.032906486697 0.05122907601 2 1025 1025 2050 2101250
+658	79452 201 1299 45140 0.000844 0.027674 8 1025 1025 8200 8405000
+661	79653 107 32245 133565 0.019240001 0.101936002 4 1032 1032 4128 4260096
+662	79760 231 2358 81535 0.001414 0.052784 9 1032 1032 9288 9585216
+665	79991 29 136312 136312 0.106336002 0.106336002 1 1039 1039 1039 1079521
+666	80020 288 2362 81540 0.001414 0.052784 11 1039 1039 11429 11874731
+669	80308 80 79297 138213 0.050954 0.109556002 3 1046 1046 3138 3282348
+670	80388 302 2366 102089 0.001414 0.070584 11 1046 1046 11506 12035276
+673	80690 60 47316 128264 0.029076500308 0.095190001 2 1053 1053 2106 2217618
+674	80750 346 7452 107450 0.004662497308 0.07501 12 1053 1053 12636 13305708
+677	81096 29 124313 124313 0.091170001 0.091170001 1 1060 1060 1060 1123600
+678	81125 354 8298 108373 0.005212497308 0.075754 12 1060 1060 12720 13483200
+681	81479 52 104436 118329 0.072244 0.085494 2 1067 1067 2134 2276978
+682	81531 168 4694 108378 0.003014 0.075754 6 1067 1067 6402 6830934
+686	81699 31 31611 31611 0.018914498308 0.018914498308 1 1074 1074 1074 1153476
+689	81730 31 99517 99517 0.067875084083 0.067875084083 1 1081 1081 1081 1168561
+690	81761 49 1305 45150 0.000844 0.027674 2 1081 1081 2162 2337122
+693	81810 55 61816 77361 0.038344 0.04970907601 2 1088 1088 2176 2367488
+694	81865 202 1309 74877 0.000844 0.047864 8 1088 1088 8704 9469952
+697	82067 60 97103 131824 0.065615084083 0.100416002 2 1095 1095 2190 2398050
+698	82127 255 1313 101473 0.000844 0.069974 10 1095 1095 10950 11990250
+701	82382 51 43084 111332 0.026414 0.078264 2 1102 1102 2204 2428808
+702	82433 231 5054 101477 0.003204 0.069974 9 1102 1102 9918 10929636
+705	82664 83 28263 137278 0.016950001 0.107856002 3 1109 1109 3327 3689643
+706	82747 316 2454 107457 0.001414 0.07501 12 1109 1109 13308 14758572
+709	83063 29 139167 139167 0.111636002 0.111636002 1 1116 1116 1116 1245456
+710	83092 341 7462 107461 0.004662497308 0.07501 12 1116 1116 13392 14945472
+713	83433 29 131338 131338 0.099956002 0.099956002 1 1123 1123 1123 1261129
+714	83462 342 8313 108384 0.005212497308 0.075754 12 1123 1123 13476 15133548
+717	83804 77 82036 112135 0.052854 0.079154 3 1130 1130 3390 3830700
+718	83881 225 10065 108389 0.006204 0.075754 8 1130 1130 9040 10215200
+722	84106 62 31626 42425 0.018914498308 0.026016500308 2 1137 1137 2274 2585538
+726	84168 48 1318 3517 0.000844 0.002164 2 1144 1144 2288 2617472
+729	84216 26 105311 105311 0.073014 0.073014 1 1151 1151 1151 1324801
+730	84242 178 1322 74887 0.000844 0.047864 7 1151 1151 8057 9273607
+733	84420 54 58981 125363 0.036784 0.092056002 2 1158 1158 2316 2681928
+734	84474 260 1326 101484 0.000844 0.069974 10 1158 1158 11580 13409640
+738	84734 280 2461 101489 0.001414 0.069974 11 1165 1165 12815 14929475
+741	85014 29 140111 140111 0.113176002 0.113176002 1 1172 1172 1172 1373584
+742	85043 281 3816 107471 0.002404 0.07501 11 1172 1172 12892 15109424
+745	85324 29 133302 133302 0.101776002 0.101776002 1 1179 1179 1179 1390041
+746	85353 322 1453 107475 0.000844 0.07501 12 1179 1179 14148 16680492
+749	85675 51 97514 119708 0.065884 0.087034 2 1186 1186 2372 2813192
+750	85726 323 1457 108396 0.000844 0.075754 12 1186 1186 14232 16879152
+753	86049 26 117061 117061 0.083974 0.083974 1 1193 1193 1193 1423249
+754	86075 187 2630 108400 0.001454 0.075754 7 1193 1193 8351 9962743
+758	86262 56 10079 42441 0.006204 0.026016500308 2 1200 1200 2400 2880000
+762	86318 48 3531 6406 0.002164 0.004124 2 1207 1207 2414 2913698
+765	86366 56 47708 95143 0.029204 0.063875084083 2 1214 1214 2428 2947592
+766	86422 175 1332 74898 0.000844 0.047864 7 1214 1214 8498 10316572
+769	86597 29 126618 126618 0.093576002 0.093576002 1 1221 1221 1221 1490841
+770	86626 226 3539 101496 0.002164 0.069974 9 1221 1221 10989 13417569
+773	86852 54 56978 141038 0.035264 0.114696002 2 1228 1228 2456 3015968
+774	86906 256 5074 101501 0.003204 0.069974 10 1228 1228 12280 15079840
+777	87162 80 38397 129150 0.022744 0.096616002 3 1235 1235 3705 4575675
+778	87242 306 3826 102125 0.002404 0.070584 12 1235 1235 14820 18302700
+781	87548 54 98955 134499 0.067404 0.103296002 2 1242 1242 2484 3085128
+782	87602 286 1463 107487 0.000844 0.07501 11 1242 1242 13662 16968204
+785	87888 82 14005 121454 0.008354 0.088554 3 1249 1249 3747 4680003
+786	87970 285 1467 95471 0.000844 0.064344 11 1249 1249 13739 17160011
+789	88255 26 115588 115588 0.082234 0.082234 1 1256 1256 1256 1577536
+790	88281 179 2641 95475 0.001454 0.064344 7 1256 1256 8792 11042752
+793	88460 25 79848 79848 0.051294 0.051294 1 1263 1263 1263 1595169
+794	88485 25 10094 10094 0.006204 0.006204 1 1263 1263 1263 1595169
+798	88510 49 6419 48280 0.004124 0.029754 2 1270 1270 2540 3225800
+801	88559 54 37218 106993 0.022080001 0.074534 2 1277 1277 2554 3261458
+802	88613 175 3545 74909 0.002164 0.047864 7 1277 1277 8939 11415103
+805	88788 60 92989 121191 0.062315084083 0.088296002 2 1284 1284 2568 3297312
+806	88848 252 6427 101508 0.004124 0.069974 10 1284 1284 12840 16486560
+809	89100 29 128037 128037 0.095096002 0.095096002 1 1291 1291 1291 1666681
+810	89129 305 3061 101512 0.001854 0.069974 12 1291 1291 15492 20000172
+813	89434 25 83011 83011 0.053624 0.053624 1 1298 1298 1298 1684804
+814	89459 272 3065 80076 0.001854 0.051504 11 1298 1298 14278 18532844
+817	89731 25 94812 94812 0.063794 0.063794 1 1305 1305 1305 1703025
+818	89756 283 1473 80081 0.000844 0.051504 11 1305 1305 14355 18733275
+821	90039 50 64863 90515 0.040114 0.060434 2 1312 1312 2624 3442688
+822	90089 303 1477 73288 0.000844 0.046576500308 12 1312 1312 15744 20656128
+826	90392 148 2651 52517 0.001454 0.032394 6 1319 1319 7914 10438566
+830	90540 49 8792 10158 0.005674 0.006204 2 1326 1326 2652 3516552
+833	90589 51 50863 108838 0.031274 0.076054 2 1333 1333 2666 3553778
+834	90640 49 5323 48296 0.003414 0.029754 2 1333 1333 2666 3553778
+837	90689 59 34374 72723 0.020540001 0.046166498012 2 1340 1340 2680 3591200
+838	90748 175 1592 48301 0.000864 0.029754 7 1340 1340 9380 12569200
+841	90923 81 23286 68591 0.014004 0.042906498012 3 1347 1347 4041 5443227
+842	91004 250 4307 54656 0.002804 0.033724 10 1347 1347 13470 18144090
+845	91254 60 62902 122923 0.038986498012 0.089816002 2 1354 1354 2708 3666632
+846	91314 302 2105 73616 0.001324 0.046816498012 12 1354 1354 16248 21999792
+850	91616 245 2109 54665 0.001324 0.033724 10 1361 1361 13610 18523210
+853	91861 50 34558 40404 0.020594 0.024304 2 1368 1368 2736 3742848
+854	91911 270 1483 31536 0.000844 0.018894 11 1368 1368 15048 20585664
+858	92181 270 1487 52524 0.000844 0.032394 11 1375 1375 15125 20796875
+861	92451 50 17433 86921 0.010424 0.057074 2 1382 1382 2764 3819848
+862	92501 148 2661 52528 0.001454 0.032394 6 1382 1382 8292 11459544
+865	92649 25 75692 75692 0.048314 0.048314 1 1389 1389 1389 1929321
+866	92674 49 8806 30278 0.005674 0.018244 2 1389 1389 2778 3858642
+870	92723 48 1598 5336 0.000864 0.003414 2 1396 1396 2792 3897632
+873	92771 56 12347 53759 0.007543699037 0.033054 2 1403 1403 2806 3936818
+874	92827 126 1602 48312 0.000864 0.029754 5 1403 1403 7015 9842045
+877	92953 56 27728 90951 0.016704 0.060755084083 2 1410 1410 2820 3976200
+878	93009 224 1606 54671 0.000864 0.033724 9 1410 1410 12690 17892900
+881	93233 31 66385 66385 0.041306498012 0.041306498012 1 1417 1417 1417 2007889
+882	93264 221 2115 54676 0.001324 0.033724 9 1417 1417 12753 18071001
+885	93485 50 12259 51747 0.007434 0.031844 2 1424 1424 2848 4055552
+886	93535 246 2119 54681 0.001324 0.033724 10 1424 1424 14240 20277760
+889	93781 25 28557 28557 0.017124 0.017124 1 1431 1431 1431 2047761
+890	93806 222 4600 31548 0.002994 0.018894 9 1431 1431 12879 18429849
+894	94028 222 4604 52535 0.002994 0.032394 9 1438 1438 12942 18610596
+897	94250 25 55194 55194 0.034014 0.034014 1 1445 1445 1445 2088025
+898	94275 100 14990 52539 0.008904 0.032394 4 1445 1445 5780 8352100
+902	94375 49 8849 30294 0.005674 0.018244 2 1452 1452 2904 4216608
+905	94424 543 0 58685 0 0.036506486697 21 0 3 35 95
+906	94967 11 0 0 0 0 1 1 1 1 1
+907	94978 95 0 4018 0 0.002654 5 0 3 7 19
+908	95073 11 0 0 0 0 1 1 1 1 1
+909	95084 543 0 21935 0 0.013328498308 21 0 3 35 95
+910	95627 11 0 0 0 0 1 1 1 1 1
+911	95638 123 0 17033 0 0.010288498308 5 0 3 7 19
+912	95761 11 0 0 0 0 1 1 1 1 1
+913	95772 529 0 135358 0 0.104816002 21 0 3 35 95
+914	96301 11 0 0 0 0 1 1 1 1 1
+915	96312 533 0 33263 0 0.019784498308 21 0 3 35 95
+916	96845 11 0 0 0 0 1 1 1 1 1
+917	96856 123 0 12641 0 0.007638497308 5 0 3 7 19
+918	96979 11 0 0 0 0 1 1 1 1 1
+919	96990 93 0 1043 0 0.000844 5 0 3 7 19
+920	97083 11 0 0 0 0 1 1 1 1 1
+921	97094 543 0 26752 0 0.016074498308 21 0 3 35 95
+922	97637 11 0 0 0 0 1 1 1 1 1
+923	97648 423 0 9942 0 0.006194 21 0 3 35 95
+924	98071 11 0 0 0 0 1 1 1 1 1
+925	98082 203 0 80456 0 0.05194507601 9 0 3 14 38
+926	98285 11 0 0 0 0 1 1 1 1 1
+927	98296 267 0 74056 0 0.047234 13 0 3 21 57
+928	98563 11 0 0 0 0 1 1 1 1 1
+929	98574 311 0 37257 0 0.022096002 13 0 3 21 57
+930	98885 11 0 0 0 0 1 1 1 1 1
+931	98896 395 0 69689 0 0.043814 17 0 3 28 76
+932	99291 11 0 0 0 0 1 1 1 1 1
+933	99302 99 0 59783 0 0.037334 5 0 3 7 19
+934	99401 11 0 0 0 0 1 1 1 1 1
+935	99412 291 0 87316 0 0.057434 13 0 3 21 57
+936	99703 11 0 0 0 0 1 1 1 1 1
+937	99714 347 0 67627 0 0.042336500308 13 0 3 21 57
+938	100061 11 0 0 0 0 1 1 1 1 1
+939	100072 813 0 128189 0 0.095190001 33 0 3 56 152
+940	100885 11 0 0 0 0 1 1 1 1 1
+941	100896 123 0 27737 0 0.016744498308 5 0 3 7 19
+942	101019 11 0 0 0 0 1 1 1 1 1
+943	101030 947 0 104383 0 0.072244 37 0 3 63 171
+944	101977 11 0 0 0 0 1 1 1 1 1
+945	101988 483 0 71948 0 0.045554 21 0 3 35 95
+946	102471 11 0 0 0 0 1 1 1 1 1
+947	102482 619 0 53258 0 0.032906486697 25 0 3 42 114
+948	103101 11 0 0 0 0 1 1 1 1 1
+949	103112 653 0 123326 0 0.090200001 29 0 3 49 133
+950	103765 11 0 0 0 0 1 1 1 1 1
+951	103776 415 0 136207 0 0.106336002 17 0 3 28 76
+952	104191 11 0 0 0 0 1 1 1 1 1
+953	104202 121 0 10418 0 0.006372497308 5 0 3 7 19
+954	104323 11 0 0 0 0 1 1 1 1 1
+955	104334 413 0 139063 0 0.111636002 17 0 3 28 76
+956	104747 11 0 0 0 0 1 1 1 1 1
+957	104758 295 0 91138 0 0.060934 13 0 3 21 57
+958	105053 11 0 0 0 0 1 1 1 1 1
+959	105064 347 0 54927 0 0.033836500308 13 0 3 21 57
+960	105411 11 0 0 0 0 1 1 1 1 1
+961	105422 347 0 59429 0 0.037196500308 13 0 3 21 57
+962	105769 11 0 0 0 0 1 1 1 1 1
+963	105780 123 0 19429 0 0.011668497308 5 0 3 7 19
+964	105903 11 0 0 0 0 1 1 1 1 1
+965	105914 539 0 79590 0 0.05122907601 21 0 3 35 95
+966	106453 11 0 0 0 0 1 1 1 1 1
+967	106464 123 0 16195 0 0.009738498308 5 0 3 7 19
+968	106587 11 0 0 0 0 1 1 1 1 1
+969	106598 307 0 133471 0 0.101936002 13 0 3 21 57
+970	106905 11 0 0 0 0 1 1 1 1 1
+971	106916 295 0 28143 0 0.016950001 13 0 3 21 57
+972	107211 11 0 0 0 0 1 1 1 1 1
+973	107222 275 0 103972 0 0.072104 13 0 3 21 57
+974	107497 11 0 0 0 0 1 1 1 1 1
+975	107508 99 0 60897 0 0.037884 5 0 3 7 19
+976	107607 11 0 0 0 0 1 1 1 1 1
+977	107618 835 0 131229 0 0.099956002 33 0 3 56 152
+978	108453 11 0 0 0 0 1 1 1 1 1
+979	108464 123 0 50671 0 0.031266500308 5 0 3 7 19
+980	108587 11 0 0 0 0 1 1 1 1 1
+981	108598 851 0 125893 0 0.092690001 37 0 3 63 171
+982	109449 11 0 0 0 0 1 1 1 1 1
+983	109460 123 0 31560 0 0.018914498308 5 0 3 7 19
+984	109583 11 0 0 0 0 1 1 1 1 1
+985	109594 1061 0 105236 0 0.073014 45 0 3 77 209
+986	110655 11 0 0 0 0 1 1 1 1 1
+987	110666 491 0 95032 0 0.063875084083 21 0 3 35 95
+988	111157 11 0 0 0 0 1 1 1 1 1
+989	111168 647 0 126493 0 0.093576002 29 0 3 49 133
+990	111815 11 0 0 0 0 1 1 1 1 1
+991	111826 307 0 125245 0 0.092056002 13 0 3 21 57
+992	112133 11 0 0 0 0 1 1 1 1 1
+993	112144 99 0 22691 0 0.013834 5 0 3 7 19
+994	112243 11 0 0 0 0 1 1 1 1 1
+995	112254 727 0 138102 0 0.109556002 29 0 3 49 133
+996	112981 11 0 0 0 0 1 1 1 1 1
+997	112992 487 0 134362 0 0.103296002 21 0 3 35 95
+998	113479 11 0 0 0 0 1 1 1 1 1
+999	113490 307 0 124212 0 0.091170001 13 0 3 21 57
+1000	113797 12 0 0 0 0 1 1 1 1 1
+1001	113809 570 0 121345 0 0.088554 25 0 3 42 114
+1002	114379 12 0 0 0 0 1 1 1 1 1
+1003	114391 128 0 42329 0 0.026016500308 5 0 3 7 19
+1004	114519 12 0 0 0 0 1 1 1 1 1
+1005	114531 100 0 3458 0 0.002164 5 0 3 7 19
+1006	114631 12 0 0 0 0 1 1 1 1 1
+1007	114643 328 0 77268 0 0.04970907601 13 0 3 21 57
+1008	114971 12 0 0 0 0 1 1 1 1 1
+1009	114983 540 0 131724 0 0.100416002 21 0 3 35 95
+1010	115523 12 0 0 0 0 1 1 1 1 1
+1011	115535 104 0 70346 0 0.044444 5 0 3 7 19
+1012	115639 12 0 0 0 0 1 1 1 1 1
+1013	115651 468 0 109551 0 0.076704 21 0 3 35 95
+1014	116119 12 0 0 0 0 1 1 1 1 1
+1015	116131 198 0 104990 0 0.07282 9 0 3 14 38
+1016	116329 12 0 0 0 0 1 1 1 1 1
+1017	116341 128 0 68294 0 0.042886500308 5 0 3 7 19
+1018	116469 12 0 0 0 0 1 1 1 1 1
+1019	116481 128 0 73117 0 0.046576500308 5 0 3 7 19
+1020	116609 12 0 0 0 0 1 1 1 1 1
+1021	116621 798 0 116959 0 0.083974 33 0 3 56 152
+1022	117419 12 0 0 0 0 1 1 1 1 1
+1023	117431 384 0 79759 0 0.051294 17 0 3 28 76
+1024	117815 12 0 0 0 0 1 1 1 1 1
+1025	117827 540 0 92898 0 0.062315084083 21 0 3 35 95
+1026	118367 12 0 0 0 0 1 1 1 1 1
+1027	118379 104 0 43978 0 0.026964 5 0 3 7 19
+1028	118483 12 0 0 0 0 1 1 1 1 1
+1029	118495 128 0 73524 0 0.046816498012 5 0 3 7 19
+1030	118623 12 0 0 0 0 1 1 1 1 1
+1031	118635 284 0 56852 0 0.035264 13 0 3 21 57
+1032	118919 12 0 0 0 0 1 1 1 1 1
+1033	118931 104 0 35529 0 0.021184 5 0 3 7 19
+1034	119035 12 0 0 0 0 1 1 1 1 1
+1035	119047 938 0 140007 0 0.113176002 41 0 3 70 190
+1036	119985 12 0 0 0 0 1 1 1 1 1
+1037	119997 104 0 18333 0 0.011034 5 0 3 7 19
+1038	120101 12 0 0 0 0 1 1 1 1 1
+1039	120113 962 0 133208 0 0.101776002 41 0 3 70 190
+1040	121075 12 0 0 0 0 1 1 1 1 1
+1041	121087 648 0 115498 0 0.082234 29 0 3 49 133
+1042	121735 12 0 0 0 0 1 1 1 1 1
+1043	121747 100 0 9999 0 0.006204 5 0 3 7 19
+1044	121847 12 0 0 0 0 1 1 1 1 1
+1045	121859 640 0 108776 0 0.076054 25 0 3 42 114
+1046	122499 12 0 0 0 0 1 1 1 1 1
+1047	122511 304 0 106908 0 0.074534 13 0 3 21 57
+1048	122815 12 0 0 0 0 1 1 1 1 1
+1049	122827 104 0 25021 0 0.015144 5 0 3 7 19
+1050	122931 12 0 0 0 0 1 1 1 1 1
+1051	122943 104 0 14274 0 0.008634 5 0 3 7 19
+1052	123047 12 0 0 0 0 1 1 1 1 1
+1053	123059 536 0 140944 0 0.114696002 21 0 3 35 95
+1054	123595 12 0 0 0 0 1 1 1 1 1
+1055	123607 104 0 19290 0 0.011604 5 0 3 7 19
+1056	123711 12 0 0 0 0 1 1 1 1 1
+1057	123723 104 0 21106 0 0.012744 5 0 3 7 19
+1058	123827 12 0 0 0 0 1 1 1 1 1
+1059	123839 104 0 31449 0 0.018894 5 0 3 7 19
+1060	123943 12 0 0 0 0 1 1 1 1 1
+1061	123955 104 0 29502 0 0.017694 5 0 3 7 19
+1062	124059 12 0 0 0 0 1 1 1 1 1
+1063	124071 474 0 75619 0 0.048314 21 0 3 35 95
+1064	124545 12 0 0 0 0 1 1 1 1 1
+1065	124557 592 0 50814 0 0.031274 25 0 3 42 114
+1066	125149 12 0 0 0 0 1 1 1 1 1
+1067	125161 104 0 31391 0 0.018814 5 0 3 7 19
+1068	125265 12 0 0 0 0 1 1 1 1 1
+1069	125277 280 0 30337 0 0.018264 13 0 3 21 57
+1070	125557 12 0 0 0 0 1 1 1 1 1
+1071	125569 104 0 54577 0 0.033724 5 0 3 7 19
+1072	125673 12 0 0 0 0 1 1 1 1 1
+1073	125685 728 0 127955 0 0.095096002 29 0 3 49 133
+1074	126413 12 0 0 0 0 1 1 1 1 1
+1075	126425 100 0 9339 0 0.005814 5 0 3 7 19
+1076	126525 12 0 0 0 0 1 1 1 1 1
+1077	126537 280 0 51651 0 0.031844 13 0 3 21 57
+1078	126817 12 0 0 0 0 1 1 1 1 1
+1079	126829 104 0 22121 0 0.013374 5 0 3 7 19
+1080	126933 12 0 0 0 0 1 1 1 1 1
+1081	126945 284 0 90448 0 0.060434 13 0 3 21 57
+1082	127229 12 0 0 0 0 1 1 1 1 1
+1083	127241 104 0 30212 0 0.018244 5 0 3 7 19
+1084	127345 12 0 0 0 0 1 1 1 1 1
+1085	127357 330 0 12295 0 0.007543699037 13 0 3 21 57
+1086	127687 12 0 0 0 0 1 1 1 1 1
+1087	127699 516 0 72666 0 0.046166498012 21 0 3 35 95
+1088	128215 12 0 0 0 0 1 1 1 1 1
+1089	128227 864 0 66308 0 0.041306498012 37 0 3 63 171
+1090	129091 12 0 0 0 0 1 1 1 1 1
+1091	129103 336 0 90876 0 0.060755084083 13 0 3 21 57
+1092	129439 12 0 0 0 0 1 1 1 1 1
+1093	129451 280 0 12191 0 0.007434 13 0 3 21 57
+1094	129731 12 0 0 0 0 1 1 1 1 1
+1095	129743 104 0 20391 0 0.012194 5 0 3 7 19
+1096	129847 12 0 0 0 0 1 1 1 1 1
+1097	129859 278 0 40338 0 0.024304 13 0 3 21 57
+1098	130137 12 0 0 0 0 1 1 1 1 1
+1099	130149 370 0 28485 0 0.017124 17 0 3 28 76
+1100	130519 12 0 0 0 0 1 1 1 1 1
+1101	130531 464 0 86866 0 0.057074 21 0 3 35 95
+1102	130995 12 0 0 0 0 1 1 1 1 1
+1103	131007 190 0 70109 0 0.04419 9 0 3 14 38
+1104	131197 12 0 0 0 0 1 1 1 1 1

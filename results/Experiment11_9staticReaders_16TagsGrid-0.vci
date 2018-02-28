@@ -1,0 +1,68 @@
+file 2648 1519781691                                            
+version 2
+run Experiment11_9staticReaders_16TagsGrid-0-20180227-17:34:19-8368
+attr configname Experiment11_9staticReaders_16TagsGrid
+attr datetime 20180227-17:34:19
+attr experiment Experiment11_9staticReaders_16TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 8368
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 125  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 126  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 127  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 128  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 129  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 130  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 131  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 132  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 133  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 134  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 135  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 136  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 137  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 138  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 139  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 140  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 141  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 142  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+vector 66  _01_RfidSim.tag[1].nic  TagReceivedQuery  ETV
+vector 70  _01_RfidSim.tag[2].nic  TagReceivedQuery  ETV
+vector 90  _01_RfidSim.tag[7].nic  TagReceivedQuery  ETV
+vector 106  _01_RfidSim.tag[11].nic  TagReceivedQuery  ETV
+vector 78  _01_RfidSim.tag[4].nic  TagReceivedQuery  ETV
+vector 94  _01_RfidSim.tag[8].nic  TagReceivedQuery  ETV
+vector 114  _01_RfidSim.tag[13].nic  TagReceivedQuery  ETV
+66	1985 21 149 149 0.000944 0.000944 1 106 106 106 11236
+70	2006 21 153 153 0.000944 0.000944 1 113 113 113 12769
+78	2027 21 182 182 0.001104 0.001104 1 127 127 127 16129
+90	2048 21 166 166 0.001024 0.001024 1 148 148 148 21904
+94	2069 21 187 187 0.001104 0.001104 1 155 155 155 24025
+106	2090 22 171 171 0.001024 0.001024 1 176 176 176 30976
+114	2112 22 199 199 0.001224 0.001224 1 190 190 190 36100
+125	2134 11 0 0 0 0 1 0 0 0 0
+126	2145 11 0 0 0 0 1 1 1 1 1
+127	2156 89 0 146 0 0.000944 5 0 3 7 19
+128	2245 11 0 0 0 0 1 1 1 1 1
+129	2256 11 0 0 0 0 1 0 0 0 0
+130	2267 11 0 0 0 0 1 1 1 1 1
+131	2278 91 0 176 0 0.001104 5 0 3 7 19
+132	2369 11 0 0 0 0 1 1 1 1 1
+133	2380 11 0 0 0 0 1 0 0 0 0
+134	2391 11 0 0 0 0 1 1 1 1 1
+135	2402 89 0 159 0 0.001024 5 0 3 7 19
+136	2491 11 0 0 0 0 1 1 1 1 1
+137	2502 11 0 0 0 0 1 0 0 0 0
+138	2513 11 0 0 0 0 1 1 1 1 1
+139	2524 91 0 193 0 0.001224 5 0 3 7 19
+140	2615 11 0 0 0 0 1 1 1 1 1
+141	2626 11 0 0 0 0 1 0 0 0 0
+142	2637 11 0 0 0 0 1 1 1 1 1

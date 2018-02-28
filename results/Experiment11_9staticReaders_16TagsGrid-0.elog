@@ -1,0 +1,4426 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1030 rid Experiment11_9staticReaders_16TagsGrid-0-20180227-17:34:19-8368 b 1000
+KF p -1 c "" s ""
+MC id 1 c cModule t _01_rfidsim._01_RfidSim n _01_RfidSim cm 1
+MS id 1 d bgi=background/terrain,s;bgb=$playgroundSizeX,$playgroundSizeY,white;bgp=0,0
+MC id 2 c ConnectionManager t org.mixim.base.connectionManager.ConnectionManager pid 1 n ReaderconnectionManager
+MS id 2 d is=s;p=75,100;i=abstract/multicast
+MC id 3 c ConnectionManager t org.mixim.base.connectionManager.ConnectionManager pid 1 n TagconnectionManager
+MS id 3 d is=s;p=75,160;i=abstract/multicast
+MC id 4 c ConnectionManager t org.mixim.base.connectionManager.ConnectionManager pid 1 n connectionManager
+MS id 4 d is=s;p=201,0;i=abstract/multicast
+MC id 5 c BaseWorldUtility t org.mixim.base.modules.BaseWorldUtility pid 1 n world
+MS id 5 d is=s;p=25,40;i=misc/globe
+MC id 6 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[0] cm 1
+GC m 6 g 0 n radioIn o 0
+MS id 6 d i=device/rfidreader
+MC id 7 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[1] cm 1
+GC m 7 g 0 n radioIn o 0
+MS id 7 d i=device/rfidreader
+MC id 8 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[2] cm 1
+GC m 8 g 0 n radioIn o 0
+MS id 8 d i=device/rfidreader
+MC id 9 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[3] cm 1
+GC m 9 g 0 n radioIn o 0
+MS id 9 d i=device/rfidreader
+MC id 10 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[4] cm 1
+GC m 10 g 0 n radioIn o 0
+MS id 10 d i=device/rfidreader
+MC id 11 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[5] cm 1
+GC m 11 g 0 n radioIn o 0
+MS id 11 d i=device/rfidreader
+MC id 12 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[6] cm 1
+GC m 12 g 0 n radioIn o 0
+MS id 12 d i=device/rfidreader
+MC id 13 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[7] cm 1
+GC m 13 g 0 n radioIn o 0
+MS id 13 d i=device/rfidreader
+MC id 14 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n reader[8] cm 1
+GC m 14 g 0 n radioIn o 0
+MS id 14 d i=device/rfidreader
+MC id 15 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[0] cm 1
+GC m 15 g 0 n radioIn o 0
+MS id 15 d i=device/rfidtag_s
+MC id 16 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[1] cm 1
+GC m 16 g 0 n radioIn o 0
+MS id 16 d i=device/rfidtag_s
+MC id 17 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[2] cm 1
+GC m 17 g 0 n radioIn o 0
+MS id 17 d i=device/rfidtag_s
+MC id 18 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[3] cm 1
+GC m 18 g 0 n radioIn o 0
+MS id 18 d i=device/rfidtag_s
+MC id 19 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[4] cm 1
+GC m 19 g 0 n radioIn o 0
+MS id 19 d i=device/rfidtag_s
+MC id 20 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[5] cm 1
+GC m 20 g 0 n radioIn o 0
+MS id 20 d i=device/rfidtag_s
+MC id 21 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[6] cm 1
+GC m 21 g 0 n radioIn o 0
+MS id 21 d i=device/rfidtag_s
+MC id 22 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[7] cm 1
+GC m 22 g 0 n radioIn o 0
+MS id 22 d i=device/rfidtag_s
+MC id 23 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[8] cm 1
+GC m 23 g 0 n radioIn o 0
+MS id 23 d i=device/rfidtag_s
+MC id 24 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[9] cm 1
+GC m 24 g 0 n radioIn o 0
+MS id 24 d i=device/rfidtag_s
+MC id 25 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[10] cm 1
+GC m 25 g 0 n radioIn o 0
+MS id 25 d i=device/rfidtag_s
+MC id 26 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[11] cm 1
+GC m 26 g 0 n radioIn o 0
+MS id 26 d i=device/rfidtag_s
+MC id 27 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[12] cm 1
+GC m 27 g 0 n radioIn o 0
+MS id 27 d i=device/rfidtag_s
+MC id 28 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[13] cm 1
+GC m 28 g 0 n radioIn o 0
+MS id 28 d i=device/rfidtag_s
+MC id 29 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[14] cm 1
+GC m 29 g 0 n radioIn o 0
+MS id 29 d i=device/rfidtag_s
+MC id 30 c cModule t _01_rfidsim.RFIDNetComponent pid 1 n tag[15] cm 1
+GC m 30 g 0 n radioIn o 0
+MS id 30 d i=device/rfidtag_s
+MC id 31 c BaseArp t org.mixim.base.modules.BaseArp pid 6 n arp
+MS id 31 d p=140,100;i=block/network2
+MC id 32 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 6 n mobility
+MS id 32 d p=140,30;i=block/cogwheel
+MC id 33 c cModule t org.mixim.modules.nic.Nic80211 pid 6 n nic cm 1
+GC m 33 g 0 n upperLayerIn o 0
+GC m 33 g 3 n upperLayerOut o 1
+GC m 33 g 5 n upperControlOut o 1
+GC m 33 g 6 n upperControlIn o 0
+GC m 33 g 8 n radioIn o 0
+MS id 33 d p=70,380;i=block/wrxtx,#008000
+MC id 34 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 6 n netwl
+GC m 34 g 0 n upperLayerIn o 0
+GC m 34 g 3 n upperLayerOut o 1
+GC m 34 g 4 n upperControlIn o 0
+GC m 34 g 7 n upperControlOut o 1
+GC m 34 g 8 n lowerLayerIn o 0
+GC m 34 g 11 n lowerLayerOut o 1
+GC m 34 g 12 n lowerControlIn o 0
+GC m 34 g 15 n lowerControlOut o 1
+MS id 34 d p=70,310;i=block/layer
+MC id 35 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 6 n appl
+GC m 35 g 0 n lowerLayerIn o 0
+GC m 35 g 3 n lowerLayerOut o 1
+GC m 35 g 4 n lowerControlIn o 0
+GC m 35 g 7 n lowerControlOut o 1
+MS id 35 d i=app;p=70,30;14
+CC sm 33 sg 3 dm 34 dg 8
+CC sm 34 sg 11 dm 33 dg 0
+CC sm 33 sg 5 dm 34 dg 12
+CS sm 33 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 34 sg 15 dm 33 dg 6
+CS sm 34 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 34 sg 3 dm 35 dg 0
+CC sm 35 sg 3 dm 34 dg 0
+CC sm 34 sg 7 dm 35 dg 4
+CS sm 34 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 35 sg 7 dm 34 dg 4
+CS sm 35 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 6 sg 0 dm 33 dg 8
+MC id 36 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 33 n mac
+GC m 36 g 0 n upperLayerIn o 0
+GC m 36 g 3 n upperLayerOut o 1
+GC m 36 g 4 n upperControlIn o 0
+GC m 36 g 7 n upperControlOut o 1
+GC m 36 g 8 n lowerLayerIn o 0
+GC m 36 g 11 n lowerLayerOut o 1
+GC m 36 g 12 n lowerControlIn o 0
+GC m 36 g 15 n lowerControlOut o 1
+MS id 36 d p=52,51;i=block/layer
+MC id 37 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 33 n phy
+GC m 37 g 0 n upperLayerIn o 0
+GC m 37 g 3 n upperLayerOut o 1
+GC m 37 g 4 n upperControlIn o 0
+GC m 37 g 7 n upperControlOut o 1
+GC m 37 g 8 n radioIn o 0
+MS id 37 d p=52,125;i=block/process_s
+CC sm 36 sg 3 dm 33 dg 3
+CS sm 36 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 33 sg 0 dm 36 dg 0
+CS sm 33 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 36 sg 7 dm 33 dg 5
+CS sm 36 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 33 sg 6 dm 36 dg 4
+CS sm 33 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 37 sg 3 dm 36 dg 8
+CS sm 37 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 36 sg 11 dm 37 dg 0
+CS sm 36 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 37 sg 7 dm 36 dg 12
+CS sm 37 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 36 sg 15 dm 37 dg 4
+CS sm 36 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 33 sg 8 dm 37 dg 8
+MC id 38 c BaseArp t org.mixim.base.modules.BaseArp pid 7 n arp
+MS id 38 d p=140,100;i=block/network2
+MC id 39 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 7 n mobility
+MS id 39 d p=140,30;i=block/cogwheel
+MC id 40 c cModule t org.mixim.modules.nic.Nic80211 pid 7 n nic cm 1
+GC m 40 g 0 n upperLayerIn o 0
+GC m 40 g 3 n upperLayerOut o 1
+GC m 40 g 5 n upperControlOut o 1
+GC m 40 g 6 n upperControlIn o 0
+GC m 40 g 8 n radioIn o 0
+MS id 40 d p=70,380;i=block/wrxtx,#008000
+MC id 41 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 7 n netwl
+GC m 41 g 0 n upperLayerIn o 0
+GC m 41 g 3 n upperLayerOut o 1
+GC m 41 g 4 n upperControlIn o 0
+GC m 41 g 7 n upperControlOut o 1
+GC m 41 g 8 n lowerLayerIn o 0
+GC m 41 g 11 n lowerLayerOut o 1
+GC m 41 g 12 n lowerControlIn o 0
+GC m 41 g 15 n lowerControlOut o 1
+MS id 41 d p=70,310;i=block/layer
+MC id 42 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 7 n appl
+GC m 42 g 0 n lowerLayerIn o 0
+GC m 42 g 3 n lowerLayerOut o 1
+GC m 42 g 4 n lowerControlIn o 0
+GC m 42 g 7 n lowerControlOut o 1
+MS id 42 d i=app;p=70,30;14
+CC sm 40 sg 3 dm 41 dg 8
+CC sm 41 sg 11 dm 40 dg 0
+CC sm 40 sg 5 dm 41 dg 12
+CS sm 40 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 41 sg 15 dm 40 dg 6
+CS sm 41 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 41 sg 3 dm 42 dg 0
+CC sm 42 sg 3 dm 41 dg 0
+CC sm 41 sg 7 dm 42 dg 4
+CS sm 41 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 42 sg 7 dm 41 dg 4
+CS sm 42 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 7 sg 0 dm 40 dg 8
+MC id 43 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 40 n mac
+GC m 43 g 0 n upperLayerIn o 0
+GC m 43 g 3 n upperLayerOut o 1
+GC m 43 g 4 n upperControlIn o 0
+GC m 43 g 7 n upperControlOut o 1
+GC m 43 g 8 n lowerLayerIn o 0
+GC m 43 g 11 n lowerLayerOut o 1
+GC m 43 g 12 n lowerControlIn o 0
+GC m 43 g 15 n lowerControlOut o 1
+MS id 43 d p=52,51;i=block/layer
+MC id 44 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 40 n phy
+GC m 44 g 0 n upperLayerIn o 0
+GC m 44 g 3 n upperLayerOut o 1
+GC m 44 g 4 n upperControlIn o 0
+GC m 44 g 7 n upperControlOut o 1
+GC m 44 g 8 n radioIn o 0
+MS id 44 d p=52,125;i=block/process_s
+CC sm 43 sg 3 dm 40 dg 3
+CS sm 43 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 40 sg 0 dm 43 dg 0
+CS sm 40 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 43 sg 7 dm 40 dg 5
+CS sm 43 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 40 sg 6 dm 43 dg 4
+CS sm 40 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 44 sg 3 dm 43 dg 8
+CS sm 44 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 43 sg 11 dm 44 dg 0
+CS sm 43 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 44 sg 7 dm 43 dg 12
+CS sm 44 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 43 sg 15 dm 44 dg 4
+CS sm 43 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 40 sg 8 dm 44 dg 8
+MC id 45 c BaseArp t org.mixim.base.modules.BaseArp pid 8 n arp
+MS id 45 d p=140,100;i=block/network2
+MC id 46 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 8 n mobility
+MS id 46 d p=140,30;i=block/cogwheel
+MC id 47 c cModule t org.mixim.modules.nic.Nic80211 pid 8 n nic cm 1
+GC m 47 g 0 n upperLayerIn o 0
+GC m 47 g 3 n upperLayerOut o 1
+GC m 47 g 5 n upperControlOut o 1
+GC m 47 g 6 n upperControlIn o 0
+GC m 47 g 8 n radioIn o 0
+MS id 47 d p=70,380;i=block/wrxtx,#008000
+MC id 48 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 8 n netwl
+GC m 48 g 0 n upperLayerIn o 0
+GC m 48 g 3 n upperLayerOut o 1
+GC m 48 g 4 n upperControlIn o 0
+GC m 48 g 7 n upperControlOut o 1
+GC m 48 g 8 n lowerLayerIn o 0
+GC m 48 g 11 n lowerLayerOut o 1
+GC m 48 g 12 n lowerControlIn o 0
+GC m 48 g 15 n lowerControlOut o 1
+MS id 48 d p=70,310;i=block/layer
+MC id 49 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 8 n appl
+GC m 49 g 0 n lowerLayerIn o 0
+GC m 49 g 3 n lowerLayerOut o 1
+GC m 49 g 4 n lowerControlIn o 0
+GC m 49 g 7 n lowerControlOut o 1
+MS id 49 d i=app;p=70,30;14
+CC sm 47 sg 3 dm 48 dg 8
+CC sm 48 sg 11 dm 47 dg 0
+CC sm 47 sg 5 dm 48 dg 12
+CS sm 47 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 48 sg 15 dm 47 dg 6
+CS sm 48 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 48 sg 3 dm 49 dg 0
+CC sm 49 sg 3 dm 48 dg 0
+CC sm 48 sg 7 dm 49 dg 4
+CS sm 48 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 49 sg 7 dm 48 dg 4
+CS sm 49 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 8 sg 0 dm 47 dg 8
+MC id 50 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 47 n mac
+GC m 50 g 0 n upperLayerIn o 0
+GC m 50 g 3 n upperLayerOut o 1
+GC m 50 g 4 n upperControlIn o 0
+GC m 50 g 7 n upperControlOut o 1
+GC m 50 g 8 n lowerLayerIn o 0
+GC m 50 g 11 n lowerLayerOut o 1
+GC m 50 g 12 n lowerControlIn o 0
+GC m 50 g 15 n lowerControlOut o 1
+MS id 50 d p=52,51;i=block/layer
+MC id 51 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 47 n phy
+GC m 51 g 0 n upperLayerIn o 0
+GC m 51 g 3 n upperLayerOut o 1
+GC m 51 g 4 n upperControlIn o 0
+GC m 51 g 7 n upperControlOut o 1
+GC m 51 g 8 n radioIn o 0
+MS id 51 d p=52,125;i=block/process_s
+CC sm 50 sg 3 dm 47 dg 3
+CS sm 50 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 47 sg 0 dm 50 dg 0
+CS sm 47 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 50 sg 7 dm 47 dg 5
+CS sm 50 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 47 sg 6 dm 50 dg 4
+CS sm 47 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 51 sg 3 dm 50 dg 8
+CS sm 51 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 50 sg 11 dm 51 dg 0
+CS sm 50 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 51 sg 7 dm 50 dg 12
+CS sm 51 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 50 sg 15 dm 51 dg 4
+CS sm 50 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 47 sg 8 dm 51 dg 8
+MC id 52 c BaseArp t org.mixim.base.modules.BaseArp pid 9 n arp
+MS id 52 d p=140,100;i=block/network2
+MC id 53 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 9 n mobility
+MS id 53 d p=140,30;i=block/cogwheel
+MC id 54 c cModule t org.mixim.modules.nic.Nic80211 pid 9 n nic cm 1
+GC m 54 g 0 n upperLayerIn o 0
+GC m 54 g 3 n upperLayerOut o 1
+GC m 54 g 5 n upperControlOut o 1
+GC m 54 g 6 n upperControlIn o 0
+GC m 54 g 8 n radioIn o 0
+MS id 54 d p=70,380;i=block/wrxtx,#008000
+MC id 55 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 9 n netwl
+GC m 55 g 0 n upperLayerIn o 0
+GC m 55 g 3 n upperLayerOut o 1
+GC m 55 g 4 n upperControlIn o 0
+GC m 55 g 7 n upperControlOut o 1
+GC m 55 g 8 n lowerLayerIn o 0
+GC m 55 g 11 n lowerLayerOut o 1
+GC m 55 g 12 n lowerControlIn o 0
+GC m 55 g 15 n lowerControlOut o 1
+MS id 55 d p=70,310;i=block/layer
+MC id 56 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 9 n appl
+GC m 56 g 0 n lowerLayerIn o 0
+GC m 56 g 3 n lowerLayerOut o 1
+GC m 56 g 4 n lowerControlIn o 0
+GC m 56 g 7 n lowerControlOut o 1
+MS id 56 d i=app;p=70,30;14
+CC sm 54 sg 3 dm 55 dg 8
+CC sm 55 sg 11 dm 54 dg 0
+CC sm 54 sg 5 dm 55 dg 12
+CS sm 54 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 55 sg 15 dm 54 dg 6
+CS sm 55 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 55 sg 3 dm 56 dg 0
+CC sm 56 sg 3 dm 55 dg 0
+CC sm 55 sg 7 dm 56 dg 4
+CS sm 55 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 56 sg 7 dm 55 dg 4
+CS sm 56 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 9 sg 0 dm 54 dg 8
+MC id 57 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 54 n mac
+GC m 57 g 0 n upperLayerIn o 0
+GC m 57 g 3 n upperLayerOut o 1
+GC m 57 g 4 n upperControlIn o 0
+GC m 57 g 7 n upperControlOut o 1
+GC m 57 g 8 n lowerLayerIn o 0
+GC m 57 g 11 n lowerLayerOut o 1
+GC m 57 g 12 n lowerControlIn o 0
+GC m 57 g 15 n lowerControlOut o 1
+MS id 57 d p=52,51;i=block/layer
+MC id 58 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 54 n phy
+GC m 58 g 0 n upperLayerIn o 0
+GC m 58 g 3 n upperLayerOut o 1
+GC m 58 g 4 n upperControlIn o 0
+GC m 58 g 7 n upperControlOut o 1
+GC m 58 g 8 n radioIn o 0
+MS id 58 d p=52,125;i=block/process_s
+CC sm 57 sg 3 dm 54 dg 3
+CS sm 57 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 54 sg 0 dm 57 dg 0
+CS sm 54 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 57 sg 7 dm 54 dg 5
+CS sm 57 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 54 sg 6 dm 57 dg 4
+CS sm 54 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 58 sg 3 dm 57 dg 8
+CS sm 58 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 57 sg 11 dm 58 dg 0
+CS sm 57 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 58 sg 7 dm 57 dg 12
+CS sm 58 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 57 sg 15 dm 58 dg 4
+CS sm 57 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 54 sg 8 dm 58 dg 8
+MC id 59 c BaseArp t org.mixim.base.modules.BaseArp pid 10 n arp
+MS id 59 d p=140,100;i=block/network2
+MC id 60 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 10 n mobility
+MS id 60 d p=140,30;i=block/cogwheel
+MC id 61 c cModule t org.mixim.modules.nic.Nic80211 pid 10 n nic cm 1
+GC m 61 g 0 n upperLayerIn o 0
+GC m 61 g 3 n upperLayerOut o 1
+GC m 61 g 5 n upperControlOut o 1
+GC m 61 g 6 n upperControlIn o 0
+GC m 61 g 8 n radioIn o 0
+MS id 61 d p=70,380;i=block/wrxtx,#008000
+MC id 62 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 10 n netwl
+GC m 62 g 0 n upperLayerIn o 0
+GC m 62 g 3 n upperLayerOut o 1
+GC m 62 g 4 n upperControlIn o 0
+GC m 62 g 7 n upperControlOut o 1
+GC m 62 g 8 n lowerLayerIn o 0
+GC m 62 g 11 n lowerLayerOut o 1
+GC m 62 g 12 n lowerControlIn o 0
+GC m 62 g 15 n lowerControlOut o 1
+MS id 62 d p=70,310;i=block/layer
+MC id 63 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 10 n appl
+GC m 63 g 0 n lowerLayerIn o 0
+GC m 63 g 3 n lowerLayerOut o 1
+GC m 63 g 4 n lowerControlIn o 0
+GC m 63 g 7 n lowerControlOut o 1
+MS id 63 d i=app;p=70,30;14
+CC sm 61 sg 3 dm 62 dg 8
+CC sm 62 sg 11 dm 61 dg 0
+CC sm 61 sg 5 dm 62 dg 12
+CS sm 61 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 62 sg 15 dm 61 dg 6
+CS sm 62 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 62 sg 3 dm 63 dg 0
+CC sm 63 sg 3 dm 62 dg 0
+CC sm 62 sg 7 dm 63 dg 4
+CS sm 62 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 63 sg 7 dm 62 dg 4
+CS sm 63 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 10 sg 0 dm 61 dg 8
+MC id 64 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 61 n mac
+GC m 64 g 0 n upperLayerIn o 0
+GC m 64 g 3 n upperLayerOut o 1
+GC m 64 g 4 n upperControlIn o 0
+GC m 64 g 7 n upperControlOut o 1
+GC m 64 g 8 n lowerLayerIn o 0
+GC m 64 g 11 n lowerLayerOut o 1
+GC m 64 g 12 n lowerControlIn o 0
+GC m 64 g 15 n lowerControlOut o 1
+MS id 64 d p=52,51;i=block/layer
+MC id 65 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 61 n phy
+GC m 65 g 0 n upperLayerIn o 0
+GC m 65 g 3 n upperLayerOut o 1
+GC m 65 g 4 n upperControlIn o 0
+GC m 65 g 7 n upperControlOut o 1
+GC m 65 g 8 n radioIn o 0
+MS id 65 d p=52,125;i=block/process_s
+CC sm 64 sg 3 dm 61 dg 3
+CS sm 64 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 61 sg 0 dm 64 dg 0
+CS sm 61 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 64 sg 7 dm 61 dg 5
+CS sm 64 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 61 sg 6 dm 64 dg 4
+CS sm 61 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 65 sg 3 dm 64 dg 8
+CS sm 65 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 64 sg 11 dm 65 dg 0
+CS sm 64 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 65 sg 7 dm 64 dg 12
+CS sm 65 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 64 sg 15 dm 65 dg 4
+CS sm 64 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 61 sg 8 dm 65 dg 8
+MC id 66 c BaseArp t org.mixim.base.modules.BaseArp pid 11 n arp
+MS id 66 d p=140,100;i=block/network2
+MC id 67 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 11 n mobility
+MS id 67 d p=140,30;i=block/cogwheel
+MC id 68 c cModule t org.mixim.modules.nic.Nic80211 pid 11 n nic cm 1
+GC m 68 g 0 n upperLayerIn o 0
+GC m 68 g 3 n upperLayerOut o 1
+GC m 68 g 5 n upperControlOut o 1
+GC m 68 g 6 n upperControlIn o 0
+GC m 68 g 8 n radioIn o 0
+MS id 68 d p=70,380;i=block/wrxtx,#008000
+MC id 69 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 11 n netwl
+GC m 69 g 0 n upperLayerIn o 0
+GC m 69 g 3 n upperLayerOut o 1
+GC m 69 g 4 n upperControlIn o 0
+GC m 69 g 7 n upperControlOut o 1
+GC m 69 g 8 n lowerLayerIn o 0
+GC m 69 g 11 n lowerLayerOut o 1
+GC m 69 g 12 n lowerControlIn o 0
+GC m 69 g 15 n lowerControlOut o 1
+MS id 69 d p=70,310;i=block/layer
+MC id 70 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 11 n appl
+GC m 70 g 0 n lowerLayerIn o 0
+GC m 70 g 3 n lowerLayerOut o 1
+GC m 70 g 4 n lowerControlIn o 0
+GC m 70 g 7 n lowerControlOut o 1
+MS id 70 d i=app;p=70,30;14
+CC sm 68 sg 3 dm 69 dg 8
+CC sm 69 sg 11 dm 68 dg 0
+CC sm 68 sg 5 dm 69 dg 12
+CS sm 68 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 69 sg 15 dm 68 dg 6
+CS sm 69 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 69 sg 3 dm 70 dg 0
+CC sm 70 sg 3 dm 69 dg 0
+CC sm 69 sg 7 dm 70 dg 4
+CS sm 69 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 70 sg 7 dm 69 dg 4
+CS sm 70 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 11 sg 0 dm 68 dg 8
+MC id 71 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 68 n mac
+GC m 71 g 0 n upperLayerIn o 0
+GC m 71 g 3 n upperLayerOut o 1
+GC m 71 g 4 n upperControlIn o 0
+GC m 71 g 7 n upperControlOut o 1
+GC m 71 g 8 n lowerLayerIn o 0
+GC m 71 g 11 n lowerLayerOut o 1
+GC m 71 g 12 n lowerControlIn o 0
+GC m 71 g 15 n lowerControlOut o 1
+MS id 71 d p=52,51;i=block/layer
+MC id 72 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 68 n phy
+GC m 72 g 0 n upperLayerIn o 0
+GC m 72 g 3 n upperLayerOut o 1
+GC m 72 g 4 n upperControlIn o 0
+GC m 72 g 7 n upperControlOut o 1
+GC m 72 g 8 n radioIn o 0
+MS id 72 d p=52,125;i=block/process_s
+CC sm 71 sg 3 dm 68 dg 3
+CS sm 71 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 68 sg 0 dm 71 dg 0
+CS sm 68 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 71 sg 7 dm 68 dg 5
+CS sm 71 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 68 sg 6 dm 71 dg 4
+CS sm 68 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 72 sg 3 dm 71 dg 8
+CS sm 72 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 71 sg 11 dm 72 dg 0
+CS sm 71 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 72 sg 7 dm 71 dg 12
+CS sm 72 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 71 sg 15 dm 72 dg 4
+CS sm 71 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 68 sg 8 dm 72 dg 8
+MC id 73 c BaseArp t org.mixim.base.modules.BaseArp pid 12 n arp
+MS id 73 d p=140,100;i=block/network2
+MC id 74 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 12 n mobility
+MS id 74 d p=140,30;i=block/cogwheel
+MC id 75 c cModule t org.mixim.modules.nic.Nic80211 pid 12 n nic cm 1
+GC m 75 g 0 n upperLayerIn o 0
+GC m 75 g 3 n upperLayerOut o 1
+GC m 75 g 5 n upperControlOut o 1
+GC m 75 g 6 n upperControlIn o 0
+GC m 75 g 8 n radioIn o 0
+MS id 75 d p=70,380;i=block/wrxtx,#008000
+MC id 76 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 12 n netwl
+GC m 76 g 0 n upperLayerIn o 0
+GC m 76 g 3 n upperLayerOut o 1
+GC m 76 g 4 n upperControlIn o 0
+GC m 76 g 7 n upperControlOut o 1
+GC m 76 g 8 n lowerLayerIn o 0
+GC m 76 g 11 n lowerLayerOut o 1
+GC m 76 g 12 n lowerControlIn o 0
+GC m 76 g 15 n lowerControlOut o 1
+MS id 76 d p=70,310;i=block/layer
+MC id 77 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 12 n appl
+GC m 77 g 0 n lowerLayerIn o 0
+GC m 77 g 3 n lowerLayerOut o 1
+GC m 77 g 4 n lowerControlIn o 0
+GC m 77 g 7 n lowerControlOut o 1
+MS id 77 d i=app;p=70,30;14
+CC sm 75 sg 3 dm 76 dg 8
+CC sm 76 sg 11 dm 75 dg 0
+CC sm 75 sg 5 dm 76 dg 12
+CS sm 75 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 76 sg 15 dm 75 dg 6
+CS sm 76 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 76 sg 3 dm 77 dg 0
+CC sm 77 sg 3 dm 76 dg 0
+CC sm 76 sg 7 dm 77 dg 4
+CS sm 76 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 77 sg 7 dm 76 dg 4
+CS sm 77 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 12 sg 0 dm 75 dg 8
+MC id 78 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 75 n mac
+GC m 78 g 0 n upperLayerIn o 0
+GC m 78 g 3 n upperLayerOut o 1
+GC m 78 g 4 n upperControlIn o 0
+GC m 78 g 7 n upperControlOut o 1
+GC m 78 g 8 n lowerLayerIn o 0
+GC m 78 g 11 n lowerLayerOut o 1
+GC m 78 g 12 n lowerControlIn o 0
+GC m 78 g 15 n lowerControlOut o 1
+MS id 78 d p=52,51;i=block/layer
+MC id 79 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 75 n phy
+GC m 79 g 0 n upperLayerIn o 0
+GC m 79 g 3 n upperLayerOut o 1
+GC m 79 g 4 n upperControlIn o 0
+GC m 79 g 7 n upperControlOut o 1
+GC m 79 g 8 n radioIn o 0
+MS id 79 d p=52,125;i=block/process_s
+CC sm 78 sg 3 dm 75 dg 3
+CS sm 78 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 75 sg 0 dm 78 dg 0
+CS sm 75 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 78 sg 7 dm 75 dg 5
+CS sm 78 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 75 sg 6 dm 78 dg 4
+CS sm 75 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 79 sg 3 dm 78 dg 8
+CS sm 79 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 78 sg 11 dm 79 dg 0
+CS sm 78 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 79 sg 7 dm 78 dg 12
+CS sm 79 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 78 sg 15 dm 79 dg 4
+CS sm 78 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 75 sg 8 dm 79 dg 8
+MC id 80 c BaseArp t org.mixim.base.modules.BaseArp pid 13 n arp
+MS id 80 d p=140,100;i=block/network2
+MC id 81 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 13 n mobility
+MS id 81 d p=140,30;i=block/cogwheel
+MC id 82 c cModule t org.mixim.modules.nic.Nic80211 pid 13 n nic cm 1
+GC m 82 g 0 n upperLayerIn o 0
+GC m 82 g 3 n upperLayerOut o 1
+GC m 82 g 5 n upperControlOut o 1
+GC m 82 g 6 n upperControlIn o 0
+GC m 82 g 8 n radioIn o 0
+MS id 82 d p=70,380;i=block/wrxtx,#008000
+MC id 83 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 13 n netwl
+GC m 83 g 0 n upperLayerIn o 0
+GC m 83 g 3 n upperLayerOut o 1
+GC m 83 g 4 n upperControlIn o 0
+GC m 83 g 7 n upperControlOut o 1
+GC m 83 g 8 n lowerLayerIn o 0
+GC m 83 g 11 n lowerLayerOut o 1
+GC m 83 g 12 n lowerControlIn o 0
+GC m 83 g 15 n lowerControlOut o 1
+MS id 83 d p=70,310;i=block/layer
+MC id 84 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 13 n appl
+GC m 84 g 0 n lowerLayerIn o 0
+GC m 84 g 3 n lowerLayerOut o 1
+GC m 84 g 4 n lowerControlIn o 0
+GC m 84 g 7 n lowerControlOut o 1
+MS id 84 d i=app;p=70,30;14
+CC sm 82 sg 3 dm 83 dg 8
+CC sm 83 sg 11 dm 82 dg 0
+CC sm 82 sg 5 dm 83 dg 12
+CS sm 82 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 83 sg 15 dm 82 dg 6
+CS sm 83 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 83 sg 3 dm 84 dg 0
+CC sm 84 sg 3 dm 83 dg 0
+CC sm 83 sg 7 dm 84 dg 4
+CS sm 83 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 84 sg 7 dm 83 dg 4
+CS sm 84 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 13 sg 0 dm 82 dg 8
+MC id 85 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 82 n mac
+GC m 85 g 0 n upperLayerIn o 0
+GC m 85 g 3 n upperLayerOut o 1
+GC m 85 g 4 n upperControlIn o 0
+GC m 85 g 7 n upperControlOut o 1
+GC m 85 g 8 n lowerLayerIn o 0
+GC m 85 g 11 n lowerLayerOut o 1
+GC m 85 g 12 n lowerControlIn o 0
+GC m 85 g 15 n lowerControlOut o 1
+MS id 85 d p=52,51;i=block/layer
+MC id 86 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 82 n phy
+GC m 86 g 0 n upperLayerIn o 0
+GC m 86 g 3 n upperLayerOut o 1
+GC m 86 g 4 n upperControlIn o 0
+GC m 86 g 7 n upperControlOut o 1
+GC m 86 g 8 n radioIn o 0
+MS id 86 d p=52,125;i=block/process_s
+CC sm 85 sg 3 dm 82 dg 3
+CS sm 85 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 82 sg 0 dm 85 dg 0
+CS sm 82 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 85 sg 7 dm 82 dg 5
+CS sm 85 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 82 sg 6 dm 85 dg 4
+CS sm 82 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 86 sg 3 dm 85 dg 8
+CS sm 86 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 85 sg 11 dm 86 dg 0
+CS sm 85 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 86 sg 7 dm 85 dg 12
+CS sm 86 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 85 sg 15 dm 86 dg 4
+CS sm 85 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 82 sg 8 dm 86 dg 8
+MC id 87 c BaseArp t org.mixim.base.modules.BaseArp pid 14 n arp
+MS id 87 d p=140,100;i=block/network2
+MC id 88 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 14 n mobility
+MS id 88 d p=140,30;i=block/cogwheel
+MC id 89 c cModule t org.mixim.modules.nic.Nic80211 pid 14 n nic cm 1
+GC m 89 g 0 n upperLayerIn o 0
+GC m 89 g 3 n upperLayerOut o 1
+GC m 89 g 5 n upperControlOut o 1
+GC m 89 g 6 n upperControlIn o 0
+GC m 89 g 8 n radioIn o 0
+MS id 89 d p=70,380;i=block/wrxtx,#008000
+MC id 90 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 14 n netwl
+GC m 90 g 0 n upperLayerIn o 0
+GC m 90 g 3 n upperLayerOut o 1
+GC m 90 g 4 n upperControlIn o 0
+GC m 90 g 7 n upperControlOut o 1
+GC m 90 g 8 n lowerLayerIn o 0
+GC m 90 g 11 n lowerLayerOut o 1
+GC m 90 g 12 n lowerControlIn o 0
+GC m 90 g 15 n lowerControlOut o 1
+MS id 90 d p=70,310;i=block/layer
+MC id 91 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 14 n appl
+GC m 91 g 0 n lowerLayerIn o 0
+GC m 91 g 3 n lowerLayerOut o 1
+GC m 91 g 4 n lowerControlIn o 0
+GC m 91 g 7 n lowerControlOut o 1
+MS id 91 d i=app;p=70,30;14
+CC sm 89 sg 3 dm 90 dg 8
+CC sm 90 sg 11 dm 89 dg 0
+CC sm 89 sg 5 dm 90 dg 12
+CS sm 89 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 90 sg 15 dm 89 dg 6
+CS sm 90 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 90 sg 3 dm 91 dg 0
+CC sm 91 sg 3 dm 90 dg 0
+CC sm 90 sg 7 dm 91 dg 4
+CS sm 90 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 91 sg 7 dm 90 dg 4
+CS sm 91 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 14 sg 0 dm 89 dg 8
+MC id 92 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 89 n mac
+GC m 92 g 0 n upperLayerIn o 0
+GC m 92 g 3 n upperLayerOut o 1
+GC m 92 g 4 n upperControlIn o 0
+GC m 92 g 7 n upperControlOut o 1
+GC m 92 g 8 n lowerLayerIn o 0
+GC m 92 g 11 n lowerLayerOut o 1
+GC m 92 g 12 n lowerControlIn o 0
+GC m 92 g 15 n lowerControlOut o 1
+MS id 92 d p=52,51;i=block/layer
+MC id 93 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 89 n phy
+GC m 93 g 0 n upperLayerIn o 0
+GC m 93 g 3 n upperLayerOut o 1
+GC m 93 g 4 n upperControlIn o 0
+GC m 93 g 7 n upperControlOut o 1
+GC m 93 g 8 n radioIn o 0
+MS id 93 d p=52,125;i=block/process_s
+CC sm 92 sg 3 dm 89 dg 3
+CS sm 92 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 89 sg 0 dm 92 dg 0
+CS sm 89 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 92 sg 7 dm 89 dg 5
+CS sm 92 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 89 sg 6 dm 92 dg 4
+CS sm 89 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 93 sg 3 dm 92 dg 8
+CS sm 93 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 92 sg 11 dm 93 dg 0
+CS sm 92 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 93 sg 7 dm 92 dg 12
+CS sm 93 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 92 sg 15 dm 93 dg 4
+CS sm 92 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 89 sg 8 dm 93 dg 8
+MC id 94 c BaseArp t org.mixim.base.modules.BaseArp pid 15 n arp
+MS id 94 d p=140,100;i=block/network2
+MC id 95 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 15 n mobility
+MS id 95 d p=140,30;i=block/cogwheel
+MC id 96 c cModule t org.mixim.modules.nic.Nic80211 pid 15 n nic cm 1
+GC m 96 g 0 n upperLayerIn o 0
+GC m 96 g 3 n upperLayerOut o 1
+GC m 96 g 5 n upperControlOut o 1
+GC m 96 g 6 n upperControlIn o 0
+GC m 96 g 8 n radioIn o 0
+MS id 96 d p=70,380;i=block/wrxtx,#008000
+MC id 97 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 15 n netwl
+GC m 97 g 0 n upperLayerIn o 0
+GC m 97 g 3 n upperLayerOut o 1
+GC m 97 g 4 n upperControlIn o 0
+GC m 97 g 7 n upperControlOut o 1
+GC m 97 g 8 n lowerLayerIn o 0
+GC m 97 g 11 n lowerLayerOut o 1
+GC m 97 g 12 n lowerControlIn o 0
+GC m 97 g 15 n lowerControlOut o 1
+MS id 97 d p=70,310;i=block/layer
+MC id 98 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 15 n appl
+GC m 98 g 0 n lowerLayerIn o 0
+GC m 98 g 3 n lowerLayerOut o 1
+GC m 98 g 4 n lowerControlIn o 0
+GC m 98 g 7 n lowerControlOut o 1
+MS id 98 d i=app;p=70,30;14
+CC sm 96 sg 3 dm 97 dg 8
+CC sm 97 sg 11 dm 96 dg 0
+CC sm 96 sg 5 dm 97 dg 12
+CS sm 96 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 97 sg 15 dm 96 dg 6
+CS sm 97 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 97 sg 3 dm 98 dg 0
+CC sm 98 sg 3 dm 97 dg 0
+CC sm 97 sg 7 dm 98 dg 4
+CS sm 97 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 98 sg 7 dm 97 dg 4
+CS sm 98 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 15 sg 0 dm 96 dg 8
+MC id 99 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 96 n mac
+GC m 99 g 0 n upperLayerIn o 0
+GC m 99 g 3 n upperLayerOut o 1
+GC m 99 g 4 n upperControlIn o 0
+GC m 99 g 7 n upperControlOut o 1
+GC m 99 g 8 n lowerLayerIn o 0
+GC m 99 g 11 n lowerLayerOut o 1
+GC m 99 g 12 n lowerControlIn o 0
+GC m 99 g 15 n lowerControlOut o 1
+MS id 99 d p=52,51;i=block/layer
+MC id 100 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 96 n phy
+GC m 100 g 0 n upperLayerIn o 0
+GC m 100 g 3 n upperLayerOut o 1
+GC m 100 g 4 n upperControlIn o 0
+GC m 100 g 7 n upperControlOut o 1
+GC m 100 g 8 n radioIn o 0
+MS id 100 d p=52,125;i=block/process_s
+CC sm 99 sg 3 dm 96 dg 3
+CS sm 99 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 96 sg 0 dm 99 dg 0
+CS sm 96 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 99 sg 7 dm 96 dg 5
+CS sm 99 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 96 sg 6 dm 99 dg 4
+CS sm 96 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 100 sg 3 dm 99 dg 8
+CS sm 100 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 99 sg 11 dm 100 dg 0
+CS sm 99 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 100 sg 7 dm 99 dg 12
+CS sm 100 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 99 sg 15 dm 100 dg 4
+CS sm 99 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 96 sg 8 dm 100 dg 8
+MC id 101 c BaseArp t org.mixim.base.modules.BaseArp pid 16 n arp
+MS id 101 d p=140,100;i=block/network2
+MC id 102 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 16 n mobility
+MS id 102 d p=140,30;i=block/cogwheel
+MC id 103 c cModule t org.mixim.modules.nic.Nic80211 pid 16 n nic cm 1
+GC m 103 g 0 n upperLayerIn o 0
+GC m 103 g 3 n upperLayerOut o 1
+GC m 103 g 5 n upperControlOut o 1
+GC m 103 g 6 n upperControlIn o 0
+GC m 103 g 8 n radioIn o 0
+MS id 103 d p=70,380;i=block/wrxtx,#008000
+MC id 104 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 16 n netwl
+GC m 104 g 0 n upperLayerIn o 0
+GC m 104 g 3 n upperLayerOut o 1
+GC m 104 g 4 n upperControlIn o 0
+GC m 104 g 7 n upperControlOut o 1
+GC m 104 g 8 n lowerLayerIn o 0
+GC m 104 g 11 n lowerLayerOut o 1
+GC m 104 g 12 n lowerControlIn o 0
+GC m 104 g 15 n lowerControlOut o 1
+MS id 104 d p=70,310;i=block/layer
+MC id 105 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 16 n appl
+GC m 105 g 0 n lowerLayerIn o 0
+GC m 105 g 3 n lowerLayerOut o 1
+GC m 105 g 4 n lowerControlIn o 0
+GC m 105 g 7 n lowerControlOut o 1
+MS id 105 d i=app;p=70,30;14
+CC sm 103 sg 3 dm 104 dg 8
+CC sm 104 sg 11 dm 103 dg 0
+CC sm 103 sg 5 dm 104 dg 12
+CS sm 103 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 104 sg 15 dm 103 dg 6
+CS sm 104 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 104 sg 3 dm 105 dg 0
+CC sm 105 sg 3 dm 104 dg 0
+CC sm 104 sg 7 dm 105 dg 4
+CS sm 104 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 105 sg 7 dm 104 dg 4
+CS sm 105 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 16 sg 0 dm 103 dg 8
+MC id 106 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 103 n mac
+GC m 106 g 0 n upperLayerIn o 0
+GC m 106 g 3 n upperLayerOut o 1
+GC m 106 g 4 n upperControlIn o 0
+GC m 106 g 7 n upperControlOut o 1
+GC m 106 g 8 n lowerLayerIn o 0
+GC m 106 g 11 n lowerLayerOut o 1
+GC m 106 g 12 n lowerControlIn o 0
+GC m 106 g 15 n lowerControlOut o 1
+MS id 106 d p=52,51;i=block/layer
+MC id 107 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 103 n phy
+GC m 107 g 0 n upperLayerIn o 0
+GC m 107 g 3 n upperLayerOut o 1
+GC m 107 g 4 n upperControlIn o 0
+GC m 107 g 7 n upperControlOut o 1
+GC m 107 g 8 n radioIn o 0
+MS id 107 d p=52,125;i=block/process_s
+CC sm 106 sg 3 dm 103 dg 3
+CS sm 106 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 103 sg 0 dm 106 dg 0
+CS sm 103 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 106 sg 7 dm 103 dg 5
+CS sm 106 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 103 sg 6 dm 106 dg 4
+CS sm 103 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 107 sg 3 dm 106 dg 8
+CS sm 107 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 106 sg 11 dm 107 dg 0
+CS sm 106 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 107 sg 7 dm 106 dg 12
+CS sm 107 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 106 sg 15 dm 107 dg 4
+CS sm 106 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 103 sg 8 dm 107 dg 8
+MC id 108 c BaseArp t org.mixim.base.modules.BaseArp pid 17 n arp
+MS id 108 d p=140,100;i=block/network2
+MC id 109 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 17 n mobility
+MS id 109 d p=140,30;i=block/cogwheel
+MC id 110 c cModule t org.mixim.modules.nic.Nic80211 pid 17 n nic cm 1
+GC m 110 g 0 n upperLayerIn o 0
+GC m 110 g 3 n upperLayerOut o 1
+GC m 110 g 5 n upperControlOut o 1
+GC m 110 g 6 n upperControlIn o 0
+GC m 110 g 8 n radioIn o 0
+MS id 110 d p=70,380;i=block/wrxtx,#008000
+MC id 111 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 17 n netwl
+GC m 111 g 0 n upperLayerIn o 0
+GC m 111 g 3 n upperLayerOut o 1
+GC m 111 g 4 n upperControlIn o 0
+GC m 111 g 7 n upperControlOut o 1
+GC m 111 g 8 n lowerLayerIn o 0
+GC m 111 g 11 n lowerLayerOut o 1
+GC m 111 g 12 n lowerControlIn o 0
+GC m 111 g 15 n lowerControlOut o 1
+MS id 111 d p=70,310;i=block/layer
+MC id 112 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 17 n appl
+GC m 112 g 0 n lowerLayerIn o 0
+GC m 112 g 3 n lowerLayerOut o 1
+GC m 112 g 4 n lowerControlIn o 0
+GC m 112 g 7 n lowerControlOut o 1
+MS id 112 d i=app;p=70,30;14
+CC sm 110 sg 3 dm 111 dg 8
+CC sm 111 sg 11 dm 110 dg 0
+CC sm 110 sg 5 dm 111 dg 12
+CS sm 110 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 111 sg 15 dm 110 dg 6
+CS sm 111 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 111 sg 3 dm 112 dg 0
+CC sm 112 sg 3 dm 111 dg 0
+CC sm 111 sg 7 dm 112 dg 4
+CS sm 111 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 112 sg 7 dm 111 dg 4
+CS sm 112 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 17 sg 0 dm 110 dg 8
+MC id 113 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 110 n mac
+GC m 113 g 0 n upperLayerIn o 0
+GC m 113 g 3 n upperLayerOut o 1
+GC m 113 g 4 n upperControlIn o 0
+GC m 113 g 7 n upperControlOut o 1
+GC m 113 g 8 n lowerLayerIn o 0
+GC m 113 g 11 n lowerLayerOut o 1
+GC m 113 g 12 n lowerControlIn o 0
+GC m 113 g 15 n lowerControlOut o 1
+MS id 113 d p=52,51;i=block/layer
+MC id 114 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 110 n phy
+GC m 114 g 0 n upperLayerIn o 0
+GC m 114 g 3 n upperLayerOut o 1
+GC m 114 g 4 n upperControlIn o 0
+GC m 114 g 7 n upperControlOut o 1
+GC m 114 g 8 n radioIn o 0
+MS id 114 d p=52,125;i=block/process_s
+CC sm 113 sg 3 dm 110 dg 3
+CS sm 113 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 110 sg 0 dm 113 dg 0
+CS sm 110 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 113 sg 7 dm 110 dg 5
+CS sm 113 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 110 sg 6 dm 113 dg 4
+CS sm 110 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 114 sg 3 dm 113 dg 8
+CS sm 114 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 113 sg 11 dm 114 dg 0
+CS sm 113 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 114 sg 7 dm 113 dg 12
+CS sm 114 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 113 sg 15 dm 114 dg 4
+CS sm 113 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 110 sg 8 dm 114 dg 8
+MC id 115 c BaseArp t org.mixim.base.modules.BaseArp pid 18 n arp
+MS id 115 d p=140,100;i=block/network2
+MC id 116 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 18 n mobility
+MS id 116 d p=140,30;i=block/cogwheel
+MC id 117 c cModule t org.mixim.modules.nic.Nic80211 pid 18 n nic cm 1
+GC m 117 g 0 n upperLayerIn o 0
+GC m 117 g 3 n upperLayerOut o 1
+GC m 117 g 5 n upperControlOut o 1
+GC m 117 g 6 n upperControlIn o 0
+GC m 117 g 8 n radioIn o 0
+MS id 117 d p=70,380;i=block/wrxtx,#008000
+MC id 118 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 18 n netwl
+GC m 118 g 0 n upperLayerIn o 0
+GC m 118 g 3 n upperLayerOut o 1
+GC m 118 g 4 n upperControlIn o 0
+GC m 118 g 7 n upperControlOut o 1
+GC m 118 g 8 n lowerLayerIn o 0
+GC m 118 g 11 n lowerLayerOut o 1
+GC m 118 g 12 n lowerControlIn o 0
+GC m 118 g 15 n lowerControlOut o 1
+MS id 118 d p=70,310;i=block/layer
+MC id 119 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 18 n appl
+GC m 119 g 0 n lowerLayerIn o 0
+GC m 119 g 3 n lowerLayerOut o 1
+GC m 119 g 4 n lowerControlIn o 0
+GC m 119 g 7 n lowerControlOut o 1
+MS id 119 d i=app;p=70,30;14
+CC sm 117 sg 3 dm 118 dg 8
+CC sm 118 sg 11 dm 117 dg 0
+CC sm 117 sg 5 dm 118 dg 12
+CS sm 117 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 118 sg 15 dm 117 dg 6
+CS sm 118 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 118 sg 3 dm 119 dg 0
+CC sm 119 sg 3 dm 118 dg 0
+CC sm 118 sg 7 dm 119 dg 4
+CS sm 118 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 119 sg 7 dm 118 dg 4
+CS sm 119 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 18 sg 0 dm 117 dg 8
+MC id 120 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 117 n mac
+GC m 120 g 0 n upperLayerIn o 0
+GC m 120 g 3 n upperLayerOut o 1
+GC m 120 g 4 n upperControlIn o 0
+GC m 120 g 7 n upperControlOut o 1
+GC m 120 g 8 n lowerLayerIn o 0
+GC m 120 g 11 n lowerLayerOut o 1
+GC m 120 g 12 n lowerControlIn o 0
+GC m 120 g 15 n lowerControlOut o 1
+MS id 120 d p=52,51;i=block/layer
+MC id 121 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 117 n phy
+GC m 121 g 0 n upperLayerIn o 0
+GC m 121 g 3 n upperLayerOut o 1
+GC m 121 g 4 n upperControlIn o 0
+GC m 121 g 7 n upperControlOut o 1
+GC m 121 g 8 n radioIn o 0
+MS id 121 d p=52,125;i=block/process_s
+CC sm 120 sg 3 dm 117 dg 3
+CS sm 120 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 117 sg 0 dm 120 dg 0
+CS sm 117 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 120 sg 7 dm 117 dg 5
+CS sm 120 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 117 sg 6 dm 120 dg 4
+CS sm 117 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 121 sg 3 dm 120 dg 8
+CS sm 121 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 120 sg 11 dm 121 dg 0
+CS sm 120 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 121 sg 7 dm 120 dg 12
+CS sm 121 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 120 sg 15 dm 121 dg 4
+CS sm 120 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 117 sg 8 dm 121 dg 8
+MC id 122 c BaseArp t org.mixim.base.modules.BaseArp pid 19 n arp
+MS id 122 d p=140,100;i=block/network2
+MC id 123 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 19 n mobility
+MS id 123 d p=140,30;i=block/cogwheel
+MC id 124 c cModule t org.mixim.modules.nic.Nic80211 pid 19 n nic cm 1
+GC m 124 g 0 n upperLayerIn o 0
+GC m 124 g 3 n upperLayerOut o 1
+GC m 124 g 5 n upperControlOut o 1
+GC m 124 g 6 n upperControlIn o 0
+GC m 124 g 8 n radioIn o 0
+MS id 124 d p=70,380;i=block/wrxtx,#008000
+MC id 125 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 19 n netwl
+GC m 125 g 0 n upperLayerIn o 0
+GC m 125 g 3 n upperLayerOut o 1
+GC m 125 g 4 n upperControlIn o 0
+GC m 125 g 7 n upperControlOut o 1
+GC m 125 g 8 n lowerLayerIn o 0
+GC m 125 g 11 n lowerLayerOut o 1
+GC m 125 g 12 n lowerControlIn o 0
+GC m 125 g 15 n lowerControlOut o 1
+MS id 125 d p=70,310;i=block/layer
+MC id 126 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 19 n appl
+GC m 126 g 0 n lowerLayerIn o 0
+GC m 126 g 3 n lowerLayerOut o 1
+GC m 126 g 4 n lowerControlIn o 0
+GC m 126 g 7 n lowerControlOut o 1
+MS id 126 d i=app;p=70,30;14
+CC sm 124 sg 3 dm 125 dg 8
+CC sm 125 sg 11 dm 124 dg 0
+CC sm 124 sg 5 dm 125 dg 12
+CS sm 124 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 125 sg 15 dm 124 dg 6
+CS sm 125 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 125 sg 3 dm 126 dg 0
+CC sm 126 sg 3 dm 125 dg 0
+CC sm 125 sg 7 dm 126 dg 4
+CS sm 125 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 126 sg 7 dm 125 dg 4
+CS sm 126 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 19 sg 0 dm 124 dg 8
+MC id 127 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 124 n mac
+GC m 127 g 0 n upperLayerIn o 0
+GC m 127 g 3 n upperLayerOut o 1
+GC m 127 g 4 n upperControlIn o 0
+GC m 127 g 7 n upperControlOut o 1
+GC m 127 g 8 n lowerLayerIn o 0
+GC m 127 g 11 n lowerLayerOut o 1
+GC m 127 g 12 n lowerControlIn o 0
+GC m 127 g 15 n lowerControlOut o 1
+MS id 127 d p=52,51;i=block/layer
+MC id 128 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 124 n phy
+GC m 128 g 0 n upperLayerIn o 0
+GC m 128 g 3 n upperLayerOut o 1
+GC m 128 g 4 n upperControlIn o 0
+GC m 128 g 7 n upperControlOut o 1
+GC m 128 g 8 n radioIn o 0
+MS id 128 d p=52,125;i=block/process_s
+CC sm 127 sg 3 dm 124 dg 3
+CS sm 127 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 124 sg 0 dm 127 dg 0
+CS sm 124 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 127 sg 7 dm 124 dg 5
+CS sm 127 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 124 sg 6 dm 127 dg 4
+CS sm 124 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 128 sg 3 dm 127 dg 8
+CS sm 128 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 127 sg 11 dm 128 dg 0
+CS sm 127 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 128 sg 7 dm 127 dg 12
+CS sm 128 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 127 sg 15 dm 128 dg 4
+CS sm 127 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 124 sg 8 dm 128 dg 8
+MC id 129 c BaseArp t org.mixim.base.modules.BaseArp pid 20 n arp
+MS id 129 d p=140,100;i=block/network2
+MC id 130 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 20 n mobility
+MS id 130 d p=140,30;i=block/cogwheel
+MC id 131 c cModule t org.mixim.modules.nic.Nic80211 pid 20 n nic cm 1
+GC m 131 g 0 n upperLayerIn o 0
+GC m 131 g 3 n upperLayerOut o 1
+GC m 131 g 5 n upperControlOut o 1
+GC m 131 g 6 n upperControlIn o 0
+GC m 131 g 8 n radioIn o 0
+MS id 131 d p=70,380;i=block/wrxtx,#008000
+MC id 132 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 20 n netwl
+GC m 132 g 0 n upperLayerIn o 0
+GC m 132 g 3 n upperLayerOut o 1
+GC m 132 g 4 n upperControlIn o 0
+GC m 132 g 7 n upperControlOut o 1
+GC m 132 g 8 n lowerLayerIn o 0
+GC m 132 g 11 n lowerLayerOut o 1
+GC m 132 g 12 n lowerControlIn o 0
+GC m 132 g 15 n lowerControlOut o 1
+MS id 132 d p=70,310;i=block/layer
+MC id 133 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 20 n appl
+GC m 133 g 0 n lowerLayerIn o 0
+GC m 133 g 3 n lowerLayerOut o 1
+GC m 133 g 4 n lowerControlIn o 0
+GC m 133 g 7 n lowerControlOut o 1
+MS id 133 d i=app;p=70,30;14
+CC sm 131 sg 3 dm 132 dg 8
+CC sm 132 sg 11 dm 131 dg 0
+CC sm 131 sg 5 dm 132 dg 12
+CS sm 131 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 132 sg 15 dm 131 dg 6
+CS sm 132 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 132 sg 3 dm 133 dg 0
+CC sm 133 sg 3 dm 132 dg 0
+CC sm 132 sg 7 dm 133 dg 4
+CS sm 132 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 133 sg 7 dm 132 dg 4
+CS sm 133 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 20 sg 0 dm 131 dg 8
+MC id 134 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 131 n mac
+GC m 134 g 0 n upperLayerIn o 0
+GC m 134 g 3 n upperLayerOut o 1
+GC m 134 g 4 n upperControlIn o 0
+GC m 134 g 7 n upperControlOut o 1
+GC m 134 g 8 n lowerLayerIn o 0
+GC m 134 g 11 n lowerLayerOut o 1
+GC m 134 g 12 n lowerControlIn o 0
+GC m 134 g 15 n lowerControlOut o 1
+MS id 134 d p=52,51;i=block/layer
+MC id 135 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 131 n phy
+GC m 135 g 0 n upperLayerIn o 0
+GC m 135 g 3 n upperLayerOut o 1
+GC m 135 g 4 n upperControlIn o 0
+GC m 135 g 7 n upperControlOut o 1
+GC m 135 g 8 n radioIn o 0
+MS id 135 d p=52,125;i=block/process_s
+CC sm 134 sg 3 dm 131 dg 3
+CS sm 134 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 131 sg 0 dm 134 dg 0
+CS sm 131 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 134 sg 7 dm 131 dg 5
+CS sm 134 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 131 sg 6 dm 134 dg 4
+CS sm 131 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 135 sg 3 dm 134 dg 8
+CS sm 135 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 134 sg 11 dm 135 dg 0
+CS sm 134 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 135 sg 7 dm 134 dg 12
+CS sm 135 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 134 sg 15 dm 135 dg 4
+CS sm 134 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 131 sg 8 dm 135 dg 8
+MC id 136 c BaseArp t org.mixim.base.modules.BaseArp pid 21 n arp
+MS id 136 d p=140,100;i=block/network2
+MC id 137 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 21 n mobility
+MS id 137 d p=140,30;i=block/cogwheel
+MC id 138 c cModule t org.mixim.modules.nic.Nic80211 pid 21 n nic cm 1
+GC m 138 g 0 n upperLayerIn o 0
+GC m 138 g 3 n upperLayerOut o 1
+GC m 138 g 5 n upperControlOut o 1
+GC m 138 g 6 n upperControlIn o 0
+GC m 138 g 8 n radioIn o 0
+MS id 138 d p=70,380;i=block/wrxtx,#008000
+MC id 139 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 21 n netwl
+GC m 139 g 0 n upperLayerIn o 0
+GC m 139 g 3 n upperLayerOut o 1
+GC m 139 g 4 n upperControlIn o 0
+GC m 139 g 7 n upperControlOut o 1
+GC m 139 g 8 n lowerLayerIn o 0
+GC m 139 g 11 n lowerLayerOut o 1
+GC m 139 g 12 n lowerControlIn o 0
+GC m 139 g 15 n lowerControlOut o 1
+MS id 139 d p=70,310;i=block/layer
+MC id 140 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 21 n appl
+GC m 140 g 0 n lowerLayerIn o 0
+GC m 140 g 3 n lowerLayerOut o 1
+GC m 140 g 4 n lowerControlIn o 0
+GC m 140 g 7 n lowerControlOut o 1
+MS id 140 d i=app;p=70,30;14
+CC sm 138 sg 3 dm 139 dg 8
+CC sm 139 sg 11 dm 138 dg 0
+CC sm 138 sg 5 dm 139 dg 12
+CS sm 138 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 139 sg 15 dm 138 dg 6
+CS sm 139 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 139 sg 3 dm 140 dg 0
+CC sm 140 sg 3 dm 139 dg 0
+CC sm 139 sg 7 dm 140 dg 4
+CS sm 139 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 140 sg 7 dm 139 dg 4
+CS sm 140 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 21 sg 0 dm 138 dg 8
+MC id 141 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 138 n mac
+GC m 141 g 0 n upperLayerIn o 0
+GC m 141 g 3 n upperLayerOut o 1
+GC m 141 g 4 n upperControlIn o 0
+GC m 141 g 7 n upperControlOut o 1
+GC m 141 g 8 n lowerLayerIn o 0
+GC m 141 g 11 n lowerLayerOut o 1
+GC m 141 g 12 n lowerControlIn o 0
+GC m 141 g 15 n lowerControlOut o 1
+MS id 141 d p=52,51;i=block/layer
+MC id 142 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 138 n phy
+GC m 142 g 0 n upperLayerIn o 0
+GC m 142 g 3 n upperLayerOut o 1
+GC m 142 g 4 n upperControlIn o 0
+GC m 142 g 7 n upperControlOut o 1
+GC m 142 g 8 n radioIn o 0
+MS id 142 d p=52,125;i=block/process_s
+CC sm 141 sg 3 dm 138 dg 3
+CS sm 141 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 138 sg 0 dm 141 dg 0
+CS sm 138 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 141 sg 7 dm 138 dg 5
+CS sm 141 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 138 sg 6 dm 141 dg 4
+CS sm 138 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 142 sg 3 dm 141 dg 8
+CS sm 142 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 141 sg 11 dm 142 dg 0
+CS sm 141 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 142 sg 7 dm 141 dg 12
+CS sm 142 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 141 sg 15 dm 142 dg 4
+CS sm 141 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 138 sg 8 dm 142 dg 8
+MC id 143 c BaseArp t org.mixim.base.modules.BaseArp pid 22 n arp
+MS id 143 d p=140,100;i=block/network2
+MC id 144 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 22 n mobility
+MS id 144 d p=140,30;i=block/cogwheel
+MC id 145 c cModule t org.mixim.modules.nic.Nic80211 pid 22 n nic cm 1
+GC m 145 g 0 n upperLayerIn o 0
+GC m 145 g 3 n upperLayerOut o 1
+GC m 145 g 5 n upperControlOut o 1
+GC m 145 g 6 n upperControlIn o 0
+GC m 145 g 8 n radioIn o 0
+MS id 145 d p=70,380;i=block/wrxtx,#008000
+MC id 146 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 22 n netwl
+GC m 146 g 0 n upperLayerIn o 0
+GC m 146 g 3 n upperLayerOut o 1
+GC m 146 g 4 n upperControlIn o 0
+GC m 146 g 7 n upperControlOut o 1
+GC m 146 g 8 n lowerLayerIn o 0
+GC m 146 g 11 n lowerLayerOut o 1
+GC m 146 g 12 n lowerControlIn o 0
+GC m 146 g 15 n lowerControlOut o 1
+MS id 146 d p=70,310;i=block/layer
+MC id 147 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 22 n appl
+GC m 147 g 0 n lowerLayerIn o 0
+GC m 147 g 3 n lowerLayerOut o 1
+GC m 147 g 4 n lowerControlIn o 0
+GC m 147 g 7 n lowerControlOut o 1
+MS id 147 d i=app;p=70,30;14
+CC sm 145 sg 3 dm 146 dg 8
+CC sm 146 sg 11 dm 145 dg 0
+CC sm 145 sg 5 dm 146 dg 12
+CS sm 145 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 146 sg 15 dm 145 dg 6
+CS sm 146 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 146 sg 3 dm 147 dg 0
+CC sm 147 sg 3 dm 146 dg 0
+CC sm 146 sg 7 dm 147 dg 4
+CS sm 146 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 147 sg 7 dm 146 dg 4
+CS sm 147 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 22 sg 0 dm 145 dg 8
+MC id 148 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 145 n mac
+GC m 148 g 0 n upperLayerIn o 0
+GC m 148 g 3 n upperLayerOut o 1
+GC m 148 g 4 n upperControlIn o 0
+GC m 148 g 7 n upperControlOut o 1
+GC m 148 g 8 n lowerLayerIn o 0
+GC m 148 g 11 n lowerLayerOut o 1
+GC m 148 g 12 n lowerControlIn o 0
+GC m 148 g 15 n lowerControlOut o 1
+MS id 148 d p=52,51;i=block/layer
+MC id 149 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 145 n phy
+GC m 149 g 0 n upperLayerIn o 0
+GC m 149 g 3 n upperLayerOut o 1
+GC m 149 g 4 n upperControlIn o 0
+GC m 149 g 7 n upperControlOut o 1
+GC m 149 g 8 n radioIn o 0
+MS id 149 d p=52,125;i=block/process_s
+CC sm 148 sg 3 dm 145 dg 3
+CS sm 148 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 145 sg 0 dm 148 dg 0
+CS sm 145 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 148 sg 7 dm 145 dg 5
+CS sm 148 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 145 sg 6 dm 148 dg 4
+CS sm 145 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 149 sg 3 dm 148 dg 8
+CS sm 149 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 148 sg 11 dm 149 dg 0
+CS sm 148 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 149 sg 7 dm 148 dg 12
+CS sm 149 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 148 sg 15 dm 149 dg 4
+CS sm 148 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 145 sg 8 dm 149 dg 8
+MC id 150 c BaseArp t org.mixim.base.modules.BaseArp pid 23 n arp
+MS id 150 d p=140,100;i=block/network2
+MC id 151 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 23 n mobility
+MS id 151 d p=140,30;i=block/cogwheel
+MC id 152 c cModule t org.mixim.modules.nic.Nic80211 pid 23 n nic cm 1
+GC m 152 g 0 n upperLayerIn o 0
+GC m 152 g 3 n upperLayerOut o 1
+GC m 152 g 5 n upperControlOut o 1
+GC m 152 g 6 n upperControlIn o 0
+GC m 152 g 8 n radioIn o 0
+MS id 152 d p=70,380;i=block/wrxtx,#008000
+MC id 153 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 23 n netwl
+GC m 153 g 0 n upperLayerIn o 0
+GC m 153 g 3 n upperLayerOut o 1
+GC m 153 g 4 n upperControlIn o 0
+GC m 153 g 7 n upperControlOut o 1
+GC m 153 g 8 n lowerLayerIn o 0
+GC m 153 g 11 n lowerLayerOut o 1
+GC m 153 g 12 n lowerControlIn o 0
+GC m 153 g 15 n lowerControlOut o 1
+MS id 153 d p=70,310;i=block/layer
+MC id 154 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 23 n appl
+GC m 154 g 0 n lowerLayerIn o 0
+GC m 154 g 3 n lowerLayerOut o 1
+GC m 154 g 4 n lowerControlIn o 0
+GC m 154 g 7 n lowerControlOut o 1
+MS id 154 d i=app;p=70,30;14
+CC sm 152 sg 3 dm 153 dg 8
+CC sm 153 sg 11 dm 152 dg 0
+CC sm 152 sg 5 dm 153 dg 12
+CS sm 152 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 153 sg 15 dm 152 dg 6
+CS sm 153 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 153 sg 3 dm 154 dg 0
+CC sm 154 sg 3 dm 153 dg 0
+CC sm 153 sg 7 dm 154 dg 4
+CS sm 153 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 154 sg 7 dm 153 dg 4
+CS sm 154 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 23 sg 0 dm 152 dg 8
+MC id 155 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 152 n mac
+GC m 155 g 0 n upperLayerIn o 0
+GC m 155 g 3 n upperLayerOut o 1
+GC m 155 g 4 n upperControlIn o 0
+GC m 155 g 7 n upperControlOut o 1
+GC m 155 g 8 n lowerLayerIn o 0
+GC m 155 g 11 n lowerLayerOut o 1
+GC m 155 g 12 n lowerControlIn o 0
+GC m 155 g 15 n lowerControlOut o 1
+MS id 155 d p=52,51;i=block/layer
+MC id 156 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 152 n phy
+GC m 156 g 0 n upperLayerIn o 0
+GC m 156 g 3 n upperLayerOut o 1
+GC m 156 g 4 n upperControlIn o 0
+GC m 156 g 7 n upperControlOut o 1
+GC m 156 g 8 n radioIn o 0
+MS id 156 d p=52,125;i=block/process_s
+CC sm 155 sg 3 dm 152 dg 3
+CS sm 155 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 152 sg 0 dm 155 dg 0
+CS sm 152 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 155 sg 7 dm 152 dg 5
+CS sm 155 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 152 sg 6 dm 155 dg 4
+CS sm 152 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 156 sg 3 dm 155 dg 8
+CS sm 156 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 155 sg 11 dm 156 dg 0
+CS sm 155 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 156 sg 7 dm 155 dg 12
+CS sm 156 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 155 sg 15 dm 156 dg 4
+CS sm 155 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 152 sg 8 dm 156 dg 8
+MC id 157 c BaseArp t org.mixim.base.modules.BaseArp pid 24 n arp
+MS id 157 d p=140,100;i=block/network2
+MC id 158 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 24 n mobility
+MS id 158 d p=140,30;i=block/cogwheel
+MC id 159 c cModule t org.mixim.modules.nic.Nic80211 pid 24 n nic cm 1
+GC m 159 g 0 n upperLayerIn o 0
+GC m 159 g 3 n upperLayerOut o 1
+GC m 159 g 5 n upperControlOut o 1
+GC m 159 g 6 n upperControlIn o 0
+GC m 159 g 8 n radioIn o 0
+MS id 159 d p=70,380;i=block/wrxtx,#008000
+MC id 160 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 24 n netwl
+GC m 160 g 0 n upperLayerIn o 0
+GC m 160 g 3 n upperLayerOut o 1
+GC m 160 g 4 n upperControlIn o 0
+GC m 160 g 7 n upperControlOut o 1
+GC m 160 g 8 n lowerLayerIn o 0
+GC m 160 g 11 n lowerLayerOut o 1
+GC m 160 g 12 n lowerControlIn o 0
+GC m 160 g 15 n lowerControlOut o 1
+MS id 160 d p=70,310;i=block/layer
+MC id 161 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 24 n appl
+GC m 161 g 0 n lowerLayerIn o 0
+GC m 161 g 3 n lowerLayerOut o 1
+GC m 161 g 4 n lowerControlIn o 0
+GC m 161 g 7 n lowerControlOut o 1
+MS id 161 d i=app;p=70,30;14
+CC sm 159 sg 3 dm 160 dg 8
+CC sm 160 sg 11 dm 159 dg 0
+CC sm 159 sg 5 dm 160 dg 12
+CS sm 159 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 160 sg 15 dm 159 dg 6
+CS sm 160 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 160 sg 3 dm 161 dg 0
+CC sm 161 sg 3 dm 160 dg 0
+CC sm 160 sg 7 dm 161 dg 4
+CS sm 160 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 161 sg 7 dm 160 dg 4
+CS sm 161 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 24 sg 0 dm 159 dg 8
+MC id 162 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 159 n mac
+GC m 162 g 0 n upperLayerIn o 0
+GC m 162 g 3 n upperLayerOut o 1
+GC m 162 g 4 n upperControlIn o 0
+GC m 162 g 7 n upperControlOut o 1
+GC m 162 g 8 n lowerLayerIn o 0
+GC m 162 g 11 n lowerLayerOut o 1
+GC m 162 g 12 n lowerControlIn o 0
+GC m 162 g 15 n lowerControlOut o 1
+MS id 162 d p=52,51;i=block/layer
+MC id 163 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 159 n phy
+GC m 163 g 0 n upperLayerIn o 0
+GC m 163 g 3 n upperLayerOut o 1
+GC m 163 g 4 n upperControlIn o 0
+GC m 163 g 7 n upperControlOut o 1
+GC m 163 g 8 n radioIn o 0
+MS id 163 d p=52,125;i=block/process_s
+CC sm 162 sg 3 dm 159 dg 3
+CS sm 162 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 159 sg 0 dm 162 dg 0
+CS sm 159 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 162 sg 7 dm 159 dg 5
+CS sm 162 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 159 sg 6 dm 162 dg 4
+CS sm 159 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 163 sg 3 dm 162 dg 8
+CS sm 163 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 162 sg 11 dm 163 dg 0
+CS sm 162 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 163 sg 7 dm 162 dg 12
+CS sm 163 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 162 sg 15 dm 163 dg 4
+CS sm 162 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 159 sg 8 dm 163 dg 8
+MC id 164 c BaseArp t org.mixim.base.modules.BaseArp pid 25 n arp
+MS id 164 d p=140,100;i=block/network2
+MC id 165 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 25 n mobility
+MS id 165 d p=140,30;i=block/cogwheel
+MC id 166 c cModule t org.mixim.modules.nic.Nic80211 pid 25 n nic cm 1
+GC m 166 g 0 n upperLayerIn o 0
+GC m 166 g 3 n upperLayerOut o 1
+GC m 166 g 5 n upperControlOut o 1
+GC m 166 g 6 n upperControlIn o 0
+GC m 166 g 8 n radioIn o 0
+MS id 166 d p=70,380;i=block/wrxtx,#008000
+MC id 167 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 25 n netwl
+GC m 167 g 0 n upperLayerIn o 0
+GC m 167 g 3 n upperLayerOut o 1
+GC m 167 g 4 n upperControlIn o 0
+GC m 167 g 7 n upperControlOut o 1
+GC m 167 g 8 n lowerLayerIn o 0
+GC m 167 g 11 n lowerLayerOut o 1
+GC m 167 g 12 n lowerControlIn o 0
+GC m 167 g 15 n lowerControlOut o 1
+MS id 167 d p=70,310;i=block/layer
+MC id 168 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 25 n appl
+GC m 168 g 0 n lowerLayerIn o 0
+GC m 168 g 3 n lowerLayerOut o 1
+GC m 168 g 4 n lowerControlIn o 0
+GC m 168 g 7 n lowerControlOut o 1
+MS id 168 d i=app;p=70,30;14
+CC sm 166 sg 3 dm 167 dg 8
+CC sm 167 sg 11 dm 166 dg 0
+CC sm 166 sg 5 dm 167 dg 12
+CS sm 166 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 167 sg 15 dm 166 dg 6
+CS sm 167 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 167 sg 3 dm 168 dg 0
+CC sm 168 sg 3 dm 167 dg 0
+CC sm 167 sg 7 dm 168 dg 4
+CS sm 167 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 168 sg 7 dm 167 dg 4
+CS sm 168 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 25 sg 0 dm 166 dg 8
+MC id 169 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 166 n mac
+GC m 169 g 0 n upperLayerIn o 0
+GC m 169 g 3 n upperLayerOut o 1
+GC m 169 g 4 n upperControlIn o 0
+GC m 169 g 7 n upperControlOut o 1
+GC m 169 g 8 n lowerLayerIn o 0
+GC m 169 g 11 n lowerLayerOut o 1
+GC m 169 g 12 n lowerControlIn o 0
+GC m 169 g 15 n lowerControlOut o 1
+MS id 169 d p=52,51;i=block/layer
+MC id 170 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 166 n phy
+GC m 170 g 0 n upperLayerIn o 0
+GC m 170 g 3 n upperLayerOut o 1
+GC m 170 g 4 n upperControlIn o 0
+GC m 170 g 7 n upperControlOut o 1
+GC m 170 g 8 n radioIn o 0
+MS id 170 d p=52,125;i=block/process_s
+CC sm 169 sg 3 dm 166 dg 3
+CS sm 169 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 166 sg 0 dm 169 dg 0
+CS sm 166 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 169 sg 7 dm 166 dg 5
+CS sm 169 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 166 sg 6 dm 169 dg 4
+CS sm 166 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 170 sg 3 dm 169 dg 8
+CS sm 170 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 169 sg 11 dm 170 dg 0
+CS sm 169 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 170 sg 7 dm 169 dg 12
+CS sm 170 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 169 sg 15 dm 170 dg 4
+CS sm 169 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 166 sg 8 dm 170 dg 8
+MC id 171 c BaseArp t org.mixim.base.modules.BaseArp pid 26 n arp
+MS id 171 d p=140,100;i=block/network2
+MC id 172 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 26 n mobility
+MS id 172 d p=140,30;i=block/cogwheel
+MC id 173 c cModule t org.mixim.modules.nic.Nic80211 pid 26 n nic cm 1
+GC m 173 g 0 n upperLayerIn o 0
+GC m 173 g 3 n upperLayerOut o 1
+GC m 173 g 5 n upperControlOut o 1
+GC m 173 g 6 n upperControlIn o 0
+GC m 173 g 8 n radioIn o 0
+MS id 173 d p=70,380;i=block/wrxtx,#008000
+MC id 174 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 26 n netwl
+GC m 174 g 0 n upperLayerIn o 0
+GC m 174 g 3 n upperLayerOut o 1
+GC m 174 g 4 n upperControlIn o 0
+GC m 174 g 7 n upperControlOut o 1
+GC m 174 g 8 n lowerLayerIn o 0
+GC m 174 g 11 n lowerLayerOut o 1
+GC m 174 g 12 n lowerControlIn o 0
+GC m 174 g 15 n lowerControlOut o 1
+MS id 174 d p=70,310;i=block/layer
+MC id 175 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 26 n appl
+GC m 175 g 0 n lowerLayerIn o 0
+GC m 175 g 3 n lowerLayerOut o 1
+GC m 175 g 4 n lowerControlIn o 0
+GC m 175 g 7 n lowerControlOut o 1
+MS id 175 d i=app;p=70,30;14
+CC sm 173 sg 3 dm 174 dg 8
+CC sm 174 sg 11 dm 173 dg 0
+CC sm 173 sg 5 dm 174 dg 12
+CS sm 173 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 174 sg 15 dm 173 dg 6
+CS sm 174 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 174 sg 3 dm 175 dg 0
+CC sm 175 sg 3 dm 174 dg 0
+CC sm 174 sg 7 dm 175 dg 4
+CS sm 174 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 175 sg 7 dm 174 dg 4
+CS sm 175 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 26 sg 0 dm 173 dg 8
+MC id 176 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 173 n mac
+GC m 176 g 0 n upperLayerIn o 0
+GC m 176 g 3 n upperLayerOut o 1
+GC m 176 g 4 n upperControlIn o 0
+GC m 176 g 7 n upperControlOut o 1
+GC m 176 g 8 n lowerLayerIn o 0
+GC m 176 g 11 n lowerLayerOut o 1
+GC m 176 g 12 n lowerControlIn o 0
+GC m 176 g 15 n lowerControlOut o 1
+MS id 176 d p=52,51;i=block/layer
+MC id 177 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 173 n phy
+GC m 177 g 0 n upperLayerIn o 0
+GC m 177 g 3 n upperLayerOut o 1
+GC m 177 g 4 n upperControlIn o 0
+GC m 177 g 7 n upperControlOut o 1
+GC m 177 g 8 n radioIn o 0
+MS id 177 d p=52,125;i=block/process_s
+CC sm 176 sg 3 dm 173 dg 3
+CS sm 176 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 173 sg 0 dm 176 dg 0
+CS sm 173 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 176 sg 7 dm 173 dg 5
+CS sm 176 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 173 sg 6 dm 176 dg 4
+CS sm 173 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 177 sg 3 dm 176 dg 8
+CS sm 177 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 176 sg 11 dm 177 dg 0
+CS sm 176 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 177 sg 7 dm 176 dg 12
+CS sm 177 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 176 sg 15 dm 177 dg 4
+CS sm 176 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 173 sg 8 dm 177 dg 8
+MC id 178 c BaseArp t org.mixim.base.modules.BaseArp pid 27 n arp
+MS id 178 d p=140,100;i=block/network2
+MC id 179 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 27 n mobility
+MS id 179 d p=140,30;i=block/cogwheel
+MC id 180 c cModule t org.mixim.modules.nic.Nic80211 pid 27 n nic cm 1
+GC m 180 g 0 n upperLayerIn o 0
+GC m 180 g 3 n upperLayerOut o 1
+GC m 180 g 5 n upperControlOut o 1
+GC m 180 g 6 n upperControlIn o 0
+GC m 180 g 8 n radioIn o 0
+MS id 180 d p=70,380;i=block/wrxtx,#008000
+MC id 181 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 27 n netwl
+GC m 181 g 0 n upperLayerIn o 0
+GC m 181 g 3 n upperLayerOut o 1
+GC m 181 g 4 n upperControlIn o 0
+GC m 181 g 7 n upperControlOut o 1
+GC m 181 g 8 n lowerLayerIn o 0
+GC m 181 g 11 n lowerLayerOut o 1
+GC m 181 g 12 n lowerControlIn o 0
+GC m 181 g 15 n lowerControlOut o 1
+MS id 181 d p=70,310;i=block/layer
+MC id 182 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 27 n appl
+GC m 182 g 0 n lowerLayerIn o 0
+GC m 182 g 3 n lowerLayerOut o 1
+GC m 182 g 4 n lowerControlIn o 0
+GC m 182 g 7 n lowerControlOut o 1
+MS id 182 d i=app;p=70,30;14
+CC sm 180 sg 3 dm 181 dg 8
+CC sm 181 sg 11 dm 180 dg 0
+CC sm 180 sg 5 dm 181 dg 12
+CS sm 180 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 181 sg 15 dm 180 dg 6
+CS sm 181 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 181 sg 3 dm 182 dg 0
+CC sm 182 sg 3 dm 181 dg 0
+CC sm 181 sg 7 dm 182 dg 4
+CS sm 181 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 182 sg 7 dm 181 dg 4
+CS sm 182 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 27 sg 0 dm 180 dg 8
+MC id 183 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 180 n mac
+GC m 183 g 0 n upperLayerIn o 0
+GC m 183 g 3 n upperLayerOut o 1
+GC m 183 g 4 n upperControlIn o 0
+GC m 183 g 7 n upperControlOut o 1
+GC m 183 g 8 n lowerLayerIn o 0
+GC m 183 g 11 n lowerLayerOut o 1
+GC m 183 g 12 n lowerControlIn o 0
+GC m 183 g 15 n lowerControlOut o 1
+MS id 183 d p=52,51;i=block/layer
+MC id 184 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 180 n phy
+GC m 184 g 0 n upperLayerIn o 0
+GC m 184 g 3 n upperLayerOut o 1
+GC m 184 g 4 n upperControlIn o 0
+GC m 184 g 7 n upperControlOut o 1
+GC m 184 g 8 n radioIn o 0
+MS id 184 d p=52,125;i=block/process_s
+CC sm 183 sg 3 dm 180 dg 3
+CS sm 183 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 180 sg 0 dm 183 dg 0
+CS sm 180 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 183 sg 7 dm 180 dg 5
+CS sm 183 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 180 sg 6 dm 183 dg 4
+CS sm 180 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 184 sg 3 dm 183 dg 8
+CS sm 184 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 183 sg 11 dm 184 dg 0
+CS sm 183 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 184 sg 7 dm 183 dg 12
+CS sm 184 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 183 sg 15 dm 184 dg 4
+CS sm 183 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 180 sg 8 dm 184 dg 8
+MC id 185 c BaseArp t org.mixim.base.modules.BaseArp pid 28 n arp
+MS id 185 d p=140,100;i=block/network2
+MC id 186 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 28 n mobility
+MS id 186 d p=140,30;i=block/cogwheel
+MC id 187 c cModule t org.mixim.modules.nic.Nic80211 pid 28 n nic cm 1
+GC m 187 g 0 n upperLayerIn o 0
+GC m 187 g 3 n upperLayerOut o 1
+GC m 187 g 5 n upperControlOut o 1
+GC m 187 g 6 n upperControlIn o 0
+GC m 187 g 8 n radioIn o 0
+MS id 187 d p=70,380;i=block/wrxtx,#008000
+MC id 188 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 28 n netwl
+GC m 188 g 0 n upperLayerIn o 0
+GC m 188 g 3 n upperLayerOut o 1
+GC m 188 g 4 n upperControlIn o 0
+GC m 188 g 7 n upperControlOut o 1
+GC m 188 g 8 n lowerLayerIn o 0
+GC m 188 g 11 n lowerLayerOut o 1
+GC m 188 g 12 n lowerControlIn o 0
+GC m 188 g 15 n lowerControlOut o 1
+MS id 188 d p=70,310;i=block/layer
+MC id 189 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 28 n appl
+GC m 189 g 0 n lowerLayerIn o 0
+GC m 189 g 3 n lowerLayerOut o 1
+GC m 189 g 4 n lowerControlIn o 0
+GC m 189 g 7 n lowerControlOut o 1
+MS id 189 d i=app;p=70,30;14
+CC sm 187 sg 3 dm 188 dg 8
+CC sm 188 sg 11 dm 187 dg 0
+CC sm 187 sg 5 dm 188 dg 12
+CS sm 187 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 188 sg 15 dm 187 dg 6
+CS sm 188 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 188 sg 3 dm 189 dg 0
+CC sm 189 sg 3 dm 188 dg 0
+CC sm 188 sg 7 dm 189 dg 4
+CS sm 188 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 189 sg 7 dm 188 dg 4
+CS sm 189 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 28 sg 0 dm 187 dg 8
+MC id 190 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 187 n mac
+GC m 190 g 0 n upperLayerIn o 0
+GC m 190 g 3 n upperLayerOut o 1
+GC m 190 g 4 n upperControlIn o 0
+GC m 190 g 7 n upperControlOut o 1
+GC m 190 g 8 n lowerLayerIn o 0
+GC m 190 g 11 n lowerLayerOut o 1
+GC m 190 g 12 n lowerControlIn o 0
+GC m 190 g 15 n lowerControlOut o 1
+MS id 190 d p=52,51;i=block/layer
+MC id 191 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 187 n phy
+GC m 191 g 0 n upperLayerIn o 0
+GC m 191 g 3 n upperLayerOut o 1
+GC m 191 g 4 n upperControlIn o 0
+GC m 191 g 7 n upperControlOut o 1
+GC m 191 g 8 n radioIn o 0
+MS id 191 d p=52,125;i=block/process_s
+CC sm 190 sg 3 dm 187 dg 3
+CS sm 190 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 187 sg 0 dm 190 dg 0
+CS sm 187 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 190 sg 7 dm 187 dg 5
+CS sm 190 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 187 sg 6 dm 190 dg 4
+CS sm 187 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 191 sg 3 dm 190 dg 8
+CS sm 191 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 190 sg 11 dm 191 dg 0
+CS sm 190 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 191 sg 7 dm 190 dg 12
+CS sm 191 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 190 sg 15 dm 191 dg 4
+CS sm 190 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 187 sg 8 dm 191 dg 8
+MC id 192 c BaseArp t org.mixim.base.modules.BaseArp pid 29 n arp
+MS id 192 d p=140,100;i=block/network2
+MC id 193 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 29 n mobility
+MS id 193 d p=140,30;i=block/cogwheel
+MC id 194 c cModule t org.mixim.modules.nic.Nic80211 pid 29 n nic cm 1
+GC m 194 g 0 n upperLayerIn o 0
+GC m 194 g 3 n upperLayerOut o 1
+GC m 194 g 5 n upperControlOut o 1
+GC m 194 g 6 n upperControlIn o 0
+GC m 194 g 8 n radioIn o 0
+MS id 194 d p=70,380;i=block/wrxtx,#008000
+MC id 195 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 29 n netwl
+GC m 195 g 0 n upperLayerIn o 0
+GC m 195 g 3 n upperLayerOut o 1
+GC m 195 g 4 n upperControlIn o 0
+GC m 195 g 7 n upperControlOut o 1
+GC m 195 g 8 n lowerLayerIn o 0
+GC m 195 g 11 n lowerLayerOut o 1
+GC m 195 g 12 n lowerControlIn o 0
+GC m 195 g 15 n lowerControlOut o 1
+MS id 195 d p=70,310;i=block/layer
+MC id 196 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 29 n appl
+GC m 196 g 0 n lowerLayerIn o 0
+GC m 196 g 3 n lowerLayerOut o 1
+GC m 196 g 4 n lowerControlIn o 0
+GC m 196 g 7 n lowerControlOut o 1
+MS id 196 d i=app;p=70,30;14
+CC sm 194 sg 3 dm 195 dg 8
+CC sm 195 sg 11 dm 194 dg 0
+CC sm 194 sg 5 dm 195 dg 12
+CS sm 194 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 195 sg 15 dm 194 dg 6
+CS sm 195 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 195 sg 3 dm 196 dg 0
+CC sm 196 sg 3 dm 195 dg 0
+CC sm 195 sg 7 dm 196 dg 4
+CS sm 195 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 196 sg 7 dm 195 dg 4
+CS sm 196 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 29 sg 0 dm 194 dg 8
+MC id 197 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 194 n mac
+GC m 197 g 0 n upperLayerIn o 0
+GC m 197 g 3 n upperLayerOut o 1
+GC m 197 g 4 n upperControlIn o 0
+GC m 197 g 7 n upperControlOut o 1
+GC m 197 g 8 n lowerLayerIn o 0
+GC m 197 g 11 n lowerLayerOut o 1
+GC m 197 g 12 n lowerControlIn o 0
+GC m 197 g 15 n lowerControlOut o 1
+MS id 197 d p=52,51;i=block/layer
+MC id 198 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 194 n phy
+GC m 198 g 0 n upperLayerIn o 0
+GC m 198 g 3 n upperLayerOut o 1
+GC m 198 g 4 n upperControlIn o 0
+GC m 198 g 7 n upperControlOut o 1
+GC m 198 g 8 n radioIn o 0
+MS id 198 d p=52,125;i=block/process_s
+CC sm 197 sg 3 dm 194 dg 3
+CS sm 197 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 194 sg 0 dm 197 dg 0
+CS sm 194 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 197 sg 7 dm 194 dg 5
+CS sm 197 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 194 sg 6 dm 197 dg 4
+CS sm 194 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 198 sg 3 dm 197 dg 8
+CS sm 198 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 197 sg 11 dm 198 dg 0
+CS sm 197 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 198 sg 7 dm 197 dg 12
+CS sm 198 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 197 sg 15 dm 198 dg 4
+CS sm 197 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 194 sg 8 dm 198 dg 8
+MC id 199 c BaseArp t org.mixim.base.modules.BaseArp pid 30 n arp
+MS id 199 d p=140,100;i=block/network2
+MC id 200 c StaticGridMobility t inet.mobility.models.StaticGridMobility pid 30 n mobility
+MS id 200 d p=140,30;i=block/cogwheel
+MC id 201 c cModule t org.mixim.modules.nic.Nic80211 pid 30 n nic cm 1
+GC m 201 g 0 n upperLayerIn o 0
+GC m 201 g 3 n upperLayerOut o 1
+GC m 201 g 5 n upperControlOut o 1
+GC m 201 g 6 n upperControlIn o 0
+GC m 201 g 8 n radioIn o 0
+MS id 201 d p=70,380;i=block/wrxtx,#008000
+MC id 202 c BaseNetwLayer t org.mixim.base.modules.BaseNetwLayer pid 30 n netwl
+GC m 202 g 0 n upperLayerIn o 0
+GC m 202 g 3 n upperLayerOut o 1
+GC m 202 g 4 n upperControlIn o 0
+GC m 202 g 7 n upperControlOut o 1
+GC m 202 g 8 n lowerLayerIn o 0
+GC m 202 g 11 n lowerLayerOut o 1
+GC m 202 g 12 n lowerControlIn o 0
+GC m 202 g 15 n lowerControlOut o 1
+MS id 202 d p=70,310;i=block/layer
+MC id 203 c BurstApplLayer t org.mixim.modules.application.BurstApplLayer pid 30 n appl
+GC m 203 g 0 n lowerLayerIn o 0
+GC m 203 g 3 n lowerLayerOut o 1
+GC m 203 g 4 n lowerControlIn o 0
+GC m 203 g 7 n lowerControlOut o 1
+MS id 203 d i=app;p=70,30;14
+CC sm 201 sg 3 dm 202 dg 8
+CC sm 202 sg 11 dm 201 dg 0
+CC sm 201 sg 5 dm 202 dg 12
+CS sm 201 sg 5 d ls=red;m=m,70,0,70,0
+CC sm 202 sg 15 dm 201 dg 6
+CS sm 202 sg 15 d ls=red;m=m,70,0,70,0
+CC sm 202 sg 3 dm 203 dg 0
+CC sm 203 sg 3 dm 202 dg 0
+CC sm 202 sg 7 dm 203 dg 4
+CS sm 202 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 203 sg 7 dm 202 dg 4
+CS sm 203 sg 7 d ls=red;m=m,70,0,70,0
+CC sm 30 sg 0 dm 201 dg 8
+MC id 204 c Mac80211 t org.mixim.modules.mac.Mac80211 pid 201 n mac
+GC m 204 g 0 n upperLayerIn o 0
+GC m 204 g 3 n upperLayerOut o 1
+GC m 204 g 4 n upperControlIn o 0
+GC m 204 g 7 n upperControlOut o 1
+GC m 204 g 8 n lowerLayerIn o 0
+GC m 204 g 11 n lowerLayerOut o 1
+GC m 204 g 12 n lowerControlIn o 0
+GC m 204 g 15 n lowerControlOut o 1
+MS id 204 d p=52,51;i=block/layer
+MC id 205 c PhyLayer t org.mixim.modules.phy.PhyLayer pid 201 n phy
+GC m 205 g 0 n upperLayerIn o 0
+GC m 205 g 3 n upperLayerOut o 1
+GC m 205 g 4 n upperControlIn o 0
+GC m 205 g 7 n upperControlOut o 1
+GC m 205 g 8 n radioIn o 0
+MS id 205 d p=52,125;i=block/process_s
+CC sm 204 sg 3 dm 201 dg 3
+CS sm 204 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 201 sg 0 dm 204 dg 0
+CS sm 201 sg 0 d ls=black;m=m,15,50,15,0
+CC sm 204 sg 7 dm 201 dg 5
+CS sm 204 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 201 sg 6 dm 204 dg 4
+CS sm 201 sg 6 d ls=red;m=m,85,0,85,0
+CC sm 205 sg 3 dm 204 dg 8
+CS sm 205 sg 3 d ls=black;m=m,25,50,25,0
+CC sm 204 sg 11 dm 205 dg 0
+CS sm 204 sg 11 d ls=black;m=m,15,50,15,0
+CC sm 205 sg 7 dm 204 dg 12
+CS sm 205 sg 7 d ls=red;m=m,75,50,75,0
+CC sm 204 sg 15 dm 205 dg 4
+CS sm 204 sg 15 d ls=red;m=m,85,0,85,0
+CC sm 201 sg 8 dm 205 dg 8
+MB sm 1 tm 2 m initialize(0)
+ME
+MB sm 1 tm 3 m initialize(0)
+ME
+MB sm 1 tm 4 m initialize(0)
+ME
+MB sm 1 tm 5 m initialize(0)
+ME
+MB sm 1 tm 6 m initialize(0)
+ME
+MB sm 1 tm 31 m initialize(0)
+ME
+MB sm 1 tm 32 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 33 m initialize(0)
+ME
+MB sm 1 tm 36 m initialize(0)
+MB sm 36 tm 37 m ""
+ME
+CM id 0 tid 0 eid 0 etid 0 c cMessage n timeout pe -1
+CM id 1 tid 1 eid 1 etid 1 c cMessage n NAV k 1 pe -1
+CM id 2 tid 2 eid 2 etid 2 c cMessage n contention k 22002 pe -1
+CM id 3 tid 3 eid 3 etid 3 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 37 m initialize(0)
+CM id 4 tid 4 eid 4 etid 4 c cMessage n "radio switching over" k 22001 pe -1
+CM id 5 tid 5 eid 5 etid 5 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 34 m initialize(0)
+ME
+MB sm 1 tm 35 m initialize(0)
+CM id 6 tid 6 eid 6 etid 6 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 7 m initialize(0)
+ME
+MB sm 1 tm 38 m initialize(0)
+ME
+MB sm 1 tm 39 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 40 m initialize(0)
+ME
+MB sm 1 tm 43 m initialize(0)
+MB sm 43 tm 44 m ""
+ME
+CM id 7 tid 7 eid 7 etid 7 c cMessage n timeout pe -1
+CM id 8 tid 8 eid 8 etid 8 c cMessage n NAV k 1 pe -1
+CM id 9 tid 9 eid 9 etid 9 c cMessage n contention k 22002 pe -1
+CM id 10 tid 10 eid 10 etid 10 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 44 m initialize(0)
+CM id 11 tid 11 eid 11 etid 11 c cMessage n "radio switching over" k 22001 pe -1
+CM id 12 tid 12 eid 12 etid 12 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 41 m initialize(0)
+ME
+MB sm 1 tm 42 m initialize(0)
+CM id 13 tid 13 eid 13 etid 13 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 8 m initialize(0)
+ME
+MB sm 1 tm 45 m initialize(0)
+ME
+MB sm 1 tm 46 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 47 m initialize(0)
+ME
+MB sm 1 tm 50 m initialize(0)
+MB sm 50 tm 51 m ""
+ME
+CM id 14 tid 14 eid 14 etid 14 c cMessage n timeout pe -1
+CM id 15 tid 15 eid 15 etid 15 c cMessage n NAV k 1 pe -1
+CM id 16 tid 16 eid 16 etid 16 c cMessage n contention k 22002 pe -1
+CM id 17 tid 17 eid 17 etid 17 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 51 m initialize(0)
+CM id 18 tid 18 eid 18 etid 18 c cMessage n "radio switching over" k 22001 pe -1
+CM id 19 tid 19 eid 19 etid 19 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 48 m initialize(0)
+ME
+MB sm 1 tm 49 m initialize(0)
+CM id 20 tid 20 eid 20 etid 20 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 9 m initialize(0)
+ME
+MB sm 1 tm 52 m initialize(0)
+ME
+MB sm 1 tm 53 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 54 m initialize(0)
+ME
+MB sm 1 tm 57 m initialize(0)
+MB sm 57 tm 58 m ""
+ME
+CM id 21 tid 21 eid 21 etid 21 c cMessage n timeout pe -1
+CM id 22 tid 22 eid 22 etid 22 c cMessage n NAV k 1 pe -1
+CM id 23 tid 23 eid 23 etid 23 c cMessage n contention k 22002 pe -1
+CM id 24 tid 24 eid 24 etid 24 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 58 m initialize(0)
+CM id 25 tid 25 eid 25 etid 25 c cMessage n "radio switching over" k 22001 pe -1
+CM id 26 tid 26 eid 26 etid 26 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 55 m initialize(0)
+ME
+MB sm 1 tm 56 m initialize(0)
+CM id 27 tid 27 eid 27 etid 27 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 10 m initialize(0)
+ME
+MB sm 1 tm 59 m initialize(0)
+ME
+MB sm 1 tm 60 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 61 m initialize(0)
+ME
+MB sm 1 tm 64 m initialize(0)
+MB sm 64 tm 65 m ""
+ME
+CM id 28 tid 28 eid 28 etid 28 c cMessage n timeout pe -1
+CM id 29 tid 29 eid 29 etid 29 c cMessage n NAV k 1 pe -1
+CM id 30 tid 30 eid 30 etid 30 c cMessage n contention k 22002 pe -1
+CM id 31 tid 31 eid 31 etid 31 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 65 m initialize(0)
+CM id 32 tid 32 eid 32 etid 32 c cMessage n "radio switching over" k 22001 pe -1
+CM id 33 tid 33 eid 33 etid 33 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 62 m initialize(0)
+ME
+MB sm 1 tm 63 m initialize(0)
+CM id 34 tid 34 eid 34 etid 34 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 11 m initialize(0)
+ME
+MB sm 1 tm 66 m initialize(0)
+ME
+MB sm 1 tm 67 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 68 m initialize(0)
+ME
+MB sm 1 tm 71 m initialize(0)
+MB sm 71 tm 72 m ""
+ME
+CM id 35 tid 35 eid 35 etid 35 c cMessage n timeout pe -1
+CM id 36 tid 36 eid 36 etid 36 c cMessage n NAV k 1 pe -1
+CM id 37 tid 37 eid 37 etid 37 c cMessage n contention k 22002 pe -1
+CM id 38 tid 38 eid 38 etid 38 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 72 m initialize(0)
+CM id 39 tid 39 eid 39 etid 39 c cMessage n "radio switching over" k 22001 pe -1
+CM id 40 tid 40 eid 40 etid 40 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 69 m initialize(0)
+ME
+MB sm 1 tm 70 m initialize(0)
+CM id 41 tid 41 eid 41 etid 41 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 12 m initialize(0)
+ME
+MB sm 1 tm 73 m initialize(0)
+ME
+MB sm 1 tm 74 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 75 m initialize(0)
+ME
+MB sm 1 tm 78 m initialize(0)
+MB sm 78 tm 79 m ""
+ME
+CM id 42 tid 42 eid 42 etid 42 c cMessage n timeout pe -1
+CM id 43 tid 43 eid 43 etid 43 c cMessage n NAV k 1 pe -1
+CM id 44 tid 44 eid 44 etid 44 c cMessage n contention k 22002 pe -1
+CM id 45 tid 45 eid 45 etid 45 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 79 m initialize(0)
+CM id 46 tid 46 eid 46 etid 46 c cMessage n "radio switching over" k 22001 pe -1
+CM id 47 tid 47 eid 47 etid 47 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 76 m initialize(0)
+ME
+MB sm 1 tm 77 m initialize(0)
+CM id 48 tid 48 eid 48 etid 48 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 13 m initialize(0)
+ME
+MB sm 1 tm 80 m initialize(0)
+ME
+MB sm 1 tm 81 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 82 m initialize(0)
+ME
+MB sm 1 tm 85 m initialize(0)
+MB sm 85 tm 86 m ""
+ME
+CM id 49 tid 49 eid 49 etid 49 c cMessage n timeout pe -1
+CM id 50 tid 50 eid 50 etid 50 c cMessage n NAV k 1 pe -1
+CM id 51 tid 51 eid 51 etid 51 c cMessage n contention k 22002 pe -1
+CM id 52 tid 52 eid 52 etid 52 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 86 m initialize(0)
+CM id 53 tid 53 eid 53 etid 53 c cMessage n "radio switching over" k 22001 pe -1
+CM id 54 tid 54 eid 54 etid 54 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 83 m initialize(0)
+ME
+MB sm 1 tm 84 m initialize(0)
+CM id 55 tid 55 eid 55 etid 55 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 14 m initialize(0)
+ME
+MB sm 1 tm 87 m initialize(0)
+ME
+MB sm 1 tm 88 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 89 m initialize(0)
+ME
+MB sm 1 tm 92 m initialize(0)
+MB sm 92 tm 93 m ""
+ME
+CM id 56 tid 56 eid 56 etid 56 c cMessage n timeout pe -1
+CM id 57 tid 57 eid 57 etid 57 c cMessage n NAV k 1 pe -1
+CM id 58 tid 58 eid 58 etid 58 c cMessage n contention k 22002 pe -1
+CM id 59 tid 59 eid 59 etid 59 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 93 m initialize(0)
+CM id 60 tid 60 eid 60 etid 60 c cMessage n "radio switching over" k 22001 pe -1
+CM id 61 tid 61 eid 61 etid 61 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 90 m initialize(0)
+ME
+MB sm 1 tm 91 m initialize(0)
+CM id 62 tid 62 eid 62 etid 62 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 15 m initialize(0)
+ME
+MB sm 1 tm 94 m initialize(0)
+ME
+MB sm 1 tm 95 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 96 m initialize(0)
+ME
+MB sm 1 tm 99 m initialize(0)
+MB sm 99 tm 100 m ""
+ME
+CM id 63 tid 63 eid 63 etid 63 c cMessage n timeout pe -1
+CM id 64 tid 64 eid 64 etid 64 c cMessage n NAV k 1 pe -1
+CM id 65 tid 65 eid 65 etid 65 c cMessage n contention k 22002 pe -1
+CM id 66 tid 66 eid 66 etid 66 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 100 m initialize(0)
+CM id 67 tid 67 eid 67 etid 67 c cMessage n "radio switching over" k 22001 pe -1
+CM id 68 tid 68 eid 68 etid 68 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 97 m initialize(0)
+ME
+MB sm 1 tm 98 m initialize(0)
+CM id 69 tid 69 eid 69 etid 69 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 16 m initialize(0)
+ME
+MB sm 1 tm 101 m initialize(0)
+ME
+MB sm 1 tm 102 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 103 m initialize(0)
+ME
+MB sm 1 tm 106 m initialize(0)
+MB sm 106 tm 107 m ""
+ME
+CM id 70 tid 70 eid 70 etid 70 c cMessage n timeout pe -1
+CM id 71 tid 71 eid 71 etid 71 c cMessage n NAV k 1 pe -1
+CM id 72 tid 72 eid 72 etid 72 c cMessage n contention k 22002 pe -1
+CM id 73 tid 73 eid 73 etid 73 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 107 m initialize(0)
+CM id 74 tid 74 eid 74 etid 74 c cMessage n "radio switching over" k 22001 pe -1
+CM id 75 tid 75 eid 75 etid 75 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 104 m initialize(0)
+ME
+MB sm 1 tm 105 m initialize(0)
+CM id 76 tid 76 eid 76 etid 76 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 17 m initialize(0)
+ME
+MB sm 1 tm 108 m initialize(0)
+ME
+MB sm 1 tm 109 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 110 m initialize(0)
+ME
+MB sm 1 tm 113 m initialize(0)
+MB sm 113 tm 114 m ""
+ME
+CM id 77 tid 77 eid 77 etid 77 c cMessage n timeout pe -1
+CM id 78 tid 78 eid 78 etid 78 c cMessage n NAV k 1 pe -1
+CM id 79 tid 79 eid 79 etid 79 c cMessage n contention k 22002 pe -1
+CM id 80 tid 80 eid 80 etid 80 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 114 m initialize(0)
+CM id 81 tid 81 eid 81 etid 81 c cMessage n "radio switching over" k 22001 pe -1
+CM id 82 tid 82 eid 82 etid 82 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 111 m initialize(0)
+ME
+MB sm 1 tm 112 m initialize(0)
+CM id 83 tid 83 eid 83 etid 83 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 18 m initialize(0)
+ME
+MB sm 1 tm 115 m initialize(0)
+ME
+MB sm 1 tm 116 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 117 m initialize(0)
+ME
+MB sm 1 tm 120 m initialize(0)
+MB sm 120 tm 121 m ""
+ME
+CM id 84 tid 84 eid 84 etid 84 c cMessage n timeout pe -1
+CM id 85 tid 85 eid 85 etid 85 c cMessage n NAV k 1 pe -1
+CM id 86 tid 86 eid 86 etid 86 c cMessage n contention k 22002 pe -1
+CM id 87 tid 87 eid 87 etid 87 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 121 m initialize(0)
+CM id 88 tid 88 eid 88 etid 88 c cMessage n "radio switching over" k 22001 pe -1
+CM id 89 tid 89 eid 89 etid 89 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 118 m initialize(0)
+ME
+MB sm 1 tm 119 m initialize(0)
+CM id 90 tid 90 eid 90 etid 90 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 19 m initialize(0)
+ME
+MB sm 1 tm 122 m initialize(0)
+ME
+MB sm 1 tm 123 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 124 m initialize(0)
+ME
+MB sm 1 tm 127 m initialize(0)
+MB sm 127 tm 128 m ""
+ME
+CM id 91 tid 91 eid 91 etid 91 c cMessage n timeout pe -1
+CM id 92 tid 92 eid 92 etid 92 c cMessage n NAV k 1 pe -1
+CM id 93 tid 93 eid 93 etid 93 c cMessage n contention k 22002 pe -1
+CM id 94 tid 94 eid 94 etid 94 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 128 m initialize(0)
+CM id 95 tid 95 eid 95 etid 95 c cMessage n "radio switching over" k 22001 pe -1
+CM id 96 tid 96 eid 96 etid 96 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 125 m initialize(0)
+ME
+MB sm 1 tm 126 m initialize(0)
+CM id 97 tid 97 eid 97 etid 97 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 20 m initialize(0)
+ME
+MB sm 1 tm 129 m initialize(0)
+ME
+MB sm 1 tm 130 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 131 m initialize(0)
+ME
+MB sm 1 tm 134 m initialize(0)
+MB sm 134 tm 135 m ""
+ME
+CM id 98 tid 98 eid 98 etid 98 c cMessage n timeout pe -1
+CM id 99 tid 99 eid 99 etid 99 c cMessage n NAV k 1 pe -1
+CM id 100 tid 100 eid 100 etid 100 c cMessage n contention k 22002 pe -1
+CM id 101 tid 101 eid 101 etid 101 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 135 m initialize(0)
+CM id 102 tid 102 eid 102 etid 102 c cMessage n "radio switching over" k 22001 pe -1
+CM id 103 tid 103 eid 103 etid 103 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 132 m initialize(0)
+ME
+MB sm 1 tm 133 m initialize(0)
+CM id 104 tid 104 eid 104 etid 104 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 21 m initialize(0)
+ME
+MB sm 1 tm 136 m initialize(0)
+ME
+MB sm 1 tm 137 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 138 m initialize(0)
+ME
+MB sm 1 tm 141 m initialize(0)
+MB sm 141 tm 142 m ""
+ME
+CM id 105 tid 105 eid 105 etid 105 c cMessage n timeout pe -1
+CM id 106 tid 106 eid 106 etid 106 c cMessage n NAV k 1 pe -1
+CM id 107 tid 107 eid 107 etid 107 c cMessage n contention k 22002 pe -1
+CM id 108 tid 108 eid 108 etid 108 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 142 m initialize(0)
+CM id 109 tid 109 eid 109 etid 109 c cMessage n "radio switching over" k 22001 pe -1
+CM id 110 tid 110 eid 110 etid 110 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 139 m initialize(0)
+ME
+MB sm 1 tm 140 m initialize(0)
+CM id 111 tid 111 eid 111 etid 111 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 22 m initialize(0)
+ME
+MB sm 1 tm 143 m initialize(0)
+ME
+MB sm 1 tm 144 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 145 m initialize(0)
+ME
+MB sm 1 tm 148 m initialize(0)
+MB sm 148 tm 149 m ""
+ME
+CM id 112 tid 112 eid 112 etid 112 c cMessage n timeout pe -1
+CM id 113 tid 113 eid 113 etid 113 c cMessage n NAV k 1 pe -1
+CM id 114 tid 114 eid 114 etid 114 c cMessage n contention k 22002 pe -1
+CM id 115 tid 115 eid 115 etid 115 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 149 m initialize(0)
+CM id 116 tid 116 eid 116 etid 116 c cMessage n "radio switching over" k 22001 pe -1
+CM id 117 tid 117 eid 117 etid 117 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 146 m initialize(0)
+ME
+MB sm 1 tm 147 m initialize(0)
+CM id 118 tid 118 eid 118 etid 118 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 23 m initialize(0)
+ME
+MB sm 1 tm 150 m initialize(0)
+ME
+MB sm 1 tm 151 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 152 m initialize(0)
+ME
+MB sm 1 tm 155 m initialize(0)
+MB sm 155 tm 156 m ""
+ME
+CM id 119 tid 119 eid 119 etid 119 c cMessage n timeout pe -1
+CM id 120 tid 120 eid 120 etid 120 c cMessage n NAV k 1 pe -1
+CM id 121 tid 121 eid 121 etid 121 c cMessage n contention k 22002 pe -1
+CM id 122 tid 122 eid 122 etid 122 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 156 m initialize(0)
+CM id 123 tid 123 eid 123 etid 123 c cMessage n "radio switching over" k 22001 pe -1
+CM id 124 tid 124 eid 124 etid 124 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 153 m initialize(0)
+ME
+MB sm 1 tm 154 m initialize(0)
+CM id 125 tid 125 eid 125 etid 125 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 24 m initialize(0)
+ME
+MB sm 1 tm 157 m initialize(0)
+ME
+MB sm 1 tm 158 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 159 m initialize(0)
+ME
+MB sm 1 tm 162 m initialize(0)
+MB sm 162 tm 163 m ""
+ME
+CM id 126 tid 126 eid 126 etid 126 c cMessage n timeout pe -1
+CM id 127 tid 127 eid 127 etid 127 c cMessage n NAV k 1 pe -1
+CM id 128 tid 128 eid 128 etid 128 c cMessage n contention k 22002 pe -1
+CM id 129 tid 129 eid 129 etid 129 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 163 m initialize(0)
+CM id 130 tid 130 eid 130 etid 130 c cMessage n "radio switching over" k 22001 pe -1
+CM id 131 tid 131 eid 131 etid 131 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 160 m initialize(0)
+ME
+MB sm 1 tm 161 m initialize(0)
+CM id 132 tid 132 eid 132 etid 132 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 25 m initialize(0)
+ME
+MB sm 1 tm 164 m initialize(0)
+ME
+MB sm 1 tm 165 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 166 m initialize(0)
+ME
+MB sm 1 tm 169 m initialize(0)
+MB sm 169 tm 170 m ""
+ME
+CM id 133 tid 133 eid 133 etid 133 c cMessage n timeout pe -1
+CM id 134 tid 134 eid 134 etid 134 c cMessage n NAV k 1 pe -1
+CM id 135 tid 135 eid 135 etid 135 c cMessage n contention k 22002 pe -1
+CM id 136 tid 136 eid 136 etid 136 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 170 m initialize(0)
+CM id 137 tid 137 eid 137 etid 137 c cMessage n "radio switching over" k 22001 pe -1
+CM id 138 tid 138 eid 138 etid 138 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 167 m initialize(0)
+ME
+MB sm 1 tm 168 m initialize(0)
+CM id 139 tid 139 eid 139 etid 139 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 26 m initialize(0)
+ME
+MB sm 1 tm 171 m initialize(0)
+ME
+MB sm 1 tm 172 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 173 m initialize(0)
+ME
+MB sm 1 tm 176 m initialize(0)
+MB sm 176 tm 177 m ""
+ME
+CM id 140 tid 140 eid 140 etid 140 c cMessage n timeout pe -1
+CM id 141 tid 141 eid 141 etid 141 c cMessage n NAV k 1 pe -1
+CM id 142 tid 142 eid 142 etid 142 c cMessage n contention k 22002 pe -1
+CM id 143 tid 143 eid 143 etid 143 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 177 m initialize(0)
+CM id 144 tid 144 eid 144 etid 144 c cMessage n "radio switching over" k 22001 pe -1
+CM id 145 tid 145 eid 145 etid 145 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 174 m initialize(0)
+ME
+MB sm 1 tm 175 m initialize(0)
+CM id 146 tid 146 eid 146 etid 146 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 27 m initialize(0)
+ME
+MB sm 1 tm 178 m initialize(0)
+ME
+MB sm 1 tm 179 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 180 m initialize(0)
+ME
+MB sm 1 tm 183 m initialize(0)
+MB sm 183 tm 184 m ""
+ME
+CM id 147 tid 147 eid 147 etid 147 c cMessage n timeout pe -1
+CM id 148 tid 148 eid 148 etid 148 c cMessage n NAV k 1 pe -1
+CM id 149 tid 149 eid 149 etid 149 c cMessage n contention k 22002 pe -1
+CM id 150 tid 150 eid 150 etid 150 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 184 m initialize(0)
+CM id 151 tid 151 eid 151 etid 151 c cMessage n "radio switching over" k 22001 pe -1
+CM id 152 tid 152 eid 152 etid 152 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 181 m initialize(0)
+ME
+MB sm 1 tm 182 m initialize(0)
+CM id 153 tid 153 eid 153 etid 153 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 28 m initialize(0)
+ME
+MB sm 1 tm 185 m initialize(0)
+ME
+MB sm 1 tm 186 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 187 m initialize(0)
+ME
+MB sm 1 tm 190 m initialize(0)
+MB sm 190 tm 191 m ""
+ME
+CM id 154 tid 154 eid 154 etid 154 c cMessage n timeout pe -1
+CM id 155 tid 155 eid 155 etid 155 c cMessage n NAV k 1 pe -1
+CM id 156 tid 156 eid 156 etid 156 c cMessage n contention k 22002 pe -1
+CM id 157 tid 157 eid 157 etid 157 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 191 m initialize(0)
+CM id 158 tid 158 eid 158 etid 158 c cMessage n "radio switching over" k 22001 pe -1
+CM id 159 tid 159 eid 159 etid 159 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 188 m initialize(0)
+ME
+MB sm 1 tm 189 m initialize(0)
+CM id 160 tid 160 eid 160 etid 160 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 29 m initialize(0)
+ME
+MB sm 1 tm 192 m initialize(0)
+ME
+MB sm 1 tm 193 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 194 m initialize(0)
+ME
+MB sm 1 tm 197 m initialize(0)
+MB sm 197 tm 198 m ""
+ME
+CM id 161 tid 161 eid 161 etid 161 c cMessage n timeout pe -1
+CM id 162 tid 162 eid 162 etid 162 c cMessage n NAV k 1 pe -1
+CM id 163 tid 163 eid 163 etid 163 c cMessage n contention k 22002 pe -1
+CM id 164 tid 164 eid 164 etid 164 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 198 m initialize(0)
+CM id 165 tid 165 eid 165 etid 165 c cMessage n "radio switching over" k 22001 pe -1
+CM id 166 tid 166 eid 166 etid 166 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 195 m initialize(0)
+ME
+MB sm 1 tm 196 m initialize(0)
+CM id 167 tid 167 eid 167 etid 167 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 30 m initialize(0)
+ME
+MB sm 1 tm 199 m initialize(0)
+ME
+MB sm 1 tm 200 m initialize(0)
+- initializing MobilityBase stage 0
+- initializing StaticGridMobility stage 0
+ME
+MB sm 1 tm 201 m initialize(0)
+ME
+MB sm 1 tm 204 m initialize(0)
+MB sm 204 tm 205 m ""
+ME
+CM id 168 tid 168 eid 168 etid 168 c cMessage n timeout pe -1
+CM id 169 tid 169 eid 169 etid 169 c cMessage n NAV k 1 pe -1
+CM id 170 tid 170 eid 170 etid 170 c cMessage n contention k 22002 pe -1
+CM id 171 tid 171 eid 171 etid 171 c cMessage n "end SIFS" k 22002 pe -1
+ME
+MB sm 1 tm 205 m initialize(0)
+CM id 172 tid 172 eid 172 etid 172 c cMessage n "radio switching over" k 22001 pe -1
+CM id 173 tid 173 eid 173 etid 173 c cMessage n "transmission over" k 22000 pe -1
+ME
+MB sm 1 tm 202 m initialize(0)
+ME
+MB sm 1 tm 203 m initialize(0)
+CM id 174 tid 174 eid 174 etid 174 c cMessage n delay-timer k 25000 pe -1
+ME
+MB sm 1 tm 2 m initialize(1)
+ME
+MB sm 1 tm 3 m initialize(1)
+ME
+MB sm 1 tm 4 m initialize(1)
+ME
+MB sm 1 tm 31 m initialize(1)
+ME
+MB sm 1 tm 32 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 0 z = 0
+- visual position. x = 240 y = 0 z = 0
+MS id 6 d p=240;i=device/rfidreader
+MS id 6 d p=240,0;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 36 m initialize(1)
+BS id 2 tid 2 eid 2 etid 2 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 2 tid 2 eid 2 etid 2 c ChannelSenseRequest n contention k 22002 pe 0 cid 175
+SH sm 36 sg 15
+ES t 0
+ME
+MB sm 1 tm 37 m initialize(1)
+ME
+MB sm 1 tm 34 m initialize(1)
+ME
+MB sm 1 tm 35 m initialize(1)
+BS id 6 tid 6 eid 6 etid 6 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 38 m initialize(1)
+ME
+MB sm 1 tm 39 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 800 y = 0 z = 0
+- visual position. x = 800 y = 0 z = 0
+MS id 7 d p=800;i=device/rfidreader
+MS id 7 d p=800,0;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 43 m initialize(1)
+BS id 9 tid 9 eid 9 etid 9 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 9 tid 9 eid 9 etid 9 c ChannelSenseRequest n contention k 22002 pe 0 cid 176
+SH sm 43 sg 15
+ES t 0
+ME
+MB sm 1 tm 44 m initialize(1)
+ME
+MB sm 1 tm 41 m initialize(1)
+ME
+MB sm 1 tm 42 m initialize(1)
+BS id 13 tid 13 eid 13 etid 13 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 45 m initialize(1)
+ME
+MB sm 1 tm 46 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 0 z = 0
+- visual position. x = 1360 y = 0 z = 0
+MS id 8 d p=1360;i=device/rfidreader
+MS id 8 d p=1360,0;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 50 m initialize(1)
+BS id 16 tid 16 eid 16 etid 16 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 16 tid 16 eid 16 etid 16 c ChannelSenseRequest n contention k 22002 pe 0 cid 177
+SH sm 50 sg 15
+ES t 0
+ME
+MB sm 1 tm 51 m initialize(1)
+ME
+MB sm 1 tm 48 m initialize(1)
+ME
+MB sm 1 tm 49 m initialize(1)
+BS id 20 tid 20 eid 20 etid 20 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 52 m initialize(1)
+ME
+MB sm 1 tm 53 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 400 z = 0
+- visual position. x = 240 y = 400 z = 0
+MS id 9 d p=240;i=device/rfidreader
+MS id 9 d p=240,400;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 57 m initialize(1)
+BS id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 0 cid 178
+SH sm 57 sg 15
+ES t 0
+ME
+MB sm 1 tm 58 m initialize(1)
+ME
+MB sm 1 tm 55 m initialize(1)
+ME
+MB sm 1 tm 56 m initialize(1)
+BS id 27 tid 27 eid 27 etid 27 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 59 m initialize(1)
+ME
+MB sm 1 tm 60 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 800 y = 400 z = 0
+- visual position. x = 800 y = 400 z = 0
+MS id 10 d p=800;i=device/rfidreader
+MS id 10 d p=800,400;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 64 m initialize(1)
+BS id 30 tid 30 eid 30 etid 30 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 30 tid 30 eid 30 etid 30 c ChannelSenseRequest n contention k 22002 pe 0 cid 179
+SH sm 64 sg 15
+ES t 0
+ME
+MB sm 1 tm 65 m initialize(1)
+ME
+MB sm 1 tm 62 m initialize(1)
+ME
+MB sm 1 tm 63 m initialize(1)
+BS id 34 tid 34 eid 34 etid 34 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 66 m initialize(1)
+ME
+MB sm 1 tm 67 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 400 z = 0
+- visual position. x = 1360 y = 400 z = 0
+MS id 11 d p=1360;i=device/rfidreader
+MS id 11 d p=1360,400;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 71 m initialize(1)
+BS id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 0 cid 180
+SH sm 71 sg 15
+ES t 0
+ME
+MB sm 1 tm 72 m initialize(1)
+ME
+MB sm 1 tm 69 m initialize(1)
+ME
+MB sm 1 tm 70 m initialize(1)
+BS id 41 tid 41 eid 41 etid 41 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 73 m initialize(1)
+ME
+MB sm 1 tm 74 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 799 z = 0
+- visual position. x = 240 y = 799 z = 0
+MS id 12 d p=240;i=device/rfidreader
+MS id 12 d p=240,799;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 78 m initialize(1)
+BS id 44 tid 44 eid 44 etid 44 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 44 tid 44 eid 44 etid 44 c ChannelSenseRequest n contention k 22002 pe 0 cid 181
+SH sm 78 sg 15
+ES t 0
+ME
+MB sm 1 tm 79 m initialize(1)
+ME
+MB sm 1 tm 76 m initialize(1)
+ME
+MB sm 1 tm 77 m initialize(1)
+BS id 48 tid 48 eid 48 etid 48 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 80 m initialize(1)
+ME
+MB sm 1 tm 81 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 800 y = 799 z = 0
+- visual position. x = 800 y = 799 z = 0
+MS id 13 d p=800;i=device/rfidreader
+MS id 13 d p=800,799;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 85 m initialize(1)
+BS id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 0 cid 182
+SH sm 85 sg 15
+ES t 0
+ME
+MB sm 1 tm 86 m initialize(1)
+ME
+MB sm 1 tm 83 m initialize(1)
+ME
+MB sm 1 tm 84 m initialize(1)
+BS id 55 tid 55 eid 55 etid 55 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 87 m initialize(1)
+ME
+MB sm 1 tm 88 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 799 z = 0
+- visual position. x = 1360 y = 799 z = 0
+MS id 14 d p=1360;i=device/rfidreader
+MS id 14 d p=1360,799;i=device/rfidreader
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 92 m initialize(1)
+BS id 58 tid 58 eid 58 etid 58 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 58 tid 58 eid 58 etid 58 c ChannelSenseRequest n contention k 22002 pe 0 cid 183
+SH sm 92 sg 15
+ES t 0
+ME
+MB sm 1 tm 93 m initialize(1)
+ME
+MB sm 1 tm 90 m initialize(1)
+ME
+MB sm 1 tm 91 m initialize(1)
+BS id 62 tid 62 eid 62 etid 62 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 94 m initialize(1)
+ME
+MB sm 1 tm 95 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 0 z = 0
+- visual position. x = 240 y = 0 z = 0
+MS id 15 d p=240;i=device/rfidtag_s
+MS id 15 d p=240,0;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 99 m initialize(1)
+BS id 65 tid 65 eid 65 etid 65 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 65 tid 65 eid 65 etid 65 c ChannelSenseRequest n contention k 22002 pe 0 cid 184
+SH sm 99 sg 15
+ES t 0
+ME
+MB sm 1 tm 100 m initialize(1)
+ME
+MB sm 1 tm 97 m initialize(1)
+ME
+MB sm 1 tm 98 m initialize(1)
+BS id 69 tid 69 eid 69 etid 69 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 101 m initialize(1)
+ME
+MB sm 1 tm 102 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 613.333 y = 0 z = 0
+- visual position. x = 613.333 y = 0 z = 0
+MS id 16 d p=613;i=device/rfidtag_s
+MS id 16 d p=613,0;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 106 m initialize(1)
+BS id 72 tid 72 eid 72 etid 72 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 72 tid 72 eid 72 etid 72 c ChannelSenseRequest n contention k 22002 pe 0 cid 185
+SH sm 106 sg 15
+ES t 0
+ME
+MB sm 1 tm 107 m initialize(1)
+ME
+MB sm 1 tm 104 m initialize(1)
+ME
+MB sm 1 tm 105 m initialize(1)
+BS id 76 tid 76 eid 76 etid 76 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 108 m initialize(1)
+ME
+MB sm 1 tm 109 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 986.667 y = 0 z = 0
+- visual position. x = 986.667 y = 0 z = 0
+MS id 17 d p=986;i=device/rfidtag_s
+MS id 17 d p=986,0;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 113 m initialize(1)
+BS id 79 tid 79 eid 79 etid 79 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 79 tid 79 eid 79 etid 79 c ChannelSenseRequest n contention k 22002 pe 0 cid 186
+SH sm 113 sg 15
+ES t 0
+ME
+MB sm 1 tm 114 m initialize(1)
+ME
+MB sm 1 tm 111 m initialize(1)
+ME
+MB sm 1 tm 112 m initialize(1)
+BS id 83 tid 83 eid 83 etid 83 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 115 m initialize(1)
+ME
+MB sm 1 tm 116 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 0 z = 0
+- visual position. x = 1360 y = 0 z = 0
+MS id 18 d p=1360;i=device/rfidtag_s
+MS id 18 d p=1360,0;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 120 m initialize(1)
+BS id 86 tid 86 eid 86 etid 86 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 86 tid 86 eid 86 etid 86 c ChannelSenseRequest n contention k 22002 pe 0 cid 187
+SH sm 120 sg 15
+ES t 0
+ME
+MB sm 1 tm 121 m initialize(1)
+ME
+MB sm 1 tm 118 m initialize(1)
+ME
+MB sm 1 tm 119 m initialize(1)
+BS id 90 tid 90 eid 90 etid 90 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 122 m initialize(1)
+ME
+MB sm 1 tm 123 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 266.667 z = 0
+- visual position. x = 240 y = 266.667 z = 0
+MS id 19 d p=240;i=device/rfidtag_s
+MS id 19 d p=240,266;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 127 m initialize(1)
+BS id 93 tid 93 eid 93 etid 93 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 93 tid 93 eid 93 etid 93 c ChannelSenseRequest n contention k 22002 pe 0 cid 188
+SH sm 127 sg 15
+ES t 0
+ME
+MB sm 1 tm 128 m initialize(1)
+ME
+MB sm 1 tm 125 m initialize(1)
+ME
+MB sm 1 tm 126 m initialize(1)
+BS id 97 tid 97 eid 97 etid 97 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 129 m initialize(1)
+ME
+MB sm 1 tm 130 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 613.333 y = 266.667 z = 0
+- visual position. x = 613.333 y = 266.667 z = 0
+MS id 20 d p=613;i=device/rfidtag_s
+MS id 20 d p=613,266;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 134 m initialize(1)
+BS id 100 tid 100 eid 100 etid 100 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 100 tid 100 eid 100 etid 100 c ChannelSenseRequest n contention k 22002 pe 0 cid 189
+SH sm 134 sg 15
+ES t 0
+ME
+MB sm 1 tm 135 m initialize(1)
+ME
+MB sm 1 tm 132 m initialize(1)
+ME
+MB sm 1 tm 133 m initialize(1)
+BS id 104 tid 104 eid 104 etid 104 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 136 m initialize(1)
+ME
+MB sm 1 tm 137 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 986.667 y = 266.667 z = 0
+- visual position. x = 986.667 y = 266.667 z = 0
+MS id 21 d p=986;i=device/rfidtag_s
+MS id 21 d p=986,266;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 141 m initialize(1)
+BS id 107 tid 107 eid 107 etid 107 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 107 tid 107 eid 107 etid 107 c ChannelSenseRequest n contention k 22002 pe 0 cid 190
+SH sm 141 sg 15
+ES t 0
+ME
+MB sm 1 tm 142 m initialize(1)
+ME
+MB sm 1 tm 139 m initialize(1)
+ME
+MB sm 1 tm 140 m initialize(1)
+BS id 111 tid 111 eid 111 etid 111 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 143 m initialize(1)
+ME
+MB sm 1 tm 144 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 266.667 z = 0
+- visual position. x = 1360 y = 266.667 z = 0
+MS id 22 d p=1360;i=device/rfidtag_s
+MS id 22 d p=1360,266;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 148 m initialize(1)
+BS id 114 tid 114 eid 114 etid 114 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 114 tid 114 eid 114 etid 114 c ChannelSenseRequest n contention k 22002 pe 0 cid 191
+SH sm 148 sg 15
+ES t 0
+ME
+MB sm 1 tm 149 m initialize(1)
+ME
+MB sm 1 tm 146 m initialize(1)
+ME
+MB sm 1 tm 147 m initialize(1)
+BS id 118 tid 118 eid 118 etid 118 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 150 m initialize(1)
+ME
+MB sm 1 tm 151 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 533.333 z = 0
+- visual position. x = 240 y = 533.333 z = 0
+MS id 23 d p=240;i=device/rfidtag_s
+MS id 23 d p=240,533;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 155 m initialize(1)
+BS id 121 tid 121 eid 121 etid 121 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 121 tid 121 eid 121 etid 121 c ChannelSenseRequest n contention k 22002 pe 0 cid 192
+SH sm 155 sg 15
+ES t 0
+ME
+MB sm 1 tm 156 m initialize(1)
+ME
+MB sm 1 tm 153 m initialize(1)
+ME
+MB sm 1 tm 154 m initialize(1)
+BS id 125 tid 125 eid 125 etid 125 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 157 m initialize(1)
+ME
+MB sm 1 tm 158 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 613.333 y = 533.333 z = 0
+- visual position. x = 613.333 y = 533.333 z = 0
+MS id 24 d p=613;i=device/rfidtag_s
+MS id 24 d p=613,533;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 162 m initialize(1)
+BS id 128 tid 128 eid 128 etid 128 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 128 tid 128 eid 128 etid 128 c ChannelSenseRequest n contention k 22002 pe 0 cid 193
+SH sm 162 sg 15
+ES t 0
+ME
+MB sm 1 tm 163 m initialize(1)
+ME
+MB sm 1 tm 160 m initialize(1)
+ME
+MB sm 1 tm 161 m initialize(1)
+BS id 132 tid 132 eid 132 etid 132 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 164 m initialize(1)
+ME
+MB sm 1 tm 165 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 986.667 y = 533.333 z = 0
+- visual position. x = 986.667 y = 533.333 z = 0
+MS id 25 d p=986;i=device/rfidtag_s
+MS id 25 d p=986,533;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 169 m initialize(1)
+BS id 135 tid 135 eid 135 etid 135 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 135 tid 135 eid 135 etid 135 c ChannelSenseRequest n contention k 22002 pe 0 cid 194
+SH sm 169 sg 15
+ES t 0
+ME
+MB sm 1 tm 170 m initialize(1)
+ME
+MB sm 1 tm 167 m initialize(1)
+ME
+MB sm 1 tm 168 m initialize(1)
+BS id 139 tid 139 eid 139 etid 139 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 171 m initialize(1)
+ME
+MB sm 1 tm 172 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 533.333 z = 0
+- visual position. x = 1360 y = 533.333 z = 0
+MS id 26 d p=1360;i=device/rfidtag_s
+MS id 26 d p=1360,533;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 176 m initialize(1)
+BS id 142 tid 142 eid 142 etid 142 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 142 tid 142 eid 142 etid 142 c ChannelSenseRequest n contention k 22002 pe 0 cid 195
+SH sm 176 sg 15
+ES t 0
+ME
+MB sm 1 tm 177 m initialize(1)
+ME
+MB sm 1 tm 174 m initialize(1)
+ME
+MB sm 1 tm 175 m initialize(1)
+BS id 146 tid 146 eid 146 etid 146 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 178 m initialize(1)
+ME
+MB sm 1 tm 179 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 240 y = 799 z = 0
+- visual position. x = 240 y = 799 z = 0
+MS id 27 d p=240;i=device/rfidtag_s
+MS id 27 d p=240,799;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 183 m initialize(1)
+BS id 149 tid 149 eid 149 etid 149 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 149 tid 149 eid 149 etid 149 c ChannelSenseRequest n contention k 22002 pe 0 cid 196
+SH sm 183 sg 15
+ES t 0
+ME
+MB sm 1 tm 184 m initialize(1)
+ME
+MB sm 1 tm 181 m initialize(1)
+ME
+MB sm 1 tm 182 m initialize(1)
+BS id 153 tid 153 eid 153 etid 153 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 185 m initialize(1)
+ME
+MB sm 1 tm 186 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 613.333 y = 799 z = 0
+- visual position. x = 613.333 y = 799 z = 0
+MS id 28 d p=613;i=device/rfidtag_s
+MS id 28 d p=613,799;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 190 m initialize(1)
+BS id 156 tid 156 eid 156 etid 156 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 156 tid 156 eid 156 etid 156 c ChannelSenseRequest n contention k 22002 pe 0 cid 197
+SH sm 190 sg 15
+ES t 0
+ME
+MB sm 1 tm 191 m initialize(1)
+ME
+MB sm 1 tm 188 m initialize(1)
+ME
+MB sm 1 tm 189 m initialize(1)
+BS id 160 tid 160 eid 160 etid 160 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 192 m initialize(1)
+ME
+MB sm 1 tm 193 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 986.667 y = 799 z = 0
+- visual position. x = 986.667 y = 799 z = 0
+MS id 29 d p=986;i=device/rfidtag_s
+MS id 29 d p=986,799;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 197 m initialize(1)
+BS id 163 tid 163 eid 163 etid 163 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 163 tid 163 eid 163 etid 163 c ChannelSenseRequest n contention k 22002 pe 0 cid 198
+SH sm 197 sg 15
+ES t 0
+ME
+MB sm 1 tm 198 m initialize(1)
+ME
+MB sm 1 tm 195 m initialize(1)
+ME
+MB sm 1 tm 196 m initialize(1)
+BS id 167 tid 167 eid 167 etid 167 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+MB sm 1 tm 199 m initialize(1)
+ME
+MB sm 1 tm 200 m initialize(1)
+- initializing MobilityBase stage 1
+- initial position. x = 1360 y = 799 z = 0
+- visual position. x = 1360 y = 799 z = 0
+MS id 30 d p=1360;i=device/rfidtag_s
+MS id 30 d p=1360,799;i=device/rfidtag_s
+- initializing StaticGridMobility stage 1
+ME
+MB sm 1 tm 204 m initialize(1)
+BS id 170 tid 170 eid 170 etid 170 c ChannelSenseRequest n contention k 22002 pe 0
+CL id 170 tid 170 eid 170 etid 170 c ChannelSenseRequest n contention k 22002 pe 0 cid 199
+SH sm 204 sg 15
+ES t 0
+ME
+MB sm 1 tm 205 m initialize(1)
+ME
+MB sm 1 tm 202 m initialize(1)
+ME
+MB sm 1 tm 203 m initialize(1)
+BS id 174 tid 174 eid 174 etid 174 c cMessage n delay-timer k 25000 pe 0
+ES t 0
+ME
+
+E # 1 t 0 m 37 ce 0 msg 2
+BS id 2 tid 2 eid 2 etid 2 c ChannelSenseRequest n contention k 22002 pe 1
+ES t 0.000704
+
+E # 2 t 0 m 35 ce 0 msg 6
+CM id 200 tid 200 eid 200 etid 200 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 200 tid 200 eid 200 etid 200 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 2
+CL id 200 tid 200 eid 200 etid 200 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 2 cid 201
+SH sm 35 sg 3
+ES t 0
+
+E # 3 t 0 m 44 ce 0 msg 9
+BS id 9 tid 9 eid 9 etid 9 c ChannelSenseRequest n contention k 22002 pe 3
+ES t 0.000464
+
+E # 4 t 0 m 42 ce 0 msg 13
+CM id 202 tid 202 eid 202 etid 202 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 202 tid 202 eid 202 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 4
+CL id 202 tid 202 eid 202 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 4 cid 203
+SH sm 42 sg 3
+ES t 0
+
+E # 5 t 0 m 51 ce 0 msg 16
+BS id 16 tid 16 eid 16 etid 16 c ChannelSenseRequest n contention k 22002 pe 5
+ES t 0.000864
+
+E # 6 t 0 m 49 ce 0 msg 20
+CM id 204 tid 204 eid 204 etid 204 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 204 tid 204 eid 204 etid 204 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 6
+CL id 204 tid 204 eid 204 etid 204 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 6 cid 205
+SH sm 49 sg 3
+ES t 0
+
+E # 7 t 0 m 58 ce 0 msg 23
+BS id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 7
+ES t 0.000624
+
+E # 8 t 0 m 56 ce 0 msg 27
+CM id 206 tid 206 eid 206 etid 206 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 206 tid 206 eid 206 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 8
+CL id 206 tid 206 eid 206 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 8 cid 207
+SH sm 56 sg 3
+ES t 0
+
+E # 9 t 0 m 65 ce 0 msg 30
+BS id 30 tid 30 eid 30 etid 30 c ChannelSenseRequest n contention k 22002 pe 9
+ES t 0.000524
+
+E # 10 t 0 m 63 ce 0 msg 34
+CM id 208 tid 208 eid 208 etid 208 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 208 tid 208 eid 208 etid 208 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 10
+CL id 208 tid 208 eid 208 etid 208 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 10 cid 209
+SH sm 63 sg 3
+ES t 0
+
+E # 11 t 0 m 72 ce 0 msg 37
+BS id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 11
+ES t 0.000544
+
+E # 12 t 0 m 70 ce 0 msg 41
+CM id 210 tid 210 eid 210 etid 210 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 210 tid 210 eid 210 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 12
+CL id 210 tid 210 eid 210 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 12 cid 211
+SH sm 70 sg 3
+ES t 0
+
+E # 13 t 0 m 79 ce 0 msg 44
+BS id 44 tid 44 eid 44 etid 44 c ChannelSenseRequest n contention k 22002 pe 13
+ES t 0.000764
+
+E # 14 t 0 m 77 ce 0 msg 48
+CM id 212 tid 212 eid 212 etid 212 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 212 tid 212 eid 212 etid 212 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 14
+CL id 212 tid 212 eid 212 etid 212 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 14 cid 213
+SH sm 77 sg 3
+ES t 0
+
+E # 15 t 0 m 86 ce 0 msg 51
+BS id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 15
+ES t 0.000744
+
+E # 16 t 0 m 84 ce 0 msg 55
+CM id 214 tid 214 eid 214 etid 214 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 214 tid 214 eid 214 etid 214 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 16
+CL id 214 tid 214 eid 214 etid 214 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 16 cid 215
+SH sm 84 sg 3
+ES t 0
+
+E # 17 t 0 m 93 ce 0 msg 58
+BS id 58 tid 58 eid 58 etid 58 c ChannelSenseRequest n contention k 22002 pe 17
+ES t 0.000684
+
+E # 18 t 0 m 91 ce 0 msg 62
+CM id 216 tid 216 eid 216 etid 216 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 216 tid 216 eid 216 etid 216 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 18
+CL id 216 tid 216 eid 216 etid 216 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 18 cid 217
+SH sm 91 sg 3
+ES t 0
+
+E # 19 t 0 m 100 ce 0 msg 65
+BS id 65 tid 65 eid 65 etid 65 c ChannelSenseRequest n contention k 22002 pe 19
+ES t 0.000744
+
+E # 20 t 0 m 98 ce 0 msg 69
+
+E # 21 t 0 m 107 ce 0 msg 72
+BS id 72 tid 72 eid 72 etid 72 c ChannelSenseRequest n contention k 22002 pe 21
+ES t 0.000464
+
+E # 22 t 0 m 105 ce 0 msg 76
+
+E # 23 t 0 m 114 ce 0 msg 79
+BS id 79 tid 79 eid 79 etid 79 c ChannelSenseRequest n contention k 22002 pe 23
+ES t 0.000964
+
+E # 24 t 0 m 112 ce 0 msg 83
+
+E # 25 t 0 m 121 ce 0 msg 86
+BS id 86 tid 86 eid 86 etid 86 c ChannelSenseRequest n contention k 22002 pe 25
+ES t 0.000664
+
+E # 26 t 0 m 119 ce 0 msg 90
+
+E # 27 t 0 m 128 ce 0 msg 93
+BS id 93 tid 93 eid 93 etid 93 c ChannelSenseRequest n contention k 22002 pe 27
+ES t 0.000664
+
+E # 28 t 0 m 126 ce 0 msg 97
+
+E # 29 t 0 m 135 ce 0 msg 100
+BS id 100 tid 100 eid 100 etid 100 c ChannelSenseRequest n contention k 22002 pe 29
+ES t 0.000364
+
+E # 30 t 0 m 133 ce 0 msg 104
+
+E # 31 t 0 m 142 ce 0 msg 107
+BS id 107 tid 107 eid 107 etid 107 c ChannelSenseRequest n contention k 22002 pe 31
+ES t 0.000724
+
+E # 32 t 0 m 140 ce 0 msg 111
+
+E # 33 t 0 m 149 ce 0 msg 114
+BS id 114 tid 114 eid 114 etid 114 c ChannelSenseRequest n contention k 22002 pe 33
+ES t 0.000424
+
+E # 34 t 0 m 147 ce 0 msg 118
+
+E # 35 t 0 m 156 ce 0 msg 121
+BS id 121 tid 121 eid 121 etid 121 c ChannelSenseRequest n contention k 22002 pe 35
+ES t 0.000844
+
+E # 36 t 0 m 154 ce 0 msg 125
+
+E # 37 t 0 m 163 ce 0 msg 128
+BS id 128 tid 128 eid 128 etid 128 c ChannelSenseRequest n contention k 22002 pe 37
+ES t 0.000704
+
+E # 38 t 0 m 161 ce 0 msg 132
+
+E # 39 t 0 m 170 ce 0 msg 135
+BS id 135 tid 135 eid 135 etid 135 c ChannelSenseRequest n contention k 22002 pe 39
+ES t 0.000744
+
+E # 40 t 0 m 168 ce 0 msg 139
+
+E # 41 t 0 m 177 ce 0 msg 142
+BS id 142 tid 142 eid 142 etid 142 c ChannelSenseRequest n contention k 22002 pe 41
+ES t 0.000944
+
+E # 42 t 0 m 175 ce 0 msg 146
+
+E # 43 t 0 m 184 ce 0 msg 149
+BS id 149 tid 149 eid 149 etid 149 c ChannelSenseRequest n contention k 22002 pe 43
+ES t 0.000744
+
+E # 44 t 0 m 182 ce 0 msg 153
+
+E # 45 t 0 m 191 ce 0 msg 156
+BS id 156 tid 156 eid 156 etid 156 c ChannelSenseRequest n contention k 22002 pe 45
+ES t 0.000744
+
+E # 46 t 0 m 189 ce 0 msg 160
+
+E # 47 t 0 m 198 ce 0 msg 163
+BS id 163 tid 163 eid 163 etid 163 c ChannelSenseRequest n contention k 22002 pe 47
+ES t 0.000644
+
+E # 48 t 0 m 196 ce 0 msg 167
+
+E # 49 t 0 m 205 ce 0 msg 170
+BS id 170 tid 170 eid 170 etid 170 c ChannelSenseRequest n contention k 22002 pe 49
+ES t 0.000504
+
+E # 50 t 0 m 203 ce 0 msg 174
+
+E # 51 t 0 m 34 ce 2 msg 200
+CM id 218 tid 218 eid 218 etid 218 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 218 tid 218 eid 200 etid 200 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 51
+CL id 218 tid 218 eid 200 etid 200 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 51 cid 219
+SH sm 34 sg 11
+SH sm 33 sg 0
+ES t 0
+
+E # 52 t 0 m 41 ce 4 msg 202
+CM id 220 tid 220 eid 220 etid 220 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 220 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 52
+CL id 220 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 52 cid 221
+SH sm 41 sg 11
+SH sm 40 sg 0
+ES t 0
+
+E # 53 t 0 m 48 ce 6 msg 204
+CM id 222 tid 222 eid 222 etid 222 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 222 tid 222 eid 204 etid 204 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 53
+CL id 222 tid 222 eid 204 etid 204 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 53 cid 223
+SH sm 48 sg 11
+SH sm 47 sg 0
+ES t 0
+
+E # 54 t 0 m 55 ce 8 msg 206
+CM id 224 tid 224 eid 224 etid 224 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 224 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 54
+CL id 224 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 54 cid 225
+SH sm 55 sg 11
+SH sm 54 sg 0
+ES t 0
+
+E # 55 t 0 m 62 ce 10 msg 208
+CM id 226 tid 226 eid 226 etid 226 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 226 tid 226 eid 208 etid 208 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 55
+CL id 226 tid 226 eid 208 etid 208 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 55 cid 227
+SH sm 62 sg 11
+SH sm 61 sg 0
+ES t 0
+
+E # 56 t 0 m 69 ce 12 msg 210
+CM id 228 tid 228 eid 228 etid 228 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 228 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 56
+CL id 228 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 56 cid 229
+SH sm 69 sg 11
+SH sm 68 sg 0
+ES t 0
+
+E # 57 t 0 m 76 ce 14 msg 212
+CM id 230 tid 230 eid 230 etid 230 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 230 tid 230 eid 212 etid 212 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 57
+CL id 230 tid 230 eid 212 etid 212 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 57 cid 231
+SH sm 76 sg 11
+SH sm 75 sg 0
+ES t 0
+
+E # 58 t 0 m 83 ce 16 msg 214
+CM id 232 tid 232 eid 232 etid 232 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 232 tid 232 eid 214 etid 214 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 58
+CL id 232 tid 232 eid 214 etid 214 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 58 cid 233
+SH sm 83 sg 11
+SH sm 82 sg 0
+ES t 0
+
+E # 59 t 0 m 90 ce 18 msg 216
+CM id 234 tid 234 eid 234 etid 234 c cMessage n POWERandQUERY_COMMAND k 25001 pe -1
+BS id 234 tid 234 eid 216 etid 216 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 59
+CL id 234 tid 234 eid 216 etid 216 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 59 cid 235
+SH sm 90 sg 11
+SH sm 89 sg 0
+ES t 0
+
+E # 60 t 0 m 36 ce 51 msg 218
+CM id 236 tid 236 eid 236 etid 236 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 61 t 0 m 43 ce 52 msg 220
+CM id 237 tid 237 eid 237 etid 237 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 62 t 0 m 50 ce 53 msg 222
+CM id 238 tid 238 eid 238 etid 238 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 63 t 0 m 57 ce 54 msg 224
+CM id 239 tid 239 eid 239 etid 239 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 64 t 0 m 64 ce 55 msg 226
+CM id 240 tid 240 eid 240 etid 240 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 65 t 0 m 71 ce 56 msg 228
+CM id 241 tid 241 eid 241 etid 241 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 66 t 0 m 78 ce 57 msg 230
+CM id 242 tid 242 eid 242 etid 242 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 67 t 0 m 85 ce 58 msg 232
+CM id 243 tid 243 eid 243 etid 243 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 68 t 0 m 92 ce 59 msg 234
+CM id 244 tid 244 eid 244 etid 244 c cMessage n POWERandQUERY_COMMAND pe -1
+
+E # 69 t 0.000364 m 135 ce 29 msg 100
+BS id 100 tid 100 eid 100 etid 100 c ChannelSenseRequest n contention k 22002 pe 69
+CL id 100 tid 100 eid 100 etid 100 c ChannelSenseRequest n contention k 22002 pe 69 cid 245
+SH sm 135 sg 7
+ES t 0.000364
+
+E # 70 t 0.000364 m 134 ce 69 msg 100
+
+E # 71 t 0.000424 m 149 ce 33 msg 114
+BS id 114 tid 114 eid 114 etid 114 c ChannelSenseRequest n contention k 22002 pe 71
+CL id 114 tid 114 eid 114 etid 114 c ChannelSenseRequest n contention k 22002 pe 71 cid 246
+SH sm 149 sg 7
+ES t 0.000424
+
+E # 72 t 0.000424 m 148 ce 71 msg 114
+
+E # 73 t 0.000464 m 44 ce 3 msg 9
+BS id 9 tid 9 eid 9 etid 9 c ChannelSenseRequest n contention k 22002 pe 73
+CL id 9 tid 9 eid 9 etid 9 c ChannelSenseRequest n contention k 22002 pe 73 cid 247
+SH sm 44 sg 7
+ES t 0.000464
+
+E # 74 t 0.000464 m 107 ce 21 msg 72
+BS id 72 tid 72 eid 72 etid 72 c ChannelSenseRequest n contention k 22002 pe 74
+CL id 72 tid 72 eid 72 etid 72 c ChannelSenseRequest n contention k 22002 pe 74 cid 248
+SH sm 107 sg 7
+ES t 0.000464
+
+E # 75 t 0.000464 m 43 ce 73 msg 9
+MB sm 43 tm 44 m ""
+ME
+MS id 7 d i=device/rfidreader,green,80;r=200
+CL id 237 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND l 288 pe 61 cid 249
+BS id 249 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 75
+CL id 249 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 75 cid 250
+SH sm 43 sg 11
+ES t 0.000464
+DM id 237 tid 237 eid 237 etid 237 c cMessage n POWERandQUERY_COMMAND pe 75
+
+E # 76 t 0.000464 m 106 ce 74 msg 72
+
+E # 77 t 0.000464 m 44 ce 75 msg 249
+CM id 251 tid 251 eid 251 etid 251 c cMessage n POWERandQUERY_COMMAND k 22003 pe -1
+BS id 12 tid 12 eid 12 etid 12 c cMessage n "transmission over" k 22000 pe 0
+ES t 0.000944
+CL id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 252
+BS id 252 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77
+CL id 252 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 253
+SD sm 44 dm 10 dg 0
+SH sm 10 sg 0
+SH sm 61 sg 8
+ES t 0.000464 is 1
+CL id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 254
+BS id 254 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77
+CL id 254 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 255
+SD sm 44 dm 16 dg 0
+SH sm 16 sg 0
+SH sm 103 sg 8
+ES t 0.000464 is 1
+CL id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 256
+BS id 256 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77
+CL id 256 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 257
+SD sm 44 dm 17 dg 0
+SH sm 17 sg 0
+SH sm 110 sg 8
+ES t 0.000464 is 1
+CL id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 258
+BS id 258 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77
+CL id 258 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 259
+SD sm 44 dm 20 dg 0
+SH sm 20 sg 0
+SH sm 131 sg 8
+ES t 0.000464 is 1
+BS id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77
+CL id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 77 cid 260
+SD sm 44 dm 21 dg 0
+SH sm 21 sg 0
+SH sm 138 sg 8
+ES t 0.000464 is 1
+
+E # 78 t 0.000464 m 65 ce 77 msg 252
+BS id 252 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 78
+ES t 0.000944 is 1
+
+E # 79 t 0.000464 m 107 ce 77 msg 254
+BS id 254 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 79
+ES t 0.000944 is 1
+
+E # 80 t 0.000464 m 114 ce 77 msg 256
+CE id 79 tid 79 eid 79 etid 79 c ChannelSenseRequest n contention k 22002 pe 23
+BS id 79 tid 79 eid 79 etid 79 c ChannelSenseRequest n contention k 22002 pe 80
+CL id 79 tid 79 eid 79 etid 79 c ChannelSenseRequest n contention k 22002 pe 80 cid 261
+SH sm 114 sg 7
+ES t 0.000464
+BS id 256 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 80
+ES t 0.000944 is 1
+
+E # 81 t 0.000464 m 113 ce 80 msg 79
+
+E # 82 t 0.000464 m 135 ce 77 msg 258
+BS id 258 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 82
+ES t 0.000944 is 1
+
+E # 83 t 0.000464 m 142 ce 77 msg 251
+BS id 251 tid 251 eid 202 etid 202 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 83
+ES t 0.000944 is 1
+
+E # 84 t 0.000504 m 205 ce 49 msg 170
+BS id 170 tid 170 eid 170 etid 170 c ChannelSenseRequest n contention k 22002 pe 84
+CL id 170 tid 170 eid 170 etid 170 c ChannelSenseRequest n contention k 22002 pe 84 cid 262
+SH sm 205 sg 7
+ES t 0.000504
+
+E # 85 t 0.000504 m 204 ce 84 msg 170
+
+E # 86 t 0.000524 m 65 ce 9 msg 30
+BS id 30 tid 30 eid 30 etid 30 c ChannelSenseRequest n contention k 22002 pe 86
+CL id 30 tid 30 eid 30 etid 30 c ChannelSenseRequest n contention k 22002 pe 86 cid 263
+SH sm 65 sg 7
+ES t 0.000524
+
+E # 87 t 0.000524 m 64 ce 86 msg 30
+
+E # 88 t 0.000544 m 72 ce 11 msg 37
+BS id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 88
+CL id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 88 cid 264
+SH sm 72 sg 7
+ES t 0.000544
+
+E # 89 t 0.000544 m 71 ce 88 msg 37
+MB sm 71 tm 72 m ""
+ME
+MS id 11 d i=device/rfidreader,green,80;r=200
+CL id 241 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND l 288 pe 65 cid 265
+BS id 265 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 89
+CL id 265 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 89 cid 266
+SH sm 71 sg 11
+ES t 0.000544
+DM id 241 tid 241 eid 241 etid 241 c cMessage n POWERandQUERY_COMMAND pe 89
+
+E # 90 t 0.000544 m 72 ce 89 msg 265
+CM id 267 tid 267 eid 267 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 pe -1
+BS id 40 tid 40 eid 40 etid 40 c cMessage n "transmission over" k 22000 pe 0
+ES t 0.001024
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 268
+BS id 268 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 268 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 269
+SD sm 72 dm 8 dg 0
+SH sm 8 sg 0
+SH sm 47 sg 8
+ES t 0.000544 is 1
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 270
+BS id 270 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 270 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 271
+SD sm 72 dm 14 dg 0
+SH sm 14 sg 0
+SH sm 89 sg 8
+ES t 0.000544 is 1
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 272
+BS id 272 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 272 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 273
+SD sm 72 dm 18 dg 0
+SH sm 18 sg 0
+SH sm 117 sg 8
+ES t 0.000544 is 1
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 274
+BS id 274 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 274 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 275
+SD sm 72 dm 21 dg 0
+SH sm 21 sg 0
+SH sm 138 sg 8
+ES t 0.000544 is 1
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 276
+BS id 276 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 276 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 277
+SD sm 72 dm 22 dg 0
+SH sm 22 sg 0
+SH sm 145 sg 8
+ES t 0.000544 is 1
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 278
+BS id 278 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 278 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 279
+SD sm 72 dm 25 dg 0
+SH sm 25 sg 0
+SH sm 166 sg 8
+ES t 0.000544 is 1
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 280
+BS id 280 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 280 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 281
+SD sm 72 dm 26 dg 0
+SH sm 26 sg 0
+SH sm 173 sg 8
+ES t 0.000544 is 1
+BS id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90
+CL id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 90 cid 282
+SD sm 72 dm 30 dg 0
+SH sm 30 sg 0
+SH sm 201 sg 8
+ES t 0.000544 is 1
+
+E # 91 t 0.000544 m 51 ce 90 msg 268
+BS id 268 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 91
+ES t 0.001024 is 1
+
+E # 92 t 0.000544 m 93 ce 90 msg 270
+BS id 270 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 92
+ES t 0.001024 is 1
+
+E # 93 t 0.000544 m 121 ce 90 msg 272
+BS id 272 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 93
+ES t 0.001024 is 1
+
+E # 94 t 0.000544 m 142 ce 90 msg 274
+BS id 274 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 94
+ES t 0.001024 is 1
+
+E # 95 t 0.000544 m 149 ce 90 msg 276
+BS id 276 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 95
+ES t 0.001024 is 1
+
+E # 96 t 0.000544 m 170 ce 90 msg 278
+BS id 278 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 96
+ES t 0.001024 is 1
+
+E # 97 t 0.000544 m 177 ce 90 msg 280
+CE id 142 tid 142 eid 142 etid 142 c ChannelSenseRequest n contention k 22002 pe 41
+BS id 142 tid 142 eid 142 etid 142 c ChannelSenseRequest n contention k 22002 pe 97
+CL id 142 tid 142 eid 142 etid 142 c ChannelSenseRequest n contention k 22002 pe 97 cid 283
+SH sm 177 sg 7
+ES t 0.000544
+BS id 280 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 97
+ES t 0.001024 is 1
+
+E # 98 t 0.000544 m 176 ce 97 msg 142
+
+E # 99 t 0.000544 m 205 ce 90 msg 267
+BS id 267 tid 267 eid 210 etid 210 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 99
+ES t 0.001024 is 1
+
+E # 100 t 0.000624 m 58 ce 7 msg 23
+BS id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 100
+CL id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 100 cid 284
+SH sm 58 sg 7
+ES t 0.000624
+
+E # 101 t 0.000624 m 57 ce 100 msg 23
+MB sm 57 tm 58 m ""
+ME
+MS id 9 d i=device/rfidreader,green,80;r=200
+CL id 239 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND l 288 pe 63 cid 285
+BS id 285 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 101
+CL id 285 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 101 cid 286
+SH sm 57 sg 11
+ES t 0.000624
+DM id 239 tid 239 eid 239 etid 239 c cMessage n POWERandQUERY_COMMAND pe 101
+
+E # 102 t 0.000624 m 58 ce 101 msg 285
+CM id 287 tid 287 eid 287 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 pe -1
+BS id 26 tid 26 eid 26 etid 26 c cMessage n "transmission over" k 22000 pe 0
+ES t 0.001104
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 288
+BS id 288 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 288 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 289
+SD sm 58 dm 6 dg 0
+SH sm 6 sg 0
+SH sm 33 sg 8
+ES t 0.000624 is 1
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 290
+BS id 290 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 290 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 291
+SD sm 58 dm 12 dg 0
+SH sm 12 sg 0
+SH sm 75 sg 8
+ES t 0.000624 is 1
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 292
+BS id 292 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 292 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 293
+SD sm 58 dm 15 dg 0
+SH sm 15 sg 0
+SH sm 96 sg 8
+ES t 0.000624 is 1
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 294
+BS id 294 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 294 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 295
+SD sm 58 dm 19 dg 0
+SH sm 19 sg 0
+SH sm 124 sg 8
+ES t 0.000624 is 1
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 296
+BS id 296 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 296 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 297
+SD sm 58 dm 20 dg 0
+SH sm 20 sg 0
+SH sm 131 sg 8
+ES t 0.000624 is 1
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 298
+BS id 298 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 298 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 299
+SD sm 58 dm 23 dg 0
+SH sm 23 sg 0
+SH sm 152 sg 8
+ES t 0.000624 is 1
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 300
+BS id 300 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 300 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 301
+SD sm 58 dm 24 dg 0
+SH sm 24 sg 0
+SH sm 159 sg 8
+ES t 0.000624 is 1
+BS id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102
+CL id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 102 cid 302
+SD sm 58 dm 27 dg 0
+SH sm 27 sg 0
+SH sm 180 sg 8
+ES t 0.000624 is 1
+
+E # 103 t 0.000624 m 37 ce 102 msg 288
+BS id 288 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 103
+ES t 0.001104 is 1
+
+E # 104 t 0.000624 m 79 ce 102 msg 290
+BS id 290 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 104
+ES t 0.001104 is 1
+
+E # 105 t 0.000624 m 100 ce 102 msg 292
+BS id 292 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 105
+ES t 0.001104 is 1
+
+E # 106 t 0.000624 m 128 ce 102 msg 294
+CE id 93 tid 93 eid 93 etid 93 c ChannelSenseRequest n contention k 22002 pe 27
+BS id 93 tid 93 eid 93 etid 93 c ChannelSenseRequest n contention k 22002 pe 106
+CL id 93 tid 93 eid 93 etid 93 c ChannelSenseRequest n contention k 22002 pe 106 cid 303
+SH sm 128 sg 7
+ES t 0.000624
+BS id 294 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 106
+ES t 0.001104 is 1
+
+E # 107 t 0.000624 m 127 ce 106 msg 93
+
+E # 108 t 0.000624 m 135 ce 102 msg 296
+BS id 296 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 108
+ES t 0.001104 is 1
+
+E # 109 t 0.000624 m 156 ce 102 msg 298
+CE id 121 tid 121 eid 121 etid 121 c ChannelSenseRequest n contention k 22002 pe 35
+BS id 121 tid 121 eid 121 etid 121 c ChannelSenseRequest n contention k 22002 pe 109
+CL id 121 tid 121 eid 121 etid 121 c ChannelSenseRequest n contention k 22002 pe 109 cid 304
+SH sm 156 sg 7
+ES t 0.000624
+BS id 298 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 109
+ES t 0.001104 is 1
+
+E # 110 t 0.000624 m 155 ce 109 msg 121
+
+E # 111 t 0.000624 m 163 ce 102 msg 300
+BS id 300 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 111
+ES t 0.001104 is 1
+
+E # 112 t 0.000624 m 184 ce 102 msg 287
+BS id 287 tid 287 eid 206 etid 206 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 112
+ES t 0.001104 is 1
+
+E # 113 t 0.000644 m 198 ce 47 msg 163
+BS id 163 tid 163 eid 163 etid 163 c ChannelSenseRequest n contention k 22002 pe 113
+CL id 163 tid 163 eid 163 etid 163 c ChannelSenseRequest n contention k 22002 pe 113 cid 305
+SH sm 198 sg 7
+ES t 0.000644
+
+E # 114 t 0.000644 m 197 ce 113 msg 163
+
+E # 115 t 0.000664 m 121 ce 25 msg 86
+BS id 86 tid 86 eid 86 etid 86 c ChannelSenseRequest n contention k 22002 pe 115
+CL id 86 tid 86 eid 86 etid 86 c ChannelSenseRequest n contention k 22002 pe 115 cid 306
+SH sm 121 sg 7
+ES t 0.000664
+
+E # 116 t 0.000664 m 120 ce 115 msg 86
+
+E # 117 t 0.000684 m 93 ce 17 msg 58
+BS id 58 tid 58 eid 58 etid 58 c ChannelSenseRequest n contention k 22002 pe 117
+CL id 58 tid 58 eid 58 etid 58 c ChannelSenseRequest n contention k 22002 pe 117 cid 307
+SH sm 93 sg 7
+ES t 0.000684
+
+E # 118 t 0.000684 m 92 ce 117 msg 58
+
+E # 119 t 0.000704 m 37 ce 1 msg 2
+BS id 2 tid 2 eid 2 etid 2 c ChannelSenseRequest n contention k 22002 pe 119
+CL id 2 tid 2 eid 2 etid 2 c ChannelSenseRequest n contention k 22002 pe 119 cid 308
+SH sm 37 sg 7
+ES t 0.000704
+
+E # 120 t 0.000704 m 163 ce 37 msg 128
+BS id 128 tid 128 eid 128 etid 128 c ChannelSenseRequest n contention k 22002 pe 120
+CL id 128 tid 128 eid 128 etid 128 c ChannelSenseRequest n contention k 22002 pe 120 cid 309
+SH sm 163 sg 7
+ES t 0.000704
+
+E # 121 t 0.000704 m 36 ce 119 msg 2
+
+E # 122 t 0.000704 m 162 ce 120 msg 128
+
+E # 123 t 0.000724 m 142 ce 31 msg 107
+BS id 107 tid 107 eid 107 etid 107 c ChannelSenseRequest n contention k 22002 pe 123
+CL id 107 tid 107 eid 107 etid 107 c ChannelSenseRequest n contention k 22002 pe 123 cid 310
+SH sm 142 sg 7
+ES t 0.000724
+
+E # 124 t 0.000724 m 141 ce 123 msg 107
+
+E # 125 t 0.000744 m 86 ce 15 msg 51
+BS id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 125
+CL id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 125 cid 311
+SH sm 86 sg 7
+ES t 0.000744
+
+E # 126 t 0.000744 m 100 ce 19 msg 65
+BS id 65 tid 65 eid 65 etid 65 c ChannelSenseRequest n contention k 22002 pe 126
+CL id 65 tid 65 eid 65 etid 65 c ChannelSenseRequest n contention k 22002 pe 126 cid 312
+SH sm 100 sg 7
+ES t 0.000744
+
+E # 127 t 0.000744 m 170 ce 39 msg 135
+BS id 135 tid 135 eid 135 etid 135 c ChannelSenseRequest n contention k 22002 pe 127
+CL id 135 tid 135 eid 135 etid 135 c ChannelSenseRequest n contention k 22002 pe 127 cid 313
+SH sm 170 sg 7
+ES t 0.000744
+
+E # 128 t 0.000744 m 184 ce 43 msg 149
+BS id 149 tid 149 eid 149 etid 149 c ChannelSenseRequest n contention k 22002 pe 128
+CL id 149 tid 149 eid 149 etid 149 c ChannelSenseRequest n contention k 22002 pe 128 cid 314
+SH sm 184 sg 7
+ES t 0.000744
+
+E # 129 t 0.000744 m 191 ce 45 msg 156
+BS id 156 tid 156 eid 156 etid 156 c ChannelSenseRequest n contention k 22002 pe 129
+CL id 156 tid 156 eid 156 etid 156 c ChannelSenseRequest n contention k 22002 pe 129 cid 315
+SH sm 191 sg 7
+ES t 0.000744
+
+E # 130 t 0.000744 m 85 ce 125 msg 51
+MB sm 85 tm 86 m ""
+ME
+MS id 13 d i=device/rfidreader,green,80;r=200
+CL id 243 tid 243 eid 214 etid 214 c Mac80211Pkt n POWERandQUERY_COMMAND l 288 pe 67 cid 316
+BS id 316 tid 243 eid 214 etid 214 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 130
+CL id 316 tid 243 eid 214 etid 214 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 130 cid 317
+SH sm 85 sg 11
+ES t 0.000744
+DM id 243 tid 243 eid 243 etid 243 c cMessage n POWERandQUERY_COMMAND pe 130
+
+E # 131 t 0.000744 m 99 ce 126 msg 65
+
+E # 132 t 0.000744 m 169 ce 127 msg 135
+
+E # 133 t 0.000744 m 183 ce 128 msg 149
+
+E # 134 t 0.000744 m 190 ce 129 msg 156
+
+E # 135 t 0.000744 m 86 ce 130 msg 316
+CM id 318 tid 318 eid 318 etid 318 c cMessage n POWERandQUERY_COMMAND k 22003 pe -1
+BS id 54 tid 54 eid 54 etid 54 c cMessage n "transmission over" k 22000 pe 0
+ES t 0.001224
+CL id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 319
+BS id 319 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135
+CL id 319 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 320
+SD sm 86 dm 10 dg 0
+SH sm 10 sg 0
+SH sm 61 sg 8
+ES t 0.000744 is 1
+CL id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 321
+BS id 321 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135
+CL id 321 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 322
+SD sm 86 dm 24 dg 0
+SH sm 24 sg 0
+SH sm 159 sg 8
+ES t 0.000744 is 1
+CL id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 323
+BS id 323 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135
+CL id 323 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 324
+SD sm 86 dm 25 dg 0
+SH sm 25 sg 0
+SH sm 166 sg 8
+ES t 0.000744 is 1
+CL id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 325
+BS id 325 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135
+CL id 325 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 326
+SD sm 86 dm 28 dg 0
+SH sm 28 sg 0
+SH sm 187 sg 8
+ES t 0.000744 is 1
+BS id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135
+CL id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 135 cid 327
+SD sm 86 dm 29 dg 0
+SH sm 29 sg 0
+SH sm 194 sg 8
+ES t 0.000744 is 1
+
+E # 136 t 0.000744 m 65 ce 135 msg 319
+BS id 319 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 136
+ES t 0.001224 is 1
+
+E # 137 t 0.000744 m 163 ce 135 msg 321
+BS id 321 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 137
+ES t 0.001224 is 1
+
+E # 138 t 0.000744 m 170 ce 135 msg 323
+BS id 323 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 138
+ES t 0.001224 is 1
+
+E # 139 t 0.000744 m 191 ce 135 msg 325
+BS id 325 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 139
+ES t 0.001224 is 1
+
+E # 140 t 0.000744 m 198 ce 135 msg 318
+BS id 318 tid 318 eid 214 etid 214 c MiximAirFrame n POWERandQUERY_COMMAND k 22003 p 10 l 480 pe 140
+ES t 0.001224 is 1
+
+E # 141 t 0.000764 m 79 ce 13 msg 44
+BS id 44 tid 44 eid 44 etid 44 c ChannelSenseRequest n contention k 22002 pe 141
+CL id 44 tid 44 eid 44 etid 44 c ChannelSenseRequest n contention k 22002 pe 141 cid 328
+SH sm 79 sg 7
+ES t 0.000764
+
+E # 142 t 0.000764 m 78 ce 141 msg 44
+
+E # 143 t 0.000864 m 51 ce 5 msg 16
+BS id 16 tid 16 eid 16 etid 16 c ChannelSenseRequest n contention k 22002 pe 143
+CL id 16 tid 16 eid 16 etid 16 c ChannelSenseRequest n contention k 22002 pe 143 cid 329
+SH sm 51 sg 7
+ES t 0.000864
+
+E # 144 t 0.000864 m 50 ce 143 msg 16
+
+E # 145 t 0.000944 m 44 ce 77 msg 12
+CM id 330 tid 330 eid 330 etid 330 c cMessage n "Transmission over" k 22000 pe -1
+BS id 330 tid 330 eid 330 etid 330 c cMessage n "Transmission over" k 22000 pe 145
+CL id 330 tid 330 eid 330 etid 330 c cMessage n "Transmission over" k 22000 pe 145 cid 331
+SH sm 44 sg 7
+ES t 0.000944
+
+E # 146 t 0.000944 m 43 ce 145 msg 330
+MB sm 43 tm 44 m ""
+ME
+DM id 330 tid 330 eid 330 etid 330 c cMessage n "Transmission over" k 22000 pe 146
+
+E # 147 t 0.000944 m 65 ce 78 msg 252
+
+E # 148 t 0.000944 m 107 ce 79 msg 254
+CL id 249 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 77 cid 332
+BS id 332 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 148
+CL id 332 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 148 cid 333
+SH sm 107 sg 3
+ES t 0.000944
+DM id 254 tid 251 eid 254 etid 251 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 148
+
+E # 149 t 0.000944 m 106 ce 148 msg 332
+MB sm 106 tm 107 m ""
+ME
+CL id 220 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 61 cid 334
+BS id 334 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 149
+CL id 334 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 149 cid 335
+SH sm 106 sg 3
+SH sm 103 sg 3
+ES t 0.000944
+DM id 332 tid 237 eid 332 etid 237 c cMessage n POWERandQUERY_COMMAND k 23004 pe 149
+
+E # 150 t 0.000944 m 104 ce 149 msg 334
+CL id 202 tid 202 eid 202 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 52 cid 336
+DM id 334 tid 220 eid 334 etid 220 c cMessage n POWERandQUERY_COMMAND k 25001 pe 150
+BS id 336 tid 202 eid 336 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 150
+CL id 336 tid 202 eid 336 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 150 cid 337
+SH sm 104 sg 3
+ES t 0.000944
+
+E # 151 t 0.000944 m 105 ce 150 msg 336
+MS id 16 d i=device/rfidtag,red,50
+BS id 336 tid 202 eid 336 etid 202 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 151
+CL id 336 tid 202 eid 336 etid 202 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 151 cid 338
+SH sm 105 sg 3
+ES t 0.006317732282
+
+E # 152 t 0.000944 m 114 ce 80 msg 256
+CL id 249 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 148 cid 339
+BS id 339 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 152
+CL id 339 tid 237 eid 202 etid 202 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 152 cid 340
+SH sm 114 sg 3
+ES t 0.000944
+DM id 256 tid 251 eid 256 etid 251 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 152
+
+E # 153 t 0.000944 m 113 ce 152 msg 339
+MB sm 113 tm 114 m ""
+ME
+CL id 220 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 149 cid 341
+BS id 341 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 153
+CL id 341 tid 220 eid 202 etid 202 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 153 cid 342
+SH sm 113 sg 3
+SH sm 110 sg 3
+ES t 0.000944
+DM id 339 tid 237 eid 339 etid 237 c cMessage n POWERandQUERY_COMMAND k 23004 pe 153
+
+E # 154 t 0.000944 m 111 ce 153 msg 341
+CL id 202 tid 202 eid 202 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 150 cid 343
+DM id 341 tid 220 eid 341 etid 220 c cMessage n POWERandQUERY_COMMAND k 25001 pe 154
+BS id 343 tid 202 eid 343 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 154
+CL id 343 tid 202 eid 343 etid 202 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 154 cid 344
+SH sm 111 sg 3
+ES t 0.000944
+
+E # 155 t 0.000944 m 112 ce 154 msg 343
+MS id 17 d i=device/rfidtag,red,50
+BS id 343 tid 202 eid 343 etid 202 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 155
+CL id 343 tid 202 eid 343 etid 202 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 155 cid 345
+SH sm 112 sg 3
+ES t 0.006162483281
+
+E # 156 t 0.000944 m 135 ce 82 msg 258
+
+E # 157 t 0.000944 m 142 ce 83 msg 251
+
+E # 158 t 0.001024 m 72 ce 90 msg 40
+CM id 346 tid 346 eid 346 etid 346 c cMessage n "Transmission over" k 22000 pe -1
+BS id 346 tid 346 eid 346 etid 346 c cMessage n "Transmission over" k 22000 pe 158
+CL id 346 tid 346 eid 346 etid 346 c cMessage n "Transmission over" k 22000 pe 158 cid 347
+SH sm 72 sg 7
+ES t 0.001024
+
+E # 159 t 0.001024 m 71 ce 158 msg 346
+MB sm 71 tm 72 m ""
+ME
+MB sm 71 tm 72 m ""
+ME
+BS id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 89
+CL id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 89 cid 348
+SH sm 71 sg 15
+ES t 0.001024
+DM id 346 tid 346 eid 346 etid 346 c cMessage n "Transmission over" k 22000 pe 159
+
+E # 160 t 0.001024 m 72 ce 159 msg 37
+BS id 37 tid 37 eid 37 etid 37 c ChannelSenseRequest n contention k 22002 pe 160
+ES t 0.001588
+
+E # 161 t 0.001024 m 51 ce 91 msg 268
+DM id 268 tid 267 eid 268 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 161
+
+E # 162 t 0.001024 m 93 ce 92 msg 270
+DM id 270 tid 267 eid 270 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 162
+
+E # 163 t 0.001024 m 121 ce 93 msg 272
+DM id 272 tid 267 eid 272 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 163
+
+E # 164 t 0.001024 m 142 ce 94 msg 274
+DM id 251 tid 251 eid 251 etid 251 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 157
+DM id 274 tid 267 eid 274 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 164
+
+E # 165 t 0.001024 m 149 ce 95 msg 276
+CL id 265 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 90 cid 349
+BS id 349 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 165
+CL id 349 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 165 cid 350
+SH sm 149 sg 3
+ES t 0.001024
+DM id 276 tid 267 eid 276 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 165
+
+E # 166 t 0.001024 m 148 ce 165 msg 349
+MB sm 148 tm 149 m ""
+ME
+CL id 228 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 65 cid 351
+BS id 351 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 166
+CL id 351 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 166 cid 352
+SH sm 148 sg 3
+SH sm 145 sg 3
+ES t 0.001024
+DM id 349 tid 241 eid 349 etid 241 c cMessage n POWERandQUERY_COMMAND k 23004 pe 166
+
+E # 167 t 0.001024 m 146 ce 166 msg 351
+CL id 210 tid 210 eid 210 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 56 cid 353
+DM id 351 tid 228 eid 351 etid 228 c cMessage n POWERandQUERY_COMMAND k 25001 pe 167
+BS id 353 tid 210 eid 353 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 167
+CL id 353 tid 210 eid 353 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 167 cid 354
+SH sm 146 sg 3
+ES t 0.001024
+
+E # 168 t 0.001024 m 147 ce 167 msg 353
+MS id 22 d i=device/rfidtag,red,50
+BS id 353 tid 210 eid 353 etid 210 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 168
+CL id 353 tid 210 eid 353 etid 210 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 168 cid 355
+SH sm 147 sg 3
+ES t 0.003669556114
+
+E # 169 t 0.001024 m 170 ce 96 msg 278
+
+E # 170 t 0.001024 m 177 ce 97 msg 280
+CL id 265 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 165 cid 356
+BS id 356 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 170
+CL id 356 tid 241 eid 210 etid 210 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 170 cid 357
+SH sm 177 sg 3
+ES t 0.001024
+DM id 280 tid 267 eid 280 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 170
+
+E # 171 t 0.001024 m 176 ce 170 msg 356
+MB sm 176 tm 177 m ""
+ME
+CL id 228 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 166 cid 358
+BS id 358 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 171
+CL id 358 tid 228 eid 210 etid 210 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 171 cid 359
+SH sm 176 sg 3
+SH sm 173 sg 3
+ES t 0.001024
+DM id 356 tid 241 eid 356 etid 241 c cMessage n POWERandQUERY_COMMAND k 23004 pe 171
+
+E # 172 t 0.001024 m 174 ce 171 msg 358
+CL id 210 tid 210 eid 210 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 167 cid 360
+DM id 358 tid 228 eid 358 etid 228 c cMessage n POWERandQUERY_COMMAND k 25001 pe 172
+BS id 360 tid 210 eid 360 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 172
+CL id 360 tid 210 eid 360 etid 210 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 172 cid 361
+SH sm 174 sg 3
+ES t 0.001024
+
+E # 173 t 0.001024 m 175 ce 172 msg 360
+MS id 26 d i=device/rfidtag,red,50
+BS id 360 tid 210 eid 360 etid 210 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 173
+CL id 360 tid 210 eid 360 etid 210 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 173 cid 362
+SH sm 175 sg 3
+ES t 0.008393181779
+
+E # 174 t 0.001024 m 205 ce 99 msg 267
+DM id 267 tid 267 eid 267 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 174
+
+E # 175 t 0.001104 m 58 ce 102 msg 26
+CM id 363 tid 363 eid 363 etid 363 c cMessage n "Transmission over" k 22000 pe -1
+BS id 363 tid 363 eid 363 etid 363 c cMessage n "Transmission over" k 22000 pe 175
+CL id 363 tid 363 eid 363 etid 363 c cMessage n "Transmission over" k 22000 pe 175 cid 364
+SH sm 58 sg 7
+ES t 0.001104
+
+E # 176 t 0.001104 m 57 ce 175 msg 363
+MB sm 57 tm 58 m ""
+ME
+MB sm 57 tm 58 m ""
+ME
+BS id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 101
+CL id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 101 cid 365
+SH sm 57 sg 15
+ES t 0.001104
+DM id 363 tid 363 eid 363 etid 363 c cMessage n "Transmission over" k 22000 pe 176
+
+E # 177 t 0.001104 m 58 ce 176 msg 23
+BS id 23 tid 23 eid 23 etid 23 c ChannelSenseRequest n contention k 22002 pe 177
+ES t 0.001928
+
+E # 178 t 0.001104 m 37 ce 103 msg 288
+DM id 288 tid 287 eid 288 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 178
+
+E # 179 t 0.001104 m 79 ce 104 msg 290
+DM id 290 tid 287 eid 290 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 179
+
+E # 180 t 0.001104 m 100 ce 105 msg 292
+DM id 292 tid 287 eid 292 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 180
+
+E # 181 t 0.001104 m 128 ce 106 msg 294
+CL id 285 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 102 cid 366
+BS id 366 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 181
+CL id 366 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 181 cid 367
+SH sm 128 sg 3
+ES t 0.001104
+DM id 294 tid 287 eid 294 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 181
+
+E # 182 t 0.001104 m 127 ce 181 msg 366
+MB sm 127 tm 128 m ""
+ME
+CL id 224 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 63 cid 368
+BS id 368 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 182
+CL id 368 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 182 cid 369
+SH sm 127 sg 3
+SH sm 124 sg 3
+ES t 0.001104
+DM id 366 tid 239 eid 366 etid 239 c cMessage n POWERandQUERY_COMMAND k 23004 pe 182
+
+E # 183 t 0.001104 m 125 ce 182 msg 368
+CL id 206 tid 206 eid 206 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 54 cid 370
+DM id 368 tid 224 eid 368 etid 224 c cMessage n POWERandQUERY_COMMAND k 25001 pe 183
+BS id 370 tid 206 eid 370 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 183
+CL id 370 tid 206 eid 370 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 183 cid 371
+SH sm 125 sg 3
+ES t 0.001104
+
+E # 184 t 0.001104 m 126 ce 183 msg 370
+MS id 19 d i=device/rfidtag,red,50
+BS id 370 tid 206 eid 370 etid 206 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 184
+CL id 370 tid 206 eid 370 etid 206 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 184 cid 372
+SH sm 126 sg 3
+ES t 0.002456181732
+
+E # 185 t 0.001104 m 135 ce 108 msg 296
+DM id 258 tid 251 eid 258 etid 251 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 156
+DM id 296 tid 287 eid 296 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 185
+
+E # 186 t 0.001104 m 156 ce 109 msg 298
+CL id 285 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 181 cid 373
+BS id 373 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 186
+CL id 373 tid 239 eid 206 etid 206 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 186 cid 374
+SH sm 156 sg 3
+ES t 0.001104
+DM id 298 tid 287 eid 298 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 186
+
+E # 187 t 0.001104 m 155 ce 186 msg 373
+MB sm 155 tm 156 m ""
+ME
+CL id 224 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 182 cid 375
+BS id 375 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 187
+CL id 375 tid 224 eid 206 etid 206 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 187 cid 376
+SH sm 155 sg 3
+SH sm 152 sg 3
+ES t 0.001104
+DM id 373 tid 239 eid 373 etid 239 c cMessage n POWERandQUERY_COMMAND k 23004 pe 187
+
+E # 188 t 0.001104 m 153 ce 187 msg 375
+CL id 206 tid 206 eid 206 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 183 cid 377
+DM id 375 tid 224 eid 375 etid 224 c cMessage n POWERandQUERY_COMMAND k 25001 pe 188
+BS id 377 tid 206 eid 377 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 188
+CL id 377 tid 206 eid 377 etid 206 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 188 cid 378
+SH sm 153 sg 3
+ES t 0.001104
+
+E # 189 t 0.001104 m 154 ce 188 msg 377
+MS id 23 d i=device/rfidtag,red,50
+BS id 377 tid 206 eid 377 etid 206 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 189
+CL id 377 tid 206 eid 377 etid 206 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 189 cid 379
+SH sm 154 sg 3
+ES t 0.007280355008
+
+E # 190 t 0.001104 m 163 ce 111 msg 300
+
+E # 191 t 0.001104 m 184 ce 112 msg 287
+DM id 287 tid 287 eid 287 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 191
+
+E # 192 t 0.001224 m 86 ce 135 msg 54
+CM id 380 tid 380 eid 380 etid 380 c cMessage n "Transmission over" k 22000 pe -1
+BS id 380 tid 380 eid 380 etid 380 c cMessage n "Transmission over" k 22000 pe 192
+CL id 380 tid 380 eid 380 etid 380 c cMessage n "Transmission over" k 22000 pe 192 cid 381
+SH sm 86 sg 7
+ES t 0.001224
+
+E # 193 t 0.001224 m 85 ce 192 msg 380
+MB sm 85 tm 86 m ""
+ME
+MB sm 85 tm 86 m ""
+ME
+BS id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 130
+CL id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 130 cid 382
+SH sm 85 sg 15
+ES t 0.001224
+DM id 380 tid 380 eid 380 etid 380 c cMessage n "Transmission over" k 22000 pe 193
+
+E # 194 t 0.001224 m 86 ce 193 msg 51
+BS id 51 tid 51 eid 51 etid 51 c ChannelSenseRequest n contention k 22002 pe 194
+ES t 0.001688
+
+E # 195 t 0.001224 m 65 ce 136 msg 319
+DM id 252 tid 251 eid 252 etid 251 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 147
+DM id 319 tid 318 eid 319 etid 318 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 195
+
+E # 196 t 0.001224 m 163 ce 137 msg 321
+DM id 300 tid 287 eid 300 etid 287 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 190
+DM id 321 tid 318 eid 321 etid 318 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 196
+
+E # 197 t 0.001224 m 170 ce 138 msg 323
+DM id 278 tid 267 eid 278 etid 267 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 169
+DM id 323 tid 318 eid 323 etid 318 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 197
+
+E # 198 t 0.001224 m 191 ce 139 msg 325
+CL id 316 tid 243 eid 214 etid 214 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 135 cid 383
+BS id 383 tid 243 eid 214 etid 214 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 198
+CL id 383 tid 243 eid 214 etid 214 c Mac80211Pkt n POWERandQUERY_COMMAND k 23004 l 288 pe 198 cid 384
+SH sm 191 sg 3
+ES t 0.001224
+DM id 325 tid 318 eid 325 etid 318 c cMessage n POWERandQUERY_COMMAND k 22003 p 10 pe 198
+
+E # 199 t 0.001224 m 190 ce 198 msg 383
+MB sm 190 tm 191 m ""
+ME
+CL id 232 tid 232 eid 214 etid 214 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 67 cid 385
+BS id 385 tid 232 eid 214 etid 214 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 199
+CL id 385 tid 232 eid 214 etid 214 c NetwPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 199 cid 386
+SH sm 190 sg 3
+SH sm 187 sg 3
+ES t 0.001224
+DM id 383 tid 243 eid 383 etid 243 c cMessage n POWERandQUERY_COMMAND k 23004 pe 199
+
+E # 200 t 0.001224 m 188 ce 199 msg 385
+CL id 214 tid 214 eid 214 etid 214 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 58 cid 387
+DM id 385 tid 232 eid 385 etid 232 c cMessage n POWERandQUERY_COMMAND k 25001 pe 200
+BS id 387 tid 214 eid 387 etid 214 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 200
+CL id 387 tid 214 eid 387 etid 214 c ApplPkt n POWERandQUERY_COMMAND k 25001 l 16 pe 200 cid 388
+SH sm 188 sg 3
+ES t 0.001224
+
+E # 201 t 0.001224 m 189 ce 200 msg 387
+MS id 28 d i=device/rfidtag,red,50
+BS id 387 tid 214 eid 387 etid 214 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 201
+CL id 387 tid 214 eid 387 etid 214 c ApplPkt n EPC_BACKSCATTER k 25002 l 16 pe 201 cid 389
+SH sm 189 sg 3
+ES t 0.007393339986
+SE e 0 c 9 m "The user has finished the simulation at event #202, t=0.001224."

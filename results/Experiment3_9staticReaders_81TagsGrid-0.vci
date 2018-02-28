@@ -1,0 +1,54 @@
+file 1770 1519781595                                            
+version 2
+run Experiment3_9staticReaders_81TagsGrid-0-20180227-17:33:05-8208
+attr configname Experiment3_9staticReaders_81TagsGrid
+attr datetime 20180227-17:33:05
+attr experiment Experiment3_9staticReaders_81TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 8208
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 450  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 451  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 452  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 453  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 454  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 455  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 456  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 457  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 458  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 459  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 460  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 461  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 462  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 463  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 464  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 465  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 466  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 467  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+450	1572 11 0 0 0 0 1 0 0 0 0
+451	1583 11 0 0 0 0 1 1 1 1 1
+452	1594 11 0 0 0 0 1 0 0 0 0
+453	1605 11 0 0 0 0 1 1 1 1 1
+454	1616 11 0 0 0 0 1 0 0 0 0
+455	1627 11 0 0 0 0 1 1 1 1 1
+456	1638 11 0 0 0 0 1 0 0 0 0
+457	1649 11 0 0 0 0 1 1 1 1 1
+458	1660 11 0 0 0 0 1 0 0 0 0
+459	1671 11 0 0 0 0 1 1 1 1 1
+460	1682 11 0 0 0 0 1 0 0 0 0
+461	1693 11 0 0 0 0 1 1 1 1 1
+462	1704 11 0 0 0 0 1 0 0 0 0
+463	1715 11 0 0 0 0 1 1 1 1 1
+464	1726 11 0 0 0 0 1 0 0 0 0
+465	1737 11 0 0 0 0 1 1 1 1 1
+466	1748 11 0 0 0 0 1 0 0 0 0
+467	1759 11 0 0 0 0 1 1 1 1 1

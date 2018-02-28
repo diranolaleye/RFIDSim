@@ -1,0 +1,83 @@
+version 2
+run Experiment11_9staticReaders_16TagsGrid-0-20180227-17:34:19-8368
+attr configname Experiment11_9staticReaders_16TagsGrid
+attr datetime 20180227-17:34:19
+attr experiment Experiment11_9staticReaders_16TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 8368
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 125  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 126  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 127  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 128  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 129  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 130  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 131  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 132  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 133  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 134  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 135  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 136  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 137  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 138  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 139  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 140  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 141  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 142  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+vector 66  _01_RfidSim.tag[1].nic  TagReceivedQuery  ETV
+vector 70  _01_RfidSim.tag[2].nic  TagReceivedQuery  ETV
+vector 90  _01_RfidSim.tag[7].nic  TagReceivedQuery  ETV
+vector 106  _01_RfidSim.tag[11].nic  TagReceivedQuery  ETV
+vector 78  _01_RfidSim.tag[4].nic  TagReceivedQuery  ETV
+vector 94  _01_RfidSim.tag[8].nic  TagReceivedQuery  ETV
+vector 114  _01_RfidSim.tag[13].nic  TagReceivedQuery  ETV
+66	149	0.000944	106
+70	153	0.000944	113
+78	182	0.001104	127
+90	166	0.001024	148
+94	187	0.001104	155
+106	171	0.001024	176
+114	199	0.001224	190
+125	0	0	0
+126	0	0	1
+127	0	0	0
+127	75	0.000464	3
+127	75	0.000464	1
+127	146	0.000944	3
+127	146	0.000944	0
+128	0	0	1
+129	0	0	0
+130	0	0	1
+131	0	0	0
+131	101	0.000624	3
+131	101	0.000624	1
+131	176	0.001104	3
+131	176	0.001104	0
+132	0	0	1
+133	0	0	0
+134	0	0	1
+135	0	0	0
+135	89	0.000544	3
+135	89	0.000544	1
+135	159	0.001024	3
+135	159	0.001024	0
+136	0	0	1
+137	0	0	0
+138	0	0	1
+139	0	0	0
+139	130	0.000744	3
+139	130	0.000744	1
+139	193	0.001224	3
+139	193	0.001224	0
+140	0	0	1
+141	0	0	0
+142	0	0	1

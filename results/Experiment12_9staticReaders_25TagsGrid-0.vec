@@ -1,0 +1,203 @@
+version 2
+run Experiment12_9staticReaders_25TagsGrid-0-20150406-10:19:14-13216
+attr configname Experiment12_9staticReaders_25TagsGrid
+attr datetime 20150406-10:19:14
+attr experiment Experiment12_9staticReaders_25TagsGrid
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network _01_RfidSim
+attr processid 13216
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 170  _01_RfidSim.reader[0].nic.phy  RadioState  ETV
+vector 171  _01_RfidSim.reader[0].nic.phy  RadioChannel  ETV
+vector 172  _01_RfidSim.reader[1].nic.phy  RadioState  ETV
+vector 173  _01_RfidSim.reader[1].nic.phy  RadioChannel  ETV
+vector 174  _01_RfidSim.reader[2].nic.phy  RadioState  ETV
+vector 175  _01_RfidSim.reader[2].nic.phy  RadioChannel  ETV
+vector 176  _01_RfidSim.reader[3].nic.phy  RadioState  ETV
+vector 177  _01_RfidSim.reader[3].nic.phy  RadioChannel  ETV
+vector 178  _01_RfidSim.reader[4].nic.phy  RadioState  ETV
+vector 179  _01_RfidSim.reader[4].nic.phy  RadioChannel  ETV
+vector 180  _01_RfidSim.reader[5].nic.phy  RadioState  ETV
+vector 181  _01_RfidSim.reader[5].nic.phy  RadioChannel  ETV
+vector 182  _01_RfidSim.reader[6].nic.phy  RadioState  ETV
+vector 183  _01_RfidSim.reader[6].nic.phy  RadioChannel  ETV
+vector 184  _01_RfidSim.reader[7].nic.phy  RadioState  ETV
+vector 185  _01_RfidSim.reader[7].nic.phy  RadioChannel  ETV
+vector 186  _01_RfidSim.reader[8].nic.phy  RadioState  ETV
+vector 187  _01_RfidSim.reader[8].nic.phy  RadioChannel  ETV
+vector 127  _01_RfidSim.tag[14].nic  TagReceivedQuery  ETV
+vector 159  _01_RfidSim.tag[22].nic  TagReceivedQuery  ETV
+vector 79  _01_RfidSim.tag[2].nic  TagReceivedQuery  ETV
+vector 111  _01_RfidSim.tag[10].nic  TagReceivedQuery  ETV
+vector 167  _01_RfidSim.tag[24].nic  TagReceivedQuery  ETV
+vector 87  _01_RfidSim.tag[4].nic  TagReceivedQuery  ETV
+vector 56  _01_RfidSim.reader[5].nic  ReaderSendAcknowledgement  ETV
+vector 126  _01_RfidSim.tag[14].nic  TagReceivedAcknowledgement  ETV
+vector 64  _01_RfidSim.reader[7].nic  ReaderSendAcknowledgement  ETV
+vector 158  _01_RfidSim.tag[22].nic  TagReceivedAcknowledgement  ETV
+vector 40  _01_RfidSim.reader[1].nic  ReaderSendAcknowledgement  ETV
+vector 78  _01_RfidSim.tag[2].nic  TagReceivedAcknowledgement  ETV
+vector 119  _01_RfidSim.tag[12].nic  TagReceivedQuery  ETV
+vector 48  _01_RfidSim.reader[3].nic  ReaderSendAcknowledgement  ETV
+vector 110  _01_RfidSim.tag[10].nic  TagReceivedAcknowledgement  ETV
+vector 52  _01_RfidSim.reader[4].nic  ReaderSendAcknowledgement  ETV
+vector 68  _01_RfidSim.reader[8].nic  ReaderSendAcknowledgement  ETV
+vector 71  _01_RfidSim.tag[0].nic  TagReceivedQuery  ETV
+vector 151  _01_RfidSim.tag[20].nic  TagReceivedQuery  ETV
+vector 118  _01_RfidSim.tag[12].nic  TagReceivedAcknowledgement  ETV
+vector 166  _01_RfidSim.tag[24].nic  TagReceivedAcknowledgement  ETV
+vector 60  _01_RfidSim.reader[6].nic  ReaderSendAcknowledgement  ETV
+vector 150  _01_RfidSim.tag[20].nic  TagReceivedAcknowledgement  ETV
+vector 36  _01_RfidSim.reader[0].nic  ReaderSendAcknowledgement  ETV
+vector 70  _01_RfidSim.tag[0].nic  TagReceivedAcknowledgement  ETV
+36	1265	0.023419195021	45
+40	613	0.007139499895	52
+48	866	0.011583485782	66
+52	995	0.012150901887	73
+56	395	0.003756748637	80
+60	1173	0.016607855298	87
+64	547	0.00648488978	94
+68	1025	0.012238090685	101
+70	1280	0.023723195021	108
+71	1043	0.012417485782	108
+78	634	0.007443499895	122
+79	225	0.000944	122
+87	284	0.001444	136
+110	945	0.011887485782	178
+111	257	0.001144	178
+118	1074	0.012454901887	192
+119	670	0.007973499895	192
+126	421	0.004060748637	206
+127	193	0.000844	206
+150	1191	0.016911855298	248
+151	1055	0.012417485782	248
+158	591	0.00678888978	262
+159	215	0.000904	262
+166	1092	0.012542090685	276
+167	273	0.001324	276
+170	0	0	0
+170	953	0.011937485782	3
+170	953	0.011937485782	1
+170	1037	0.012417485782	3
+170	1037	0.012417485782	0
+170	1223	0.022615195021	3
+170	1223	0.022615195021	1
+170	1232	0.022919195021	3
+170	1232	0.022919195021	0
+170	1265	0.023419195021	3
+170	1265	0.023419195021	1
+170	1276	0.023723195021	3
+170	1276	0.023723195021	0
+171	0	0	1
+172	0	0	0
+172	126	0.000464	3
+172	126	0.000464	1
+172	220	0.000944	3
+172	220	0.000944	0
+172	521	0.006335499895	3
+172	521	0.006335499895	1
+172	558	0.006639499895	3
+172	558	0.006639499895	0
+172	613	0.007139499895	3
+172	613	0.007139499895	1
+172	629	0.007443499895	3
+172	629	0.007443499895	0
+173	0	0	1
+174	0	0	0
+174	235	0.000964	3
+174	235	0.000964	1
+174	279	0.001444	3
+174	279	0.001444	0
+175	0	0	1
+176	0	0	0
+176	147	0.000664	3
+176	147	0.000664	1
+176	249	0.001144	3
+176	249	0.001144	0
+176	717	0.010779485782	3
+176	717	0.010779485782	1
+176	761	0.011083485782	3
+176	761	0.011083485782	0
+176	866	0.011583485782	3
+176	866	0.011583485782	1
+176	937	0.011887485782	3
+176	937	0.011887485782	0
+177	0	0	1
+178	0	0	0
+178	642	0.007493499895	3
+178	642	0.007493499895	1
+178	660	0.007973499895	3
+178	660	0.007973499895	0
+178	809	0.011346901887	3
+178	809	0.011346901887	1
+178	879	0.011650901887	3
+178	879	0.011650901887	0
+178	995	0.012150901887	3
+178	995	0.012150901887	1
+178	1064	0.012454901887	3
+178	1064	0.012454901887	0
+179	0	0	1
+180	0	0	0
+180	91	0.000364	3
+180	91	0.000364	1
+180	184	0.000844	3
+180	184	0.000844	0
+180	333	0.002952748637	3
+180	333	0.002952748637	1
+180	348	0.003256748637	3
+180	348	0.003256748637	0
+180	395	0.003756748637	3
+180	395	0.003756748637	1
+180	412	0.004060748637	3
+180	412	0.004060748637	0
+181	0	0	1
+182	0	0	0
+182	954	0.011937485782	3
+182	954	0.011937485782	1
+182	1038	0.012417485782	3
+182	1038	0.012417485782	0
+182	1131	0.015803855298	3
+182	1131	0.015803855298	1
+182	1140	0.016107855298	3
+182	1140	0.016107855298	0
+182	1173	0.016607855298	3
+182	1173	0.016607855298	1
+182	1184	0.016911855298	3
+182	1184	0.016911855298	0
+183	0	0	1
+184	0	0	0
+184	113	0.000424	3
+184	113	0.000424	1
+184	206	0.000904	3
+184	206	0.000904	0
+184	462	0.00568088978	3
+184	462	0.00568088978	1
+184	484	0.00598488978	3
+184	484	0.00598488978	0
+184	547	0.00648488978	3
+184	547	0.00648488978	1
+184	582	0.00678888978	3
+184	582	0.00678888978	0
+185	0	0	1
+186	0	0	0
+186	183	0.000844	3
+186	183	0.000844	1
+186	265	0.001324	3
+186	265	0.001324	0
+186	837	0.011434090685	3
+186	837	0.011434090685	1
+186	912	0.011738090685	3
+186	912	0.011738090685	0
+186	1025	0.012238090685	3
+186	1025	0.012238090685	1
+186	1084	0.012542090685	3
+186	1084	0.012542090685	0
+187	0	0	1
