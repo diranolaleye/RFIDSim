@@ -1,0 +1,1787 @@
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#631: ptr03172748 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr03172748 2"
+
+
+Tcl error: moduleinspector.cc#631: ptr03081A50 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr03081A50 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr03081A50 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr03081A50 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr03172748 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr03172748 2"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#631: ptr031B1810 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr031B1810 2"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#631: ptr02F6BF60 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02F6BF60 1"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#631: ptr02E09C78 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E09C78 1"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#631: ptr02CD80D8 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02CD80D8 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02CD8958 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02CD8958 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02CD8D98 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02CD8D98 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02CD80D8 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02CD80D8 1"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94118 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#631: ptr02E94008 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr02E94008 1"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+
+Tcl error: moduleinspector.cc#935: ptr02E94118 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $mod1ptr"
+    (procedure "doAnimateGroup" line 41)
+    invoked from within
+"doAnimateGroup $jobgroup($stage)"
+    (procedure "doConcurrentAnimations" line 30)
+    invoked from within
+"doConcurrentAnimations $tkenv(animjobs)"
+    (procedure "performAnimations" line 4)
+    invoked from within
+"performAnimations"
+
+

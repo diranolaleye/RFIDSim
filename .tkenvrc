@@ -1,0 +1,4 @@
+# Partial OMNeT++/Tkenv config file -- see $HOME/.tkenvrc as well
+config default-configname	{Experiment11_9staticReaders_16TagsGrid}
+config default-runnumber	{0}
+
